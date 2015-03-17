@@ -53,7 +53,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="GOf-o3-cqi" kind="show" id="O1e-db-nmm"/>
+                                            <segue destination="PGb-ff-O9p" kind="show" id="Pr2-t8-hby"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="NOW-BU-L8I" style="IBUITableViewCellStyleDefault" id="3gx-J1-FBH">
@@ -90,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="469" y="434"/>
         </scene>
-        <!--View Controller-->
+        <!--Problem View Controller-->
         <scene sceneID="KCU-pc-EI3">
             <objects>
-                <viewController id="GOf-o3-cqi" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="problemVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GOf-o3-cqi" customClass="ProblemViewController" customModule="KanjiQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="H2p-UH-cAC"/>
                         <viewControllerLayoutGuide type="bottom" id="xpp-Ey-qns"/>
@@ -150,6 +150,9 @@
                                         <include reference="YPJ-Jd-u3d"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="answerAction:" destination="GOf-o3-cqi" eventType="touchUpInside" id="b19-ff-q4I"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oq9-q3-TJ4">
                                 <rect key="frame" x="32" y="459" width="310" height="50"/>
@@ -172,6 +175,9 @@
                                         <include reference="g5U-QC-yus"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="answerAction:" destination="GOf-o3-cqi" eventType="touchUpInside" id="I0M-P7-BK5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjz-O8-PSN">
                                 <rect key="frame" x="32" y="575" width="310" height="50"/>
@@ -203,6 +209,9 @@
                                         <exclude reference="wXy-Xg-TwU"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="answerAction:" destination="GOf-o3-cqi" eventType="touchUpInside" id="Jlo-Bw-v3S"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -215,24 +224,25 @@
                             <constraint firstItem="gHI-gf-H3f" firstAttribute="trailing" secondItem="Jjz-O8-PSN" secondAttribute="trailing" id="BJr-Ga-wG6"/>
                             <constraint firstItem="gHI-gf-H3f" firstAttribute="baseline" secondItem="Jjz-O8-PSN" secondAttribute="firstBaseline" id="C68-qL-uMS"/>
                             <constraint firstItem="Oq9-q3-TJ4" firstAttribute="trailing" secondItem="5gF-01-SmS" secondAttribute="trailingMargin" id="CJG-01-Wfr"/>
-                            <constraint firstItem="bRB-pR-I3C" firstAttribute="trailing" secondItem="Oq9-q3-TJ4" secondAttribute="trailing" id="E4q-aL-6Oq"/>
                             <constraint firstItem="Oq9-q3-TJ4" firstAttribute="top" secondItem="gHI-gf-H3f" secondAttribute="top" id="Fba-Dt-yaO"/>
-                            <constraint firstItem="Oq9-q3-TJ4" firstAttribute="top" secondItem="bRB-pR-I3C" secondAttribute="bottom" constant="75" id="G9O-ci-wuI"/>
+                            <constraint firstItem="Oq9-q3-TJ4" firstAttribute="top" secondItem="bRB-pR-I3C" secondAttribute="bottom" priority="999" constant="75" id="G9O-ci-wuI"/>
                             <constraint firstItem="bRB-pR-I3C" firstAttribute="trailing" secondItem="Oq9-q3-TJ4" secondAttribute="trailing" id="GDN-AQ-YV6"/>
                             <constraint firstItem="Jjz-O8-PSN" firstAttribute="trailing" secondItem="gHI-gf-H3f" secondAttribute="trailing" id="IT2-yT-UB8"/>
+                            <constraint firstItem="bRB-pR-I3C" firstAttribute="leading" secondItem="Oq9-q3-TJ4" secondAttribute="leading" id="Izv-uA-6ye"/>
                             <constraint firstItem="gHI-gf-H3f" firstAttribute="leading" secondItem="5gF-01-SmS" secondAttribute="leadingMargin" constant="-56" id="JDj-vS-OKF"/>
-                            <constraint firstItem="bRB-pR-I3C" firstAttribute="leading" secondItem="5gF-01-SmS" secondAttribute="leadingMargin" constant="16" id="KMK-Ii-bwX"/>
                             <constraint firstItem="gHI-gf-H3f" firstAttribute="firstBaseline" secondItem="Jjz-O8-PSN" secondAttribute="baseline" id="LQj-oS-ii8"/>
-                            <constraint firstItem="bRB-pR-I3C" firstAttribute="top" secondItem="H2p-UH-cAC" secondAttribute="bottom" constant="10" id="QA0-de-TfF"/>
+                            <constraint firstItem="bRB-pR-I3C" firstAttribute="trailing" secondItem="Oq9-q3-TJ4" secondAttribute="trailing" id="Q9I-3Q-rfi"/>
                             <constraint firstItem="gHI-gf-H3f" firstAttribute="top" secondItem="Oq9-q3-TJ4" secondAttribute="bottom" constant="8" symbolic="YES" id="QHz-f2-BeY"/>
                             <constraint firstItem="gHI-gf-H3f" firstAttribute="leading" secondItem="Jjz-O8-PSN" secondAttribute="leading" id="ROX-ey-pBx"/>
                             <constraint firstItem="Oq9-q3-TJ4" firstAttribute="baseline" secondItem="gHI-gf-H3f" secondAttribute="firstBaseline" id="Rve-49-gTx"/>
                             <constraint firstItem="xpp-Ey-qns" firstAttribute="top" secondItem="gHI-gf-H3f" secondAttribute="bottom" constant="14" id="Sbr-iz-bWd"/>
                             <constraint firstItem="Jjz-O8-PSN" firstAttribute="top" secondItem="bRB-pR-I3C" secondAttribute="bottom" constant="10" id="UDq-ex-hw2"/>
                             <constraint firstItem="Jjz-O8-PSN" firstAttribute="baseline" secondItem="Oq9-q3-TJ4" secondAttribute="firstBaseline" id="Vbf-oN-ab8"/>
+                            <constraint firstItem="bRB-pR-I3C" firstAttribute="leading" secondItem="5gF-01-SmS" secondAttribute="leadingMargin" constant="16" id="VfT-VY-C6E"/>
                             <constraint firstItem="Jjz-O8-PSN" firstAttribute="firstBaseline" secondItem="Oq9-q3-TJ4" secondAttribute="baseline" id="WQ2-qX-p0h"/>
                             <constraint firstItem="Oq9-q3-TJ4" firstAttribute="baseline" secondItem="Jjz-O8-PSN" secondAttribute="baseline" id="WZA-hP-n6A"/>
                             <constraint firstItem="gHI-gf-H3f" firstAttribute="leading" secondItem="5gF-01-SmS" secondAttribute="leadingMargin" constant="-6" id="Wdo-tI-boR"/>
+                            <constraint firstItem="bRB-pR-I3C" firstAttribute="top" secondItem="H2p-UH-cAC" secondAttribute="bottom" priority="999" constant="54" id="XZQ-D1-61F"/>
                             <constraint firstItem="Oq9-q3-TJ4" firstAttribute="trailing" secondItem="5gF-01-SmS" secondAttribute="trailingMargin" id="ZIL-Gp-B8Z"/>
                             <constraint firstItem="bRB-pR-I3C" firstAttribute="leading" secondItem="5gF-01-SmS" secondAttribute="leadingMargin" constant="29" id="ZMm-EC-QDt"/>
                             <constraint firstItem="bRB-pR-I3C" firstAttribute="top" secondItem="H2p-UH-cAC" secondAttribute="bottom" constant="47" id="a7a-5K-SY8"/>
@@ -251,10 +261,10 @@
                             <constraint firstItem="xpp-Ey-qns" firstAttribute="top" secondItem="Jjz-O8-PSN" secondAttribute="bottom" constant="42" id="p42-wG-PIp"/>
                             <constraint firstItem="Jjz-O8-PSN" firstAttribute="leading" secondItem="5gF-01-SmS" secondAttribute="leading" constant="269" id="pMp-a5-VP7"/>
                             <constraint firstItem="Jjz-O8-PSN" firstAttribute="top" secondItem="gHI-gf-H3f" secondAttribute="bottom" constant="8" symbolic="YES" id="rDV-TC-c5H"/>
-                            <constraint firstItem="bRB-pR-I3C" firstAttribute="leading" secondItem="Oq9-q3-TJ4" secondAttribute="leading" id="rRK-is-isq"/>
                             <constraint firstItem="Jjz-O8-PSN" firstAttribute="baseline" secondItem="Oq9-q3-TJ4" secondAttribute="baseline" id="st0-Nz-Xw1"/>
                             <constraint firstItem="Jjz-O8-PSN" firstAttribute="centerX" secondItem="bRB-pR-I3C" secondAttribute="centerX" id="uKV-Ek-WnH"/>
                             <constraint firstItem="gHI-gf-H3f" firstAttribute="top" secondItem="H2p-UH-cAC" secondAttribute="bottom" constant="247" id="urY-Qm-7WN"/>
+                            <constraint firstItem="Oq9-q3-TJ4" firstAttribute="top" secondItem="bRB-pR-I3C" secondAttribute="bottom" constant="75" id="ux9-VW-h0A"/>
                             <constraint firstItem="gHI-gf-H3f" firstAttribute="top" secondItem="Jjz-O8-PSN" secondAttribute="top" id="wut-Eb-jwz"/>
                             <constraint firstItem="Oq9-q3-TJ4" firstAttribute="baseline" secondItem="gHI-gf-H3f" secondAttribute="baseline" id="xLG-Qs-8Us"/>
                             <constraint firstItem="gHI-gf-H3f" firstAttribute="leading" secondItem="Oq9-q3-TJ4" secondAttribute="leading" id="xi3-5J-8nX"/>
@@ -305,14 +315,10 @@
                         <variation key="heightClass=compact">
                             <mask key="constraints">
                                 <include reference="0sj-5K-bhJ"/>
-                                <exclude reference="E4q-aL-6Oq"/>
-                                <exclude reference="KMK-Ii-bwX"/>
-                                <exclude reference="QA0-de-TfF"/>
                                 <exclude reference="ZMm-EC-QDt"/>
                                 <exclude reference="a7a-5K-SY8"/>
                                 <exclude reference="b9x-TJ-QKZ"/>
                                 <include reference="bBU-kK-o3W"/>
-                                <exclude reference="rRK-is-isq"/>
                                 <exclude reference="7Hk-eF-npL"/>
                                 <include reference="ACI-uA-BZr"/>
                                 <include reference="CJG-01-Wfr"/>
@@ -354,23 +360,33 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
                                 <include reference="9z5-Pk-RpI"/>
-                                <exclude reference="E4q-aL-6Oq"/>
                                 <include reference="GDN-AQ-YV6"/>
-                                <exclude reference="KMK-Ii-bwX"/>
-                                <exclude reference="QA0-de-TfF"/>
                                 <include reference="jNI-bN-Nx0"/>
                                 <include reference="o7r-rv-R4k"/>
-                                <exclude reference="rRK-is-isq"/>
                                 <include reference="G9O-ci-wuI"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="buttonA" destination="Oq9-q3-TJ4" id="9j5-Wh-sy1"/>
+                        <outlet property="buttonB" destination="gHI-gf-H3f" id="FqU-Op-Fko"/>
+                        <outlet property="buttonC" destination="Jjz-O8-PSN" id="Arf-DG-vo2"/>
+                        <outlet property="kanjiLabel" destination="bRB-pR-I3C" id="14M-NJ-my8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5sf-gL-GCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1004.5" y="426.75"/>
+            <point key="canvasLocation" x="1396.5" y="1029.5"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="WG0-W0-c2X">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="PGb-ff-O9p" customClass="QuizViewController" customModule="KanjiQuiz" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B2g-Vl-mq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1054" y="342"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yPa-T0-rB2">

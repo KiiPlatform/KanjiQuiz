@@ -9,5 +9,13 @@
 import UIKit
 
 public class Quiz: NSObject {
-    
+    private(set) public var problems : [Problem]?
+    var type : QuizType
+    var level : QuizLevel
+    init(type: QuizType, level :QuizLevel){
+        self.level = level
+        self.type = type
+        
+    }
+
 }
