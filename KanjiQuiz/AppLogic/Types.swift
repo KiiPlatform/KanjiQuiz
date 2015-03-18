@@ -8,6 +8,10 @@
 
 import UIKit
 
+public enum KanjiField{
+    case Char, Meanings, Spellings, Level
+}
+
 public enum QuizType{
     case Spelling, Meaning
 }

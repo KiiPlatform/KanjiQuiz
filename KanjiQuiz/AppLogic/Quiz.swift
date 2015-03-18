@@ -12,9 +12,13 @@ public class Quiz: NSObject {
     private(set) public var problems : [Problem]?
     var type : QuizType
     var level : QuizLevel
-    init(type: QuizType, level :QuizLevel){
+    public init(type: QuizType, level :QuizLevel){
         self.level = level
         self.type = type
+    }
+    
+    public func setup(){
+        self.problems = generateProblems(self)
         
     }
 

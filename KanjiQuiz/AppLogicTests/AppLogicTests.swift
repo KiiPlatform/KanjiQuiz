@@ -8,7 +8,12 @@
 
 import UIKit
 import XCTest
-
+import AppLogic
+extension Array {
+    func contains<T where T : Equatable>(obj: T) -> Bool {
+        return self.filter({$0 as? T == obj}).count > 0
+    }
+}
 class AppLogicTests: XCTestCase {
     
     override func setUp() {
@@ -21,9 +26,27 @@ class AppLogicTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testPickData(){
+        let data = ("後",spells :"ゴ ・ コウ ・ のち ・ うし.ろ ・ うしろ ・ あと ・ おく.れる",meanings: "behind; back; later")
+        let spells : [String] = data.spells.componentsSeparatedByString(" ・ ")
+        let meanings : [String] = data.meanings.componentsSeparatedByString("; ")
+        let result1 = pickData(data.meanings,KanjiField.Meanings)
+        let result2 = pickData(data.spells,KanjiField.Spellings)
+        
+        XCTAssertTrue(meanings.contains(result1), "")
+        XCTAssertTrue(spells.contains(result2), "")
+        
+    }
+    
+    func testGenerateProblems(){
+        let quiz = Quiz(type: .Spelling, level: .N5)
+        let problems = generateProblems(quiz)
+        
+        for problem in problems{
+            println("kanji :\(problem.kanji)")
+            println("kanji :\(problem.kanji)")
+        }
+        
     }
     
     func testPerformanceExample() {
