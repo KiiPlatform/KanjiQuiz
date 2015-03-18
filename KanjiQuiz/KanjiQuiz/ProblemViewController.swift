@@ -21,19 +21,18 @@ class ProblemViewController: UIViewController {
     @IBOutlet weak var buttonB: UIButton!
     @IBOutlet weak var buttonC: UIButton!
     @IBOutlet weak var kanjiLabel: UILabel!
+    var problem : Problem?
+    var pageIndex: Int?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let problem = testProblem()
-        let anotherSpells = problem.variationsAnswer?.spells
-        
-        
-        
+        let anotherSpells = self.problem!.variationsAnswer?.spells
         
         let arr : [UIButton] = shuffle([self.buttonA,self.buttonB,self.buttonC])
-        self.kanjiLabel.text = problem.kanji
+        self.kanjiLabel.text = self.problem!.kanji
         
-        arr[0].setTitle(problem.spell, forState: .Normal)
+        arr[0].setTitle(self.problem!.spell, forState: .Normal)
         arr[0].tag = 1
         arr[1].setTitle(anotherSpells?.0, forState: .Normal)
         arr[2].setTitle(anotherSpells?.1, forState: .Normal)

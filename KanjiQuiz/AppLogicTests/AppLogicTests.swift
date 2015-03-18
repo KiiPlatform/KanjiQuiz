@@ -43,8 +43,10 @@ class AppLogicTests: XCTestCase {
         let problems = generateProblems(quiz)
         
         for problem in problems{
-            println("kanji :\(problem.kanji)")
-            println("kanji :\(problem.kanji)")
+            println("kanji :\(problem.kanji!)")
+            println("spell :\(problem.spell!)")
+            println("meaning :\(problem.meaning!)")
+            println("--------")
         }
         
     }
