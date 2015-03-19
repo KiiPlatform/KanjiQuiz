@@ -51,7 +51,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="PGb-ff-O9p" kind="showDetail" id="4s9-Hu-bGG"/>
+                                            <segue destination="PGb-ff-O9p" kind="show" id="2qB-YQ-eJh"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="NOW-BU-L8I" style="IBUITableViewCellStyleDefault" id="3gx-J1-FBH">
@@ -233,10 +233,13 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="bottomConstraint" destination="qAy-Ya-812" id="mWA-hb-NZf"/>
                         <outlet property="buttonA" destination="Oq9-q3-TJ4" id="9j5-Wh-sy1"/>
                         <outlet property="buttonB" destination="gHI-gf-H3f" id="FqU-Op-Fko"/>
                         <outlet property="buttonC" destination="Jjz-O8-PSN" id="Arf-DG-vo2"/>
                         <outlet property="kanjiLabel" destination="bRB-pR-I3C" id="14M-NJ-my8"/>
+                        <outlet property="leftConstraint" destination="l8g-xp-kYd" id="DgA-nE-GTi"/>
+                        <outlet property="topConstraint" destination="Bn9-zK-vlv" id="PBt-Pm-ofK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5sf-gL-GCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -249,7 +252,7 @@
                 <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" modalPresentationStyle="currentContext" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="PGb-ff-O9p" customClass="QuizViewController" customModule="KanjiQuiz" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B2g-Vl-mq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1642.5" y="14.5"/>
+            <point key="canvasLocation" x="1122.5" y="132.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yPa-T0-rB2">
