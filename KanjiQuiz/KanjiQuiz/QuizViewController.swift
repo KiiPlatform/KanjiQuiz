@@ -9,19 +9,15 @@
 import UIKit
 import AppLogic
 
-class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UIPageViewControllerDelegate {
+class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UIPageViewControllerDelegate, UIGestureRecognizerDelegate {
     var problemViewControllers : [UIViewController] = []
     var problems : [Problem]?
+    var currentQuiz : Quiz!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let quiz = Quiz(type: .Spelling, level: .N5)
-        quiz.setup()
-        
-        self.problems = quiz.problems
         self.dataSource = self
         self.delegate = self
-        
         let pageContentViewController = self.viewControllerAtIndex(0)
         self.setViewControllers([pageContentViewController!], direction: UIPageViewControllerNavigationDirection.Forward, animated: true, completion: nil)
     }
@@ -64,9 +60,44 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
         pageContentViewController.problem = self.problems![index]
         pageContentViewController.pageIndex = index
         
+        func addSubmitButton(){
+            let submitBtn = UIBarButtonItem(title: "Submit", style: UIBarButtonItemStyle.Bordered, target: self, action: Selector("submitQuiz"))
+            self.navigationItem.rightBarButtonItem = submitBtn
+        }
+        addSubmitButton()
+        if index == (self.problems!.count-1) {
+            addSubmitButton()
+        }
+        
         return pageContentViewController
     }
-    
+    func submitQuiz() {
+        println(self.currentQuiz.countResult())
+        let result = self.currentQuiz.countResult()
+        let message = "Total Problems : \(result.totalProblem) \n Answered : \(result.answered) \n Correct Answer : \(result.correctAnswer) \n";
+        
+        func displayAlert(){
+            //Create the AlertController
+            let actionSheetController: UIAlertController = UIAlertController(title: "Your Result ", message: message, preferredStyle: .Alert)
+            
+            //Create and add the Cancel action
+            let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .Cancel) { action -> Void in
+                //Do some stuff
+            }
+            actionSheetController.addAction(cancelAction)
+            //Create and an option action
+            let nextAction: UIAlertAction = UIAlertAction(title: "Submit", style: .Default) { action -> Void in
+                
+                println()
+                self.navigationController!.popToRootViewControllerAnimated(true)
+            }
+            actionSheetController.addAction(nextAction)
+            
+            self.presentViewController(actionSheetController, animated: true, completion: nil)
+        }
+        
+        displayAlert()
+    }
     func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int {
         return problems!.count
     }
@@ -78,7 +109,33 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        println(segue.identifier)
+    }
+    func pageViewController(pageViewController: UIPageViewController, willTransitionToViewControllers pendingViewControllers: [AnyObject]) {
+        let pending = pendingViewControllers.first as ProblemViewController
+        func animate(){
+            
+            let flash = CABasicAnimation(keyPath: "opacity")
+            flash.fromValue = 0.0
+            flash.toValue = 1.0
+            flash.duration = 0.10
+            flash.autoreverses = true
+            flash.repeatCount = 3
+            pending.coverLayer.addAnimation(flash, forKey: "flash");
+        }
+        (self.currentQuiz.getAnswered(pending.pageIndex!) != nil) ? println() : animate()
     }
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        //let alertAction = UIAlertAction(
+        self.navigationController!.interactivePopGestureRecognizer.delegate = self
+    }
+    
+    
+    func gestureRecognizerShouldBegin(gestureRecognizer: UIGestureRecognizer) -> Bool{
+        return false
+    }
     
 }

@@ -14,7 +14,7 @@ extension UIButton{
         return self.tag==1
     }
     func cover(){
-        self.alpha = 0.8
+        self.alpha = 0.5
         
     }
 }
@@ -27,6 +27,7 @@ class ProblemViewController: UIViewController,UIDynamicAnimatorDelegate {
     @IBOutlet weak var topConstraint: NSLayoutConstraint!
     @IBOutlet weak var leftConstraint: NSLayoutConstraint!
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
+    let coverLayer = CALayer()
     var problem : Problem?
     var pageIndex: Int?
     var animator : UIDynamicAnimator?
@@ -37,11 +38,13 @@ class ProblemViewController: UIViewController,UIDynamicAnimatorDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let parent = self.parentViewController as QuizViewController
         self.animator = UIDynamicAnimator()
         self.animator?.delegate = self
 
-        let anotherSpells = self.problem!.variationsAnswer?.spells
+        let variationAnswer =  parent.currentQuiz!.type == .Spelling ? self.problem!.variationsAnswer?.spells : self.problem!.variationsAnswer?.meanings
         
+        let correctAnswer =  parent.currentQuiz!.type == .Spelling ? self.problem!.spell : self.problem!.meaning
         let arr : [UIButton] = shuffle([self.buttonA,self.buttonB,self.buttonC])
         for button in arr{
             render(button)
@@ -50,21 +53,27 @@ class ProblemViewController: UIViewController,UIDynamicAnimatorDelegate {
         self.kanjiLabel.text = self.problem!.kanji
         self.kanjiLabel.layer.cornerRadius = 15.0
         self.kanjiLabel.layer.masksToBounds = true
-        arr[0].setTitle(self.problem!.spell, forState: .Normal)
+        arr[0].setTitle(correctAnswer, forState: .Normal)
         arr[0].tag = 1
         
-        arr[1].setTitle(anotherSpells?.0, forState: .Normal)
-        arr[2].setTitle(anotherSpells?.1, forState: .Normal)
+        arr[1].setTitle(variationAnswer?.0, forState: .Normal)
+        arr[2].setTitle(variationAnswer?.1, forState: .Normal)
+        let kanjiFrame = kanjiLabel.frame
+        coverLayer.frame = CGRectMake(10.0, 10.0, kanjiFrame.width-20, kanjiFrame.height-20)
+        
+        coverLayer.backgroundColor = UIColor.whiteColor().CGColor
+        self.kanjiLabel.layer.addSublayer(coverLayer)
+        
     }
 
     @IBAction func answerAction(sender: UIButton) {
         animate()
+        
+        disableButtons()
         sender.cover()
-        if sender.isCorrectAnswer() {
-            println("Correct")
-        }else{
-            println("Wrong !!")
-        }
+        let parent = self.parentViewController as QuizViewController
+        parent.currentQuiz.addAnswer(self.pageIndex!, isCorrect: sender.isCorrectAnswer(), answeredValue: sender.currentTitle!)
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -72,13 +81,27 @@ class ProblemViewController: UIViewController,UIDynamicAnimatorDelegate {
     }
     
     override func viewDidAppear(animated: Bool) {
+        self.coverLayer.removeFromSuperlayer()
         animate()
+        let parent = self.parentViewController as QuizViewController
+        (parent.currentQuiz.getAnswered(self.pageIndex!) != nil) ? self.disableButtons() : println()
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    
+    func disableButtons(){
+        let buttons = [buttonA,buttonB,buttonC]
+        for button in buttons {
+            button.setTitleColor(UIColor.whiteColor(), forState: .Disabled)
+            if button.isCorrectAnswer(){
+                button.backgroundColor = UIColor.blueColor()
+            }else{
+                button.backgroundColor = UIColor.redColor()
+            }
+            button.enabled = false
+        }
+    }
     func animate(){
         let hub = DynamicHub()
         
@@ -88,7 +111,6 @@ class ProblemViewController: UIViewController,UIDynamicAnimatorDelegate {
             self.leftConstraint.constant = hub.center.x
             self.topConstraint.constant = hub.center.y
             self.bottomConstraint.constant = hub.center.y
-            self.buttonA.transform = hub.transform
             self.kanjiLabel.transform = hub.transform
         }
         

@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 public func shuffle<C: MutableCollectionType where C.Index == Int>(var list: C) -> C {
     let count = countElements(list)
     for i in 0..<(count - 1) {
@@ -57,7 +56,7 @@ func removeObject<T : Equatable>(object: T, inout fromArray array: [T])
 func pickWrongData(data: [(String,String,String)]) -> (wrongSpells: (String,String),wrongMeanings :(String,String)){
     let shuffleData = shuffle(data)
     let wrongSpells = (pickData(shuffleData[0].1, .Spellings),pickData(shuffleData[1].1, .Spellings))
-    let wrongMeanings = (pickData(shuffleData[0].1, .Meanings),pickData(shuffleData[1].1, .Meanings))
+    let wrongMeanings = (pickData(shuffleData[0].2, .Meanings),pickData(shuffleData[1].2, .Meanings))
     return (wrongSpells,wrongMeanings)
 }
 private let dummyKanjiData = [QuizLevel.N5:[
