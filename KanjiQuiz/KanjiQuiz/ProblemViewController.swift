@@ -58,11 +58,12 @@ class ProblemViewController: UIViewController,UIDynamicAnimatorDelegate {
         
         arr[1].setTitle(variationAnswer?.0, forState: .Normal)
         arr[2].setTitle(variationAnswer?.1, forState: .Normal)
-        let kanjiFrame = kanjiLabel.frame
-        coverLayer.frame = CGRectMake(10.0, 10.0, kanjiFrame.width-20, kanjiFrame.height-20)
-        
+        let kanjiFrame = kanjiLabel.bounds
+        coverLayer.frame = CGRectMake(0, 0, kanjiFrame.width, kanjiFrame.height)
+        coverLayer.cornerRadius = 15.0
+        coverLayer.masksToBounds = true
         coverLayer.backgroundColor = UIColor.whiteColor().CGColor
-        self.kanjiLabel.layer.addSublayer(coverLayer)
+        self.kanjiLabel.layer.mask = self.coverLayer
         
     }
 
@@ -79,12 +80,16 @@ class ProblemViewController: UIViewController,UIDynamicAnimatorDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    override func viewWillAppear(animated: Bool) {
+        let parent = self.parentViewController as QuizViewController
+        if (parent.currentQuiz.getAnswered(self.pageIndex!) != nil) {
+            self.disableButtons()
+        }
+    }
     override func viewDidAppear(animated: Bool) {
         self.coverLayer.removeFromSuperlayer()
         animate()
-        let parent = self.parentViewController as QuizViewController
-        (parent.currentQuiz.getAnswered(self.pageIndex!) != nil) ? self.disableButtons() : println()
+        
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.

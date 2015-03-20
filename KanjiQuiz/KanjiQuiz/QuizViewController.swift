@@ -115,15 +115,19 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
         let pending = pendingViewControllers.first as ProblemViewController
         func animate(){
             
-            let flash = CABasicAnimation(keyPath: "opacity")
-            flash.fromValue = 0.0
-            flash.toValue = 1.0
-            flash.duration = 0.10
-            flash.autoreverses = true
-            flash.repeatCount = 3
-            pending.coverLayer.addAnimation(flash, forKey: "flash");
+            let keyFrameAnimation = CAKeyframeAnimation(keyPath: "bounds")
+            keyFrameAnimation.duration = 1
+            keyFrameAnimation.timingFunctions = [CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut), CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)]
+            let initalBounds = NSValue(CGRect: pending.coverLayer.bounds)
+            let secondBounds = NSValue(CGRect: CGRect(x: pending.coverLayer.bounds.width/2, y: 0, width: 30, height: 30))
+            let finalBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 1500, height: 1500))
+            keyFrameAnimation.values = [initalBounds, secondBounds, finalBounds]
+            keyFrameAnimation.keyTimes = [0, 0.3, 1]
+            pending.coverLayer.addAnimation(keyFrameAnimation, forKey: "flash");
         }
-        (self.currentQuiz.getAnswered(pending.pageIndex!) != nil) ? println() : animate()
+        if (self.currentQuiz.getAnswered(pending.pageIndex!) == nil) {
+            animate()
+        }
     }
     
     override func viewDidAppear(animated: Bool) {
