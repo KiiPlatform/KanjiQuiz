@@ -10,6 +10,8 @@ import UIKit
 
 public class QuizManager: NSObject {
     var takenQuiz : [Quiz]
+    var currentQuiz : Quiz?
+    
     override init() {
         takenQuiz = []
     }

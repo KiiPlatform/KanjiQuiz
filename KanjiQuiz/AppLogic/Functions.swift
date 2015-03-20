@@ -87,3 +87,14 @@ public func generateProblems(quiz : Quiz) -> [Problem]{
     }
     return problems
 }
+public func setCurrentQuiz(aQuiz : Quiz!){
+    QuizManager.sharedInstance.currentQuiz = aQuiz
+}
+public func getCurrentQuiz() -> Quiz?{
+    return QuizManager.sharedInstance.currentQuiz
+}
+
+
+
+
+

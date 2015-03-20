@@ -8,7 +8,7 @@
 
 import WatchKit
 import Foundation
-
+import AppLogic
 
 class InterfaceController: WKInterfaceController {
 
@@ -18,6 +18,19 @@ class InterfaceController: WKInterfaceController {
         // Configure interface objects here.
     }
 
+    @IBAction func startSpellingQuiz() {
+        let quiz = Quiz(type: QuizType.Spelling, level: .N5)
+        quiz.setup()
+        setCurrentQuiz(quiz)
+        
+        self.presentControllerWithNames(["firstProblem","secondProblem","thirdProblem","fourthProblem","fifthProblem","submitResult"], contexts: [0,1,2,3,4])
+        
+        
+        
+    }
+    @IBAction func startMeaningQuiz() {
+        
+    }
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
@@ -28,4 +41,9 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    
+    override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
+        println(segueIdentifier)
+        return nil
+    }
 }
