@@ -10,6 +10,7 @@
 		740FD2EE1ABB5B2600C1DD89 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2ED1ABB5B2600C1DD89 /* QuizManager.swift */; };
 		740FD2F01ABBB4CE00C1DD89 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2EF1ABBB4CE00C1DD89 /* ResultsTableViewController.swift */; };
 		740FD2F21ABBB51600C1DD89 /* ResultDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2F11ABBB51600C1DD89 /* ResultDetailTableViewController.swift */; };
+		740FD2F41ABBC32D00C1DD89 /* ProblemInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2F31ABBC32D00C1DD89 /* ProblemInterfaceController.swift */; };
 		D52DECD11AB7FBC800AEC629 /* ProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECD01AB7FBC800AEC629 /* ProblemViewController.swift */; };
 		D52DECD31AB8039A00AEC629 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECD21AB8039A00AEC629 /* Problem.swift */; };
 		D52DECD51AB811EF00AEC629 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECD41AB811EF00AEC629 /* Functions.swift */; };
@@ -109,6 +110,7 @@
 		740FD2ED1ABB5B2600C1DD89 /* QuizManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		740FD2EF1ABBB4CE00C1DD89 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 		740FD2F11ABBB51600C1DD89 /* ResultDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultDetailTableViewController.swift; sourceTree = "<group>"; };
+		740FD2F31ABBC32D00C1DD89 /* ProblemInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemInterfaceController.swift; sourceTree = "<group>"; };
 		D52DECD01AB7FBC800AEC629 /* ProblemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemViewController.swift; sourceTree = "<group>"; };
 		D52DECD21AB8039A00AEC629 /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
 		D52DECD41AB811EF00AEC629 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 				D5A15EF61AB6E0C4004A4370 /* GlanceController.swift */,
 				D5A15EF81AB6E0C4004A4370 /* Images.xcassets */,
 				D5A15EF21AB6E0C4004A4370 /* Supporting Files */,
+				740FD2F31ABBC32D00C1DD89 /* ProblemInterfaceController.swift */,
 			);
 			path = "KanjiQuiz WatchKit Extension";
 			sourceTree = "<group>";
@@ -581,6 +584,7 @@
 			files = (
 				D5A15EF51AB6E0C4004A4370 /* InterfaceController.swift in Sources */,
 				D5A15EF71AB6E0C4004A4370 /* GlanceController.swift in Sources */,
+				740FD2F41ABBC32D00C1DD89 /* ProblemInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

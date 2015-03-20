@@ -1,21 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="KanjiQuiz_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" alignment="left" text="Welcome" textAlignment="center" id="mJA-tr-XOg"/>
+                        <label width="136" alignment="left" text="User Display name" textAlignment="center" id="ODf-cY-SIx"/>
+                        <separator alignment="left" id="LUd-pn-wsW"/>
+                        <button width="1" alignment="left" title="Kanji Spelling" id="n1N-nK-GDm">
+                            <connections>
+                                <segue destination="1qB-EH-ydg" kind="modal" id="tcM-we-LHK"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Kanji Meaning" id="Nhw-gn-wz5">
+                            <connections>
+                                <segue destination="1qB-EH-ydg" kind="modal" id="oMW-pv-L2t"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="164" y="217"/>
+        </scene>
+        <!--Problem Interface Controller-->
+        <scene sceneID="4Qw-Af-aTL">
+            <objects>
+                <controller id="1qB-EH-ydg" customClass="ProblemInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="99" alignment="center" text="私" textAlignment="center" id="BSr-To-PZZ">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <separator alignment="left" id="oRj-sc-Aem"/>
+                        <group width="1" height="126" alignment="left" layout="vertical" id="aOJ-u5-Pug">
+                            <items>
+                                <button width="1" alignment="left" title="ButtonA" id="Ox6-OD-vr0"/>
+                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonB" id="Dfw-Gg-iQn"/>
+                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonC" id="xbj-bd-hX1"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="3sO-sY-9EX" kind="relationship" relationship="nextPage" id="ekZ-cX-QFd"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="386" y="259"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="rjY-Ar-IMT">
             <objects>
-                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModuleProvider="target">
+                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="KanjiQuiz_WatchKit_App" customModuleProvider="target">
                     <items>
                         <group alignment="left" id="gv7-I2-MZq"/>
                         <group alignment="left" id="eew-Gs-W6Y"/>
@@ -25,5 +65,46 @@
             </objects>
             <point key="canvasLocation" x="164" y="514"/>
         </scene>
+        <!--Problem Interface Controller-->
+        <scene sceneID="rKg-Z6-nBY">
+            <objects>
+                <controller id="3sO-sY-9EX" customClass="ProblemInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="99" alignment="center" text="私" textAlignment="center" id="7eN-vw-Xme">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <separator alignment="left" id="SKe-Pd-yBJ"/>
+                        <group width="1" height="126" alignment="left" layout="vertical" id="R2K-PT-gU2">
+                            <items>
+                                <button width="1" alignment="left" title="ButtonA" id="Ccn-pm-EpE">
+                                    <connections>
+                                        <action selector="answerA" destination="3sO-sY-9EX" id="JVG-Kt-Hwa"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonB" id="bvi-oV-BRZ">
+                                    <connections>
+                                        <action selector="answerB" destination="3sO-sY-9EX" id="EuO-nj-qcM"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonC" id="Anh-6f-JH7">
+                                    <connections>
+                                        <action selector="answerC" destination="3sO-sY-9EX" id="IHE-EN-cpC"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="buttonA" destination="Ccn-pm-EpE" id="QNI-pS-vVR"/>
+                        <outlet property="buttonB" destination="bvi-oV-BRZ" id="zq9-ZU-Vuj"/>
+                        <outlet property="buttonC" destination="Anh-6f-JH7" id="oBv-vA-LKf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="594" y="372.75"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="oMW-pv-L2t"/>
+    </inferredMetricsTieBreakers>
 </document>
