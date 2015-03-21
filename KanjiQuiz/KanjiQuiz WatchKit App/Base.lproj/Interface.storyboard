@@ -28,28 +28,28 @@
             </objects>
             <point key="canvasLocation" x="164" y="217"/>
         </scene>
-        <!--firstProblem-->
+        <!--ProblemInterface-->
         <scene sceneID="4Qw-Af-aTL">
             <objects>
-                <controller identifier="firstProblem" id="1qB-EH-ydg" customClass="ProblemInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
+                <controller identifier="ProblemInterface" id="1qB-EH-ydg" customClass="ProblemInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
                     <items>
-                        <label width="136" height="76" alignment="center" text="私" textAlignment="center" id="BSr-To-PZZ">
+                        <label width="136" height="41" alignment="center" text="私" textAlignment="center" id="BSr-To-PZZ">
                             <fontDescription key="font" style="UICTFontTextStyleBody"/>
                         </label>
                         <separator alignment="left" id="oRj-sc-Aem"/>
-                        <group width="1" height="126" alignment="left" layout="vertical" id="aOJ-u5-Pug">
+                        <group width="1" height="110" alignment="left" layout="vertical" id="aOJ-u5-Pug">
                             <items>
-                                <button width="1" alignment="left" title="ButtonA" id="Ox6-OD-vr0">
+                                <button width="1" height="30" alignment="left" title="ButtonA" id="Ox6-OD-vr0">
                                     <connections>
                                         <action selector="answerA" destination="1qB-EH-ydg" id="0T8-jd-9L7"/>
                                     </connections>
                                 </button>
-                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonB" id="Dfw-Gg-iQn">
+                                <button width="1" height="30" alignment="right" verticalAlignment="center" title="ButtonB" id="Dfw-Gg-iQn">
                                     <connections>
                                         <action selector="answerB" destination="1qB-EH-ydg" id="Qjn-AR-DLK"/>
                                     </connections>
                                 </button>
-                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonC" id="xbj-bd-hX1">
+                                <button width="1" height="30" alignment="right" verticalAlignment="center" title="ButtonC" id="xbj-bd-hX1">
                                     <connections>
                                         <action selector="answerC" destination="1qB-EH-ydg" id="3TM-4A-Tok"/>
                                     </connections>
@@ -65,7 +65,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="382" y="254.5"/>
+            <point key="canvasLocation" x="382" y="225"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="rjY-Ar-IMT">
@@ -80,166 +80,10 @@
             </objects>
             <point key="canvasLocation" x="164" y="514"/>
         </scene>
-        <!--secondProblem-->
-        <scene sceneID="Ool-3W-FNK">
-            <objects>
-                <controller identifier="secondProblem" id="tyQ-vY-jq1" customClass="ProblemInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
-                    <items>
-                        <label width="136" height="76" alignment="center" text="私" textAlignment="center" id="fEX-K3-0IS">
-                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                        </label>
-                        <separator alignment="left" id="dur-MI-TPb"/>
-                        <group width="1" height="126" alignment="left" layout="vertical" id="qJE-8Z-fBf">
-                            <items>
-                                <button width="1" alignment="left" title="ButtonA" id="S23-Qf-hHO">
-                                    <connections>
-                                        <action selector="answerA" destination="tyQ-vY-jq1" id="z5L-qt-teP"/>
-                                    </connections>
-                                </button>
-                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonB" id="Xdy-o8-pGQ">
-                                    <connections>
-                                        <action selector="answerB" destination="tyQ-vY-jq1" id="9Q1-eH-T8j"/>
-                                    </connections>
-                                </button>
-                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonC" id="1R2-jH-QvQ">
-                                    <connections>
-                                        <action selector="answerC" destination="tyQ-vY-jq1" id="KEe-wq-fYs"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
-                    </items>
-                    <connections>
-                        <outlet property="buttonA" destination="S23-Qf-hHO" id="xtd-A6-HnX"/>
-                        <outlet property="buttonB" destination="Xdy-o8-pGQ" id="fy1-4R-OS4"/>
-                        <outlet property="buttonC" destination="1R2-jH-QvQ" id="J2J-J5-uIF"/>
-                        <outlet property="kanjiLabel" destination="fEX-K3-0IS" id="YoZ-iH-UK4"/>
-                    </connections>
-                </controller>
-            </objects>
-            <point key="canvasLocation" x="561" y="254.25"/>
-        </scene>
-        <!--fourthProblem-->
-        <scene sceneID="mAn-63-Xfy">
-            <objects>
-                <controller identifier="fourthProblem" id="qwr-AS-dgi" customClass="ProblemInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
-                    <items>
-                        <label width="136" height="76" alignment="center" text="私" textAlignment="center" id="i01-01-w7l">
-                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                        </label>
-                        <separator alignment="left" id="5tP-M8-wDM"/>
-                        <group width="1" height="126" alignment="left" layout="vertical" id="Xav-p1-GhC">
-                            <items>
-                                <button width="1" alignment="left" title="ButtonA" id="q3t-Zd-x5p">
-                                    <connections>
-                                        <action selector="answerA" destination="qwr-AS-dgi" id="wsZ-Pn-Gdv"/>
-                                    </connections>
-                                </button>
-                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonB" id="560-eW-JcU">
-                                    <connections>
-                                        <action selector="answerB" destination="qwr-AS-dgi" id="Ctf-1L-wq5"/>
-                                    </connections>
-                                </button>
-                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonC" id="hAd-iq-Kpn">
-                                    <connections>
-                                        <action selector="answerC" destination="qwr-AS-dgi" id="QOV-wa-iYq"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
-                    </items>
-                    <connections>
-                        <outlet property="buttonA" destination="q3t-Zd-x5p" id="3pH-yn-XPu"/>
-                        <outlet property="buttonB" destination="560-eW-JcU" id="aQa-cD-Yqf"/>
-                        <outlet property="buttonC" destination="hAd-iq-Kpn" id="GGY-B5-dfH"/>
-                        <outlet property="kanjiLabel" destination="i01-01-w7l" id="IGi-Ep-Smf"/>
-                    </connections>
-                </controller>
-            </objects>
-            <point key="canvasLocation" x="561" y="573.5"/>
-        </scene>
-        <!--thirdProblem-->
-        <scene sceneID="Ux4-hH-ZSj">
-            <objects>
-                <controller identifier="thirdProblem" id="sTv-au-OLT" customClass="ProblemInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
-                    <items>
-                        <label width="136" height="76" alignment="center" text="私" textAlignment="center" id="cdr-nT-DTO">
-                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                        </label>
-                        <separator alignment="left" id="PdW-5n-fxY"/>
-                        <group width="1" height="126" alignment="left" layout="vertical" id="zed-XU-Ncd">
-                            <items>
-                                <button width="1" alignment="left" title="ButtonA" id="UrW-5x-Gwi">
-                                    <connections>
-                                        <action selector="answerA" destination="sTv-au-OLT" id="OVD-3s-NNH"/>
-                                    </connections>
-                                </button>
-                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonB" id="QdC-eM-iFw">
-                                    <connections>
-                                        <action selector="answerB" destination="sTv-au-OLT" id="9wN-6d-ywp"/>
-                                    </connections>
-                                </button>
-                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonC" id="Qgk-lj-atc">
-                                    <connections>
-                                        <action selector="answerC" destination="sTv-au-OLT" id="NlE-Mt-M26"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
-                    </items>
-                    <connections>
-                        <outlet property="buttonA" destination="UrW-5x-Gwi" id="wh6-we-XHE"/>
-                        <outlet property="buttonB" destination="QdC-eM-iFw" id="XWF-R7-0D1"/>
-                        <outlet property="buttonC" destination="Qgk-lj-atc" id="msm-fQ-fEf"/>
-                        <outlet property="kanjiLabel" destination="cdr-nT-DTO" id="IDF-7V-ecQ"/>
-                    </connections>
-                </controller>
-            </objects>
-            <point key="canvasLocation" x="388" y="573.5"/>
-        </scene>
-        <!--fifthProblem-->
-        <scene sceneID="uvq-uy-4JQ">
-            <objects>
-                <controller identifier="fifthProblem" id="UTp-bg-Xd4" customClass="ProblemInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
-                    <items>
-                        <label width="136" height="76" alignment="center" text="私" textAlignment="center" id="RUu-nf-CqJ">
-                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                        </label>
-                        <separator alignment="left" id="cc5-1x-qeC"/>
-                        <group width="1" height="126" alignment="left" layout="vertical" id="HiL-2x-Fda">
-                            <items>
-                                <button width="1" alignment="left" title="ButtonA" id="q2l-gc-04e">
-                                    <connections>
-                                        <action selector="answerA" destination="UTp-bg-Xd4" id="Ncn-Tr-lOa"/>
-                                    </connections>
-                                </button>
-                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonB" id="JmG-U7-Ym0">
-                                    <connections>
-                                        <action selector="answerB" destination="UTp-bg-Xd4" id="oaO-2c-UDV"/>
-                                    </connections>
-                                </button>
-                                <button width="1" alignment="right" verticalAlignment="center" title="ButtonC" id="XSO-c8-8xd">
-                                    <connections>
-                                        <action selector="answerC" destination="UTp-bg-Xd4" id="tW9-3I-SeG"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
-                    </items>
-                    <connections>
-                        <outlet property="buttonA" destination="q2l-gc-04e" id="8Jb-Mx-QbG"/>
-                        <outlet property="buttonB" destination="JmG-U7-Ym0" id="0zd-3p-8vR"/>
-                        <outlet property="buttonC" destination="XSO-c8-8xd" id="Bjl-zO-d4Y"/>
-                        <outlet property="kanjiLabel" destination="RUu-nf-CqJ" id="UOg-Ks-22h"/>
-                    </connections>
-                </controller>
-            </objects>
-            <point key="canvasLocation" x="388" y="857.25"/>
-        </scene>
-        <!--submitResult-->
+        <!--ResultInterface-->
         <scene sceneID="omf-5g-Nvl">
             <objects>
-                <controller identifier="submitResult" id="0Ii-rt-EnA" customClass="ResultInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
+                <controller identifier="ResultInterface" id="0Ii-rt-EnA" customClass="ResultInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
                     <items>
                         <button width="1" alignment="left" title="Submit" id="cRG-6H-aBc">
                             <connections>
@@ -249,7 +93,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="561" y="826"/>
+            <point key="canvasLocation" x="536" y="231"/>
         </scene>
     </scenes>
 </document>
