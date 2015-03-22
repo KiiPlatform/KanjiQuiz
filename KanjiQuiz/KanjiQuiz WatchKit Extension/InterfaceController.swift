@@ -17,12 +17,7 @@ class InterfaceController: WKInterfaceController {
         
         // Configure interface objects here.
     }
-    
-    @IBAction func startSpellingQuiz() {
-        let quiz = Quiz(type: QuizType.Spelling, level: .N5)
-        quiz.setup()
-        setCurrentQuiz(quiz)
-
+    func startQuiz(quiz: Quiz){
         var contexts = Array<AnyObject>()
         var pages = Array<AnyObject>()
         
@@ -35,9 +30,18 @@ class InterfaceController: WKInterfaceController {
         pages.append("ResultInterface")
         
         self.presentControllerWithNames(pages, contexts: contexts)
-        
+    }
+    @IBAction func startSpellingQuiz() {
+        let quiz = Quiz(type: QuizType.Spelling, level: .N5)
+        quiz.setup()
+        setCurrentQuiz(quiz)
+        self.startQuiz(quiz)
     }
     @IBAction func startMeaningQuiz() {
+        let quiz = Quiz(type: QuizType.Meaning, level: .N5)
+        quiz.setup()
+        setCurrentQuiz(quiz)
+        self.startQuiz(quiz)
         
     }
     override func willActivate() {

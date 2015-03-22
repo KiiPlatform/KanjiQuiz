@@ -9,7 +9,7 @@
 import UIKit
 
 public class QuizManager: NSObject {
-    var takenQuiz : [Quiz]
+    var takenQuiz : [Quiz]!
     var currentQuiz : Quiz?
     
     override init() {
@@ -22,7 +22,10 @@ public class QuizManager: NSObject {
         }
         return Static.instance
     }
-    func submitQuiz(quiz: Quiz){
+    public func submitQuiz(quiz: Quiz){
         self.takenQuiz.append(quiz)
+    }
+    public func getAllTakenQuiz() -> [Quiz]{
+        return takenQuiz
     }
 }

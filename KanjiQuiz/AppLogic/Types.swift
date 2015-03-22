@@ -12,8 +12,10 @@ public enum KanjiField{
     case Char, Meanings, Spellings, Level
 }
 
-public enum QuizType{
-    case Spelling, Meaning
+public enum QuizType : String{
+    case Spelling = "Spelling"
+    case Meaning = "Meaning"
+    
 }
 
 public enum QuizLevel{

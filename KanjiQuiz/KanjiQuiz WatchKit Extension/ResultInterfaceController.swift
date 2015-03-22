@@ -8,15 +8,24 @@
 
 import WatchKit
 import Foundation
-
+import AppLogic
 
 class ResultInterfaceController: WKInterfaceController {
 
+    @IBOutlet weak var totalLabel: WKInterfaceLabel!
+    @IBOutlet weak var answeredLabel: WKInterfaceLabel!
+    @IBOutlet weak var correctLabel: WKInterfaceLabel!
+    
+    var result : (totalProblem: Int,answered: Int,correctAnswer: Int)!
+    
     @IBAction func submit() {
+        
         self.dismissController()
     }
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
+        
+        
         
         // Configure interface objects here.
     }
@@ -24,6 +33,12 @@ class ResultInterfaceController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        let quiz = getCurrentQuiz()!
+        result = quiz.countResult()
+        
+        totalLabel.setText("\(result!.totalProblem)")
+        answeredLabel.setText("\(result!.answered)")
+        correctLabel.setText("\(result!.correctAnswer)")
     }
 
     override func didDeactivate() {

@@ -12,6 +12,12 @@ import AppLogic
 internal var pageIndex : Int = 0
 internal let dummy = ["私","後","八","書","下"]
 
+extension WKInterfaceButton{
+    func getText() -> String?{
+        
+        return self.interfaceProperty
+    }
+}
 
 class ProblemInterfaceController: WKInterfaceController {
 
@@ -24,6 +30,7 @@ class ProblemInterfaceController: WKInterfaceController {
     internal var index = 0
     var buttons : [WKInterfaceButton]!
     var correctAnswerButton : WKInterfaceButton!
+    var titleMap : [String:String]!
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -35,39 +42,59 @@ class ProblemInterfaceController: WKInterfaceController {
         correctAnswerButton = buttons[rand]
         let variation = self.problem?.variationsAnswer
         var quiz = getCurrentQuiz()?
-        
+        var correctAnswer : String!
         var wrongAnswers : (String,String)!
         
         if quiz != nil {
             if quiz!.type == .Spelling {
                 wrongAnswers = variation!.spells
+                correctAnswer = self.problem?.spell
             }else {
                 wrongAnswers = variation!.meanings
+                correctAnswer = self.problem?.meaning
             }
+        }
+        titleMap = [correctAnswerButton.interfaceProperty:correctAnswer]
+        
+        func setWrongAnswerButton(buttons : (WKInterfaceButton,WKInterfaceButton)){
+            buttons.0.setTitle(wrongAnswers.0)
+            buttons.1.setTitle(wrongAnswers.1)
+            titleMap[buttons.0.interfaceProperty] = wrongAnswers.0
+            titleMap[buttons.1.interfaceProperty] = wrongAnswers.1
         }
         
         switch correctAnswerButton {
         case buttonA :
-            buttonA.setTitle(self.problem?.spell)
-            buttonB.setTitle(wrongAnswers.0)
-            buttonC.setTitle(wrongAnswers.1)
+            buttonA.setTitle(correctAnswer)
+            setWrongAnswerButton((buttonB,buttonC))
         case buttonB :
-            buttonB.setTitle(self.problem?.spell)
-            buttonA.setTitle(wrongAnswers.0)
-            buttonC.setTitle(wrongAnswers.1)
+            buttonB.setTitle(correctAnswer)
+            setWrongAnswerButton((buttonC,buttonA))
         case buttonC :
-            buttonC.setTitle(self.problem?.spell)
-            buttonB.setTitle(wrongAnswers.0)
-            buttonA.setTitle(wrongAnswers.1)
+            buttonC.setTitle(correctAnswer)
+            setWrongAnswerButton((buttonA,buttonB))
         default :
-            print()
+            break
         }
-        
         
     }
 
-    func checkAnswer(button : WKInterfaceButton) -> Bool{
-        return button === correctAnswerButton
+    func checkAnswer(tappedButton : WKInterfaceButton) -> Bool{
+        println("title : \(tappedButton.getText())")
+        let result = tappedButton === correctAnswerButton
+        for button in buttons {
+            if button === correctAnswerButton {
+                button.setBackgroundColor(UIColor.blueColor())
+            }else{
+                button.setBackgroundColor(UIColor.redColor())
+            }
+            button.setEnabled(false)
+        }
+        tappedButton.setAlpha(0.5)
+        var quiz = getCurrentQuiz()?
+        quiz!.addAnswer(self.index, isCorrect: result, answeredValue: titleMap[tappedButton.interfaceProperty]!)
+        
+        return result
     }
     
     @IBAction func answerA() {
@@ -87,7 +114,6 @@ class ProblemInterfaceController: WKInterfaceController {
         var fontAttrs = [NSFontAttributeName : font]
         var attrString = NSAttributedString(string: kanji!, attributes: fontAttrs)
         self.kanjiLabel.setAttributedText(attrString)
-        
         
     }
 

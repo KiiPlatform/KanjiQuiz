@@ -88,7 +88,8 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
             //Create and an option action
             let nextAction: UIAlertAction = UIAlertAction(title: "Submit", style: .Default) { action -> Void in
                 
-                println()
+                QuizManager.sharedInstance.submitQuiz(self.currentQuiz)
+                
                 self.navigationController!.popToRootViewControllerAnimated(true)
             }
             actionSheetController.addAction(nextAction)

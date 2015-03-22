@@ -33,6 +33,7 @@ class ViewController: UITableViewController {
             quiz.setup()
             destination.currentQuiz = quiz
             destination.problems = quiz.problems
+            setCurrentQuiz(quiz)
             
         }
         println(segue.identifier)
