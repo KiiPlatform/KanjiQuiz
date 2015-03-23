@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import DataLogic
+
 
 public func shuffle<C: MutableCollectionType where C.Index == Int>(var list: C) -> C {
     let count = countElements(list)
@@ -85,6 +87,7 @@ public func generateProblems(quiz : Quiz) -> [Problem]{
         let problem = Problem(kanjiSet: (kanji,(spell,wrongData.wrongSpells),(meaning,wrongData.wrongMeanings)))
         problems.append(problem)
     }
+
     return problems
 }
 public func setCurrentQuiz(aQuiz : Quiz!){
@@ -94,7 +97,13 @@ public func getCurrentQuiz() -> Quiz?{
     return QuizManager.sharedInstance.currentQuiz
 }
 
+public func setupKii(){
+    KiiLogic.setup()
+}
 
+public func userDisplayName() ->NSString{
+    return KiiLogic.shared().userDisplayName()
+}
 
 
 

@@ -24,6 +24,9 @@
                             </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="displayName" destination="ODf-cY-SIx" id="QcS-XK-Hrm"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="164" y="217"/>

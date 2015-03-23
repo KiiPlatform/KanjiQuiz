@@ -12,8 +12,13 @@ import AppLogic
 
 class InterfaceController: WKInterfaceController {
     
+    @IBOutlet weak var displayName: WKInterfaceLabel!
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
+        setupKii()
+        var val = userDisplayName() as String
+        
+        self.displayName.setText(val)
         
         // Configure interface objects here.
     }

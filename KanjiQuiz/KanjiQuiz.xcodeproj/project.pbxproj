@@ -11,6 +11,22 @@
 		740FD2F01ABBB4CE00C1DD89 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2EF1ABBB4CE00C1DD89 /* ResultsTableViewController.swift */; };
 		740FD2F21ABBB51600C1DD89 /* ResultDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2F11ABBB51600C1DD89 /* ResultDetailTableViewController.swift */; };
 		740FD2F41ABBC32D00C1DD89 /* ProblemInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2F31ABBC32D00C1DD89 /* ProblemInterfaceController.swift */; };
+		D52D60E91ABF137400E601B2 /* DataLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = D52D60E81ABF137400E601B2 /* DataLogic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D52D60EF1ABF137400E601B2 /* DataLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; };
+		D52D60F61ABF137400E601B2 /* DataLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D52D60F51ABF137400E601B2 /* DataLogicTests.m */; };
+		D52D61721ABF197C00E601B2 /* KiiLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = D52D61701ABF197C00E601B2 /* KiiLogic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D52D61731ABF197C00E601B2 /* KiiLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = D52D61711ABF197C00E601B2 /* KiiLogic.m */; };
+		D52D61741ABF19EB00E601B2 /* KiiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778AB1ABF0DDC003814F8 /* KiiSDK.framework */; };
+		D52D61751ABF19EB00E601B2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A7789D1ABF0D8E003814F8 /* Accounts.framework */; };
+		D52D61761ABF19EB00E601B2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A7789E1ABF0D8E003814F8 /* CoreImage.framework */; };
+		D52D61771ABF19EB00E601B2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A7789F1ABF0D8E003814F8 /* ImageIO.framework */; };
+		D52D61781ABF19EB00E601B2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A01ABF0D8E003814F8 /* libsqlite3.dylib */; };
+		D52D61791ABF19EB00E601B2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A11ABF0D8E003814F8 /* MobileCoreServices.framework */; };
+		D52D617A1ABF19EB00E601B2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A21ABF0D8E003814F8 /* Security.framework */; };
+		D52D617B1ABF19EB00E601B2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A31ABF0D8E003814F8 /* Social.framework */; };
+		D52D61ED1ABF23A200E601B2 /* Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = D52D61EB1ABF23A200E601B2 /* Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D52D61EE1ABF23A200E601B2 /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D52D61EC1ABF23A200E601B2 /* Keychain.m */; };
+		D52D61EF1ABF25C200E601B2 /* DataLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; };
 		D52DECD11AB7FBC800AEC629 /* ProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECD01AB7FBC800AEC629 /* ProblemViewController.swift */; };
 		D52DECD31AB8039A00AEC629 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECD21AB8039A00AEC629 /* Problem.swift */; };
 		D52DECD51AB811EF00AEC629 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECD41AB811EF00AEC629 /* Functions.swift */; };
@@ -35,9 +51,23 @@
 		D5A15F2E1AB6E144004A4370 /* AppLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A15F171AB6E144004A4370 /* AppLogic.framework */; };
 		D5A15F2F1AB6E144004A4370 /* AppLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5A15F171AB6E144004A4370 /* AppLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D5A15F3A1AB6E1D9004A4370 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A15F391AB6E1D9004A4370 /* Quiz.swift */; };
+		D5A778A41ABF0D8E003814F8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A7789D1ABF0D8E003814F8 /* Accounts.framework */; };
+		D5A778A51ABF0D8E003814F8 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A7789E1ABF0D8E003814F8 /* CoreImage.framework */; };
+		D5A778A61ABF0D8E003814F8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A7789F1ABF0D8E003814F8 /* ImageIO.framework */; };
+		D5A778A71ABF0D8E003814F8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A01ABF0D8E003814F8 /* libsqlite3.dylib */; };
+		D5A778A81ABF0D8E003814F8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A11ABF0D8E003814F8 /* MobileCoreServices.framework */; };
+		D5A778A91ABF0D8E003814F8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A21ABF0D8E003814F8 /* Security.framework */; };
+		D5A778AA1ABF0D8E003814F8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A31ABF0D8E003814F8 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D52D60F01ABF137400E601B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A15EBF1AB6DFF7004A4370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52D60E31ABF137400E601B2;
+			remoteInfo = DataLogic;
+		};
 		D5A15EDD1AB6DFF8004A4370 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5A15EBF1AB6DFF7004A4370 /* Project object */;
@@ -112,6 +142,17 @@
 		740FD2EF1ABBB4CE00C1DD89 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 		740FD2F11ABBB51600C1DD89 /* ResultDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultDetailTableViewController.swift; sourceTree = "<group>"; };
 		740FD2F31ABBC32D00C1DD89 /* ProblemInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemInterfaceController.swift; sourceTree = "<group>"; };
+		D52D60E41ABF137400E601B2 /* DataLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52D60E71ABF137400E601B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52D60E81ABF137400E601B2 /* DataLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataLogic.h; sourceTree = "<group>"; };
+		D52D60EE1ABF137400E601B2 /* DataLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52D60F41ABF137400E601B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52D60F51ABF137400E601B2 /* DataLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataLogicTests.m; sourceTree = "<group>"; };
+		D52D61701ABF197C00E601B2 /* KiiLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KiiLogic.h; sourceTree = "<group>"; };
+		D52D61711ABF197C00E601B2 /* KiiLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KiiLogic.m; sourceTree = "<group>"; };
+		D52D61EB1ABF23A200E601B2 /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
+		D52D61EC1ABF23A200E601B2 /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
+		D52D61F01ABF317500E601B2 /* KanjiQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KanjiQuiz.entitlements; sourceTree = "<group>"; };
 		D52DECD01AB7FBC800AEC629 /* ProblemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemViewController.swift; sourceTree = "<group>"; };
 		D52DECD21AB8039A00AEC629 /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
 		D52DECD41AB811EF00AEC629 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -143,9 +184,40 @@
 		D5A15F291AB6E144004A4370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A15F2A1AB6E144004A4370 /* AppLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogicTests.swift; sourceTree = "<group>"; };
 		D5A15F391AB6E1D9004A4370 /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		D5A7789D1ABF0D8E003814F8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D5A7789E1ABF0D8E003814F8 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D5A7789F1ABF0D8E003814F8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D5A778A01ABF0D8E003814F8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D5A778A11ABF0D8E003814F8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D5A778A21ABF0D8E003814F8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D5A778A31ABF0D8E003814F8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D5A778AB1ABF0DDC003814F8 /* KiiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiiSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D52D60E01ABF137400E601B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52D61741ABF19EB00E601B2 /* KiiSDK.framework in Frameworks */,
+				D52D61751ABF19EB00E601B2 /* Accounts.framework in Frameworks */,
+				D52D61761ABF19EB00E601B2 /* CoreImage.framework in Frameworks */,
+				D52D61771ABF19EB00E601B2 /* ImageIO.framework in Frameworks */,
+				D52D61781ABF19EB00E601B2 /* libsqlite3.dylib in Frameworks */,
+				D52D61791ABF19EB00E601B2 /* MobileCoreServices.framework in Frameworks */,
+				D52D617A1ABF19EB00E601B2 /* Security.framework in Frameworks */,
+				D52D617B1ABF19EB00E601B2 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52D60EB1ABF137400E601B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52D60EF1ABF137400E601B2 /* DataLogic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5A15EC41AB6DFF7004A4370 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,6 +244,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52D61EF1ABF25C200E601B2 /* DataLogic.framework in Frameworks */,
+				D5A778A41ABF0D8E003814F8 /* Accounts.framework in Frameworks */,
+				D5A778A51ABF0D8E003814F8 /* CoreImage.framework in Frameworks */,
+				D5A778A61ABF0D8E003814F8 /* ImageIO.framework in Frameworks */,
+				D5A778A71ABF0D8E003814F8 /* libsqlite3.dylib in Frameworks */,
+				D5A778A81ABF0D8E003814F8 /* MobileCoreServices.framework in Frameworks */,
+				D5A778A91ABF0D8E003814F8 /* Security.framework in Frameworks */,
+				D5A778AA1ABF0D8E003814F8 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,15 +266,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D52D60E51ABF137400E601B2 /* DataLogic */ = {
+			isa = PBXGroup;
+			children = (
+				D52D61EB1ABF23A200E601B2 /* Keychain.h */,
+				D52D61EC1ABF23A200E601B2 /* Keychain.m */,
+				D52D60E81ABF137400E601B2 /* DataLogic.h */,
+				D52D60E61ABF137400E601B2 /* Supporting Files */,
+				D52D61701ABF197C00E601B2 /* KiiLogic.h */,
+				D52D61711ABF197C00E601B2 /* KiiLogic.m */,
+			);
+			path = DataLogic;
+			sourceTree = "<group>";
+		};
+		D52D60E61ABF137400E601B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52D60E71ABF137400E601B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D52D60F21ABF137400E601B2 /* DataLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				D52D60F51ABF137400E601B2 /* DataLogicTests.m */,
+				D52D60F31ABF137400E601B2 /* Supporting Files */,
+			);
+			path = DataLogicTests;
+			sourceTree = "<group>";
+		};
+		D52D60F31ABF137400E601B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52D60F41ABF137400E601B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D5A15EBE1AB6DFF7004A4370 = {
 			isa = PBXGroup;
 			children = (
+				D5A778AB1ABF0DDC003814F8 /* KiiSDK.framework */,
+				D5A7789D1ABF0D8E003814F8 /* Accounts.framework */,
+				D5A7789E1ABF0D8E003814F8 /* CoreImage.framework */,
+				D5A7789F1ABF0D8E003814F8 /* ImageIO.framework */,
+				D5A778A01ABF0D8E003814F8 /* libsqlite3.dylib */,
+				D5A778A11ABF0D8E003814F8 /* MobileCoreServices.framework */,
+				D5A778A21ABF0D8E003814F8 /* Security.framework */,
+				D5A778A31ABF0D8E003814F8 /* Social.framework */,
 				D5A15EC91AB6DFF7004A4370 /* KanjiQuiz */,
 				D5A15EDF1AB6DFF8004A4370 /* KanjiQuizTests */,
 				D5A15EF11AB6E0C4004A4370 /* KanjiQuiz WatchKit Extension */,
 				D5A15F001AB6E0C4004A4370 /* KanjiQuiz WatchKit App */,
 				D5A15F181AB6E144004A4370 /* AppLogic */,
 				D5A15F271AB6E144004A4370 /* AppLogicTests */,
+				D52D60E51ABF137400E601B2 /* DataLogic */,
+				D52D60F21ABF137400E601B2 /* DataLogicTests */,
 				D5A15EC81AB6DFF7004A4370 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -208,6 +336,8 @@
 				D5A15EFC1AB6E0C4004A4370 /* KanjiQuiz WatchKit App.app */,
 				D5A15F171AB6E144004A4370 /* AppLogic.framework */,
 				D5A15F211AB6E144004A4370 /* AppLogicTests.xctest */,
+				D52D60E41ABF137400E601B2 /* DataLogic.framework */,
+				D52D60EE1ABF137400E601B2 /* DataLogicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,6 +345,7 @@
 		D5A15EC91AB6DFF7004A4370 /* KanjiQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				D52D61F01ABF317500E601B2 /* KanjiQuiz.entitlements */,
 				D5A15ECC1AB6DFF7004A4370 /* AppDelegate.swift */,
 				D5A15ECE1AB6DFF7004A4370 /* ViewController.swift */,
 				D5A15ED01AB6DFF8004A4370 /* Main.storyboard */,
@@ -334,6 +465,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		D52D60E11ABF137400E601B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52D60E91ABF137400E601B2 /* DataLogic.h in Headers */,
+				D52D61721ABF197C00E601B2 /* KiiLogic.h in Headers */,
+				D52D61ED1ABF23A200E601B2 /* Keychain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5A15F141AB6E144004A4370 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,6 +486,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D52D60E31ABF137400E601B2 /* DataLogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52D60F71ABF137400E601B2 /* Build configuration list for PBXNativeTarget "DataLogic" */;
+			buildPhases = (
+				D52D60DF1ABF137400E601B2 /* Sources */,
+				D52D60E01ABF137400E601B2 /* Frameworks */,
+				D52D60E11ABF137400E601B2 /* Headers */,
+				D52D60E21ABF137400E601B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataLogic;
+			productName = DataLogic;
+			productReference = D52D60E41ABF137400E601B2 /* DataLogic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D52D60ED1ABF137400E601B2 /* DataLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52D60FA1ABF137400E601B2 /* Build configuration list for PBXNativeTarget "DataLogicTests" */;
+			buildPhases = (
+				D52D60EA1ABF137400E601B2 /* Sources */,
+				D52D60EB1ABF137400E601B2 /* Frameworks */,
+				D52D60EC1ABF137400E601B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D52D60F11ABF137400E601B2 /* PBXTargetDependency */,
+			);
+			name = DataLogicTests;
+			productName = DataLogicTests;
+			productReference = D52D60EE1ABF137400E601B2 /* DataLogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D5A15EC61AB6DFF7004A4370 /* KanjiQuiz */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5A15EE61AB6DFF8004A4370 /* Build configuration list for PBXNativeTarget "KanjiQuiz" */;
@@ -463,8 +640,20 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Kii;
 				TargetAttributes = {
+					D52D60E31ABF137400E601B2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D52D60ED1ABF137400E601B2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					D5A15EC61AB6DFF7004A4370 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = N5QLD3RVE2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					D5A15EDB1AB6DFF8004A4370 = {
 						CreatedOnToolsVersion = 6.2;
@@ -504,11 +693,27 @@
 				D5A15EFB1AB6E0C4004A4370 /* KanjiQuiz WatchKit App */,
 				D5A15F161AB6E144004A4370 /* AppLogic */,
 				D5A15F201AB6E144004A4370 /* AppLogicTests */,
+				D52D60E31ABF137400E601B2 /* DataLogic */,
+				D52D60ED1ABF137400E601B2 /* DataLogicTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D52D60E21ABF137400E601B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52D60EC1ABF137400E601B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5A15EC51AB6DFF7004A4370 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -561,6 +766,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D52D60DF1ABF137400E601B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52D61731ABF197C00E601B2 /* KiiLogic.m in Sources */,
+				D52D61EE1ABF23A200E601B2 /* Keychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52D60EA1ABF137400E601B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52D60F61ABF137400E601B2 /* DataLogicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5A15EC31AB6DFF7004A4370 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -615,6 +837,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D52D60F11ABF137400E601B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52D60E31ABF137400E601B2 /* DataLogic */;
+			targetProxy = D52D60F01ABF137400E601B2 /* PBXContainerItemProxy */;
+		};
 		D5A15EDE1AB6DFF8004A4370 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D5A15EC61AB6DFF7004A4370 /* KanjiQuiz */;
@@ -675,6 +902,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D52D60F81ABF137400E601B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataLogic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D52D60F91ABF137400E601B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DataLogic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D52D60FB1ABF137400E601B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataLogicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D52D60FC1ABF137400E601B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataLogicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D5A15EE41AB6DFF8004A4370 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -758,10 +1065,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = KanjiQuiz/KanjiQuiz.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					../,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KanjiQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = KanjiQuiz;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -770,10 +1089,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = KanjiQuiz/KanjiQuiz.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					../,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KanjiQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = KanjiQuiz;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -875,6 +1205,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -884,6 +1218,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -899,11 +1234,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AppLogic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -944,6 +1284,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D52D60F71ABF137400E601B2 /* Build configuration list for PBXNativeTarget "DataLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52D60F81ABF137400E601B2 /* Debug */,
+				D52D60F91ABF137400E601B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D52D60FA1ABF137400E601B2 /* Build configuration list for PBXNativeTarget "DataLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52D60FB1ABF137400E601B2 /* Debug */,
+				D52D60FC1ABF137400E601B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D5A15EC21AB6DFF7004A4370 /* Build configuration list for PBXProject "KanjiQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
