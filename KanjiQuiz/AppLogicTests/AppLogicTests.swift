@@ -40,15 +40,10 @@ class AppLogicTests: XCTestCase {
     
     func testGenerateProblems(){
         let quiz = Quiz(type: .Spelling, level: .N5)
-        let problems = generateProblems(quiz)
+
+        quiz.setup()
         
-        for problem in problems{
-            println("kanji :\(problem.kanji!)")
-            println("spell :\(problem.spell!)")
-            println("meaning :\(problem.meaning!)")
-            println("--------")
-        }
-        
+        println(quiz.toDictionary())
     }
     
     func testPerformanceExample() {

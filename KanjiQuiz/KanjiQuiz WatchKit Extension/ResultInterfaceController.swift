@@ -19,14 +19,12 @@ class ResultInterfaceController: WKInterfaceController {
     var result : (totalProblem: Int,answered: Int,correctAnswer: Int)!
     
     @IBAction func submit() {
-        
+        let quiz = getCurrentQuiz()!
+        QuizManager.sharedInstance.submitQuiz(quiz)
         self.dismissController()
     }
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        
-        
-        
         // Configure interface objects here.
     }
 

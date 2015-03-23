@@ -153,6 +153,7 @@
 		D52D61EB1ABF23A200E601B2 /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
 		D52D61EC1ABF23A200E601B2 /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
 		D52D61F01ABF317500E601B2 /* KanjiQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KanjiQuiz.entitlements; sourceTree = "<group>"; };
+		D52D61F11ABF9F8400E601B2 /* KanjiQuiz WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "KanjiQuiz WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		D52DECD01AB7FBC800AEC629 /* ProblemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemViewController.swift; sourceTree = "<group>"; };
 		D52DECD21AB8039A00AEC629 /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
 		D52DECD41AB811EF00AEC629 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -387,6 +388,7 @@
 		D5A15EF11AB6E0C4004A4370 /* KanjiQuiz WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D52D61F11ABF9F8400E601B2 /* KanjiQuiz WatchKit Extension.entitlements */,
 				D5A15EF41AB6E0C4004A4370 /* InterfaceController.swift */,
 				D5A15EF61AB6E0C4004A4370 /* GlanceController.swift */,
 				D5A15EF81AB6E0C4004A4370 /* Images.xcassets */,
@@ -661,6 +663,12 @@
 					};
 					D5A15EEF1AB6E0C4004A4370 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = N5QLD3RVE2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					D5A15EFB1AB6E0C4004A4370 = {
 						CreatedOnToolsVersion = 6.2;
@@ -1175,6 +1183,9 @@
 		D5A15F0F1AB6E0C4004A4370 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "KanjiQuiz WatchKit Extension/KanjiQuiz WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1182,6 +1193,7 @@
 				INFOPLIST_FILE = "KanjiQuiz WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "KanjiQuiz WatchKit Extension";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1189,9 +1201,13 @@
 		D5A15F101AB6E0C4004A4370 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "KanjiQuiz WatchKit Extension/KanjiQuiz WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "KanjiQuiz WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "KanjiQuiz WatchKit Extension";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

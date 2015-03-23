@@ -8,8 +8,8 @@
 
 import UIKit
 
-public class Quiz: NSObject {
-    private(set) public var problems : [Problem]?
+public class Quiz: Serializable {
+    private(set) public var problems : Array<Problem>?
     private(set) public var type : QuizType
     private(set) public var level : QuizLevel
     var answers : [Int:(isCorrect : Bool,answeredValue : String)] = Dictionary<Int,(isCorrect : Bool,answeredValue : String)>()
@@ -46,5 +46,40 @@ public class Quiz: NSObject {
         
         return result
     }
+    
+    public override func toDictionary() -> NSDictionary {
+        var dict = super.toDictionary() as NSMutableDictionary
+        dict["type"] = self.type.rawValue
+        dict["level"] = self.level.rawValue
+        var mAnswers = NSMutableArray()
+        
+        for (key,value) in answers {
+            mAnswers[key] = ["isCorrect":value.isCorrect,"answeredValue":value.answeredValue]
+        }
+        dict["answers"] = mAnswers
+        
+        return dict
+    }
 
+    init(dictionary: NSDictionary){
+        self.type = (dictionary["type"]? as? String) == "Spelling" ? QuizType.Spelling : QuizType.Meaning
+        self.level = .N5
+        let dProblems : NSArray = dictionary["problems"]? as NSArray
+        self.problems = []
+        for problem in dProblems{
+            let aProblem = Problem(dictionary: problem as NSDictionary)
+            self.problems?.append(aProblem)
+        }
+        
+        let dAnswers : NSArray = dictionary["answers"]? as NSArray
+        var i = 0;
+        for answer in dAnswers{
+            let isCorrect : Bool = answer["isCorrect"] as Bool
+            let answeredValue : String = answer["answeredValue"] as String
+            
+            self.answers[i] = (isCorrect,answeredValue)
+            i++
+        }
+        
+    }
 }

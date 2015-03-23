@@ -22,8 +22,27 @@ public class QuizManager: NSObject {
         }
         return Static.instance
     }
+    public func loadTakenQuiz(){
+        let defaults = NSUserDefaults(suiteName: "group.kanjiquiz")
+        var takenQuizes : NSArray = defaults?.objectForKey("takenQuizes") as NSArray
+        for tQuiz in takenQuizes {
+            let aQuiz = Quiz(dictionary: tQuiz as NSDictionary)
+            self.takenQuiz.append(aQuiz)
+        }
+        
+    }
     public func submitQuiz(quiz: Quiz){
-        self.takenQuiz.append(quiz)
+        self.takenQuiz.insert(quiz, atIndex: 0)
+        var tQuiz = NSMutableArray()
+        tQuiz.addObject(quiz.toDictionary())
+        let defaults = NSUserDefaults(suiteName: "group.kanjiquiz")
+        if defaults?.objectForKey("takenQuizes") != nil {
+            var takenQuizes : NSArray = defaults?.objectForKey("takenQuizes") as NSArray
+            tQuiz.addObjectsFromArray(takenQuizes)
+        }
+        
+        defaults?.setObject(tQuiz, forKey: "takenQuizes")
+        defaults?.synchronize()
     }
     public func getAllTakenQuiz() -> [Quiz]{
         return takenQuiz
