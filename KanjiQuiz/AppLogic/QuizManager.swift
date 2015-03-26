@@ -24,7 +24,7 @@ public class QuizManager: NSObject {
     }
     public func loadTakenQuiz(){
         let defaults = NSUserDefaults(suiteName: "group.kanjiquiz")
-        var takenQuizes : NSArray = defaults?.objectForKey("takenQuizes") as NSArray
+        var takenQuizes : NSArray = defaults!.objectForKey("takenQuizes") as? NSArray ?? NSArray()
         for tQuiz in takenQuizes {
             let aQuiz = Quiz(dictionary: tQuiz as NSDictionary)
             self.takenQuiz.append(aQuiz)

@@ -33,6 +33,11 @@
 		D52DECD71AB82FD100AEC629 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECD61AB82FD100AEC629 /* QuizViewController.swift */; };
 		D52DECD91AB8347C00AEC629 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECD81AB8347C00AEC629 /* Types.swift */; };
 		D52DECDF1ABC194700AEC629 /* ResultInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECDE1ABC194700AEC629 /* ResultInterfaceController.swift */; };
+		D549011E1AC399E100D72672 /* DataLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D549011F1AC3ACFF00D72672 /* AppLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A15F171AB6E144004A4370 /* AppLogic.framework */; };
+		D54901201AC3ACFF00D72672 /* AppLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5A15F171AB6E144004A4370 /* AppLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D54901231AC3AD0000D72672 /* DataLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; };
+		D54901241AC3AD0000D72672 /* DataLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D5A15ECD1AB6DFF7004A4370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A15ECC1AB6DFF7004A4370 /* AppDelegate.swift */; };
 		D5A15ECF1AB6DFF7004A4370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A15ECE1AB6DFF7004A4370 /* ViewController.swift */; };
 		D5A15ED21AB6DFF8004A4370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A15ED01AB6DFF8004A4370 /* Main.storyboard */; };
@@ -62,6 +67,20 @@
 
 /* Begin PBXContainerItemProxy section */
 		D52D60F01ABF137400E601B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A15EBF1AB6DFF7004A4370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52D60E31ABF137400E601B2;
+			remoteInfo = DataLogic;
+		};
+		D54901211AC3AD0000D72672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A15EBF1AB6DFF7004A4370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A15F161AB6E144004A4370;
+			remoteInfo = AppLogic;
+		};
+		D54901251AC3AD0000D72672 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5A15EBF1AB6DFF7004A4370 /* Project object */;
 			proxyType = 1;
@@ -113,6 +132,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D54901271AC3AD0100D72672 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D54901201AC3ACFF00D72672 /* AppLogic.framework in Embed Frameworks */,
+				D54901241AC3AD0000D72672 /* DataLogic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5A15F111AB6E0C4004A4370 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,6 +161,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				D549011E1AC399E100D72672 /* DataLogic.framework in Embed Frameworks */,
 				D5A15F2F1AB6E144004A4370 /* AppLogic.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -238,6 +270,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D549011F1AC3ACFF00D72672 /* AppLogic.framework in Frameworks */,
+				D54901231AC3AD0000D72672 /* DataLogic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,11 +604,14 @@
 				D5A15EEC1AB6E0C4004A4370 /* Sources */,
 				D5A15EED1AB6E0C4004A4370 /* Frameworks */,
 				D5A15EEE1AB6E0C4004A4370 /* Resources */,
+				D54901271AC3AD0100D72672 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				D5A15EFF1AB6E0C4004A4370 /* PBXTargetDependency */,
+				D54901221AC3AD0000D72672 /* PBXTargetDependency */,
+				D54901261AC3AD0000D72672 /* PBXTargetDependency */,
 			);
 			name = "KanjiQuiz WatchKit Extension";
 			productName = "KanjiQuiz WatchKit Extension";
@@ -644,6 +681,7 @@
 				TargetAttributes = {
 					D52D60E31ABF137400E601B2 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = N5QLD3RVE2;
 					};
 					D52D60ED1ABF137400E601B2 = {
 						CreatedOnToolsVersion = 6.2;
@@ -675,6 +713,7 @@
 					};
 					D5A15F161AB6E144004A4370 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = N5QLD3RVE2;
 					};
 					D5A15F201AB6E144004A4370 = {
 						CreatedOnToolsVersion = 6.2;
@@ -850,6 +889,16 @@
 			target = D52D60E31ABF137400E601B2 /* DataLogic */;
 			targetProxy = D52D60F01ABF137400E601B2 /* PBXContainerItemProxy */;
 		};
+		D54901221AC3AD0000D72672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A15F161AB6E144004A4370 /* AppLogic */;
+			targetProxy = D54901211AC3AD0000D72672 /* PBXContainerItemProxy */;
+		};
+		D54901261AC3AD0000D72672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52D60E31ABF137400E601B2 /* DataLogic */;
+			targetProxy = D54901251AC3AD0000D72672 /* PBXContainerItemProxy */;
+		};
 		D5A15EDE1AB6DFF8004A4370 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D5A15EC61AB6DFF7004A4370 /* KanjiQuiz */;
@@ -914,6 +963,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -941,6 +992,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1186,6 +1239,11 @@
 				CODE_SIGN_ENTITLEMENTS = "KanjiQuiz WatchKit Extension/KanjiQuiz WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1204,6 +1262,11 @@
 				CODE_SIGN_ENTITLEMENTS = "KanjiQuiz WatchKit Extension/KanjiQuiz WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "KanjiQuiz WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "KanjiQuiz WatchKit Extension";
@@ -1216,6 +1279,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1245,6 +1310,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1307,6 +1374,7 @@
 				D52D60F91ABF137400E601B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D52D60FA1ABF137400E601B2 /* Build configuration list for PBXNativeTarget "DataLogicTests" */ = {
 			isa = XCConfigurationList;
@@ -1315,6 +1383,7 @@
 				D52D60FC1ABF137400E601B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5A15EC21AB6DFF7004A4370 /* Build configuration list for PBXProject "KanjiQuiz" */ = {
 			isa = XCConfigurationList;

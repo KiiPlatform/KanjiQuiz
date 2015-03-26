@@ -51,10 +51,11 @@ public class Quiz: Serializable {
         var dict = super.toDictionary() as NSMutableDictionary
         dict["type"] = self.type.rawValue
         dict["level"] = self.level.rawValue
+        
         var mAnswers = NSMutableArray()
         
-        for (key,value) in answers {
-            mAnswers[key] = ["isCorrect":value.isCorrect,"answeredValue":value.answeredValue]
+        for (key,value) in Array(answers).sorted({$0.0 < $1.0}) {
+            mAnswers.addObject(["isCorrect":value.isCorrect,"answeredValue":value.answeredValue])
         }
         dict["answers"] = mAnswers
         
