@@ -8,6 +8,7 @@
 
 import UIKit
 import AppLogic
+import DataLogic
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         setupKii()
+        let defaultPath : String = NSBundle.mainBundle().pathForResource("kanji", ofType: "realm")!;
+        QuizData.setupData(defaultPath)
         QuizManager.sharedInstance.loadTakenQuiz();
         return true
     }

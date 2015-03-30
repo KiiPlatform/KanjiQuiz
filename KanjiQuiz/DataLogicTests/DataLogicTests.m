@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "QuizData.h"
+#import "KanjiCard.h"
 
 @interface DataLogicTests : XCTestCase
 
@@ -25,9 +27,34 @@
     [super tearDown];
 }
 
-- (void)testExample {
+- (void)testPopulateKanji {
+    
+    
+//    RLMRealm *realm = [RLMRealm realmWithPath:@"/Users/syahriza/Documents/tutorials/kanjiquiz/kanji.realm"];
+//    [realm beginWriteTransaction];
+//    NSArray* files = @[@"N1.json",@"N2.json",@"N3.json",@"N4.json",@"N5.json"];
+//    for(NSString* filename in files){
+//        NSString *filePath = [[[NSBundle bundleForClass:[self class]] resourcePath] stringByAppendingPathComponent:filename];
+//        NSError* error = nil;
+//        NSArray* n5=[NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:filePath] options:NSJSONReadingAllowFragments error:&error];
+//        for(NSDictionary* kanjiDict in n5){
+//            KanjiCard* kanji =[[KanjiCard alloc] init];
+//            kanji.kanji = kanjiDict[@"kanji"];
+//            kanji.spells = kanjiDict[@"spells"];
+//            kanji.meanings = kanjiDict[@"meanings"];
+//            kanji.jlptLevel = [filename substringToIndex:2];
+//            [realm addObject:kanji];
+//        }
+//    }
+//    [realm commitWriteTransaction];
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    
+    NSString *filePath = [[[NSBundle bundleForClass:[self class]] resourcePath] stringByAppendingPathComponent:@"kanji.realm"];
+    RLMRealm *realm = [RLMRealm realmWithPath:filePath];
+    RLMResults* allKanji = [KanjiCard objectsInRealm:realm where:@"jlptLevel='N5'"];
+    NSLog(@"%lu",allKanji.count);
+    
+    
 }
 
 - (void)testPerformanceExample {

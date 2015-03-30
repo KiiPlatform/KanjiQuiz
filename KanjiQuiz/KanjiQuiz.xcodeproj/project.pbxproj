@@ -63,6 +63,21 @@
 		D5A778A81ABF0D8E003814F8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A11ABF0D8E003814F8 /* MobileCoreServices.framework */; };
 		D5A778A91ABF0D8E003814F8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A21ABF0D8E003814F8 /* Security.framework */; };
 		D5A778AA1ABF0D8E003814F8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A778A31ABF0D8E003814F8 /* Social.framework */; };
+		D5C5ED651AC6F6ED0008EA48 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C5ED641AC6F6ED0008EA48 /* Realm.framework */; };
+		D5C5ED681AC6FD910008EA48 /* QuizData.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C5ED661AC6FD910008EA48 /* QuizData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5C5ED691AC6FD910008EA48 /* QuizData.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C5ED671AC6FD910008EA48 /* QuizData.m */; };
+		D5C5ED6B1AC6FE600008EA48 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C5ED6A1AC6FE600008EA48 /* libstdc++.dylib */; };
+		D5C5ED6F1AC823BC0008EA48 /* KanjiCard.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C5ED6D1AC823BC0008EA48 /* KanjiCard.h */; };
+		D5C5ED701AC823BC0008EA48 /* KanjiCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C5ED6E1AC823BC0008EA48 /* KanjiCard.m */; };
+		D5C5ED761AC842D30008EA48 /* N1.json in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED711AC842D30008EA48 /* N1.json */; };
+		D5C5ED771AC842D30008EA48 /* N2.json in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED721AC842D30008EA48 /* N2.json */; };
+		D5C5ED781AC842D30008EA48 /* N3.json in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED731AC842D30008EA48 /* N3.json */; };
+		D5C5ED791AC842D30008EA48 /* N4.json in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED741AC842D30008EA48 /* N4.json */; };
+		D5C5ED7A1AC842D30008EA48 /* N5.json in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED751AC842D30008EA48 /* N5.json */; };
+		D5C5ED7B1AC8432C0008EA48 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C5ED6A1AC6FE600008EA48 /* libstdc++.dylib */; };
+		D5C5ED7C1AC8432C0008EA48 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C5ED641AC6F6ED0008EA48 /* Realm.framework */; };
+		D5C5ED7E1AC853FD0008EA48 /* kanji.realm in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED7D1AC853FD0008EA48 /* kanji.realm */; };
+		D5C5ED7F1AC862B30008EA48 /* kanji.realm in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED7D1AC853FD0008EA48 /* kanji.realm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +240,18 @@
 		D5A778A21ABF0D8E003814F8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D5A778A31ABF0D8E003814F8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		D5A778AB1ABF0DDC003814F8 /* KiiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiiSDK.framework; sourceTree = "<group>"; };
+		D5C5ED641AC6F6ED0008EA48 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		D5C5ED661AC6FD910008EA48 /* QuizData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizData.h; sourceTree = "<group>"; };
+		D5C5ED671AC6FD910008EA48 /* QuizData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizData.m; sourceTree = "<group>"; };
+		D5C5ED6A1AC6FE600008EA48 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		D5C5ED6D1AC823BC0008EA48 /* KanjiCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanjiCard.h; sourceTree = "<group>"; };
+		D5C5ED6E1AC823BC0008EA48 /* KanjiCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanjiCard.m; sourceTree = "<group>"; };
+		D5C5ED711AC842D30008EA48 /* N1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N1.json; sourceTree = "<group>"; };
+		D5C5ED721AC842D30008EA48 /* N2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N2.json; sourceTree = "<group>"; };
+		D5C5ED731AC842D30008EA48 /* N3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N3.json; sourceTree = "<group>"; };
+		D5C5ED741AC842D30008EA48 /* N4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N4.json; sourceTree = "<group>"; };
+		D5C5ED751AC842D30008EA48 /* N5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N5.json; sourceTree = "<group>"; };
+		D5C5ED7D1AC853FD0008EA48 /* kanji.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = kanji.realm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +259,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C5ED6B1AC6FE600008EA48 /* libstdc++.dylib in Frameworks */,
+				D5C5ED651AC6F6ED0008EA48 /* Realm.framework in Frameworks */,
 				D52D61741ABF19EB00E601B2 /* KiiSDK.framework in Frameworks */,
 				D52D61751ABF19EB00E601B2 /* Accounts.framework in Frameworks */,
 				D52D61761ABF19EB00E601B2 /* CoreImage.framework in Frameworks */,
@@ -248,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D52D60EF1ABF137400E601B2 /* DataLogic.framework in Frameworks */,
+				D5C5ED7B1AC8432C0008EA48 /* libstdc++.dylib in Frameworks */,
+				D5C5ED7C1AC8432C0008EA48 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,12 +335,15 @@
 		D52D60E51ABF137400E601B2 /* DataLogic */ = {
 			isa = PBXGroup;
 			children = (
+				D5C5ED6C1AC823840008EA48 /* entities */,
 				D52D61EB1ABF23A200E601B2 /* Keychain.h */,
 				D52D61EC1ABF23A200E601B2 /* Keychain.m */,
 				D52D60E81ABF137400E601B2 /* DataLogic.h */,
 				D52D60E61ABF137400E601B2 /* Supporting Files */,
 				D52D61701ABF197C00E601B2 /* KiiLogic.h */,
 				D52D61711ABF197C00E601B2 /* KiiLogic.m */,
+				D5C5ED661AC6FD910008EA48 /* QuizData.h */,
+				D5C5ED671AC6FD910008EA48 /* QuizData.m */,
 			);
 			path = DataLogic;
 			sourceTree = "<group>";
@@ -325,6 +359,11 @@
 		D52D60F21ABF137400E601B2 /* DataLogicTests */ = {
 			isa = PBXGroup;
 			children = (
+				D5C5ED711AC842D30008EA48 /* N1.json */,
+				D5C5ED721AC842D30008EA48 /* N2.json */,
+				D5C5ED731AC842D30008EA48 /* N3.json */,
+				D5C5ED741AC842D30008EA48 /* N4.json */,
+				D5C5ED751AC842D30008EA48 /* N5.json */,
 				D52D60F51ABF137400E601B2 /* DataLogicTests.m */,
 				D52D60F31ABF137400E601B2 /* Supporting Files */,
 			);
@@ -342,6 +381,8 @@
 		D5A15EBE1AB6DFF7004A4370 = {
 			isa = PBXGroup;
 			children = (
+				D5C5ED6A1AC6FE600008EA48 /* libstdc++.dylib */,
+				D5C5ED641AC6F6ED0008EA48 /* Realm.framework */,
 				D5A778AB1ABF0DDC003814F8 /* KiiSDK.framework */,
 				D5A7789D1ABF0D8E003814F8 /* Accounts.framework */,
 				D5A7789E1ABF0D8E003814F8 /* CoreImage.framework */,
@@ -398,6 +439,7 @@
 		D5A15ECA1AB6DFF7004A4370 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D5C5ED7D1AC853FD0008EA48 /* kanji.realm */,
 				D5A15ECB1AB6DFF7004A4370 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -498,6 +540,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D5C5ED6C1AC823840008EA48 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				D5C5ED6D1AC823BC0008EA48 /* KanjiCard.h */,
+				D5C5ED6E1AC823BC0008EA48 /* KanjiCard.m */,
+			);
+			name = entities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -505,9 +556,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C5ED6F1AC823BC0008EA48 /* KanjiCard.h in Headers */,
 				D52D60E91ABF137400E601B2 /* DataLogic.h in Headers */,
 				D52D61721ABF197C00E601B2 /* KiiLogic.h in Headers */,
 				D52D61ED1ABF23A200E601B2 /* Keychain.h in Headers */,
+				D5C5ED681AC6FD910008EA48 /* QuizData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,6 +811,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C5ED781AC842D30008EA48 /* N3.json in Resources */,
+				D5C5ED7A1AC842D30008EA48 /* N5.json in Resources */,
+				D5C5ED791AC842D30008EA48 /* N4.json in Resources */,
+				D5C5ED761AC842D30008EA48 /* N1.json in Resources */,
+				D5C5ED771AC842D30008EA48 /* N2.json in Resources */,
+				D5C5ED7F1AC862B30008EA48 /* kanji.realm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,6 +827,7 @@
 				D5A15ED21AB6DFF8004A4370 /* Main.storyboard in Resources */,
 				D5A15ED71AB6DFF8004A4370 /* LaunchScreen.xib in Resources */,
 				D5A15ED41AB6DFF8004A4370 /* Images.xcassets in Resources */,
+				D5C5ED7E1AC853FD0008EA48 /* kanji.realm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,6 +878,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D52D61731ABF197C00E601B2 /* KiiLogic.m in Sources */,
+				D5C5ED701AC823BC0008EA48 /* KanjiCard.m in Sources */,
+				D5C5ED691AC6FD910008EA48 /* QuizData.m in Sources */,
 				D52D61EE1ABF23A200E601B2 /* Keychain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1019,6 +1081,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1036,6 +1099,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DataLogicTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

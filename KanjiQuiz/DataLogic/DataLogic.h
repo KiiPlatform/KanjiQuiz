@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char DataLogicVersionString[];
 
 #import <DataLogic/KiiLogic.h>
 #import <DataLogic/Keychain.h>
+#import <DataLogic/QuizData.h>

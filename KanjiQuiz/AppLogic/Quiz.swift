@@ -12,10 +12,13 @@ public class Quiz: Serializable {
     private(set) public var problems : Array<Problem>?
     private(set) public var type : QuizType
     private(set) public var level : QuizLevel
+    public var series : Int
+    
     var answers : [Int:(isCorrect : Bool,answeredValue : String)] = Dictionary<Int,(isCorrect : Bool,answeredValue : String)>()
     public init(type: QuizType, level :QuizLevel){
         self.level = level
         self.type = type
+        self.series = 0
     }
     
     public func setup(){
@@ -64,7 +67,13 @@ public class Quiz: Serializable {
 
     init(dictionary: NSDictionary){
         self.type = (dictionary["type"]? as? String) == "Spelling" ? QuizType.Spelling : QuizType.Meaning
-        self.level = .N5
+        
+        self.level = QuizLevel(rawValue: dictionary["type"]? as String!) ?? .N5
+
+        let sNum : NSNumber = dictionary["series"] as? NSNumber ?? NSNumber(int: 0)
+        self.series = sNum.integerValue
+        
+        
         let dProblems : NSArray = dictionary["problems"]? as NSArray
         self.problems = []
         for problem in dProblems{

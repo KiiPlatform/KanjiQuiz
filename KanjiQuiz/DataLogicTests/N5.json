@@ -1,0 +1,476 @@
+[
+  {
+    "kanji":"今",
+    "spells":"コン ・ キン ・ いま",
+    "meanings":"now",
+    "type":"kanji"
+  },
+  {
+    "kanji":"語",
+    "spells":"ゴ ・ かた.る ・ かた.らう",
+    "meanings":"word; speech; language",
+    "type":"kanji"
+  },
+  {
+    "kanji":"西",
+    "spells":"セイ ・ サイ ・ ス ・ にし",
+    "meanings":"west; Spain",
+    "type":"kanji"
+  },
+  {
+    "kanji":"書",
+    "spells":"ショ ・ か.く ・ -が.き ・ -がき",
+    "meanings":"write",
+    "type":"kanji"
+  },
+  {
+    "kanji":"下",
+    "spells":"カ ・ ゲ ・ した ・ しも ・ もと ・ さ.げる ・ さ.がる ・ くだ.る ・ くだ.り ・ くだ.す ・ -くだ.す ・ くだ.さる ・ お.ろす ・ お.りる",
+    "meanings":"below; down; descend; give; low; inferior",
+    "type":"kanji"
+  },
+  {
+    "kanji":"後",
+    "spells":"ゴ ・ コウ ・ のち ・ うし.ろ ・ うしろ ・ あと ・ おく.れる",
+    "meanings":"behind; back; later",
+    "type":"kanji"
+  },
+  {
+    "kanji":"見",
+    "spells":"ケン ・ み.る ・ み.える ・ み.せる",
+    "meanings":"see; hopes; chances; idea; opinion; look at; visible",
+    "type":"kanji"
+  },
+  {
+    "kanji":"八",
+    "spells":"ハチ ・ や ・ や.つ ・ やっ.つ ・ よう",
+    "meanings":"eight; eight radical (no. 12)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"南",
+    "spells":"ナン ・ ナ ・ みなみ",
+    "meanings":"south",
+    "type":"kanji"
+  },
+  {
+    "kanji":"中",
+    "spells":"チュウ ・ なか ・ うち ・ あた.る",
+    "meanings":"in; inside; middle; mean; center",
+    "type":"kanji"
+  },
+  {
+    "kanji":"時",
+    "spells":"ジ ・ とき ・ -どき",
+    "meanings":"time; hour",
+    "type":"kanji"
+  },
+  {
+    "kanji":"百",
+    "spells":"ヒャク ・ ビャク ・ もも",
+    "meanings":"hundred",
+    "type":"kanji"
+  },
+  {
+    "kanji":"電",
+    "spells":"デン",
+    "meanings":"electricity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"白",
+    "spells":"ハク ・ ビャク ・ しろ ・ しら- ・ しろ.い",
+    "meanings":"white",
+    "type":"kanji"
+  },
+  {
+    "kanji":"外",
+    "spells":"ガイ ・ ゲ ・ そと ・ ほか ・ はず.す ・ はず.れる ・ と-",
+    "meanings":"outside",
+    "type":"kanji"
+  },
+  {
+    "kanji":"女",
+    "spells":"ジョ ・ ニョ ・ ニョウ ・ おんな ・ め",
+    "meanings":"woman; female",
+    "type":"kanji"
+  },
+  {
+    "kanji":"右",
+    "spells":"ウ ・ ユウ ・ みぎ",
+    "meanings":"right",
+    "type":"kanji"
+  },
+  {
+    "kanji":"北",
+    "spells":"ホク ・ きた",
+    "meanings":"north",
+    "type":"kanji"
+  },
+  {
+    "kanji":"三",
+    "spells":"サン ・ ゾウ ・ み ・ み.つ ・ みっ.つ",
+    "meanings":"three",
+    "type":"kanji"
+  },
+  {
+    "kanji":"人",
+    "spells":"ジン ・ ニン ・ ひと ・ -り ・ -と",
+    "meanings":"person",
+    "type":"kanji"
+  },
+  {
+    "kanji":"休",
+    "spells":"キュウ ・ やす.む ・ やす.まる ・ やす.める",
+    "meanings":"rest; day off; retire; sleep",
+    "type":"kanji"
+  },
+  {
+    "kanji":"五",
+    "spells":"ゴ ・ いつ ・ いつ.つ",
+    "meanings":"five",
+    "type":"kanji"
+  },
+  {
+    "kanji":"国",
+    "spells":"コク ・ くに",
+    "meanings":"country",
+    "type":"kanji"
+  },
+  {
+    "kanji":"友",
+    "spells":"ユウ ・ とも",
+    "meanings":"friend",
+    "type":"kanji"
+  },
+  {
+    "kanji":"大",
+    "spells":"ダイ ・ タイ ・ おお- ・ おお.きい ・ -おお.いに",
+    "meanings":"large; big",
+    "type":"kanji"
+  },
+  {
+    "kanji":"上",
+    "spells":"ジョウ ・ ショウ ・ シャン ・ うえ ・ -うえ ・ うわ- ・ かみ ・ あ.げる ・ -あ.げる ・ あ.がる ・ -あ.がる ・ あ.がり ・ -あ.がり ・ のぼ.る ・ のぼ.り ・ のぼ.せる ・ のぼ.す ・ よ.す",
+    "meanings":"above; up",
+    "type":"kanji"
+  },
+  {
+    "kanji":"万",
+    "spells":"マン ・ バン ・ よろず",
+    "meanings":"ten thousand; 10,000",
+    "type":"kanji"
+  },
+  {
+    "kanji":"気",
+    "spells":"キ ・ ケ ・ いき",
+    "meanings":"spirit; mind; air; atmosphere; mood",
+    "type":"kanji"
+  },
+  {
+    "kanji":"東",
+    "spells":"トウ ・ ひがし",
+    "meanings":"east",
+    "type":"kanji"
+  },
+  {
+    "kanji":"前",
+    "spells":"ゼン ・ まえ ・ -まえ",
+    "meanings":"in front; before",
+    "type":"kanji"
+  },
+  {
+    "kanji":"何",
+    "spells":"カ ・ なに ・ なん ・ なに- ・ なん-",
+    "meanings":"what",
+    "type":"kanji"
+  },
+  {
+    "kanji":"十",
+    "spells":"ジュウ ・ ジッ ・ ジュッ ・ とお ・ と",
+    "meanings":"ten",
+    "type":"kanji"
+  },
+  {
+    "kanji":"聞",
+    "spells":"ブン ・ モン ・ き.く ・ き.こえる",
+    "meanings":"hear; ask; listen",
+    "type":"kanji"
+  },
+  {
+    "kanji":"七",
+    "spells":"シチ ・ なな ・ なな.つ ・ なの",
+    "meanings":"seven",
+    "type":"kanji"
+  },
+  {
+    "kanji":"食",
+    "spells":"ショク ・ ジキ ・ く.う ・ く.らう ・ た.べる ・ は.む",
+    "meanings":"eat; food",
+    "type":"kanji"
+  },
+  {
+    "kanji":"高",
+    "spells":"コウ ・ たか.い ・ たか ・ -だか ・ たか.まる ・ たか.める",
+    "meanings":"tall; high; expensive",
+    "type":"kanji"
+  },
+  {
+    "kanji":"年",
+    "spells":"ネン ・ とし",
+    "meanings":"year; counter for years",
+    "type":"kanji"
+  },
+  {
+    "kanji":"毎",
+    "spells":"マイ ・ ごと ・ -ごと.に",
+    "meanings":"every",
+    "type":"kanji"
+  },
+  {
+    "kanji":"半",
+    "spells":"ハン ・ なか.ば",
+    "meanings":"half; middle; odd number; semi-; part-",
+    "type":"kanji"
+  },
+  {
+    "kanji":"間",
+    "spells":"カン ・ ケン ・ あいだ ・ ま ・ あい",
+    "meanings":"interval; space",
+    "type":"kanji"
+  },
+  {
+    "kanji":"一",
+    "spells":"イチ ・ イツ ・ ひと- ・ ひと.つ",
+    "meanings":"one; one radical (no.1)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"母",
+    "spells":"ボ ・ はは ・ も",
+    "meanings":"mother",
+    "type":"kanji"
+  },
+  {
+    "kanji":"水",
+    "spells":"スイ ・ みず ・ みず-",
+    "meanings":"water",
+    "type":"kanji"
+  },
+  {
+    "kanji":"火",
+    "spells":"カ ・ ひ ・ -び ・ ほ-",
+    "meanings":"fire",
+    "type":"kanji"
+  },
+  {
+    "kanji":"金",
+    "spells":"キン ・ コン ・ ゴン ・ かね ・ かな- ・ -がね",
+    "meanings":"gold",
+    "type":"kanji"
+  },
+  {
+    "kanji":"午",
+    "spells":"ゴ ・ うま",
+    "meanings":"noon; sign of the horse; 11AM-1PM; seventh sign of Chinese zodiac",
+    "type":"kanji"
+  },
+  {
+    "kanji":"名",
+    "spells":"メイ ・ ミョウ ・ な ・ -な",
+    "meanings":"name; noted; distinguished; reputation",
+    "type":"kanji"
+  },
+  {
+    "kanji":"本",
+    "spells":"ホン ・ もと",
+    "meanings":"book; present; main; origin; true; real; counter for long cylindrical things",
+    "type":"kanji"
+  },
+  {
+    "kanji":"天",
+    "spells":"テン ・ あまつ ・ あめ ・ あま-",
+    "meanings":"heavens; sky; imperial",
+    "type":"kanji"
+  },
+  {
+    "kanji":"読",
+    "spells":"ドク ・ トク ・ トウ ・ よ.む ・ -よ.み",
+    "meanings":"read",
+    "type":"kanji"
+  },
+  {
+    "kanji":"話",
+    "spells":"ワ ・ はな.す ・ はなし",
+    "meanings":"tale; talk",
+    "type":"kanji"
+  },
+  {
+    "kanji":"雨",
+    "spells":"ウ ・ あめ ・ あま- ・ -さめ",
+    "meanings":"rain",
+    "type":"kanji"
+  },
+  {
+    "kanji":"子",
+    "spells":"シ ・ ス ・ ツ ・ こ ・ -こ ・ ね",
+    "meanings":"child; sign of the rat; 11PM-1AM; first sign of Chinese zodiac",
+    "type":"kanji"
+  },
+  {
+    "kanji":"日",
+    "spells":"ニチ ・ ジツ ・ ひ ・ -び ・ -か",
+    "meanings":"day; sun; Japan; counter for days",
+    "type":"kanji"
+  },
+  {
+    "kanji":"月",
+    "spells":"ゲツ ・ ガツ ・ つき",
+    "meanings":"month; moon",
+    "type":"kanji"
+  },
+  {
+    "kanji":"九",
+    "spells":"キュウ ・ ク ・ ここの ・ ここの.つ",
+    "meanings":"nine",
+    "type":"kanji"
+  },
+  {
+    "kanji":"男",
+    "spells":"ダン ・ ナン ・ おとこ ・ お",
+    "meanings":"male",
+    "type":"kanji"
+  },
+  {
+    "kanji":"生",
+    "spells":"セイ ・ ショウ ・ い.きる ・ い.かす ・ い.ける ・ う.まれる ・ うま.れる ・ う.まれ ・ うまれ ・ う.む ・ お.う ・ は.える ・ は.やす ・ き ・ なま ・ なま- ・ な.る ・ な.す ・ む.す ・",
+    "meanings":"life; genuine; birth",
+    "type":"kanji"
+  },
+  {
+    "kanji":"川",
+    "spells":"セン ・ かわ",
+    "meanings":"stream; river; river or 3-stroke river radical (no. 47)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"校",
+    "spells":"コウ ・ キョウ",
+    "meanings":"exam; school; printing; proof; correction",
+    "type":"kanji"
+  },
+  {
+    "kanji":"小",
+    "spells":"ショウ ・ ちい.さい ・ こ- ・ お- ・ さ-",
+    "meanings":"little; small",
+    "type":"kanji"
+  },
+  {
+    "kanji":"来",
+    "spells":"ライ ・ タイ ・ く.る ・ きた.る ・ きた.す ・ き.たす ・ き.たる ・ き ・ こ",
+    "meanings":"come; due; next; cause; become",
+    "type":"kanji"
+  },
+  {
+    "kanji":"千",
+    "spells":"セン ・ ち",
+    "meanings":"thousand",
+    "type":"kanji"
+  },
+  {
+    "kanji":"学",
+    "spells":"ガク ・ まな.ぶ",
+    "meanings":"study; learning; science",
+    "type":"kanji"
+  },
+  {
+    "kanji":"先",
+    "spells":"セン ・ さき ・ ま.ず",
+    "meanings":"before; ahead; previous; future; precedence",
+    "type":"kanji"
+  },
+  {
+    "kanji":"入",
+    "spells":"ニュウ ・ ジュ ・ い.る ・ -い.る ・ -い.り ・ い.れる ・ -い.れ ・ はい.る",
+    "meanings":"enter; insert",
+    "type":"kanji"
+  },
+  {
+    "kanji":"出",
+    "spells":"シュツ ・ スイ ・ で.る ・ -で ・ だ.す ・ -だ.す ・ い.でる ・ い.だす",
+    "meanings":"exit; leave; go out; come out; put out; protrude",
+    "type":"kanji"
+  },
+  {
+    "kanji":"四",
+    "spells":"シ ・ よ ・ よ.つ ・ よっ.つ ・ よん",
+    "meanings":"four",
+    "type":"kanji"
+  },
+  {
+    "kanji":"長",
+    "spells":"チョウ ・ なが.い ・ おさ",
+    "meanings":"long; leader",
+    "type":"kanji"
+  },
+  {
+    "kanji":"左",
+    "spells":"サ ・ シャ ・ ひだり",
+    "meanings":"left",
+    "type":"kanji"
+  },
+  {
+    "kanji":"六",
+    "spells":"ロク ・ リク ・ む ・ む.つ ・ むっ.つ ・ むい",
+    "meanings":"six",
+    "type":"kanji"
+  },
+  {
+    "kanji":"木",
+    "spells":"ボク ・ モク ・ き ・ こ-",
+    "meanings":"tree; wood",
+    "type":"kanji"
+  },
+  {
+    "kanji":"行",
+    "spells":"コウ ・ ギョウ ・ アン ・ い.く ・ ゆ.く ・ -ゆ.き ・ -ゆき ・ -い.き ・ -いき ・ おこな.う ・ おこ.なう",
+    "meanings":"going; journey",
+    "type":"kanji"
+  },
+  {
+    "kanji":"父",
+    "spells":"フ ・ ちち",
+    "meanings":"father",
+    "type":"kanji"
+  },
+  {
+    "kanji":"車",
+    "spells":"シャ ・ くるま",
+    "meanings":"car",
+    "type":"kanji"
+  },
+  {
+    "kanji":"二",
+    "spells":"ニ ・ ジ ・ ふた ・ ふた.つ ・ ふたた.び",
+    "meanings":"two; two radical (no.2)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"山",
+    "spells":"サン ・ セン ・ やま",
+    "meanings":"mountain",
+    "type":"kanji"
+  },
+  {
+    "kanji":"土",
+    "spells":"ド ・ ト ・ つち",
+    "meanings":"soil; earth; ground; Turkey",
+    "type":"kanji"
+  },
+  {
+    "kanji":"円",
+    "spells":"エン ・ まる.い ・ まる ・ まど ・ まど.か ・ まろ.やか",
+    "meanings":"circle; yen; round",
+    "type":"kanji"
+  }
+]
