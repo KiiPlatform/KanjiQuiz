@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import DataLogic
 public class QuizManager: NSObject {
     var takenQuiz : [Quiz]!
     var currentQuiz : Quiz?
@@ -34,7 +34,13 @@ public class QuizManager: NSObject {
     public func submitQuiz(quiz: Quiz){
         self.takenQuiz.insert(quiz, atIndex: 0)
         var tQuiz = NSMutableArray()
-        tQuiz.addObject(quiz.toDictionary())
+        let quizDict = quiz.toDictionary()
+        tQuiz.addObject(quizDict)
+        //save to cloud
+        let result = quiz.countResult()
+        
+        KiiLogic.shared().saveQuizToCloud(quizDict, totalProblem: Int32(result.totalProblem), answered: Int32(result.answered), correct: Int32(result.correctAnswer))
+        
         let defaults = NSUserDefaults(suiteName: "group.kanjiquiz")
         if defaults?.objectForKey("takenQuizes") != nil {
             var takenQuizes : NSArray = defaults?.objectForKey("takenQuizes") as NSArray

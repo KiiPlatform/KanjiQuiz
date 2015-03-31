@@ -12,4 +12,8 @@
 +(instancetype) shared;
 -(BOOL) login;
 -(NSString*) userDisplayName;
+-(void) saveQuizToCloud:(NSDictionary*) dict
+           totalProblem:(int) total
+               answered:(int) answered
+                correct:(int) correct;
 @end

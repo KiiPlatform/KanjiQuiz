@@ -64,4 +64,42 @@
     }
     return displayName;
 }
+-(void) saveQuizToCloud:(NSDictionary*) dict
+           totalProblem:(int) total
+               answered:(int) answered
+                correct:(int) correct{
+    
+    KiiUser* user = [KiiUser currentUser];
+    if (!user || !dict || !dict[@"level"]) {
+        return;
+    }
+    
+    KiiObject* quizobject= [[user bucketWithName:dict[@"level"]] createObject];
+    [quizobject setObject:@(total) forKey:@"total"];
+    [quizobject setObject:@(answered) forKey:@"answered"];
+    [quizobject setObject:@(correct) forKey:@"correct"];
+    
+    [quizobject saveWithBlock:^(KiiObject *object, NSError *error) {
+        if (object) {
+            if (error) {
+                NSLog(@"save failed :%@", error.description);
+                return;
+            }
+            
+            NSError* jsonError = nil;
+            NSData* json =[NSJSONSerialization dataWithJSONObject:dict
+                                                          options:NSJSONWritingPrettyPrinted
+                                                            error:&jsonError];
+            
+            if (json) {
+                [object uploadBodyWithData:json andContentType:@"application/json" andCompletion:^(KiiObject *obj, NSError *error) {
+                    if (error) {
+                        NSLog(@"Upload body failed :%@", error.description);
+                    }
+                }];
+            }
+            
+        }
+    }];
+}
 @end
