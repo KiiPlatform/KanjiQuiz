@@ -11,4 +11,6 @@
 @interface QuizData : NSObject
 +(void)setup;
 +(void) setupData:(NSString*) defaultPath;
++(NSUInteger) totalSeriesForLevel: (NSString*) level;
++(NSArray*) kanjiCardsForLevel : (NSString*) level andSeries : (NSUInteger) seriesIndex;
 @end

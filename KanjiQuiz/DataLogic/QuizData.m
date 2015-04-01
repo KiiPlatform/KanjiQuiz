@@ -8,6 +8,40 @@
 
 #import "QuizData.h"
 #import <Realm/Realm.h>
+#import "KanjiCard.h"
+
+@interface RLMResults (Paging)
+-(NSUInteger) totalSeries;
+-(NSArray*) resultsForSeriesIndex:(NSUInteger) seriesIndex;
+@end
+
+@implementation RLMResults (Paging)
+static const NSUInteger DEFAULT_SERIES_NUM = 8;
+
+-(NSUInteger) totalSeries{
+    NSUInteger result = self.count / DEFAULT_SERIES_NUM ;
+    if (self.count % DEFAULT_SERIES_NUM > 0) {
+        result++;
+    }
+    return result;
+}
+-(NSArray*) resultsForSeriesIndex:(NSUInteger) seriesIndex{
+    if (seriesIndex<1&&seriesIndex>[self totalSeries]) {
+        return @[];
+    }
+    NSMutableArray* result = [NSMutableArray array];
+    NSUInteger end = (seriesIndex*DEFAULT_SERIES_NUM);
+    NSUInteger start = ((seriesIndex - 1)*DEFAULT_SERIES_NUM);
+    for (NSUInteger i = start; i < end; i ++) {
+        if (i >= self.count) {
+            break;
+        }
+        [result addObject:self[i]];
+    }
+    return result;
+}
+
+@end
 
 @implementation QuizData
 +(void) setup{
@@ -27,5 +61,22 @@
    NSString* path = [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.kanjiquiz"] URLByAppendingPathComponent:@"kanjiquiz.realm"].path ;
     
     return [[NSFileManager defaultManager] fileExistsAtPath:path];
+}
++(NSUInteger) totalSeriesForLevel: (NSString*) level{
+    RLMResults* cards = [KanjiCard objectsWhere:@"jlptLevel=%@",level];
+    
+    return [cards totalSeries];
+}
++(NSArray*) kanjiCardsForLevel : (NSString*) level andSeries : (NSUInteger) seriesIndex{
+    RLMResults* cards = [KanjiCard objectsWhere:@"jlptLevel=%@",level];
+    NSMutableArray* results = [NSMutableArray array];
+    for (KanjiCard* kanji in [cards resultsForSeriesIndex:seriesIndex]){
+        NSMutableDictionary* dict = [NSMutableDictionary dictionary];
+        dict[@"kanji"] = kanji.kanji;
+        dict[@"spells"] = kanji.spells;
+        dict[@"meanings"] = kanji.meanings;
+        [results addObject:dict];
+    }
+    return results;
 }
 @end

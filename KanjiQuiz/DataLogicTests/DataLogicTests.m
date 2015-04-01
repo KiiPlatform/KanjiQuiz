@@ -54,6 +54,18 @@
     RLMResults* allKanji = [KanjiCard objectsInRealm:realm where:@"jlptLevel='N5'"];
     NSLog(@"%lu",allKanji.count);
     
+}
+
+-(void) testKanji{
+    NSString *filePath = [[[NSBundle bundleForClass:[self class]] resourcePath] stringByAppendingPathComponent:@"kanji.realm"];
+    [RLMRealm setDefaultRealmPath:filePath];
+    
+    NSUInteger total =[QuizData totalSeriesForLevel:@"N5"];
+    NSLog(@"Total : %lu",total);
+    
+    for (NSDictionary* dict in [QuizData kanjiCardsForLevel:@"N5" andSeries:10]){
+        NSLog(@"%@",dict);
+    }
     
 }
 
