@@ -117,5 +117,21 @@ public func userDisplayName() ->NSString{
     return KiiLogic.shared().userDisplayName()
 }
 
+public var currentProblemSet : (level: QuizLevel, series : Int)
+{
+  get
+  {
+    return (level : QuizManager.sharedInstance.selectedLevel,
+      series : QuizManager.sharedInstance.selectedSeries)
+  }
+  set(setCurrentProblemSet)
+  {
+    
+    QuizManager.sharedInstance.selectedLevel = setCurrentProblemSet.level
+    QuizManager.sharedInstance.selectedSeries = setCurrentProblemSet.series
+    QuizManager.sharedInstance.updateSharedProblemSet()
+  }
+}
+
 
 

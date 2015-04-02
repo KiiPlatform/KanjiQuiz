@@ -9,6 +9,7 @@
 import WatchKit
 import Foundation
 import AppLogic
+import DataLogic
 
 class InterfaceController: WKInterfaceController {
   
@@ -16,6 +17,8 @@ class InterfaceController: WKInterfaceController {
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
     setupKii()
+    QuizData.setup()
+    QuizManager.sharedInstance.loadSharedProblemSet()
     var val = userDisplayName() as String
     
     self.displayName.setText(val)
@@ -37,13 +40,15 @@ class InterfaceController: WKInterfaceController {
     self.presentControllerWithNames(pages, contexts: contexts)
   }
   @IBAction func startSpellingQuiz() {
-    let quiz = Quiz(type: QuizType.Spelling, level: .N5)
+    let quiz = Quiz(type: QuizType.Spelling, level: currentProblemSet.level)
+    quiz.series = currentProblemSet.series
     quiz.setup()
     setCurrentQuiz(quiz)
     self.startQuiz(quiz)
   }
   @IBAction func startMeaningQuiz() {
-    let quiz = Quiz(type: QuizType.Meaning, level: .N5)
+    let quiz = Quiz(type: QuizType.Meaning, level: currentProblemSet.level)
+    quiz.series = currentProblemSet.series
     quiz.setup()
     setCurrentQuiz(quiz)
     self.startQuiz(quiz)

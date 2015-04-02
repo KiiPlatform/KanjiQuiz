@@ -11,6 +11,8 @@ import DataLogic
 public class QuizManager: NSObject {
   var takenQuiz : [Quiz]!
   var currentQuiz : Quiz?
+  public lazy var selectedLevel : QuizLevel = .N5
+  public lazy var selectedSeries : Int = 1
   
   override init() {
     takenQuiz = []
@@ -74,5 +76,23 @@ public class QuizManager: NSObject {
   }
   public func getAllTakenQuiz() -> [Quiz]{
     return takenQuiz
+  }
+  public func updateSharedProblemSet(){
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), { () -> Void in
+      let defaults = NSUserDefaults(suiteName: "group.kanjiquiz")
+      let sharedProblemSet : NSDictionary = ["level":self.selectedLevel.rawValue,
+        "series":NSNumber(integer: self.selectedSeries)]
+      defaults!.setObject(sharedProblemSet, forKey: "shared_problem_set")
+      defaults!.synchronize()
+    })
+  }
+  public func loadSharedProblemSet(){
+    let defaults = NSUserDefaults(suiteName: "group.kanjiquiz")
+    if let sharedProblemSet : NSDictionary = defaults?.objectForKey("shared_problem_set") as? NSDictionary{
+      self.selectedSeries = (sharedProblemSet["series"] as NSNumber).integerValue
+      self.selectedLevel = QuizLevel(rawValue: sharedProblemSet["level"] as? String ?? "N5")!
+      
+    }
+    
   }
 }

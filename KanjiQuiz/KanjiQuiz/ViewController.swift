@@ -12,8 +12,8 @@ import AppLogic
 
 class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewDelegate {
   lazy var problemSetData : [(level:String,series:Int)] = QuizManager.quizCatalog
-  lazy var selectedLevel : QuizLevel = .N5
-  lazy var selectedSeriesNum : Int = 1
+  lazy var selectedLevel : QuizLevel = currentProblemSet.level
+  lazy var selectedSeriesNum : Int = currentProblemSet.series
   
   @IBOutlet weak var pSetLabel: UILabel!
   override func viewDidLoad() {
@@ -24,6 +24,8 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
   }
   func updatePsetLabel(){
     self.pSetLabel.text = "JLPT Level \(self.selectedLevel.rawValue) #\(self.selectedSeriesNum)"
+    currentProblemSet.level = self.selectedLevel
+    currentProblemSet.series = self.selectedSeriesNum
   }
   
   override func didReceiveMemoryWarning() {
@@ -79,6 +81,10 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
     var containerView: UIPickerView = UIPickerView(frame: containerFrame)
     containerView.delegate = self;
     containerView.dataSource = self;
+    let selectedLevelIndex : Int = QuizLevel.allRawValues.indexOfObject(self.selectedLevel.rawValue) ?? 0
+    
+    containerView.selectRow(selectedLevelIndex, inComponent: 0, animated: false)
+    containerView.selectRow(self.selectedSeriesNum-1, inComponent: 1, animated: false)
     
     alert.view.addSubview(containerView)
     
