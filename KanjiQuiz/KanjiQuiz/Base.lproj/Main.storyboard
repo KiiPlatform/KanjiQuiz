@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -17,24 +18,46 @@
                         <sections>
                             <tableViewSection id="swa-aG-DaK">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="5TI-5T-ZgY" detailTextLabel="fDG-50-yVm" style="IBUITableViewCellStyleValue1" id="7mh-b5-gUF">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="7mh-b5-gUF">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7mh-b5-gUF" id="qwf-3d-uYC">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Level" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5TI-5T-ZgY">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Problem Set :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcR-zq-dTu">
+                                                    <rect key="frame" x="19" y="13" width="115" height="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="N5" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fDG-50-yVm">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bnl-gK-D2D">
+                                                    <rect key="frame" x="142" y="12" width="155" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="155" id="4Wp-T4-NLF"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNp-u0-9Aq">
+                                                    <rect key="frame" x="326" y="7" width="41" height="30"/>
+                                                    <state key="normal" title="select">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="addAlert:" destination="99d-ja-CWN" eventType="touchUpInside" id="91x-fO-hIs"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="eNp-u0-9Aq" firstAttribute="top" secondItem="qwf-3d-uYC" secondAttribute="topMargin" constant="-1" id="DtM-eF-aLb"/>
+                                                <constraint firstItem="eNp-u0-9Aq" firstAttribute="leading" secondItem="Bnl-gK-D2D" secondAttribute="trailing" constant="29" id="Lan-Hx-2xy"/>
+                                                <constraint firstItem="Bnl-gK-D2D" firstAttribute="leading" secondItem="qwf-3d-uYC" secondAttribute="leading" constant="142" id="T49-63-fvz"/>
+                                                <constraint firstItem="NcR-zq-dTu" firstAttribute="top" secondItem="qwf-3d-uYC" secondAttribute="topMargin" constant="5" id="VVv-5c-8a0"/>
+                                                <constraint firstItem="Bnl-gK-D2D" firstAttribute="baseline" secondItem="NcR-zq-dTu" secondAttribute="baseline" id="hjY-cp-Rbm"/>
+                                                <constraint firstItem="Bnl-gK-D2D" firstAttribute="leading" secondItem="NcR-zq-dTu" secondAttribute="trailing" constant="8" id="lgY-ug-b4W"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="NcR-zq-dTu" secondAttribute="bottom" constant="2" id="o9H-74-g4i"/>
+                                                <constraint firstItem="NcR-zq-dTu" firstAttribute="leading" secondItem="qwf-3d-uYC" secondAttribute="leadingMargin" constant="11" id="tyI-5i-mb1"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="pP8-QD-PRu" style="IBUITableViewCellStyleDefault" id="oXV-Ej-yYv">
@@ -113,10 +136,13 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Kanji Quiz" id="qOl-TD-9eu"/>
+                    <connections>
+                        <outlet property="pSetLabel" destination="Bnl-gK-D2D" id="Z4T-B1-Y2E"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aUh-WH-Il3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="469" y="434"/>
+            <point key="canvasLocation" x="468.5" y="428.5"/>
         </scene>
         <!--Results Table View Controller-->
         <scene sceneID="suR-ZZ-CgH">

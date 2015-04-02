@@ -79,4 +79,18 @@ static const NSUInteger DEFAULT_SERIES_NUM = 8;
     }
     return results;
 }
++(NSArray*) quizCatalog{
+    static NSArray* catalog = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+
+        catalog = @[@[@"N5",@([self totalSeriesForLevel:@"N5"])],
+                 @[@"N4",@([self totalSeriesForLevel:@"N4"])],
+                 @[@"N3",@([self totalSeriesForLevel:@"N3"])],
+                 @[@"N2",@([self totalSeriesForLevel:@"N2"])],
+                 @[@"N1",@([self totalSeriesForLevel:@"N1"])]
+                 ];
+    });
+    return catalog;
+}
 @end

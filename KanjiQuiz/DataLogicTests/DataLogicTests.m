@@ -66,7 +66,7 @@
     for (NSDictionary* dict in [QuizData kanjiCardsForLevel:@"N5" andSeries:10]){
         NSLog(@"%@",dict);
     }
-    
+    NSLog(@"%@",[QuizData quizCatalog]);
 }
 
 - (void)testPerformanceExample {

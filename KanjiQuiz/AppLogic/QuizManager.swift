@@ -15,6 +15,28 @@ public class QuizManager: NSObject {
     override init() {
         takenQuiz = []
     }
+    public typealias Catalog = (level: String,series: Int)
+    public typealias CatalogList = [Catalog]
+    
+    public class var quizCatalog : CatalogList {
+        func generateCatalog() -> CatalogList {
+            let data : NSArray = QuizData.quizCatalog() ?? []
+            var result : CatalogList = []
+            
+            for val in data{
+                let series : NSNumber = val[1] as NSNumber
+                
+                let aData : Catalog = (val[0] as String,val[1] as Int)
+                result.append(aData)
+                
+            }
+            return result
+        }
+        struct Static {
+            static let instance : CatalogList = generateCatalog()
+        }
+        return Static.instance
+    }
     
     public class var sharedInstance: QuizManager {
         struct Static {

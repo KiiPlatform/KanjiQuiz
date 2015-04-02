@@ -78,6 +78,7 @@
 		D5C5ED7C1AC8432C0008EA48 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C5ED641AC6F6ED0008EA48 /* Realm.framework */; };
 		D5C5ED7E1AC853FD0008EA48 /* kanji.realm in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED7D1AC853FD0008EA48 /* kanji.realm */; };
 		D5C5ED7F1AC862B30008EA48 /* kanji.realm in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED7D1AC853FD0008EA48 /* kanji.realm */; };
+		D5CD62191ACCDAC400AE0CA7 /* DataLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -287,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5A15F2E1AB6E144004A4370 /* AppLogic.framework in Frameworks */,
+				D5CD62191ACCDAC400AE0CA7 /* DataLogic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

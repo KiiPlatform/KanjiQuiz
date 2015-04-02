@@ -24,6 +24,8 @@ public enum QuizLevel : String{
     case N3 = "N3"
     case N4 = "N4"
     case N5 = "N5"
+    static let allValues = [N5,N4,N3,N2,N1]
+    static let allRawValues : NSArray = [N5.rawValue,N4.rawValue,N3.rawValue,N2.rawValue,N1.rawValue]
 }
 
 public class Serializable : NSObject{

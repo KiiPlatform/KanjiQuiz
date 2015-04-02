@@ -72,8 +72,8 @@ private let dummyKanjiData = [QuizLevel.N5:[
     ("南","ナン ・ ナ ・ みなみ","south")
 ]];
 
-private func kanjiData(level : String) ->[(String,String,String)]{
-    let data : NSArray = QuizData.kanjiCardsForLevel(level ?? "N5", andSeries: 3) ?? []
+private func kanjiData(level : String, series : UInt) ->[(String,String,String)]{
+    let data : NSArray = QuizData.kanjiCardsForLevel(level ?? "N5", andSeries: series ) ?? []
     var result : [(String,String,String)] = []
     typealias myData = (String,String,String)
     for val in data{
@@ -85,7 +85,7 @@ private func kanjiData(level : String) ->[(String,String,String)]{
 }
 
 public func generateProblems(quiz : Quiz) -> [Problem]{
-    let data = kanjiData(quiz.level.rawValue)
+    let data = kanjiData(quiz.level.rawValue,UInt(quiz.series))
     var problems : [Problem] = []
     let shuffleData : Array = shuffle(data)
     
