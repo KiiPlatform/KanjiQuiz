@@ -10,7 +10,7 @@ import UIKit
 import AppLogic
 
 
-class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewDelegate {
+class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewDelegate,UIGestureRecognizerDelegate {
   lazy var problemSetData : [(level:String,series:Int)] = QuizManager.quizCatalog
   lazy var selectedLevel : QuizLevel = currentProblemSet.level
   lazy var selectedSeriesNum : Int = currentProblemSet.series
@@ -19,7 +19,11 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
   override func viewDidLoad() {
     super.viewDidLoad()
     self.updatePsetLabel()
+    //self.navigationController?.rem
     
+  }
+  override func viewDidAppear(animated: Bool) {
+    self.navigationController?.interactivePopGestureRecognizer.delegate = self
     
   }
   func updatePsetLabel(){
@@ -36,6 +40,9 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     // Get the new view controller using segue.destinationViewController.
     // Pass the selected object to the new view controller.
+    if segue.identifier == nil {
+      return
+    }
     
     func prepareQuiz(type : QuizType){
       let destination = segue.destinationViewController as QuizViewController
@@ -48,7 +55,7 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
       setCurrentQuiz(quiz)
       
     }
-    println(segue.identifier)
+
     if let segueID = segue.identifier {
       switch segueID {
       case "Meaning":
@@ -128,6 +135,10 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
     }else{
       self.selectedSeriesNum = row + 1
     }
+  }
+  func gestureRecognizerShouldBegin(gestureRecognizer: UIGestureRecognizer!) -> Bool {
+    
+    return gestureRecognizer !== self.navigationController?.interactivePopGestureRecognizer;
   }
 }
 

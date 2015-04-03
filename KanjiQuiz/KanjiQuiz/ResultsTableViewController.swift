@@ -8,13 +8,13 @@
 
 import UIKit
 import AppLogic
-class ResultsTableViewController: UITableViewController {
+class ResultsTableViewController: UITableViewController, UIGestureRecognizerDelegate {
   
-  let takenQuiz :[Quiz] = QuizManager.sharedInstance.getAllTakenQuiz()
+  lazy var takenQuiz :[Quiz] = QuizManager.sharedInstance.getAllTakenQuiz()
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    self.navigationController?.interactivePopGestureRecognizer.delegate = self
     // Uncomment the following line to preserve selection between presentations
     // self.clearsSelectionOnViewWillAppear = false
     
@@ -98,5 +98,10 @@ class ResultsTableViewController: UITableViewController {
   // Pass the selected object to the new view controller.
   }
   */
-  
+  func gestureRecognizerShouldBegin(gestureRecognizer: UIGestureRecognizer!) -> Bool {
+    
+    //self.navigationController?.popViewControllerAnimated(true) is also ok
+    self.navigationController?.popToRootViewControllerAnimated(true)
+    return true;
+  }
 }
