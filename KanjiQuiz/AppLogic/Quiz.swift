@@ -69,7 +69,7 @@ public class Quiz: Serializable {
   init(dictionary: NSDictionary){
     self.type = (dictionary["type"]? as? String) == "Spelling" ? QuizType.Spelling : QuizType.Meaning
     
-    self.level = QuizLevel(rawValue: dictionary["type"]? as String!) ?? .N5
+    self.level = QuizLevel(rawValue: dictionary["level"]? as String!) ?? .N5
     
     let sNum : NSNumber = dictionary["series"] as? NSNumber ?? NSNumber(int: 1)
     self.series = sNum.integerValue
