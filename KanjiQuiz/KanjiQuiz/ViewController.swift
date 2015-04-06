@@ -15,21 +15,27 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
   lazy var selectedLevel : QuizLevel = currentProblemSet.level
   lazy var selectedSeriesNum : Int = currentProblemSet.series
   
+  @IBOutlet weak var meaningBestScoreLabel: UILabel!
+  @IBOutlet weak var spellBestScoreLabel: UILabel!
   @IBOutlet weak var pSetLabel: UILabel!
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.updatePsetLabel()
+    
     //self.navigationController?.rem
     
   }
   override func viewDidAppear(animated: Bool) {
     self.navigationController?.interactivePopGestureRecognizer.delegate = self
-    
+    self.updatePsetLabel()
   }
   func updatePsetLabel(){
     self.pSetLabel.text = "JLPT Level \(self.selectedLevel.rawValue) #\(self.selectedSeriesNum)"
     currentProblemSet.level = self.selectedLevel
     currentProblemSet.series = self.selectedSeriesNum
+    let pSetSpellString = "\(self.selectedLevel.rawValue):\(QuizType.Spelling.rawValue)#\(self.selectedSeriesNum)"
+    let pSetMeaningString = "\(self.selectedLevel.rawValue):\(QuizType.Meaning.rawValue)#\(self.selectedSeriesNum)"
+    self.spellBestScoreLabel.text = "Best score : \(QuizManager.sharedInstance.bestScoreForProblemSet(pSetSpellString))"
+    self.meaningBestScoreLabel.text = "Best score : \(QuizManager.sharedInstance.bestScoreForProblemSet(pSetMeaningString))"
   }
   
   override func didReceiveMemoryWarning() {

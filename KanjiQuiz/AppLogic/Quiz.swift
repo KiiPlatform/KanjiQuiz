@@ -65,6 +65,9 @@ public class Quiz: Serializable {
     
     return dict
   }
+  public override var description: String {
+    return "\(self.level.rawValue):\(self.type.rawValue)#\(self.series)"
+  }
   
   init(dictionary: NSDictionary){
     self.type = (dictionary["type"]? as? String) == "Spelling" ? QuizType.Spelling : QuizType.Meaning

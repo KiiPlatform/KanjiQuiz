@@ -62,6 +62,7 @@ public class QuizManager: NSObject {
     tQuiz.addObject(quizDict)
     //save to cloud
     let result = quiz.countResult()
+    let score : Float = Float((Float(result.correctAnswer) / Float(result.totalProblem)) * 100)
     
     KiiLogic.shared().saveQuizToCloud(quizDict, totalProblem: Int32(result.totalProblem), answered: Int32(result.answered), correct: Int32(result.correctAnswer))
     
@@ -70,9 +71,22 @@ public class QuizManager: NSObject {
       var takenQuizes : NSArray = defaults?.objectForKey("takenQuizes") as NSArray
       tQuiz.addObjectsFromArray(takenQuizes)
     }
+    var quizScores : NSMutableDictionary = defaults?.objectForKey("quizScores")? as? NSMutableDictionary ?? [quiz.description:NSNumber(float: score)]
+    if (quizScores[quiz.description] as? NSNumber)?.floatValue < score  {
+      quizScores[quiz.description] = NSNumber(float: score)
     
+    }
+    
+    defaults?.setObject(quizScores, forKey: "quizScores")
     defaults?.setObject(tQuiz, forKey: "takenQuizes")
     defaults?.synchronize()
+  }
+  public func bestScoreForProblemSet(problemSet : String!) -> Float{
+    let defaults = NSUserDefaults(suiteName: "group.kanjiquiz")
+    
+    let quizScore  = (defaults?.objectForKey("quizScores")?[problemSet]? as NSNumber?) ?? NSNumber(float: 0.0)
+    
+    return quizScore.floatValue
   }
   public func getAllTakenQuiz() -> [Quiz]{
     return takenQuiz
