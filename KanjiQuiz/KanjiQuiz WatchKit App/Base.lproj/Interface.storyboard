@@ -26,6 +26,7 @@
                     </items>
                     <connections>
                         <outlet property="displayName" destination="ODf-cY-SIx" id="QcS-XK-Hrm"/>
+                        <outlet property="pSetLabel" destination="mJA-tr-XOg" id="TVv-GZ-rZf"/>
                     </connections>
                 </controller>
             </objects>

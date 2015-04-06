@@ -13,6 +13,7 @@ import DataLogic
 
 class InterfaceController: WKInterfaceController {
   
+  @IBOutlet weak var pSetLabel: WKInterfaceLabel!
   @IBOutlet weak var displayName: WKInterfaceLabel!
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
@@ -22,6 +23,7 @@ class InterfaceController: WKInterfaceController {
     var val = userDisplayName() as String
     
     self.displayName.setText(val)
+    self.pSetLabel.setText( "JLPT \(currentProblemSet.level.rawValue) #\(currentProblemSet.series)")
     
     // Configure interface objects here.
   }

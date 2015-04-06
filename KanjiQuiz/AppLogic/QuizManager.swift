@@ -71,7 +71,9 @@ public class QuizManager: NSObject {
       var takenQuizes : NSArray = defaults?.objectForKey("takenQuizes") as NSArray
       tQuiz.addObjectsFromArray(takenQuizes)
     }
-    var quizScores : NSMutableDictionary = defaults?.objectForKey("quizScores")? as? NSMutableDictionary ?? [quiz.description:NSNumber(float: score)]
+    let dict : NSDictionary? = defaults?.objectForKey("quizScores")? as? NSDictionary ?? NSDictionary()
+
+    var quizScores : NSMutableDictionary =  (dict?.mutableCopy() as NSMutableDictionary) ?? [quiz.description:NSNumber(float: score)]
     if (quizScores[quiz.description] as? NSNumber)?.floatValue < score  {
       quizScores[quiz.description] = NSNumber(float: score)
     
