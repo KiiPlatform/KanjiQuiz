@@ -5,4 +5,4 @@ Mainly coded on swift.
 ![alt iPhone6](kanji-quiz-1.gif)
 
 ### Quiz on Apple Watch simulator
-![alt tag](watch-spell-1.gif)
+![alt appleWatch-simulator](watch-spell-1.gif)
