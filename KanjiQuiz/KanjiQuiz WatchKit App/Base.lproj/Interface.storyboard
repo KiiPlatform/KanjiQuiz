@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="KanjiQuiz_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" alignment="left" text="Welcome" textAlignment="center" id="mJA-tr-XOg"/>
+                        <label width="136" alignment="left" text="User Display name" textAlignment="center" id="ODf-cY-SIx"/>
+                        <separator alignment="left" id="LUd-pn-wsW"/>
+                        <button width="1" alignment="left" title="Kanji Spelling" id="n1N-nK-GDm">
+                            <connections>
+                                <action selector="startSpellingQuiz" destination="AgC-eL-Hgc" id="B9b-mW-Wen"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Kanji Meaning" id="Nhw-gn-wz5">
+                            <connections>
+                                <action selector="startMeaningQuiz" destination="AgC-eL-Hgc" id="teZ-mH-rIB"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="displayName" destination="ODf-cY-SIx" id="QcS-XK-Hrm"/>
+                        <outlet property="pSetLabel" destination="mJA-tr-XOg" id="TVv-GZ-rZf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="164" y="217"/>
+        </scene>
+        <!--ProblemInterface-->
+        <scene sceneID="4Qw-Af-aTL">
+            <objects>
+                <controller identifier="ProblemInterface" id="1qB-EH-ydg" customClass="ProblemInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="41" alignment="center" text="私" textAlignment="center" id="BSr-To-PZZ">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
+                        <separator alignment="left" id="oRj-sc-Aem"/>
+                        <group width="1" height="110" alignment="left" layout="vertical" id="aOJ-u5-Pug">
+                            <items>
+                                <button width="1" height="30" alignment="left" title="ButtonA" id="Ox6-OD-vr0">
+                                    <connections>
+                                        <action selector="answerA" destination="1qB-EH-ydg" id="0T8-jd-9L7"/>
+                                    </connections>
+                                </button>
+                                <button width="1" height="30" alignment="right" verticalAlignment="center" title="ButtonB" id="Dfw-Gg-iQn">
+                                    <connections>
+                                        <action selector="answerB" destination="1qB-EH-ydg" id="Qjn-AR-DLK"/>
+                                    </connections>
+                                </button>
+                                <button width="1" height="30" alignment="right" verticalAlignment="center" title="ButtonC" id="xbj-bd-hX1">
+                                    <connections>
+                                        <action selector="answerC" destination="1qB-EH-ydg" id="3TM-4A-Tok"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="buttonA" destination="Ox6-OD-vr0" id="NNE-az-2Ne"/>
+                        <outlet property="buttonB" destination="Dfw-Gg-iQn" id="d2V-4U-tPQ"/>
+                        <outlet property="buttonC" destination="xbj-bd-hX1" id="Tvu-cl-hty"/>
+                        <outlet property="kanjiLabel" destination="BSr-To-PZZ" id="e9P-gV-lA6"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="382" y="225"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="rjY-Ar-IMT">
+            <objects>
+                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController" customModule="KanjiQuiz_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="gv7-I2-MZq"/>
+                        <group alignment="left" id="eew-Gs-W6Y"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="164" y="514"/>
+        </scene>
+        <!--ResultInterface-->
+        <scene sceneID="omf-5g-Nvl">
+            <objects>
+                <controller identifier="ResultInterface" id="0Ii-rt-EnA" customClass="ResultInterfaceController" customModule="KanjiQuiz_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="center" id="38X-JQ-hqs">
+                            <items>
+                                <label width="90" alignment="left" text="Total :" textAlignment="right" id="Sp0-p0-S5R"/>
+                                <label width="20" alignment="left" text="total" id="UYp-Uv-Hwm"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" id="uqb-7t-oWy">
+                            <items>
+                                <label width="90" alignment="left" text="Answered :" textAlignment="right" id="pHK-gq-WcD"/>
+                                <label width="20" alignment="left" text="total" id="MHu-rm-n2L"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" id="eWL-nN-OjK">
+                            <items>
+                                <label width="90" alignment="left" text="Correct :" textAlignment="right" id="fwn-Tt-cjK"/>
+                                <label width="20" alignment="left" text="total" id="hk3-Cc-XvF"/>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Submit" id="cRG-6H-aBc">
+                            <connections>
+                                <action selector="submit" destination="0Ii-rt-EnA" id="ml3-3u-gjh"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="answeredLabel" destination="MHu-rm-n2L" id="PQ9-aV-Z1M"/>
+                        <outlet property="correctLabel" destination="hk3-Cc-XvF" id="4Fo-cj-zLU"/>
+                        <outlet property="totalLabel" destination="UYp-Uv-Hwm" id="KQL-lm-3cg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="536" y="231"/>
+        </scene>
+    </scenes>
+</document>

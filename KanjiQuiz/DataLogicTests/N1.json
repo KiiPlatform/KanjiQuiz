@@ -1,0 +1,7394 @@
+[
+  {
+    "kanji":"潤",
+    "spells":"ジュン ・ うるお.う ・ うるお.す ・ うる.む",
+    "meanings":"wet; be watered; profit by; receive benefits; favor; charm; steep",
+    "type":"kanji"
+  },
+  {
+    "kanji":"漂",
+    "spells":"ヒョウ ・ ただよ.う",
+    "meanings":"drift; float (on liquid)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"隷",
+    "spells":"レイ ・ したが.う ・ しもべ",
+    "meanings":"slave; servant; prisoner; criminal; follower",
+    "type":"kanji"
+  },
+  {
+    "kanji":"我",
+    "spells":"ガ ・ われ ・ わ ・ わ.が- ・ わが-",
+    "meanings":"ego; I; selfish; our; oneself",
+    "type":"kanji"
+  },
+  {
+    "kanji":"霧",
+    "spells":"ム ・ ボウ ・ ブ ・ きり",
+    "meanings":"fog; mist",
+    "type":"kanji"
+  },
+  {
+    "kanji":"義",
+    "spells":"ギ",
+    "meanings":"righteousness; justice; morality; honor; loyalty; meaning",
+    "type":"kanji"
+  },
+  {
+    "kanji":"礁",
+    "spells":"ショウ",
+    "meanings":"reef; sunken rock",
+    "type":"kanji"
+  },
+  {
+    "kanji":"砲",
+    "spells":"ホウ",
+    "meanings":"cannon; gun",
+    "type":"kanji"
+  },
+  {
+    "kanji":"粗",
+    "spells":"ソ ・ あら.い ・ あら-",
+    "meanings":"coarse; rough; rugged",
+    "type":"kanji"
+  },
+  {
+    "kanji":"銑",
+    "spells":"セン",
+    "meanings":"pig iron",
+    "type":"kanji"
+  },
+  {
+    "kanji":"津",
+    "spells":"シン ・ つ",
+    "meanings":"haven; port; harbor; ferry",
+    "type":"kanji"
+  },
+  {
+    "kanji":"悔",
+    "spells":"カイ ・ く.いる ・ く.やむ ・ くや.しい",
+    "meanings":"repent; regret",
+    "type":"kanji"
+  },
+  {
+    "kanji":"松",
+    "spells":"ショウ ・ まつ",
+    "meanings":"pine tree",
+    "type":"kanji"
+  },
+  {
+    "kanji":"誠",
+    "spells":"セイ ・ まこと",
+    "meanings":"sincerity; admonish; warn; prohibit; truth; fidelity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"懇",
+    "spells":"コン ・ ねんご.ろ",
+    "meanings":"sociable; kind; courteous; hospitable; cordial",
+    "type":"kanji"
+  },
+  {
+    "kanji":"喝",
+    "spells":"カツ",
+    "meanings":"hoarse; scold",
+    "type":"kanji"
+  },
+  {
+    "kanji":"魂",
+    "spells":"コン ・ たましい ・ たま",
+    "meanings":"soul; spirit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"穴",
+    "spells":"ケツ ・ あな",
+    "meanings":"hole; aperture; slit; cave; den",
+    "type":"kanji"
+  },
+  {
+    "kanji":"伽",
+    "spells":"カ ・ ガ ・ キャ ・ ギャ ・ とぎ",
+    "meanings":"nursing; attending; entertainer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"梓",
+    "spells":"シ ・ あずさ",
+    "meanings":"catalpa tree",
+    "type":"kanji"
+  },
+  {
+    "kanji":"詔",
+    "spells":"ショウ ・ みことのり",
+    "meanings":"imperial edict",
+    "type":"kanji"
+  },
+  {
+    "kanji":"締",
+    "spells":"テイ ・ し.まる ・ し.まり ・ し.める ・ -し.め ・ -じ.め",
+    "meanings":"tighten; tie; shut; lock; fasten",
+    "type":"kanji"
+  },
+  {
+    "kanji":"潜",
+    "spells":"セン ・ ひそ.む ・ もぐ.る ・ かく.れる ・ くぐ.る ・ ひそ.める",
+    "meanings":"submerge; conceal; hide; lower (voice); hush",
+    "type":"kanji"
+  },
+  {
+    "kanji":"隠",
+    "spells":"イン ・ オン ・ かく.す ・ かく.し ・ かく.れる ・ かか.す ・ よ.る",
+    "meanings":"conceal; hide; cover",
+    "type":"kanji"
+  },
+  {
+    "kanji":"帳",
+    "spells":"チョウ ・ とばり",
+    "meanings":"notebook; account book; album; curtain; veil; net; tent",
+    "type":"kanji"
+  },
+  {
+    "kanji":"扶",
+    "spells":"フ ・ たす.ける",
+    "meanings":"aid; help; assist",
+    "type":"kanji"
+  },
+  {
+    "kanji":"俗",
+    "spells":"ゾク",
+    "meanings":"vulgar; customs; manners; worldliness; mundane things",
+    "type":"kanji"
+  },
+  {
+    "kanji":"叶",
+    "spells":"キョウ ・ かな.える ・ かな.う",
+    "meanings":"grant; answer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"衛",
+    "spells":"エイ ・ エ",
+    "meanings":"defense; protection",
+    "type":"kanji"
+  },
+  {
+    "kanji":"賠",
+    "spells":"バイ",
+    "meanings":"compensation; indemnify",
+    "type":"kanji"
+  },
+  {
+    "kanji":"践",
+    "spells":"セン ・ ふ.む",
+    "meanings":"tread; step on; trample; practice; carry through",
+    "type":"kanji"
+  },
+  {
+    "kanji":"浦",
+    "spells":"ホ ・ うら",
+    "meanings":"bay; creek; inlet; gulf; beach; seacoast",
+    "type":"kanji"
+  },
+  {
+    "kanji":"玲",
+    "spells":"レイ",
+    "meanings":"sound of jewels",
+    "type":"kanji"
+  },
+  {
+    "kanji":"没",
+    "spells":"ボツ ・ モツ ・ おぼ.れる ・ しず.む ・ ない",
+    "meanings":"drown; sink; hide; fall into; disappear; die",
+    "type":"kanji"
+  },
+  {
+    "kanji":"祐",
+    "spells":"ユウ ・ ウ ・ たす.ける",
+    "meanings":"help",
+    "type":"kanji"
+  },
+  {
+    "kanji":"尚",
+    "spells":"ショウ ・ なお",
+    "meanings":"esteem; furthermore; still; yet",
+    "type":"kanji"
+  },
+  {
+    "kanji":"滉",
+    "spells":"コウ ・ ひろ.い",
+    "meanings":"deep and broad",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鎮",
+    "spells":"チン ・ しず.める ・ しず.まる ・ おさえ",
+    "meanings":"tranquilize; ancient peace-preservation centers",
+    "type":"kanji"
+  },
+  {
+    "kanji":"瑶",
+    "spells":"ヨウ ・ たま",
+    "meanings":"beautiful as a jewel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"催",
+    "spells":"サイ ・ もよう.す ・ もよお.す",
+    "meanings":"sponsor; hold (a meeting); give (a dinner)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"軸",
+    "spells":"ジク",
+    "meanings":"axis; pivot; stem; stalk; counter for book scrolls",
+    "type":"kanji"
+  },
+  {
+    "kanji":"弥",
+    "spells":"ミ ・ ビ ・ いや ・ や ・ あまねし ・ いよいよ ・ とおい ・ ひさし ・ ひさ.しい ・ わた.る",
+    "meanings":"all the more; increasingly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"結",
+    "spells":"ケツ ・ ケチ ・ むす.ぶ ・ ゆ.う ・ ゆ.わえる",
+    "meanings":"tie; bind; contract; join; organize; do up hair; fasten",
+    "type":"kanji"
+  },
+  {
+    "kanji":"筋",
+    "spells":"キン ・ すじ",
+    "meanings":"muscle; sinew; tendon; fiber; plot; plan; descent",
+    "type":"kanji"
+  },
+  {
+    "kanji":"瞬",
+    "spells":"シュン ・ またた.く ・ まじろ.ぐ",
+    "meanings":"wink; blink; twinkle",
+    "type":"kanji"
+  },
+  {
+    "kanji":"志",
+    "spells":"シ ・ シリング ・ こころざ.す ・ こころざし",
+    "meanings":"intention; plan; resolve; aspire; motive; hopes; shilling",
+    "type":"kanji"
+  },
+  {
+    "kanji":"需",
+    "spells":"ジュ",
+    "meanings":"demand; request; need",
+    "type":"kanji"
+  },
+  {
+    "kanji":"覇",
+    "spells":"ハ ・ ハク ・ はたがしら",
+    "meanings":"hegemony; supremacy; leadership; champion",
+    "type":"kanji"
+  },
+  {
+    "kanji":"輔",
+    "spells":"ホ ・ フ ・ たす.ける",
+    "meanings":"help",
+    "type":"kanji"
+  },
+  {
+    "kanji":"詐",
+    "spells":"サ ・ いつわ.る",
+    "meanings":"lie; falsehood; deceive; pretend",
+    "type":"kanji"
+  },
+  {
+    "kanji":"腐",
+    "spells":"フ ・ くさ.る ・ -くさ.る ・ くさ.れる ・ くさ.れ ・ くさ.らす ・ くさ.す",
+    "meanings":"rot; decay; sour",
+    "type":"kanji"
+  },
+  {
+    "kanji":"劣",
+    "spells":"レツ ・ おと.る",
+    "meanings":"inferiority; be inferior to; be worse",
+    "type":"kanji"
+  },
+  {
+    "kanji":"巌",
+    "spells":"ガン ・ いわ ・ いわお ・ けわ.しい",
+    "meanings":"rock; crag; boulder",
+    "type":"kanji"
+  },
+  {
+    "kanji":"推",
+    "spells":"スイ ・ お.す",
+    "meanings":"conjecture; infer; guess; suppose; support; push (for)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"騎",
+    "spells":"キ",
+    "meanings":"equestrian; riding on horses; counter for equestrians",
+    "type":"kanji"
+  },
+  {
+    "kanji":"偏",
+    "spells":"ヘン ・ かたよ.る",
+    "meanings":"partial; side; left-side radical; inclining; biased",
+    "type":"kanji"
+  },
+  {
+    "kanji":"展",
+    "spells":"テン",
+    "meanings":"unfold; expand",
+    "type":"kanji"
+  },
+  {
+    "kanji":"醜",
+    "spells":"シュウ ・ みにく.い ・ しこ",
+    "meanings":"ugly; unclean; shame; bad looking",
+    "type":"kanji"
+  },
+  {
+    "kanji":"冶",
+    "spells":"ヤ ・ い.る",
+    "meanings":"melting; smelting",
+    "type":"kanji"
+  },
+  {
+    "kanji":"屯",
+    "spells":"トン",
+    "meanings":"barracks; police station; camp",
+    "type":"kanji"
+  },
+  {
+    "kanji":"僚",
+    "spells":"リョウ",
+    "meanings":"colleague; official; companion",
+    "type":"kanji"
+  },
+  {
+    "kanji":"弊",
+    "spells":"ヘイ",
+    "meanings":"abuse; evil; vice; breakage",
+    "type":"kanji"
+  },
+  {
+    "kanji":"挑",
+    "spells":"チョウ ・ いど.む",
+    "meanings":"challenge; contend for; make love to",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鯉",
+    "spells":"リ ・ こい",
+    "meanings":"carp",
+    "type":"kanji"
+  },
+  {
+    "kanji":"授",
+    "spells":"ジュ ・ さず.ける ・ さず.かる",
+    "meanings":"impart; instruct; grant; confer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"妄",
+    "spells":"モウ ・ ボウ ・ みだ.りに",
+    "meanings":"delusion; unnecessarily; without authority; reckless",
+    "type":"kanji"
+  },
+  {
+    "kanji":"菖",
+    "spells":"ショウ",
+    "meanings":"iris",
+    "type":"kanji"
+  },
+  {
+    "kanji":"矢",
+    "spells":"シ ・ や",
+    "meanings":"dart; arrow",
+    "type":"kanji"
+  },
+  {
+    "kanji":"亘",
+    "spells":"コウ ・ カン ・ わた.る ・ もと.める",
+    "meanings":"span; request",
+    "type":"kanji"
+  },
+  {
+    "kanji":"併",
+    "spells":"ヘイ ・ あわ.せる",
+    "meanings":"join; get together; unite; collective",
+    "type":"kanji"
+  },
+  {
+    "kanji":"凹",
+    "spells":"オウ ・ くぼ.む ・ へこ.む ・ ぼこ",
+    "meanings":"concave; hollow; sunken",
+    "type":"kanji"
+  },
+  {
+    "kanji":"盲",
+    "spells":"モウ ・ めくら",
+    "meanings":"blind; blind man; ignoramus",
+    "type":"kanji"
+  },
+  {
+    "kanji":"悟",
+    "spells":"ゴ ・ さと.る",
+    "meanings":"enlightenment; perceive; discern; realize; understand",
+    "type":"kanji"
+  },
+  {
+    "kanji":"稼",
+    "spells":"カ ・ かせ.ぐ",
+    "meanings":"earnings; work; earn money",
+    "type":"kanji"
+  },
+  {
+    "kanji":"揺",
+    "spells":"ヨウ ・ ゆ.れる ・ ゆ.る ・ ゆ.らぐ ・ ゆ.るぐ ・ ゆ.する ・ ゆ.さぶる ・ ゆ.すぶる ・ うご.く",
+    "meanings":"swing; shake; sway; rock; tremble; vibrate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"桟",
+    "spells":"サン ・ セン ・ かけはし",
+    "meanings":"scaffold; cleat; frame; jetty; bolt (door)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"堕",
+    "spells":"ダ ・ お.ちる ・ くず.す ・ くず.れる",
+    "meanings":"degenerate; descend to; lapse into",
+    "type":"kanji"
+  },
+  {
+    "kanji":"融",
+    "spells":"ユウ ・ と.ける ・ と.かす",
+    "meanings":"dissolve; melt",
+    "type":"kanji"
+  },
+  {
+    "kanji":"張",
+    "spells":"チョウ ・ は.る ・ -は.り ・ -ば.り",
+    "meanings":"lengthen; counter for bows & stringed instruments; stretch; spread; put up (tent)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"寮",
+    "spells":"リョウ",
+    "meanings":"dormitory; hostel; villa; tea pavillion",
+    "type":"kanji"
+  },
+  {
+    "kanji":"漸",
+    "spells":"ゼン ・ やや",
+    "meanings":"steadily; gradually advancing; finally; barely",
+    "type":"kanji"
+  },
+  {
+    "kanji":"戯",
+    "spells":"ギ ・ ゲ ・ たわむ.れる ・ ざ.れる ・ じゃ.れる",
+    "meanings":"frolic; play; sport",
+    "type":"kanji"
+  },
+  {
+    "kanji":"提",
+    "spells":"テイ ・ チョウ ・ ダイ ・ さ.げる",
+    "meanings":"propose; take along; carry in hand",
+    "type":"kanji"
+  },
+  {
+    "kanji":"郭",
+    "spells":"カク ・ くるわ",
+    "meanings":"enclosure; quarters; fortification; red-light district",
+    "type":"kanji"
+  },
+  {
+    "kanji":"琴",
+    "spells":"キン ・ こと",
+    "meanings":"harp; koto",
+    "type":"kanji"
+  },
+  {
+    "kanji":"爵",
+    "spells":"シャク",
+    "meanings":"baron; peerage; court rank",
+    "type":"kanji"
+  },
+  {
+    "kanji":"士",
+    "spells":"シ ・ さむらい",
+    "meanings":"gentleman; samurai; samurai radical (no. 33)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"洵",
+    "spells":"ジュン ・ シュン ・ の.ぶ ・ まこと.に",
+    "meanings":"alike; truth",
+    "type":"kanji"
+  },
+  {
+    "kanji":"崚",
+    "spells":"リョウ",
+    "meanings":"towering in a row",
+    "type":"kanji"
+  },
+  {
+    "kanji":"墾",
+    "spells":"コン",
+    "meanings":"ground-breaking; open up farmland",
+    "type":"kanji"
+  },
+  {
+    "kanji":"亜",
+    "spells":"ア ・ つ.ぐ",
+    "meanings":"Asia; rank next; come after; -ous",
+    "type":"kanji"
+  },
+  {
+    "kanji":"壮",
+    "spells":"ソウ ・ さかん",
+    "meanings":"robust; manhood; prosperity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"艶",
+    "spells":"エン ・ つや ・ なま.めかしい ・ あで.やか ・ つや.めく ・ なま.めく",
+    "meanings":"glossy; luster; glaze; polish; charm; colorful; captivating",
+    "type":"kanji"
+  },
+  {
+    "kanji":"素",
+    "spells":"ソ ・ ス ・ もと",
+    "meanings":"elementary; principle; naked; uncovered",
+    "type":"kanji"
+  },
+  {
+    "kanji":"厳",
+    "spells":"ゲン ・ ゴン ・ おごそ.か ・ きび.しい ・ いか.めしい ・ いつくし",
+    "meanings":"stern; strictness; severity; rigidity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"擦",
+    "spells":"サツ ・ す.る ・ す.れる ・ -ず.れ ・ こす.る ・ こす.れる",
+    "meanings":"grate; rub; scratch; scrape; chafe; scour",
+    "type":"kanji"
+  },
+  {
+    "kanji":"滝",
+    "spells":"ロウ ・ ソウ ・ たき",
+    "meanings":"waterfall; rapids; cascade",
+    "type":"kanji"
+  },
+  {
+    "kanji":"羅",
+    "spells":"ラ ・ うすもの",
+    "meanings":"gauze; thin silk; Rome",
+    "type":"kanji"
+  },
+  {
+    "kanji":"諄",
+    "spells":"シュン ・ ひちくど.い ・ くど.い ・ くどくど ・ ねんご.ろ",
+    "meanings":"tedious",
+    "type":"kanji"
+  },
+  {
+    "kanji":"脈",
+    "spells":"ミャク ・ すじ",
+    "meanings":"vein; pulse; hope",
+    "type":"kanji"
+  },
+  {
+    "kanji":"掲",
+    "spells":"ケイ ・ かか.げる",
+    "meanings":"put up (a notice); put up; hoist; display; hang out; publish; describe",
+    "type":"kanji"
+  },
+  {
+    "kanji":"炎",
+    "spells":"エン ・ ほのお",
+    "meanings":"inflammation; flame; blaze",
+    "type":"kanji"
+  },
+  {
+    "kanji":"欺",
+    "spells":"ギ ・ あざむ.く",
+    "meanings":"deceit; cheat; delude",
+    "type":"kanji"
+  },
+  {
+    "kanji":"修",
+    "spells":"シュウ ・ シュ ・ おさ.める ・ おさ.まる",
+    "meanings":"discipline; conduct oneself well; study; master",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鬼",
+    "spells":"キ ・ おに ・ おに-",
+    "meanings":"ghost; devil",
+    "type":"kanji"
+  },
+  {
+    "kanji":"雰",
+    "spells":"フン",
+    "meanings":"atmosphere; fog",
+    "type":"kanji"
+  },
+  {
+    "kanji":"惟",
+    "spells":"イ ・ ユイ ・ おも.んみる ・ これ ・ おも.うに",
+    "meanings":"consider; reflect; think",
+    "type":"kanji"
+  },
+  {
+    "kanji":"猛",
+    "spells":"モウ",
+    "meanings":"fierce; rave; rush; become furious; wildness; strength",
+    "type":"kanji"
+  },
+  {
+    "kanji":"征",
+    "spells":"セイ",
+    "meanings":"subjugate; attack the rebellious; collect taxes",
+    "type":"kanji"
+  },
+  {
+    "kanji":"潮",
+    "spells":"チョウ ・ しお ・ うしお",
+    "meanings":"tide; salt water; opportunity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"影",
+    "spells":"エイ ・ かげ",
+    "meanings":"shadow; silhouette; phantom",
+    "type":"kanji"
+  },
+  {
+    "kanji":"芹",
+    "spells":"キン ・ せり",
+    "meanings":"parsley",
+    "type":"kanji"
+  },
+  {
+    "kanji":"欣",
+    "spells":"キン ・ ゴン ・ コン ・ よろこ.ぶ ・ よろこ.び",
+    "meanings":"take pleasure in; rejoice",
+    "type":"kanji"
+  },
+  {
+    "kanji":"貴",
+    "spells":"キ ・ たっと.い ・ とうと.い ・ たっと.ぶ ・ とうと.ぶ",
+    "meanings":"precious; value; prize; esteem; honor",
+    "type":"kanji"
+  },
+  {
+    "kanji":"肖",
+    "spells":"ショウ ・ あやか.る",
+    "meanings":"resemblance",
+    "type":"kanji"
+  },
+  {
+    "kanji":"紡",
+    "spells":"ボウ ・ つむ.ぐ",
+    "meanings":"spinning",
+    "type":"kanji"
+  },
+  {
+    "kanji":"絞",
+    "spells":"コウ ・ しぼ.る ・ し.める ・ し.まる",
+    "meanings":"strangle; constrict; wring",
+    "type":"kanji"
+  },
+  {
+    "kanji":"伐",
+    "spells":"バツ ・ ハツ ・ カ ・ ボチ ・ き.る ・ そむ.く ・ う.つ",
+    "meanings":"fell; strike; attack; punish",
+    "type":"kanji"
+  },
+  {
+    "kanji":"渚",
+    "spells":"ショ ・ なぎさ",
+    "meanings":"strand; beach; shore",
+    "type":"kanji"
+  },
+  {
+    "kanji":"趣",
+    "spells":"シュ ・ おもむき ・ おもむ.く",
+    "meanings":"gist; proceed to; tend; become",
+    "type":"kanji"
+  },
+  {
+    "kanji":"謁",
+    "spells":"エツ",
+    "meanings":"audience; audience (with king)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"磯",
+    "spells":"キ ・ いそ",
+    "meanings":"seashore; beach",
+    "type":"kanji"
+  },
+  {
+    "kanji":"燿",
+    "spells":"ヨウ ・ かがや.く ・ ひかり",
+    "meanings":"shine",
+    "type":"kanji"
+  },
+  {
+    "kanji":"胆",
+    "spells":"タン ・ きも",
+    "meanings":"gall bladder; courage; pluck; nerve",
+    "type":"kanji"
+  },
+  {
+    "kanji":"如",
+    "spells":"ジョ ・ ニョ ・ ごと.し",
+    "meanings":"likeness; like; such as; as if; better; best; equal",
+    "type":"kanji"
+  },
+  {
+    "kanji":"扱",
+    "spells":"ソウ ・ キュウ ・ あつか.い ・ あつか.う ・ あつか.る ・ こ.く",
+    "meanings":"handle; entertain; thresh; strip",
+    "type":"kanji"
+  },
+  {
+    "kanji":"吉",
+    "spells":"キチ ・ キツ ・ よし",
+    "meanings":"good luck; joy; congratulations",
+    "type":"kanji"
+  },
+  {
+    "kanji":"衡",
+    "spells":"コウ",
+    "meanings":"equilibrium; measuring rod; scale",
+    "type":"kanji"
+  },
+  {
+    "kanji":"徐",
+    "spells":"ジョ ・ おもむ.ろに",
+    "meanings":"gradually; slowly; deliberately; gently",
+    "type":"kanji"
+  },
+  {
+    "kanji":"舶",
+    "spells":"ハク",
+    "meanings":"liner; ship",
+    "type":"kanji"
+  },
+  {
+    "kanji":"麟",
+    "spells":"リン",
+    "meanings":"Chinese unicorn; genius; giraffe; bright; shining",
+    "type":"kanji"
+  },
+  {
+    "kanji":"悦",
+    "spells":"エツ ・ よろこ.ぶ ・ よろこ.ばす",
+    "meanings":"ecstasy; joy; rapture",
+    "type":"kanji"
+  },
+  {
+    "kanji":"紗",
+    "spells":"サ ・ シャ ・ うすぎぬ",
+    "meanings":"gauze; gossamer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"雷",
+    "spells":"ライ ・ かみなり ・ いかずち ・ いかづち",
+    "meanings":"thunder; lightning bolt",
+    "type":"kanji"
+  },
+  {
+    "kanji":"箇",
+    "spells":"カ ・ コ",
+    "meanings":"counters for things",
+    "type":"kanji"
+  },
+  {
+    "kanji":"沿",
+    "spells":"エン ・ そ.う ・ -ぞ.い",
+    "meanings":"run alongside; follow along; run along; lie along",
+    "type":"kanji"
+  },
+  {
+    "kanji":"凱",
+    "spells":"ガイ ・ カイ ・ かちどき ・ やわらぐ",
+    "meanings":"victory song",
+    "type":"kanji"
+  },
+  {
+    "kanji":"彰",
+    "spells":"ショウ",
+    "meanings":"patent; clear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"采",
+    "spells":"サイ ・ と.る ・ いろどり",
+    "meanings":"dice; form; appearance; take; coloring",
+    "type":"kanji"
+  },
+  {
+    "kanji":"謹",
+    "spells":"キン ・ つつし.む",
+    "meanings":"discreet; reverently; humbly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"暢",
+    "spells":"チョウ ・ のび.る",
+    "meanings":"stretch",
+    "type":"kanji"
+  },
+  {
+    "kanji":"芝",
+    "spells":"シ ・ しば",
+    "meanings":"turf; lawn",
+    "type":"kanji"
+  },
+  {
+    "kanji":"飾",
+    "spells":"ショク ・ かざ.る ・ かざ.り",
+    "meanings":"decorate; ornament; adorn; embellish",
+    "type":"kanji"
+  },
+  {
+    "kanji":"絹",
+    "spells":"ケン ・ きぬ",
+    "meanings":"silk",
+    "type":"kanji"
+  },
+  {
+    "kanji":"繭",
+    "spells":"ケン ・ まゆ ・ きぬ",
+    "meanings":"cocoon",
+    "type":"kanji"
+  },
+  {
+    "kanji":"透",
+    "spells":"トウ ・ す.く ・ す.かす ・ す.ける ・ とう.る ・ とう.す",
+    "meanings":"transparent; permeate; filter; penetrate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鈴",
+    "spells":"レイ ・ リン ・ すず",
+    "meanings":"small bell; buzzer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"騰",
+    "spells":"トウ ・ あが.る ・ のぼ.る",
+    "meanings":"inflation; advancing; going",
+    "type":"kanji"
+  },
+  {
+    "kanji":"慢",
+    "spells":"マン",
+    "meanings":"ridicule; laziness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"就",
+    "spells":"シュウ ・ ジュ ・ つ.く ・ つ.ける",
+    "meanings":"concerning; settle; take position; depart; study; per",
+    "type":"kanji"
+  },
+  {
+    "kanji":"逓",
+    "spells":"テイ ・ かわ.る ・ たがいに",
+    "meanings":"relay; in turn; sending",
+    "type":"kanji"
+  },
+  {
+    "kanji":"牲",
+    "spells":"セイ",
+    "meanings":"animal sacrifice; offering",
+    "type":"kanji"
+  },
+  {
+    "kanji":"阿",
+    "spells":"ア ・ オ ・ おもね.る ・ くま",
+    "meanings":"Africa; flatter; fawn upon; corner; nook; recess",
+    "type":"kanji"
+  },
+  {
+    "kanji":"幕",
+    "spells":"マク ・ バク ・ とばり",
+    "meanings":"curtain; bunting; act of play",
+    "type":"kanji"
+  },
+  {
+    "kanji":"紀",
+    "spells":"キ",
+    "meanings":"chronicle; account; narrative; history; annals; geologic period",
+    "type":"kanji"
+  },
+  {
+    "kanji":"柄",
+    "spells":"ヘイ ・ がら ・ え ・ つか",
+    "meanings":"design; pattern; build; nature; handle; crank; grip; knob; shaft",
+    "type":"kanji"
+  },
+  {
+    "kanji":"梧",
+    "spells":"ゴ ・ あおぎり",
+    "meanings":"Chinese parasol tree; phoenix tree",
+    "type":"kanji"
+  },
+  {
+    "kanji":"甫",
+    "spells":"ホ ・ フ ・ はじ.めて",
+    "meanings":"for the first time; not until",
+    "type":"kanji"
+  },
+  {
+    "kanji":"乃",
+    "spells":"ナイ ・ ダイ ・ ノ ・ アイ ・ の ・ すなわ.ち ・ なんじ",
+    "meanings":"from; possessive particle; whereupon; accordingly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"酉",
+    "spells":"ユウ ・ とり",
+    "meanings":"west; bird; sign of the bird; 5-7PM; tenth sign of Chinese zodiac; sake radical (no. 164)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"獣",
+    "spells":"ジュウ ・ けもの ・ けだもの",
+    "meanings":"animal; beast",
+    "type":"kanji"
+  },
+  {
+    "kanji":"凡",
+    "spells":"ボン ・ ハン ・ およ.そ ・ おうよ.そ ・ すべ.て",
+    "meanings":"mediocre",
+    "type":"kanji"
+  },
+  {
+    "kanji":"衝",
+    "spells":"ショウ ・ つ.く",
+    "meanings":"collide; brunt; highway; opposition (astronomy); thrust; pierce; stab; prick",
+    "type":"kanji"
+  },
+  {
+    "kanji":"拘",
+    "spells":"コウ ・ かか.わる",
+    "meanings":"arrest; seize; concerned; adhere to; despite",
+    "type":"kanji"
+  },
+  {
+    "kanji":"丁",
+    "spells":"チョウ ・ テイ ・ チン ・ トウ ・ チ ・ ひのと",
+    "meanings":"street; ward; town; counter for guns, tools, leaves or cakes of something; even number; 4th calendar sign",
+    "type":"kanji"
+  },
+  {
+    "kanji":"唄",
+    "spells":"バイ ・ うた ・ うた.う",
+    "meanings":"songs with samisen",
+    "type":"kanji"
+  },
+  {
+    "kanji":"孤",
+    "spells":"コ",
+    "meanings":"orphan; alone",
+    "type":"kanji"
+  },
+  {
+    "kanji":"昴",
+    "spells":"コウ ・ ボウ ・ すばる",
+    "meanings":"the Pleiades",
+    "type":"kanji"
+  },
+  {
+    "kanji":"晟",
+    "spells":"セイ ・ ジョウ ・ あきらか",
+    "meanings":"clear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"糾",
+    "spells":"キュウ ・ ただ.す",
+    "meanings":"twist; ask; investigate; verify",
+    "type":"kanji"
+  },
+  {
+    "kanji":"圭",
+    "spells":"ケイ ・ ケ",
+    "meanings":"square jewel; corner; angle; edge",
+    "type":"kanji"
+  },
+  {
+    "kanji":"盤",
+    "spells":"バン",
+    "meanings":"tray; shallow bowl; platter; tub; board; phonograph record",
+    "type":"kanji"
+  },
+  {
+    "kanji":"崩",
+    "spells":"ホウ ・ くず.れる ・ -くず.れ ・ くず.す",
+    "meanings":"crumble; die; demolish; level",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鏡",
+    "spells":"キョウ ・ ケイ ・ かがみ",
+    "meanings":"mirror; speculum; barrel-head; round rice-cake offering",
+    "type":"kanji"
+  },
+  {
+    "kanji":"拓",
+    "spells":"タク ・ ひら.く",
+    "meanings":"clear (the land); open; break up (land)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"節",
+    "spells":"セツ ・ セチ ・ ふし ・ -ぶし ・ のっと",
+    "meanings":"node; season; period; occasion; verse; clause; stanza; honor; joint; knuckle; knob; knot; tune; melody",
+    "type":"kanji"
+  },
+  {
+    "kanji":"跳",
+    "spells":"チョウ ・ は.ねる ・ と.ぶ ・ -と.び",
+    "meanings":"hop; leap up; spring; jerk; prance; buck; splash; sputter; snap",
+    "type":"kanji"
+  },
+  {
+    "kanji":"簿",
+    "spells":"ボ",
+    "meanings":"register; record book",
+    "type":"kanji"
+  },
+  {
+    "kanji":"暖",
+    "spells":"ダン ・ ノン ・ あたた.か ・ あたた.かい ・ あたた.まる ・ あたた.める",
+    "meanings":"warmth",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嵯",
+    "spells":"サ ・ シ",
+    "meanings":"steep; craggy; rugged",
+    "type":"kanji"
+  },
+  {
+    "kanji":"稿",
+    "spells":"コウ ・ わら ・ したがき",
+    "meanings":"draft; copy; manuscript; straw",
+    "type":"kanji"
+  },
+  {
+    "kanji":"披",
+    "spells":"ヒ",
+    "meanings":"expose; open",
+    "type":"kanji"
+  },
+  {
+    "kanji":"視",
+    "spells":"シ ・ み.る",
+    "meanings":"inspection; regard as; see; look at",
+    "type":"kanji"
+  },
+  {
+    "kanji":"析",
+    "spells":"セキ",
+    "meanings":"chop; divide; tear; analyze",
+    "type":"kanji"
+  },
+  {
+    "kanji":"緋",
+    "spells":"ヒ ・ あけ ・ あか",
+    "meanings":"scarlet; cardinal",
+    "type":"kanji"
+  },
+  {
+    "kanji":"勲",
+    "spells":"クン ・ いさお",
+    "meanings":"meritorious deed; merit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"把",
+    "spells":"ハ ・ ワ",
+    "meanings":"grasp; faggot; bunch; counter for bundles",
+    "type":"kanji"
+  },
+  {
+    "kanji":"悠",
+    "spells":"ユウ",
+    "meanings":"permanence; distant; long time; leisure",
+    "type":"kanji"
+  },
+  {
+    "kanji":"軌",
+    "spells":"キ",
+    "meanings":"rut; wheel; track; model; way of doing",
+    "type":"kanji"
+  },
+  {
+    "kanji":"怠",
+    "spells":"タイ ・ おこた.る ・ なま.ける",
+    "meanings":"neglect; laziness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"桃",
+    "spells":"トウ ・ もも",
+    "meanings":"peach tree",
+    "type":"kanji"
+  },
+  {
+    "kanji":"描",
+    "spells":"ビョウ ・ えが.く ・ か.く",
+    "meanings":"sketch; compose; write; draw; paint",
+    "type":"kanji"
+  },
+  {
+    "kanji":"疎",
+    "spells":"ソ ・ ショ ・ うと.い ・ うと.む ・ まば.ら",
+    "meanings":"alienate; rough; neglect; shun; sparse",
+    "type":"kanji"
+  },
+  {
+    "kanji":"哉",
+    "spells":"サイ ・ かな ・ や",
+    "meanings":"how; what; alas; question mark; ?",
+    "type":"kanji"
+  },
+  {
+    "kanji":"杏",
+    "spells":"キョウ ・ アン ・ コウ ・ あんず",
+    "meanings":"apricot",
+    "type":"kanji"
+  },
+  {
+    "kanji":"琳",
+    "spells":"リン",
+    "meanings":"jewel; tinkling of jewelry",
+    "type":"kanji"
+  },
+  {
+    "kanji":"詢",
+    "spells":"ジュン ・ シュン ・ はか.る ・ まこと",
+    "meanings":"consult with",
+    "type":"kanji"
+  },
+  {
+    "kanji":"亥",
+    "spells":"ガイ ・ カイ ・ い",
+    "meanings":"sign of the hog; 9-11PM; twelfth sign of the Chinese zodiac",
+    "type":"kanji"
+  },
+  {
+    "kanji":"肇",
+    "spells":"チョウ ・ ジョウ ・ トウ ・ はじ.める ・ はじめ",
+    "meanings":"beginning",
+    "type":"kanji"
+  },
+  {
+    "kanji":"銃",
+    "spells":"ジュウ ・ つつ",
+    "meanings":"gun; arms",
+    "type":"kanji"
+  },
+  {
+    "kanji":"謡",
+    "spells":"ヨウ ・ うた.い ・ うた.う",
+    "meanings":"noh chanting",
+    "type":"kanji"
+  },
+  {
+    "kanji":"酸",
+    "spells":"サン ・ す.い",
+    "meanings":"acid; bitterness; sour; tart",
+    "type":"kanji"
+  },
+  {
+    "kanji":"架",
+    "spells":"カ ・ か.ける ・ か.かる",
+    "meanings":"erect; frame; mount; support; shelf; construct",
+    "type":"kanji"
+  },
+  {
+    "kanji":"玖",
+    "spells":"キュウ ・ ク",
+    "meanings":"beautiful black jewel; nine",
+    "type":"kanji"
+  },
+  {
+    "kanji":"梨",
+    "spells":"リ ・ なし",
+    "meanings":"pear tree",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遮",
+    "spells":"シャ ・ さえぎ.る",
+    "meanings":"intercept; interrupt; obstruct",
+    "type":"kanji"
+  },
+  {
+    "kanji":"幣",
+    "spells":"ヘイ ・ ぬさ",
+    "meanings":"cash; bad habit; humble prefix; gift; Shinto offerings of cloth; rope; cut paper",
+    "type":"kanji"
+  },
+  {
+    "kanji":"但",
+    "spells":"タン ・ ただ.し",
+    "meanings":"however; but",
+    "type":"kanji"
+  },
+  {
+    "kanji":"粘",
+    "spells":"ネン ・ ねば.る",
+    "meanings":"sticky; glutinous; greasy; persevere",
+    "type":"kanji"
+  },
+  {
+    "kanji":"媛",
+    "spells":"エン ・ ひめ",
+    "meanings":"beautiful woman; princess",
+    "type":"kanji"
+  },
+  {
+    "kanji":"庄",
+    "spells":"ショウ ・ ソ ・ ソウ ・ ホウ",
+    "meanings":"level",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嫁",
+    "spells":"カ ・ よめ ・ とつ.ぐ ・ い.く ・ ゆ.く",
+    "meanings":"marry into; bride",
+    "type":"kanji"
+  },
+  {
+    "kanji":"薫",
+    "spells":"クン ・ かお.る",
+    "meanings":"send forth fragrance; fragrant; be scented; smoke (tobacco)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"婆",
+    "spells":"バ ・ ばば ・ ばあ",
+    "meanings":"old woman; grandma; wet nurse",
+    "type":"kanji"
+  },
+  {
+    "kanji":"眉",
+    "spells":"ビ ・ ミ ・ まゆ",
+    "meanings":"eyebrow",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鮮",
+    "spells":"セン ・ あざ.やか",
+    "meanings":"fresh; vivid; clear; brilliant; Korea",
+    "type":"kanji"
+  },
+  {
+    "kanji":"峡",
+    "spells":"キョウ ・ コウ ・ はざま",
+    "meanings":"gorge; ravine",
+    "type":"kanji"
+  },
+  {
+    "kanji":"称",
+    "spells":"ショウ ・ たた.える ・ とな.える ・ あ.げる ・ かな.う ・ はか.り ・ はか.る ・ ほめ.る",
+    "meanings":"appellation; praise; admire; name; title; fame",
+    "type":"kanji"
+  },
+  {
+    "kanji":"核",
+    "spells":"カク",
+    "meanings":"nucleus; core; kernel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"樺",
+    "spells":"カ ・ かば ・ かんば",
+    "meanings":"birch; dark red",
+    "type":"kanji"
+  },
+  {
+    "kanji":"款",
+    "spells":"カン",
+    "meanings":"goodwill; article; section; friendship; collusion",
+    "type":"kanji"
+  },
+  {
+    "kanji":"憧",
+    "spells":"ショウ ・ トウ ・ ドウ ・ あこが.れる",
+    "meanings":"yearn after; long for; aspire to; admire; adore",
+    "type":"kanji"
+  },
+  {
+    "kanji":"充",
+    "spells":"ジュウ ・ あ.てる ・ み.たす",
+    "meanings":"allot; fill",
+    "type":"kanji"
+  },
+  {
+    "kanji":"儒",
+    "spells":"ジュ",
+    "meanings":"Confucian",
+    "type":"kanji"
+  },
+  {
+    "kanji":"岳",
+    "spells":"ガク ・ たけ",
+    "meanings":"point; peak; mountain",
+    "type":"kanji"
+  },
+  {
+    "kanji":"祉",
+    "spells":"シ",
+    "meanings":"welfare; happiness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"尭",
+    "spells":"ギョウ ・ たか.い",
+    "meanings":"high; far",
+    "type":"kanji"
+  },
+  {
+    "kanji":"井",
+    "spells":"セイ ・ ショウ ・ い",
+    "meanings":"well; well crib; town; community",
+    "type":"kanji"
+  },
+  {
+    "kanji":"槽",
+    "spells":"ソウ ・ ふね",
+    "meanings":"vat; tub; tank",
+    "type":"kanji"
+  },
+  {
+    "kanji":"疾",
+    "spells":"シツ ・ はや.い",
+    "meanings":"rapidly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"惣",
+    "spells":"ソウ ・ いそが.しい ・ そうじて",
+    "meanings":"all",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鋼",
+    "spells":"コウ ・ はがね",
+    "meanings":"steel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"紛",
+    "spells":"フン ・ まぎ.れる ・ -まぎ.れ ・ まぎ.らす ・ まぎ.らわす ・ まぎ.らわしい",
+    "meanings":"distract; be mistaken for; go astray; divert",
+    "type":"kanji"
+  },
+  {
+    "kanji":"酢",
+    "spells":"サク ・ す",
+    "meanings":"vinegar; sour; acid; tart",
+    "type":"kanji"
+  },
+  {
+    "kanji":"智",
+    "spells":"チ",
+    "meanings":"wisdom; intellect; reason",
+    "type":"kanji"
+  },
+  {
+    "kanji":"朱",
+    "spells":"シュ ・ あけ",
+    "meanings":"vermilion; cinnabar; scarlet; red; bloody",
+    "type":"kanji"
+  },
+  {
+    "kanji":"益",
+    "spells":"エキ ・ ヤク ・ ま.す",
+    "meanings":"benefit; gain; profit; advantage",
+    "type":"kanji"
+  },
+  {
+    "kanji":"狭",
+    "spells":"キョウ ・ コウ ・ せま.い ・ せば.める ・ せば.まる ・ さ",
+    "meanings":"cramped; narrow; contract; tight",
+    "type":"kanji"
+  },
+  {
+    "kanji":"価",
+    "spells":"カ ・ ケ ・ あたい",
+    "meanings":"value; price",
+    "type":"kanji"
+  },
+  {
+    "kanji":"朗",
+    "spells":"ロウ ・ ほが.らか ・ あき.らか",
+    "meanings":"melodious; clear; bright; serene; cheerful",
+    "type":"kanji"
+  },
+  {
+    "kanji":"寸",
+    "spells":"スン",
+    "meanings":"measurement; foot/10",
+    "type":"kanji"
+  },
+  {
+    "kanji":"激",
+    "spells":"ゲキ ・ はげ.しい",
+    "meanings":"violent; get excited; enraged; chafe; incite",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蚊",
+    "spells":"ブン ・ か",
+    "meanings":"mosquito",
+    "type":"kanji"
+  },
+  {
+    "kanji":"浸",
+    "spells":"シン ・ ひた.す ・ ひた.る",
+    "meanings":"immersed; soak; dip; steep; moisten; wet; dunk",
+    "type":"kanji"
+  },
+  {
+    "kanji":"暑",
+    "spells":"ショ ・ あつ.い",
+    "meanings":"sultry; hot; summer heat",
+    "type":"kanji"
+  },
+  {
+    "kanji":"暇",
+    "spells":"カ ・ ひま ・ いとま",
+    "meanings":"spare time; rest; leisure; time; leave of absence",
+    "type":"kanji"
+  },
+  {
+    "kanji":"欽",
+    "spells":"キン ・ コン ・ つつし.む",
+    "meanings":"respect; revere; long for",
+    "type":"kanji"
+  },
+  {
+    "kanji":"晏",
+    "spells":"アン ・ おそ.い",
+    "meanings":"late; quiet; sets (sun)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"駆",
+    "spells":"ク ・ か.ける ・ か.る",
+    "meanings":"drive; run; gallop; advance; inspire; impel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"汽",
+    "spells":"キ",
+    "meanings":"vapor; steam",
+    "type":"kanji"
+  },
+  {
+    "kanji":"仮",
+    "spells":"カ ・ ケ ・ かり ・ かり-",
+    "meanings":"sham; temporary; interim; assumed (name); informal",
+    "type":"kanji"
+  },
+  {
+    "kanji":"栽",
+    "spells":"サイ",
+    "meanings":"plantation; planting",
+    "type":"kanji"
+  },
+  {
+    "kanji":"娠",
+    "spells":"シン",
+    "meanings":"with child; pregnancy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"聴",
+    "spells":"チョウ ・ テイ ・ き.く ・ ゆる.す",
+    "meanings":"listen; headstrong; naughty; careful inquiry",
+    "type":"kanji"
+  },
+  {
+    "kanji":"甲",
+    "spells":"コウ ・ カン ・ カ ・ きのえ",
+    "meanings":"armor; high (voice); A grade; first class; former; instep; carapace",
+    "type":"kanji"
+  },
+  {
+    "kanji":"椿",
+    "spells":"チン ・ チュン ・ つばき",
+    "meanings":"camellia",
+    "type":"kanji"
+  },
+  {
+    "kanji":"衷",
+    "spells":"チュウ",
+    "meanings":"inmost; heart; mind; inside",
+    "type":"kanji"
+  },
+  {
+    "kanji":"託",
+    "spells":"タク ・ かこつ.ける ・ かこ.つ ・ かこ.つける",
+    "meanings":"consign; requesting; entrusting with; pretend; hint",
+    "type":"kanji"
+  },
+  {
+    "kanji":"襟",
+    "spells":"キン ・ えり",
+    "meanings":"collar; neck; lapel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"臭",
+    "spells":"シュウ ・ くさ.い ・ -くさ.い ・ にお.う ・ にお.い",
+    "meanings":"stinking; ill-smelling; suspicious looking; odor; savor; fragrance; be fragrant; stink; glow; be bright",
+    "type":"kanji"
+  },
+  {
+    "kanji":"秘",
+    "spells":"ヒ ・ ひ.める ・ ひそ.か ・ かく.す",
+    "meanings":"secret; conceal",
+    "type":"kanji"
+  },
+  {
+    "kanji":"奔",
+    "spells":"ホン ・ はし.る",
+    "meanings":"run; bustle",
+    "type":"kanji"
+  },
+  {
+    "kanji":"恒",
+    "spells":"コウ ・ つね ・ つねに",
+    "meanings":"constancy; always",
+    "type":"kanji"
+  },
+  {
+    "kanji":"閥",
+    "spells":"バツ",
+    "meanings":"clique; lineage; pedigree; faction; clan",
+    "type":"kanji"
+  },
+  {
+    "kanji":"邑",
+    "spells":"ユウ ・ うれ.える ・ くに ・ むら",
+    "meanings":"village; rural community; right village radical (no. 163)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"彪",
+    "spells":"ヒョウ ・ ヒュウ ・ あや",
+    "meanings":"spotted; mottled; patterned; small tiger",
+    "type":"kanji"
+  },
+  {
+    "kanji":"賦",
+    "spells":"フ ・ ブ",
+    "meanings":"levy; ode; prose; poem; tribute; installment",
+    "type":"kanji"
+  },
+  {
+    "kanji":"棚",
+    "spells":"ホウ ・ たな ・ -だな",
+    "meanings":"shelf; ledge; rack; mount; mantle; trellis",
+    "type":"kanji"
+  },
+  {
+    "kanji":"償",
+    "spells":"ショウ ・ つぐな.う",
+    "meanings":"reparation; make up for; recompense; redeem",
+    "type":"kanji"
+  },
+  {
+    "kanji":"斗",
+    "spells":"ト ・ トウ",
+    "meanings":"Big Dipper; 10 sho (vol); sake dipper; dots and cross radical (no. 68)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"歓",
+    "spells":"カン ・ よろこ.ぶ",
+    "meanings":"delight; joy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"駒",
+    "spells":"ク ・ こま",
+    "meanings":"pony; horse; colt",
+    "type":"kanji"
+  },
+  {
+    "kanji":"勘",
+    "spells":"カン",
+    "meanings":"intuition; perception",
+    "type":"kanji"
+  },
+  {
+    "kanji":"繰",
+    "spells":"ソウ ・ く.る",
+    "meanings":"winding; reel; spin; turn (pages); look up; refer to",
+    "type":"kanji"
+  },
+  {
+    "kanji":"曹",
+    "spells":"ソウ ・ ゾウ ・ つかさ ・ ともがら ・ へや",
+    "meanings":"cadet; friend",
+    "type":"kanji"
+  },
+  {
+    "kanji":"仙",
+    "spells":"セン ・ セント",
+    "meanings":"hermit; wizard; cent",
+    "type":"kanji"
+  },
+  {
+    "kanji":"俳",
+    "spells":"ハイ",
+    "meanings":"haiku; actor",
+    "type":"kanji"
+  },
+  {
+    "kanji":"拒",
+    "spells":"キョ ・ ゴ ・ こば.む",
+    "meanings":"repel; refuse; reject; decline",
+    "type":"kanji"
+  },
+  {
+    "kanji":"渦",
+    "spells":"カ ・ うず",
+    "meanings":"whirlpool; eddy; vortex",
+    "type":"kanji"
+  },
+  {
+    "kanji":"稲",
+    "spells":"トウ ・ テ ・ いね ・ いな-",
+    "meanings":"rice plant",
+    "type":"kanji"
+  },
+  {
+    "kanji":"属",
+    "spells":"ゾク ・ ショク ・ さかん ・ つく ・ やから",
+    "meanings":"belong; genus; subordinate official; affiliated",
+    "type":"kanji"
+  },
+  {
+    "kanji":"叙",
+    "spells":"ジョ ・ つい.ず ・ ついで",
+    "meanings":"confer; relate; narrate; describe",
+    "type":"kanji"
+  },
+  {
+    "kanji":"奇",
+    "spells":"キ ・ く.しき ・ あや.しい ・ くし ・ めずら.しい",
+    "meanings":"strange; strangeness; curiosity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"斥",
+    "spells":"セキ ・ しりぞ.ける",
+    "meanings":"reject; retreat; recede; withdraw; repel; repulse",
+    "type":"kanji"
+  },
+  {
+    "kanji":"亨",
+    "spells":"コウ ・ キョウ ・ ホウ ・ とお.る",
+    "meanings":"pass through; go smoothly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"括",
+    "spells":"カツ ・ くく.る",
+    "meanings":"fasten; tie up; arrest; constrict",
+    "type":"kanji"
+  },
+  {
+    "kanji":"条",
+    "spells":"ジョウ ・ チョウ ・ デキ ・ えだ ・ すじ",
+    "meanings":"article; clause; item; stripe; streak",
+    "type":"kanji"
+  },
+  {
+    "kanji":"匠",
+    "spells":"ショウ ・ たくみ",
+    "meanings":"artisan; workman; carpenter",
+    "type":"kanji"
+  },
+  {
+    "kanji":"幻",
+    "spells":"ゲン ・ まぼろし",
+    "meanings":"phantasm; vision; dream; illusion; apparition",
+    "type":"kanji"
+  },
+  {
+    "kanji":"皓",
+    "spells":"コウ ・ しろ.い ・ ひか.る",
+    "meanings":"white; clear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"忍",
+    "spells":"ニン ・ しの.ぶ ・ しの.ばせる",
+    "meanings":"endure; bear; put up with; conceal; secrete; spy; sneak",
+    "type":"kanji"
+  },
+  {
+    "kanji":"範",
+    "spells":"ハン",
+    "meanings":"pattern; example; model",
+    "type":"kanji"
+  },
+  {
+    "kanji":"佑",
+    "spells":"ユウ ・ ウ ・ たす.ける",
+    "meanings":"help; assist",
+    "type":"kanji"
+  },
+  {
+    "kanji":"環",
+    "spells":"カン ・ わ",
+    "meanings":"ring; circle; link; wheel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"楊",
+    "spells":"ヨウ ・ かわ ・ やなぎ",
+    "meanings":"willow",
+    "type":"kanji"
+  },
+  {
+    "kanji":"顧",
+    "spells":"コ ・ かえり.みる",
+    "meanings":"look back; review; examine oneself; turn around",
+    "type":"kanji"
+  },
+  {
+    "kanji":"奏",
+    "spells":"ソウ ・ かな.でる",
+    "meanings":"play music; speak to a ruler; complete",
+    "type":"kanji"
+  },
+  {
+    "kanji":"錦",
+    "spells":"キン ・ にしき",
+    "meanings":"brocade; fine dress; honors",
+    "type":"kanji"
+  },
+  {
+    "kanji":"案",
+    "spells":"アン ・ つくえ",
+    "meanings":"plan; suggestion; draft; ponder; fear; proposition; idea; expectation; worry; table; bench",
+    "type":"kanji"
+  },
+  {
+    "kanji":"旭",
+    "spells":"キョク ・ あさひ",
+    "meanings":"rising sun; morning sun",
+    "type":"kanji"
+  },
+  {
+    "kanji":"麿",
+    "spells":"まろ",
+    "meanings":"I; you; (kokuji)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"耗",
+    "spells":"モウ ・ コウ ・ カウ",
+    "meanings":"decrease",
+    "type":"kanji"
+  },
+  {
+    "kanji":"柚",
+    "spells":"ユ ・ ユウ ・ ジク ・ ゆず",
+    "meanings":"citron",
+    "type":"kanji"
+  },
+  {
+    "kanji":"脚",
+    "spells":"キャク ・ キャ ・ カク ・ あし",
+    "meanings":"skids; leg; undercarriage",
+    "type":"kanji"
+  },
+  {
+    "kanji":"衰",
+    "spells":"スイ ・ おとろ.える",
+    "meanings":"decline; wane; weaken",
+    "type":"kanji"
+  },
+  {
+    "kanji":"庸",
+    "spells":"ヨウ",
+    "meanings":"commonplace; ordinary; employment",
+    "type":"kanji"
+  },
+  {
+    "kanji":"叔",
+    "spells":"シュク",
+    "meanings":"uncle; youth",
+    "type":"kanji"
+  },
+  {
+    "kanji":"帝",
+    "spells":"テイ ・ みかど",
+    "meanings":"sovereign; the emperor; god; creator",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嵩",
+    "spells":"スウ ・ シュウ ・ かさ ・ かさ.む ・ たか.い",
+    "meanings":"be aggravated; grow worse; grow bulky; swell",
+    "type":"kanji"
+  },
+  {
+    "kanji":"撲",
+    "spells":"ボク",
+    "meanings":"slap; strike; hit; beat; tell; speak",
+    "type":"kanji"
+  },
+  {
+    "kanji":"侃",
+    "spells":"カン ・ つよ.い",
+    "meanings":"strong; just; righteous; peace-loving",
+    "type":"kanji"
+  },
+  {
+    "kanji":"剤",
+    "spells":"ザイ ・ スイ ・ セイ ・ かる ・ けず.る",
+    "meanings":"dose; medicine; drug",
+    "type":"kanji"
+  },
+  {
+    "kanji":"系",
+    "spells":"ケイ",
+    "meanings":"lineage; system",
+    "type":"kanji"
+  },
+  {
+    "kanji":"密",
+    "spells":"ミツ ・ ひそ.か",
+    "meanings":"secrecy; density (pop); minuteness; carefulness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"覧",
+    "spells":"ラン ・ み.る",
+    "meanings":"perusal; see",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鯛",
+    "spells":"チョウ ・ たい",
+    "meanings":"sea bream; red snapper",
+    "type":"kanji"
+  },
+  {
+    "kanji":"朕",
+    "spells":"チン",
+    "meanings":"majestic plural; imperial we",
+    "type":"kanji"
+  },
+  {
+    "kanji":"抹",
+    "spells":"マツ",
+    "meanings":"rub; paint; erase",
+    "type":"kanji"
+  },
+  {
+    "kanji":"漆",
+    "spells":"シツ ・ うるし",
+    "meanings":"lacquer; varnish; seven",
+    "type":"kanji"
+  },
+  {
+    "kanji":"妃",
+    "spells":"ヒ ・ きさき",
+    "meanings":"queen; princess",
+    "type":"kanji"
+  },
+  {
+    "kanji":"模",
+    "spells":"モ ・ ボ",
+    "meanings":"imitation; copy; mock",
+    "type":"kanji"
+  },
+  {
+    "kanji":"序",
+    "spells":"ジョ ・ つい.で ・ ついで",
+    "meanings":"preface; beginning; order; precedence; occasion; chance; incidentally",
+    "type":"kanji"
+  },
+  {
+    "kanji":"剖",
+    "spells":"ボウ",
+    "meanings":"divide",
+    "type":"kanji"
+  },
+  {
+    "kanji":"塊",
+    "spells":"カイ ・ ケ ・ かたまり ・ つちくれ",
+    "meanings":"clod; lump; chunk; clot; mass",
+    "type":"kanji"
+  },
+  {
+    "kanji":"倉",
+    "spells":"ソウ ・ くら",
+    "meanings":"godown; warehouse; storehouse; cellar; treasury",
+    "type":"kanji"
+  },
+  {
+    "kanji":"洸",
+    "spells":"コウ",
+    "meanings":"sparkling water",
+    "type":"kanji"
+  },
+  {
+    "kanji":"執",
+    "spells":"シツ ・ シュウ ・ と.る",
+    "meanings":"tenacious; take hold; grasp; take to heart",
+    "type":"kanji"
+  },
+  {
+    "kanji":"儀",
+    "spells":"ギ",
+    "meanings":"ceremony; rule; affair; case; a matter",
+    "type":"kanji"
+  },
+  {
+    "kanji":"偽",
+    "spells":"ギ ・ カ ・ いつわ.る ・ にせ ・ いつわ.り",
+    "meanings":"falsehood; lie; deceive; pretend; counterfeit; forgery",
+    "type":"kanji"
+  },
+  {
+    "kanji":"杉",
+    "spells":"サン ・ すぎ",
+    "meanings":"cedar; cryptomeria",
+    "type":"kanji"
+  },
+  {
+    "kanji":"朴",
+    "spells":"ボク ・ ほう ・ ほお ・ えのき",
+    "meanings":"crude; simple; plain; docile",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嘉",
+    "spells":"カ ・ よみ.する ・ よい",
+    "meanings":"applaud; praise; esteem; happy; auspicious",
+    "type":"kanji"
+  },
+  {
+    "kanji":"態",
+    "spells":"タイ ・ わざ.と",
+    "meanings":"attitude; condition; figure; appearance; voice (of verbs)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"帆",
+    "spells":"ハン ・ ほ",
+    "meanings":"sail",
+    "type":"kanji"
+  },
+  {
+    "kanji":"丹",
+    "spells":"タン ・ に",
+    "meanings":"rust-colored; red; red lead; pills",
+    "type":"kanji"
+  },
+  {
+    "kanji":"虞",
+    "spells":"グ ・ おそれ ・ おもんぱか.る ・ はか.る ・ うれ.える ・ あざむ.く ・ あやま.る ・ のぞ.む ・ たの.しむ",
+    "meanings":"expectation; consideration; uneasiness; fear; anxiety; concern",
+    "type":"kanji"
+  },
+  {
+    "kanji":"瞳",
+    "spells":"ドウ ・ トウ ・ ひとみ",
+    "meanings":"pupil",
+    "type":"kanji"
+  },
+  {
+    "kanji":"珠",
+    "spells":"シュ ・ たま",
+    "meanings":"pearl; gem; jewel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"証",
+    "spells":"ショウ ・ あかし",
+    "meanings":"evidence; proof; certificate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"樹",
+    "spells":"ジュ ・ き",
+    "meanings":"timber; trees; wood; establish; set up",
+    "type":"kanji"
+  },
+  {
+    "kanji":"墜",
+    "spells":"ツイ ・ お.ちる ・ お.つ",
+    "meanings":"crash; fall (down)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"翻",
+    "spells":"ホン ・ ハン ・ ひるがえ.る ・ ひるがえ.す",
+    "meanings":"flip; turn over; wave; flutter; change (mind)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"姫",
+    "spells":"キ ・ ひめ ・ ひめ-",
+    "meanings":"princess",
+    "type":"kanji"
+  },
+  {
+    "kanji":"輩",
+    "spells":"ハイ ・ -ばら ・ やから ・ やかい ・ ともがら",
+    "meanings":"comrade; fellow; people; companions",
+    "type":"kanji"
+  },
+  {
+    "kanji":"醸",
+    "spells":"ジョウ ・ かも.す",
+    "meanings":"brew; cause",
+    "type":"kanji"
+  },
+  {
+    "kanji":"汐",
+    "spells":"セキ ・ しお ・ うしお ・ せい",
+    "meanings":"eventide; tide; salt water; opportunity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"貞",
+    "spells":"テイ ・ さだ",
+    "meanings":"upright; chastity; constancy; righteousness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"栓",
+    "spells":"セン",
+    "meanings":"plug; bolt; cork; bung; stopper",
+    "type":"kanji"
+  },
+  {
+    "kanji":"陳",
+    "spells":"チン ・ ひ.ねる",
+    "meanings":"exhibit; state; relate; explain",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嗣",
+    "spells":"シ",
+    "meanings":"heir; succeed",
+    "type":"kanji"
+  },
+  {
+    "kanji":"猶",
+    "spells":"ユウ ・ ユ ・ なお",
+    "meanings":"furthermore; still; yet",
+    "type":"kanji"
+  },
+  {
+    "kanji":"矯",
+    "spells":"キョウ ・ た.める",
+    "meanings":"rectify; straighten; correct; reform; cure; control; pretend; falsify",
+    "type":"kanji"
+  },
+  {
+    "kanji":"丘",
+    "spells":"キュウ ・ おか",
+    "meanings":"hill; knoll",
+    "type":"kanji"
+  },
+  {
+    "kanji":"熟",
+    "spells":"ジュク ・ う.れる",
+    "meanings":"mellow; ripen; mature; acquire skill",
+    "type":"kanji"
+  },
+  {
+    "kanji":"碑",
+    "spells":"ヒ ・ いしぶみ",
+    "meanings":"tombstone; monument",
+    "type":"kanji"
+  },
+  {
+    "kanji":"馨",
+    "spells":"ケイ ・ キョウ ・ かお.る ・ かおり",
+    "meanings":"fragrant; balmy; favourable",
+    "type":"kanji"
+  },
+  {
+    "kanji":"企",
+    "spells":"キ ・ くわだ.てる ・ たくら.む",
+    "meanings":"undertake; scheme; design; attempt; plan",
+    "type":"kanji"
+  },
+  {
+    "kanji":"恭",
+    "spells":"キョウ ・ うやうや.しい",
+    "meanings":"respect; reverent",
+    "type":"kanji"
+  },
+  {
+    "kanji":"監",
+    "spells":"カン",
+    "meanings":"oversee; official; govt office; rule; administer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"酪",
+    "spells":"ラク",
+    "meanings":"dairy products; whey; broth; fruit juice",
+    "type":"kanji"
+  },
+  {
+    "kanji":"吐",
+    "spells":"ト ・ は.く ・ つ.く",
+    "meanings":"spit; vomit; belch; confess; tell (lies)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"尼",
+    "spells":"ニ ・ あま",
+    "meanings":"nun",
+    "type":"kanji"
+  },
+  {
+    "kanji":"棄",
+    "spells":"キ ・ す.てる",
+    "meanings":"abandon; throw away; discard; resign; reject; sacrifice",
+    "type":"kanji"
+  },
+  {
+    "kanji":"暁",
+    "spells":"ギョウ ・ キョウ ・ あかつき ・ さと.る",
+    "meanings":"daybreak; dawn; in the event",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蒼",
+    "spells":"ソウ ・ あお.い",
+    "meanings":"blue; pale",
+    "type":"kanji"
+  },
+  {
+    "kanji":"犠",
+    "spells":"ギ ・ キ ・ いけにえ",
+    "meanings":"sacrifice",
+    "type":"kanji"
+  },
+  {
+    "kanji":"敏",
+    "spells":"ビン ・ さとい",
+    "meanings":"cleverness; agile; alert",
+    "type":"kanji"
+  },
+  {
+    "kanji":"康",
+    "spells":"コウ",
+    "meanings":"ease; peace",
+    "type":"kanji"
+  },
+  {
+    "kanji":"抑",
+    "spells":"ヨク ・ おさ.える",
+    "meanings":"repress; well; now; in the first place; push; shove; press; seal; do in spite of",
+    "type":"kanji"
+  },
+  {
+    "kanji":"紋",
+    "spells":"モン",
+    "meanings":"family crest; figures",
+    "type":"kanji"
+  },
+  {
+    "kanji":"斉",
+    "spells":"セイ ・ サイ ・ そろ.う ・ ひと.しい ・ ひと.しく ・ あたる ・ はやい",
+    "meanings":"adjusted; alike; equal; similar variety of",
+    "type":"kanji"
+  },
+  {
+    "kanji":"伍",
+    "spells":"ゴ ・ いつつ",
+    "meanings":"5; 5-man squad; file; line",
+    "type":"kanji"
+  },
+  {
+    "kanji":"俊",
+    "spells":"シュン",
+    "meanings":"sagacious; genius; excellence",
+    "type":"kanji"
+  },
+  {
+    "kanji":"忌",
+    "spells":"キ ・ い.む ・ い.み ・ い.まわしい",
+    "meanings":"mourning; abhor; detestable; death anniversary",
+    "type":"kanji"
+  },
+  {
+    "kanji":"癖",
+    "spells":"ヘキ ・ くせ ・ くせ.に",
+    "meanings":"mannerism; habit; vice; trait; fault; kink",
+    "type":"kanji"
+  },
+  {
+    "kanji":"凌",
+    "spells":"リョウ ・ しの.ぐ",
+    "meanings":"endure; keep (rain)out; stave off; tide over; defy; slight; surpass",
+    "type":"kanji"
+  },
+  {
+    "kanji":"躍",
+    "spells":"ヤク ・ おど.る",
+    "meanings":"leap; dance; skip",
+    "type":"kanji"
+  },
+  {
+    "kanji":"坪",
+    "spells":"ヘイ ・ つぼ",
+    "meanings":"two-mat area; ‾36 sq ft",
+    "type":"kanji"
+  },
+  {
+    "kanji":"斜",
+    "spells":"シャ ・ なな.め ・ はす",
+    "meanings":"diagonal; slanting; oblique",
+    "type":"kanji"
+  },
+  {
+    "kanji":"唯",
+    "spells":"ユイ ・ イ ・ ただ",
+    "meanings":"solely; only; merely; simply",
+    "type":"kanji"
+  },
+  {
+    "kanji":"罷",
+    "spells":"ヒ ・ まか.り- ・ や.める",
+    "meanings":"quit; stop; leave; withdraw; go",
+    "type":"kanji"
+  },
+  {
+    "kanji":"稜",
+    "spells":"リョウ ・ ロウ ・ いつ ・ かど",
+    "meanings":"angle; edge; corner; power; majesty",
+    "type":"kanji"
+  },
+  {
+    "kanji":"諒",
+    "spells":"リョウ ・ あきら.か ・ まことに",
+    "meanings":"fact; reality; understand; appreciate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"豆",
+    "spells":"トウ ・ ズ ・ まめ ・ まめ-",
+    "meanings":"beans; pea; midget",
+    "type":"kanji"
+  },
+  {
+    "kanji":"粛",
+    "spells":"シュク ・ スク ・ つつし.む",
+    "meanings":"solemn; quietly; softly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"善",
+    "spells":"ゼン ・ よ.い ・ い.い ・ よ.く ・ よし.とする",
+    "meanings":"virtuous; good; goodness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"惇",
+    "spells":"シュン ・ ジュン ・ トン ・ あつ.い",
+    "meanings":"sincere; kind; considerate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"譜",
+    "spells":"フ",
+    "meanings":"musical score; music; note; staff; table; genealogy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"詳",
+    "spells":"ショウ ・ くわ.しい ・ つまび.らか",
+    "meanings":"detailed; full; minute; accurate; well-informed",
+    "type":"kanji"
+  },
+  {
+    "kanji":"慧",
+    "spells":"ケイ ・ エ ・ さとい",
+    "meanings":"wise",
+    "type":"kanji"
+  },
+  {
+    "kanji":"硫",
+    "spells":"リュウ",
+    "meanings":"sulphur",
+    "type":"kanji"
+  },
+  {
+    "kanji":"澄",
+    "spells":"チョウ ・ す.む ・ す.ます ・ -す.ます",
+    "meanings":"lucidity; be clear; clear; clarify; settle; strain; look grave",
+    "type":"kanji"
+  },
+  {
+    "kanji":"憩",
+    "spells":"ケイ ・ いこ.い ・ いこ.う",
+    "meanings":"recess; rest; relax; repose",
+    "type":"kanji"
+  },
+  {
+    "kanji":"絢",
+    "spells":"ケン",
+    "meanings":"kimono design",
+    "type":"kanji"
+  },
+  {
+    "kanji":"菫",
+    "spells":"キン ・ すみれ",
+    "meanings":"the violet",
+    "type":"kanji"
+  },
+  {
+    "kanji":"基",
+    "spells":"キ ・ もと ・ もとい",
+    "meanings":"fundamentals; radical (chem); counter for machines; foundation",
+    "type":"kanji"
+  },
+  {
+    "kanji":"桐",
+    "spells":"トウ ・ ドウ ・ きり",
+    "meanings":"paulownia",
+    "type":"kanji"
+  },
+  {
+    "kanji":"陪",
+    "spells":"バイ",
+    "meanings":"obeisance; follow; accompany; attend on",
+    "type":"kanji"
+  },
+  {
+    "kanji":"綾",
+    "spells":"リン ・ あや",
+    "meanings":"design; figured cloth; twill",
+    "type":"kanji"
+  },
+  {
+    "kanji":"魁",
+    "spells":"カイ ・ さきがけ ・ かしら",
+    "meanings":"charging ahead of others",
+    "type":"kanji"
+  },
+  {
+    "kanji":"宵",
+    "spells":"ショウ ・ よい",
+    "meanings":"wee hours; evening; early night",
+    "type":"kanji"
+  },
+  {
+    "kanji":"晨",
+    "spells":"シン ・ あした ・ とき ・ あさ",
+    "meanings":"morning; early",
+    "type":"kanji"
+  },
+  {
+    "kanji":"礎",
+    "spells":"ソ ・ いしずえ",
+    "meanings":"cornerstone; foundation stone",
+    "type":"kanji"
+  },
+  {
+    "kanji":"宜",
+    "spells":"ギ ・ よろ.しい ・ よろ.しく",
+    "meanings":"best regards; good",
+    "type":"kanji"
+  },
+  {
+    "kanji":"護",
+    "spells":"ゴ ・ まも.る",
+    "meanings":"safeguard; protect",
+    "type":"kanji"
+  },
+  {
+    "kanji":"塑",
+    "spells":"ソ ・ でく",
+    "meanings":"model; molding",
+    "type":"kanji"
+  },
+  {
+    "kanji":"縛",
+    "spells":"バク ・ しば.る",
+    "meanings":"truss; arrest; bind; tie; restrain",
+    "type":"kanji"
+  },
+  {
+    "kanji":"絃",
+    "spells":"ゲン ・ いと",
+    "meanings":"string; cord; samisen music",
+    "type":"kanji"
+  },
+  {
+    "kanji":"旬",
+    "spells":"ジュン ・ シュン",
+    "meanings":"decameron; 10-day period; season (for specific products)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"宙",
+    "spells":"チュウ",
+    "meanings":"mid-air; air; space; sky; memorization; interval of time",
+    "type":"kanji"
+  },
+  {
+    "kanji":"瑚",
+    "spells":"コ ・ ゴ",
+    "meanings":"ancestral offering receptacle; coral",
+    "type":"kanji"
+  },
+  {
+    "kanji":"是",
+    "spells":"ゼ ・ シ ・ これ ・ この ・ ここ",
+    "meanings":"just so; this; right; justice",
+    "type":"kanji"
+  },
+  {
+    "kanji":"秀",
+    "spells":"シュウ ・ ひい.でる",
+    "meanings":"excel; excellence; beauty; surpass",
+    "type":"kanji"
+  },
+  {
+    "kanji":"挿",
+    "spells":"ソウ ・ さ.す ・ はさ.む",
+    "meanings":"insert; put in; graft; wear (sword)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鹿",
+    "spells":"ロク ・ しか ・ か",
+    "meanings":"deer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"批",
+    "spells":"ヒ",
+    "meanings":"criticism; strike",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鳩",
+    "spells":"キュウ ・ ク ・ はと ・ あつ.める",
+    "meanings":"pigeon; dove",
+    "type":"kanji"
+  },
+  {
+    "kanji":"胴",
+    "spells":"ドウ",
+    "meanings":"trunk; torso; hull (ship); hub of wheel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鮎",
+    "spells":"デン ・ ネン ・ あゆ ・ なまず",
+    "meanings":"freshwater trout; smelt",
+    "type":"kanji"
+  },
+  {
+    "kanji":"審",
+    "spells":"シン ・ つまび.らか ・ つぶさ.に",
+    "meanings":"hearing; judge; trial",
+    "type":"kanji"
+  },
+  {
+    "kanji":"粋",
+    "spells":"スイ ・ いき",
+    "meanings":"chic; style; purity; essence; pith; cream; elite; choice",
+    "type":"kanji"
+  },
+  {
+    "kanji":"循",
+    "spells":"ジュン",
+    "meanings":"sequential; fellow",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蕉",
+    "spells":"ショウ",
+    "meanings":"banana",
+    "type":"kanji"
+  },
+  {
+    "kanji":"奮",
+    "spells":"フン ・ ふる.う",
+    "meanings":"stirred up; be invigorated; flourish",
+    "type":"kanji"
+  },
+  {
+    "kanji":"剰",
+    "spells":"ジョウ ・ あまつさえ ・ あま.り ・ あま.る",
+    "meanings":"surplus; besides",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遇",
+    "spells":"グウ ・ あ.う",
+    "meanings":"interview; treat; entertain; receive; deal with",
+    "type":"kanji"
+  },
+  {
+    "kanji":"迪",
+    "spells":"テキ ・ みち ・ みちび.く ・ すす.む ・ いた.る",
+    "meanings":"edify; way; path",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嘱",
+    "spells":"ショク ・ しょく.する ・ たの.む",
+    "meanings":"entrust; request; send a message",
+    "type":"kanji"
+  },
+  {
+    "kanji":"吟",
+    "spells":"ギン",
+    "meanings":"versify; singing; recital",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遺",
+    "spells":"イ ・ ユイ ・ のこ.す",
+    "meanings":"bequeath; leave behind; reserve",
+    "type":"kanji"
+  },
+  {
+    "kanji":"淑",
+    "spells":"シュク ・ しと.やか",
+    "meanings":"graceful; gentle; pure",
+    "type":"kanji"
+  },
+  {
+    "kanji":"掌",
+    "spells":"ショウ ・ てのひら ・ たなごころ",
+    "meanings":"manipulate; rule; administer; conduct; palm of hand",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鯨",
+    "spells":"ゲイ ・ くじら",
+    "meanings":"whale",
+    "type":"kanji"
+  },
+  {
+    "kanji":"抄",
+    "spells":"ショウ",
+    "meanings":"extract; selection; summary; copy; spread thin",
+    "type":"kanji"
+  },
+  {
+    "kanji":"駄",
+    "spells":"ダ ・ タ",
+    "meanings":"burdensome; pack horse; horse load; send by horse",
+    "type":"kanji"
+  },
+  {
+    "kanji":"雅",
+    "spells":"ガ ・ みや.び",
+    "meanings":"gracious; elegant; graceful; refined",
+    "type":"kanji"
+  },
+  {
+    "kanji":"晃",
+    "spells":"コウ ・ あきらか",
+    "meanings":"clear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"旗",
+    "spells":"キ ・ はた",
+    "meanings":"national flag; banner; standard",
+    "type":"kanji"
+  },
+  {
+    "kanji":"妨",
+    "spells":"ボウ ・ さまた.げる",
+    "meanings":"disturb; prevent; hamper; obstruct",
+    "type":"kanji"
+  },
+  {
+    "kanji":"倖",
+    "spells":"コウ ・ しあわ.せ ・ さいわ.い",
+    "meanings":"happiness; luck",
+    "type":"kanji"
+  },
+  {
+    "kanji":"袈",
+    "spells":"ケ ・ カ",
+    "meanings":"a coarse camlet",
+    "type":"kanji"
+  },
+  {
+    "kanji":"巣",
+    "spells":"ソウ ・ す ・ す.くう",
+    "meanings":"nest; rookery; hive; cobweb; den",
+    "type":"kanji"
+  },
+  {
+    "kanji":"衆",
+    "spells":"シュウ ・ シュ ・ おお.い",
+    "meanings":"masses; great numbers; multitude; populace",
+    "type":"kanji"
+  },
+  {
+    "kanji":"虜",
+    "spells":"リョ ・ ロ ・ とりこ ・ とりく",
+    "meanings":"captive; barbarian; low epithet for the enemy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"離",
+    "spells":"リ ・ はな.れる ・ はな.す",
+    "meanings":"detach; separation; disjoin; digress",
+    "type":"kanji"
+  },
+  {
+    "kanji":"錘",
+    "spells":"スイ ・ つむ ・ おもり",
+    "meanings":"weight; plumb bob; sinker",
+    "type":"kanji"
+  },
+  {
+    "kanji":"討",
+    "spells":"トウ ・ う.つ",
+    "meanings":"chastise; attack; defeat; destroy; conquer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"彩",
+    "spells":"サイ ・ いろど.る",
+    "meanings":"coloring; paint; makeup",
+    "type":"kanji"
+  },
+  {
+    "kanji":"錬",
+    "spells":"レン ・ ね.る",
+    "meanings":"tempering; refine; drill; train; polish",
+    "type":"kanji"
+  },
+  {
+    "kanji":"糧",
+    "spells":"リョウ ・ ロウ ・ かて",
+    "meanings":"provisions; food; bread",
+    "type":"kanji"
+  },
+  {
+    "kanji":"漠",
+    "spells":"バク",
+    "meanings":"vague; obscure; desert; wide",
+    "type":"kanji"
+  },
+  {
+    "kanji":"虐",
+    "spells":"ギャク ・ しいた.げる",
+    "meanings":"tyrannize; oppress",
+    "type":"kanji"
+  },
+  {
+    "kanji":"霊",
+    "spells":"レイ ・ リョウ ・ たま",
+    "meanings":"spirits; soul",
+    "type":"kanji"
+  },
+  {
+    "kanji":"賊",
+    "spells":"ゾク",
+    "meanings":"burglar; rebel; traitor; robber",
+    "type":"kanji"
+  },
+  {
+    "kanji":"慈",
+    "spells":"ジ ・ いつく.しむ",
+    "meanings":"mercy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"瀬",
+    "spells":"ライ ・ せ",
+    "meanings":"rapids; current; torrent; shallows; shoal",
+    "type":"kanji"
+  },
+  {
+    "kanji":"恩",
+    "spells":"オン",
+    "meanings":"grace; kindness; goodness; favor; mercy; blessing; benefit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"項",
+    "spells":"コウ ・ うなじ",
+    "meanings":"paragraph; nape of neck; clause; item; term (expression)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"瑳",
+    "spells":"サ ・ みが.く",
+    "meanings":"polish",
+    "type":"kanji"
+  },
+  {
+    "kanji":"搾",
+    "spells":"サク ・ しぼ.る",
+    "meanings":"squeeze",
+    "type":"kanji"
+  },
+  {
+    "kanji":"涯",
+    "spells":"ガイ ・ はて",
+    "meanings":"horizon; shore",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鳳",
+    "spells":"ホウ ・ フウ",
+    "meanings":"male mythical bird",
+    "type":"kanji"
+  },
+  {
+    "kanji":"徴",
+    "spells":"チョウ ・ チ ・ しるし",
+    "meanings":"indications; sign; omen; symptom; collect; seek; refer to; question",
+    "type":"kanji"
+  },
+  {
+    "kanji":"茅",
+    "spells":"ボウ ・ ミョウ ・ かや ・ ちがや",
+    "meanings":"miscanthus reed",
+    "type":"kanji"
+  },
+  {
+    "kanji":"洪",
+    "spells":"コウ",
+    "meanings":"deluge; flood; vast",
+    "type":"kanji"
+  },
+  {
+    "kanji":"紫",
+    "spells":"シ ・ むらさき",
+    "meanings":"purple; violet",
+    "type":"kanji"
+  },
+  {
+    "kanji":"拍",
+    "spells":"ハク ・ ヒョウ",
+    "meanings":"clap; beat (music)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"竣",
+    "spells":"ドウ ・ シュン ・ わらわ ・ わらべ ・ おわ.る",
+    "meanings":"end; finish",
+    "type":"kanji"
+  },
+  {
+    "kanji":"裸",
+    "spells":"ラ ・ はだか",
+    "meanings":"naked; nude; uncovered; partially clothed",
+    "type":"kanji"
+  },
+  {
+    "kanji":"赳",
+    "spells":"キュウ",
+    "meanings":"strong and brave",
+    "type":"kanji"
+  },
+  {
+    "kanji":"須",
+    "spells":"ス ・ シュ ・ すべから.く ・ すべし ・ ひげ ・ まつ ・ もち.いる ・ もと.める",
+    "meanings":"ought; by all means; necessarily",
+    "type":"kanji"
+  },
+  {
+    "kanji":"漏",
+    "spells":"ロウ ・ も.る ・ も.れる ・ も.らす",
+    "meanings":"leak; escape; time",
+    "type":"kanji"
+  },
+  {
+    "kanji":"欄",
+    "spells":"ラン ・ てすり",
+    "meanings":"column; handrail; blank; space",
+    "type":"kanji"
+  },
+  {
+    "kanji":"裂",
+    "spells":"レツ ・ さ.く ・ さ.ける ・ -ぎ.れ",
+    "meanings":"split; rend; tear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"徳",
+    "spells":"トク",
+    "meanings":"benevolence; virtue; goodness; commanding respect",
+    "type":"kanji"
+  },
+  {
+    "kanji":"江",
+    "spells":"コウ ・ え",
+    "meanings":"creek; inlet; bay",
+    "type":"kanji"
+  },
+  {
+    "kanji":"臨",
+    "spells":"リン ・ のぞ.む",
+    "meanings":"look to; face; meet; confront; attend; call on",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鎌",
+    "spells":"レン ・ ケン ・ かま",
+    "meanings":"sickle; scythe; trick",
+    "type":"kanji"
+  },
+  {
+    "kanji":"膜",
+    "spells":"マク",
+    "meanings":"membrane",
+    "type":"kanji"
+  },
+  {
+    "kanji":"羊",
+    "spells":"ヨウ ・ ひつじ",
+    "meanings":"sheep",
+    "type":"kanji"
+  },
+  {
+    "kanji":"叡",
+    "spells":"エイ ・ あき.らか",
+    "meanings":"intelligence; imperial",
+    "type":"kanji"
+  },
+  {
+    "kanji":"綱",
+    "spells":"コウ ・ つな",
+    "meanings":"hawser; class (genus); rope; cord; cable",
+    "type":"kanji"
+  },
+  {
+    "kanji":"華",
+    "spells":"カ ・ ケ ・ はな",
+    "meanings":"splendor; flower; petal; shine; luster; ostentatious; showy; gay; gorgeous",
+    "type":"kanji"
+  },
+  {
+    "kanji":"睦",
+    "spells":"ボク ・ モク ・ むつ.まじい ・ むつ.む ・ むつ.ぶ",
+    "meanings":"intimate; friendly; harmonious",
+    "type":"kanji"
+  },
+  {
+    "kanji":"雌",
+    "spells":"シ ・ め- ・ めす ・ めん",
+    "meanings":"feminine; female",
+    "type":"kanji"
+  },
+  {
+    "kanji":"宰",
+    "spells":"サイ",
+    "meanings":"superintend; manager; rule",
+    "type":"kanji"
+  },
+  {
+    "kanji":"唱",
+    "spells":"ショウ ・ とな.える",
+    "meanings":"chant; recite; call upon; yell",
+    "type":"kanji"
+  },
+  {
+    "kanji":"圏",
+    "spells":"ケン ・ かこ.い",
+    "meanings":"sphere; circle; radius; range",
+    "type":"kanji"
+  },
+  {
+    "kanji":"侵",
+    "spells":"シン ・ おか.す",
+    "meanings":"encroach; invade; raid; trespass; violate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"拙",
+    "spells":"セツ ・ つたな.い",
+    "meanings":"bungling; clumsy; unskillful",
+    "type":"kanji"
+  },
+  {
+    "kanji":"紬",
+    "spells":"チュウ ・ つむぎ ・ つむ.ぐ",
+    "meanings":"pongee (a knotted silk cloth)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"拐",
+    "spells":"カイ",
+    "meanings":"kidnap; falsify",
+    "type":"kanji"
+  },
+  {
+    "kanji":"倭",
+    "spells":"ワ ・ イ ・ したが.う",
+    "meanings":"Yamato; ancient Japan",
+    "type":"kanji"
+  },
+  {
+    "kanji":"謀",
+    "spells":"ボウ ・ ム ・ はか.る ・ たばか.る ・ はかりごと",
+    "meanings":"conspire; cheat; impose on; plan; devise; scheme; have in mind; deceive",
+    "type":"kanji"
+  },
+  {
+    "kanji":"沢",
+    "spells":"タク ・ さわ ・ うるお.い ・ うるお.す ・ つや",
+    "meanings":"swamp",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鉢",
+    "spells":"ハチ ・ ハツ",
+    "meanings":"bowl; rice tub; pot; crown",
+    "type":"kanji"
+  },
+  {
+    "kanji":"僕",
+    "spells":"ボク ・ しもべ",
+    "meanings":"me; I (male)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"喪",
+    "spells":"ソウ ・ も",
+    "meanings":"miss; mourning",
+    "type":"kanji"
+  },
+  {
+    "kanji":"扇",
+    "spells":"セン ・ おうぎ",
+    "meanings":"fan; folding fan",
+    "type":"kanji"
+  },
+  {
+    "kanji":"盛",
+    "spells":"セイ ・ ジョウ ・ も.る ・ さか.る ・ さか.ん",
+    "meanings":"boom; prosper; copulate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"焦",
+    "spells":"ショウ ・ こ.げる ・ こ.がす ・ こ.がれる ・ あせ.る",
+    "meanings":"char; hurry; impatient; irritate; burn; scorch; singe",
+    "type":"kanji"
+  },
+  {
+    "kanji":"巳",
+    "spells":"シ ・ み",
+    "meanings":"sign of the snake or serpent; 9-11AM; sixth sign of Chinese zodiac",
+    "type":"kanji"
+  },
+  {
+    "kanji":"紘",
+    "spells":"コウ ・ おおづな ・ つな ・ つなぐ",
+    "meanings":"large",
+    "type":"kanji"
+  },
+  {
+    "kanji":"脩",
+    "spells":"シュウ ・ おさ.める ・ なが.い ・ ほじし",
+    "meanings":"dried meat",
+    "type":"kanji"
+  },
+  {
+    "kanji":"謙",
+    "spells":"ケン",
+    "meanings":"self-effacing; humble oneself; condescend; be modest",
+    "type":"kanji"
+  },
+  {
+    "kanji":"榛",
+    "spells":"シン ・ ハン ・ はしばみ ・ はり",
+    "meanings":"hazelnut; filbert",
+    "type":"kanji"
+  },
+  {
+    "kanji":"債",
+    "spells":"サイ",
+    "meanings":"bond; loan; debt",
+    "type":"kanji"
+  },
+  {
+    "kanji":"控",
+    "spells":"コウ ・ ひか.える ・ ひか.え",
+    "meanings":"withdraw; draw in; hold back; refrain from; be moderate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"桜",
+    "spells":"オウ ・ ヨウ ・ さくら",
+    "meanings":"cherry",
+    "type":"kanji"
+  },
+  {
+    "kanji":"陥",
+    "spells":"カン ・ おちい.る ・ おとしい.れる",
+    "meanings":"collapse; fall into; cave in; fall (castle); slide into",
+    "type":"kanji"
+  },
+  {
+    "kanji":"縄",
+    "spells":"ジョウ ・ なわ ・ ただ.す",
+    "meanings":"straw rope; cord",
+    "type":"kanji"
+  },
+  {
+    "kanji":"悌",
+    "spells":"テイ ・ ダイ",
+    "meanings":"serving our elders",
+    "type":"kanji"
+  },
+  {
+    "kanji":"殻",
+    "spells":"カク ・ コク ・ バイ ・ から ・ がら",
+    "meanings":"husk; nut shell",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鑑",
+    "spells":"カン ・ かんが.みる ・ かがみ",
+    "meanings":"specimen; take warning from; learn from",
+    "type":"kanji"
+  },
+  {
+    "kanji":"統",
+    "spells":"トウ ・ す.べる ・ ほび.る",
+    "meanings":"overall; relationship; ruling; governing",
+    "type":"kanji"
+  },
+  {
+    "kanji":"穣",
+    "spells":"ジョウ ・ わら ・ ゆたか",
+    "meanings":"good crops; prosperity; 10**28",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嘆",
+    "spells":"タン ・ なげ.く ・ なげ.かわしい",
+    "meanings":"sigh; lament; moan; grieve",
+    "type":"kanji"
+  },
+  {
+    "kanji":"脅",
+    "spells":"キョウ ・ おびや.かす ・ おど.す ・ おど.かす",
+    "meanings":"threaten; coerce",
+    "type":"kanji"
+  },
+  {
+    "kanji":"閑",
+    "spells":"カン",
+    "meanings":"leisure",
+    "type":"kanji"
+  },
+  {
+    "kanji":"琢",
+    "spells":"タク ・ みが.く",
+    "meanings":"polish",
+    "type":"kanji"
+  },
+  {
+    "kanji":"淡",
+    "spells":"タン ・ あわ.い",
+    "meanings":"thin; faint; pale; fleeting",
+    "type":"kanji"
+  },
+  {
+    "kanji":"塾",
+    "spells":"ジュク",
+    "meanings":"cram school; private school",
+    "type":"kanji"
+  },
+  {
+    "kanji":"氏",
+    "spells":"シ ・ うじ ・ -うじ",
+    "meanings":"family name; surname; clan",
+    "type":"kanji"
+  },
+  {
+    "kanji":"酌",
+    "spells":"シャク ・ く.む",
+    "meanings":"bar-tending; serving sake; the host; draw (water); ladle; scoop; pump",
+    "type":"kanji"
+  },
+  {
+    "kanji":"搬",
+    "spells":"ハン",
+    "meanings":"conveyor; carry; transport",
+    "type":"kanji"
+  },
+  {
+    "kanji":"巡",
+    "spells":"ジュン ・ めぐ.る ・ めぐ.り",
+    "meanings":"patrol; go around; circumference",
+    "type":"kanji"
+  },
+  {
+    "kanji":"翠",
+    "spells":"スイ ・ かわせみ ・ みどり",
+    "meanings":"green",
+    "type":"kanji"
+  },
+  {
+    "kanji":"憾",
+    "spells":"カン ・ うら.む",
+    "meanings":"remorse; regret; be sorry",
+    "type":"kanji"
+  },
+  {
+    "kanji":"澪",
+    "spells":"レイ ・ みお",
+    "meanings":"water route; shipping channel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"痢",
+    "spells":"リ",
+    "meanings":"diarrhea",
+    "type":"kanji"
+  },
+  {
+    "kanji":"隼",
+    "spells":"シュン ・ ジュン ・ はやぶさ",
+    "meanings":"falcon",
+    "type":"kanji"
+  },
+  {
+    "kanji":"秦",
+    "spells":"シン ・ はた",
+    "meanings":"Manchu dynasty; name given to naturalized foreigners",
+    "type":"kanji"
+  },
+  {
+    "kanji":"障",
+    "spells":"ショウ ・ さわ.る",
+    "meanings":"hinder; hurt; harm",
+    "type":"kanji"
+  },
+  {
+    "kanji":"椎",
+    "spells":"ツイ ・ スイ ・ つち ・ う.つ",
+    "meanings":"oak; mallet",
+    "type":"kanji"
+  },
+  {
+    "kanji":"熙",
+    "spells":"キ ・ たのし.む ・ ひか.る ・ ひろ.い ・ よろこ.ぶ ・ かわ.く ・ あきらか ・ ひろ.める ・ ひろ.まる",
+    "meanings":"bright; sunny; prosperous; merry",
+    "type":"kanji"
+  },
+  {
+    "kanji":"択",
+    "spells":"タク ・ えら.ぶ",
+    "meanings":"choose; select; elect; prefer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"堤",
+    "spells":"テイ ・ つつみ",
+    "meanings":"dike; bank; embankment",
+    "type":"kanji"
+  },
+  {
+    "kanji":"肝",
+    "spells":"カン ・ きも",
+    "meanings":"liver; pluck; nerve; chutzpah",
+    "type":"kanji"
+  },
+  {
+    "kanji":"彦",
+    "spells":"ゲン ・ ひこ",
+    "meanings":"lad; boy (ancient)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"創",
+    "spells":"ソウ ・ ショウ ・ つく.る ・ はじ.める ・ きず ・ けず.しける",
+    "meanings":"genesis; wound; injury; hurt; start; originate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"魔",
+    "spells":"マ",
+    "meanings":"witch; demon; evil spirit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"彗",
+    "spells":"スイ ・ エ ・ ケイ ・ セイ ・ ほうき",
+    "meanings":"comet",
+    "type":"kanji"
+  },
+  {
+    "kanji":"豚",
+    "spells":"トン ・ ぶた",
+    "meanings":"pork; pig",
+    "type":"kanji"
+  },
+  {
+    "kanji":"娯",
+    "spells":"ゴ",
+    "meanings":"recreation; pleasure",
+    "type":"kanji"
+  },
+  {
+    "kanji":"勅",
+    "spells":"チョク ・ いまし.める ・ みことのり",
+    "meanings":"imperial order",
+    "type":"kanji"
+  },
+  {
+    "kanji":"卸",
+    "spells":"シャ ・ おろ.す ・ おろし ・ おろ.し",
+    "meanings":"wholesale",
+    "type":"kanji"
+  },
+  {
+    "kanji":"諮",
+    "spells":"シ ・ はか.る",
+    "meanings":"consult with",
+    "type":"kanji"
+  },
+  {
+    "kanji":"附",
+    "spells":"フ ・ つ.ける ・ つ.く",
+    "meanings":"affixed; attach; refer to; append",
+    "type":"kanji"
+  },
+  {
+    "kanji":"靖",
+    "spells":"セイ ・ ジョウ ・ やす.んじる",
+    "meanings":"peaceful",
+    "type":"kanji"
+  },
+  {
+    "kanji":"避",
+    "spells":"ヒ ・ さ.ける ・ よ.ける",
+    "meanings":"evade; avoid; avert; ward off; shirk; shun",
+    "type":"kanji"
+  },
+  {
+    "kanji":"舎",
+    "spells":"シャ ・ セキ ・ やど.る",
+    "meanings":"cottage; inn; hut; house; mansion",
+    "type":"kanji"
+  },
+  {
+    "kanji":"奈",
+    "spells":"ナ ・ ナイ ・ ダイ ・ いかん ・ からなし",
+    "meanings":"Nara; what?",
+    "type":"kanji"
+  },
+  {
+    "kanji":"廉",
+    "spells":"レン",
+    "meanings":"bargain; reason; charge; suspicion; point; account; purity; honest; low price; cheap; rested; contented; peaceful",
+    "type":"kanji"
+  },
+  {
+    "kanji":"墨",
+    "spells":"ボク ・ すみ",
+    "meanings":"black ink; India ink; ink stick; Mexico",
+    "type":"kanji"
+  },
+  {
+    "kanji":"磁",
+    "spells":"ジ",
+    "meanings":"magnet; porcelain",
+    "type":"kanji"
+  },
+  {
+    "kanji":"旋",
+    "spells":"セン",
+    "meanings":"rotation; go around",
+    "type":"kanji"
+  },
+  {
+    "kanji":"穫",
+    "spells":"カク",
+    "meanings":"harvest; reap",
+    "type":"kanji"
+  },
+  {
+    "kanji":"壇",
+    "spells":"ダン ・ タン",
+    "meanings":"podium; stage; rostrum; terrace",
+    "type":"kanji"
+  },
+  {
+    "kanji":"枠",
+    "spells":"わく",
+    "meanings":"frame; framework; spindle; spool; bounding-box; (kokuji)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"徹",
+    "spells":"テツ",
+    "meanings":"penetrate; clear; pierce; strike home; sit up (all night)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"為",
+    "spells":"イ ・ ため ・ な.る ・ な.す ・ す.る ・ たり ・ つく.る ・ なり",
+    "meanings":"do; change; make; benefit; welfare; be of use; reach to; try; practice; cost; serve as; good; advantage; as a result of",
+    "type":"kanji"
+  },
+  {
+    "kanji":"救",
+    "spells":"キュウ ・ すく.う",
+    "meanings":"salvation; save; help; rescue; reclaim",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鋳",
+    "spells":"チュウ ・ イ ・ シュ ・ シュウ ・ い.る",
+    "meanings":"casting; mint",
+    "type":"kanji"
+  },
+  {
+    "kanji":"宗",
+    "spells":"シュウ ・ ソウ ・ むね",
+    "meanings":"religion; sect; denomination; main point; origin; essence",
+    "type":"kanji"
+  },
+  {
+    "kanji":"丑",
+    "spells":"チュウ ・ うし",
+    "meanings":"sign of the ox or cow; 1-3AM; second sign of Chinese zodiac",
+    "type":"kanji"
+  },
+  {
+    "kanji":"郷",
+    "spells":"キョウ ・ ゴウ ・ さと",
+    "meanings":"home town; village; native place; district",
+    "type":"kanji"
+  },
+  {
+    "kanji":"呉",
+    "spells":"ゴ ・ く.れる ・ くれ",
+    "meanings":"give; do something for",
+    "type":"kanji"
+  },
+  {
+    "kanji":"潟",
+    "spells":"セキ ・ かた ・ -がた",
+    "meanings":"lagoon",
+    "type":"kanji"
+  },
+  {
+    "kanji":"促",
+    "spells":"ソク ・ うなが.す",
+    "meanings":"stimulate; urge; press; demand; incite",
+    "type":"kanji"
+  },
+  {
+    "kanji":"禅",
+    "spells":"ゼン ・ セン ・ しずか ・ ゆず.る",
+    "meanings":"Zen; silent meditation",
+    "type":"kanji"
+  },
+  {
+    "kanji":"派",
+    "spells":"ハ",
+    "meanings":"faction; group; party; clique; sect; school",
+    "type":"kanji"
+  },
+  {
+    "kanji":"佳",
+    "spells":"カ",
+    "meanings":"excellent; beautiful; good; pleasing; skilled",
+    "type":"kanji"
+  },
+  {
+    "kanji":"懲",
+    "spells":"チョウ ・ こ.りる ・ こ.らす ・ こ.らしめる",
+    "meanings":"penal; chastise; punish; discipline",
+    "type":"kanji"
+  },
+  {
+    "kanji":"頑",
+    "spells":"ガン ・ かたく",
+    "meanings":"stubborn; foolish; firmly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"誘",
+    "spells":"ユウ ・ イウ ・ さそ.う ・ いざな.う",
+    "meanings":"entice; lead; tempt; invite; ask; call for; seduce; allure",
+    "type":"kanji"
+  },
+  {
+    "kanji":"誼",
+    "spells":"ギ ・ よしみ ・ よい",
+    "meanings":"friendship; intimacy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"麗",
+    "spells":"レイ ・ うるわ.しい ・ うら.らか",
+    "meanings":"lovely; beautiful; graceful; resplendent",
+    "type":"kanji"
+  },
+  {
+    "kanji":"稚",
+    "spells":"チ ・ ジ ・ いとけない ・ おさない ・ おくて ・ おでる",
+    "meanings":"immature; young",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蘭",
+    "spells":"ラン ・ ラ",
+    "meanings":"orchid; Holland",
+    "type":"kanji"
+  },
+  {
+    "kanji":"抵",
+    "spells":"テイ",
+    "meanings":"resist; reach; touch",
+    "type":"kanji"
+  },
+  {
+    "kanji":"允",
+    "spells":"イン ・ じょう ・ まこと.に ・ ゆるす",
+    "meanings":"license; sincerity; permit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"癒",
+    "spells":"ユ ・ い.える ・ いや.す ・ い.やす",
+    "meanings":"healing; cure; quench (thirst); wreak",
+    "type":"kanji"
+  },
+  {
+    "kanji":"藻",
+    "spells":"ソウ ・ も",
+    "meanings":"seaweed; duckweed",
+    "type":"kanji"
+  },
+  {
+    "kanji":"墓",
+    "spells":"ボ ・ はか",
+    "meanings":"grave; tomb",
+    "type":"kanji"
+  },
+  {
+    "kanji":"某",
+    "spells":"ボウ ・ それがし ・ なにがし",
+    "meanings":"so-and-so; one; a certain; that person",
+    "type":"kanji"
+  },
+  {
+    "kanji":"誇",
+    "spells":"コ ・ ほこ.る",
+    "meanings":"boast; be proud; pride; triumphantly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"献",
+    "spells":"ケン ・ コン ・ たてまつ.る",
+    "meanings":"offering; counter for drinks; present; offer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"渉",
+    "spells":"ショウ ・ わた.る",
+    "meanings":"ford; ferry; port",
+    "type":"kanji"
+  },
+  {
+    "kanji":"索",
+    "spells":"サク",
+    "meanings":"cord; rope",
+    "type":"kanji"
+  },
+  {
+    "kanji":"養",
+    "spells":"ヨウ ・ リョウ ・ やしな.う",
+    "meanings":"foster; bring up; rear; develop; nurture",
+    "type":"kanji"
+  },
+  {
+    "kanji":"轄",
+    "spells":"カツ ・ くさび",
+    "meanings":"control; wedge",
+    "type":"kanji"
+  },
+  {
+    "kanji":"只",
+    "spells":"シ ・ ただ",
+    "meanings":"only; free; in addition",
+    "type":"kanji"
+  },
+  {
+    "kanji":"症",
+    "spells":"ショウ",
+    "meanings":"symptoms; illness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"班",
+    "spells":"ハン",
+    "meanings":"squad; corps; unit; group",
+    "type":"kanji"
+  },
+  {
+    "kanji":"璃",
+    "spells":"リ",
+    "meanings":"glassy; lapis lazuli",
+    "type":"kanji"
+  },
+  {
+    "kanji":"偵",
+    "spells":"テイ",
+    "meanings":"spy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"苑",
+    "spells":"エン ・ オン ・ その ・ う.つ",
+    "meanings":"garden; farm; park",
+    "type":"kanji"
+  },
+  {
+    "kanji":"拷",
+    "spells":"ゴウ",
+    "meanings":"torture; beat",
+    "type":"kanji"
+  },
+  {
+    "kanji":"街",
+    "spells":"ガイ ・ カイ ・ まち",
+    "meanings":"boulevard; street; town",
+    "type":"kanji"
+  },
+  {
+    "kanji":"裁",
+    "spells":"サイ ・ た.つ ・ さば.く",
+    "meanings":"tailor; judge; decision; cut out (pattern)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"響",
+    "spells":"キョウ ・ ひび.く",
+    "meanings":"echo; sound; resound; ring; vibrate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"丞",
+    "spells":"ジョウ ・ ショウ ・ すく.う ・ たす.ける",
+    "meanings":"help",
+    "type":"kanji"
+  },
+  {
+    "kanji":"姻",
+    "spells":"イン",
+    "meanings":"matrimony; marry",
+    "type":"kanji"
+  },
+  {
+    "kanji":"孟",
+    "spells":"モウ ・ ボウ ・ ミョウ ・ かしら",
+    "meanings":"chief; beginning",
+    "type":"kanji"
+  },
+  {
+    "kanji":"寧",
+    "spells":"ネイ ・ むし.ろ",
+    "meanings":"rather; preferably; peaceful; quiet; tranquility",
+    "type":"kanji"
+  },
+  {
+    "kanji":"刑",
+    "spells":"ケイ",
+    "meanings":"punish; penalty; sentence; punishment",
+    "type":"kanji"
+  },
+  {
+    "kanji":"抗",
+    "spells":"コウ ・ あらが.う",
+    "meanings":"confront; resist; defy; oppose",
+    "type":"kanji"
+  },
+  {
+    "kanji":"匿",
+    "spells":"トク ・ かくま.う",
+    "meanings":"hide; shelter; shield",
+    "type":"kanji"
+  },
+  {
+    "kanji":"尺",
+    "spells":"シャク",
+    "meanings":"shaku; Japanese foot; measure; scale; rule",
+    "type":"kanji"
+  },
+  {
+    "kanji":"窃",
+    "spells":"セツ ・ ぬす.む ・ ひそ.か",
+    "meanings":"stealth; steal; secret; private; hushed",
+    "type":"kanji"
+  },
+  {
+    "kanji":"棋",
+    "spells":"キ ・ ご",
+    "meanings":"chess piece; Japanese chess; shogi",
+    "type":"kanji"
+  },
+  {
+    "kanji":"応",
+    "spells":"オウ ・ ヨウ ・ -ノウ ・ あた.る ・ まさに ・ こた.える",
+    "meanings":"apply; answer; yes; OK; reply; accept",
+    "type":"kanji"
+  },
+  {
+    "kanji":"凶",
+    "spells":"キョウ",
+    "meanings":"villain; evil; bad luck; disaster",
+    "type":"kanji"
+  },
+  {
+    "kanji":"租",
+    "spells":"ソ",
+    "meanings":"tariff; crop tax; borrowing",
+    "type":"kanji"
+  },
+  {
+    "kanji":"故",
+    "spells":"コ ・ ゆえ ・ ふる.い ・ もと",
+    "meanings":"happenstance; especially; intentionally; reason; cause; circumstances; the late; therefore; consequently",
+    "type":"kanji"
+  },
+  {
+    "kanji":"聖",
+    "spells":"セイ ・ ショウ ・ ひじり",
+    "meanings":"holy; saint; sage; master; priest",
+    "type":"kanji"
+  },
+  {
+    "kanji":"芙",
+    "spells":"フ",
+    "meanings":"lotus; Mt Fuji",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鍛",
+    "spells":"タン ・ きた.える",
+    "meanings":"forge; discipline; train",
+    "type":"kanji"
+  },
+  {
+    "kanji":"薪",
+    "spells":"シン ・ たきぎ ・ まき",
+    "meanings":"fuel; firewood; kindling",
+    "type":"kanji"
+  },
+  {
+    "kanji":"吏",
+    "spells":"リ",
+    "meanings":"officer; an official",
+    "type":"kanji"
+  },
+  {
+    "kanji":"凝",
+    "spells":"ギョウ ・ こ.る ・ こ.らす ・ こご.らす ・ こご.らせる ・ こご.る",
+    "meanings":"congeal; freeze; stiff; be absorbed in",
+    "type":"kanji"
+  },
+  {
+    "kanji":"弓",
+    "spells":"キュウ ・ ゆみ",
+    "meanings":"bow; bow (archery, violin)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"繊",
+    "spells":"セン",
+    "meanings":"slender; fine; thin kimono",
+    "type":"kanji"
+  },
+  {
+    "kanji":"喬",
+    "spells":"キョウ ・ たか.い",
+    "meanings":"high; boasting",
+    "type":"kanji"
+  },
+  {
+    "kanji":"携",
+    "spells":"ケイ ・ たずさ.える ・ たずさ.わる",
+    "meanings":"portable; carry (in hand); armed with; bring along",
+    "type":"kanji"
+  },
+  {
+    "kanji":"捺",
+    "spells":"ナツ ・ ダツ ・ さ.す ・ お.す",
+    "meanings":"press; print; affix a seal; stamp",
+    "type":"kanji"
+  },
+  {
+    "kanji":"陣",
+    "spells":"ジン",
+    "meanings":"camp; battle array; ranks; position",
+    "type":"kanji"
+  },
+  {
+    "kanji":"哀",
+    "spells":"アイ ・ あわ.れ ・ あわ.れむ ・ かな.しい",
+    "meanings":"pathetic; grief; sorrow; pathos; pity; sympathize",
+    "type":"kanji"
+  },
+  {
+    "kanji":"竜",
+    "spells":"リュウ ・ リョウ ・ ロウ ・ たつ ・ いせ",
+    "meanings":"dragon; imperial",
+    "type":"kanji"
+  },
+  {
+    "kanji":"帥",
+    "spells":"スイ",
+    "meanings":"commander; leading troops; governor",
+    "type":"kanji"
+  },
+  {
+    "kanji":"麻",
+    "spells":"マ ・ マア ・ あさ",
+    "meanings":"hemp; flax",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嬉",
+    "spells":"キ ・ うれ.しい ・ たの.しむ",
+    "meanings":"glad; pleased; rejoice",
+    "type":"kanji"
+  },
+  {
+    "kanji":"荘",
+    "spells":"ソウ ・ ショウ ・ チャン ・ ほうき ・ おごそ.か",
+    "meanings":"villa; inn; cottage; feudal manor",
+    "type":"kanji"
+  },
+  {
+    "kanji":"梢",
+    "spells":"ショウ ・ こずえ ・ くすのき",
+    "meanings":"treetops; twig",
+    "type":"kanji"
+  },
+  {
+    "kanji":"椋",
+    "spells":"リョウ ・ むく",
+    "meanings":"type of deciduous tree; grey starling",
+    "type":"kanji"
+  },
+  {
+    "kanji":"芋",
+    "spells":"ウ ・ いも",
+    "meanings":"potato",
+    "type":"kanji"
+  },
+  {
+    "kanji":"弦",
+    "spells":"ゲン ・ つる",
+    "meanings":"bowstring; chord; hypotenuse",
+    "type":"kanji"
+  },
+  {
+    "kanji":"迫",
+    "spells":"ハク ・ せま.る",
+    "meanings":"urge; force; imminent; spur on",
+    "type":"kanji"
+  },
+  {
+    "kanji":"載",
+    "spells":"サイ ・ の.せる ・ の.る",
+    "meanings":"ride; board; get on; place; spread; 10**44",
+    "type":"kanji"
+  },
+  {
+    "kanji":"酔",
+    "spells":"スイ ・ よ.う ・ よ.い ・ よ",
+    "meanings":"drunk; feel sick; poisoned; elated; spellbound",
+    "type":"kanji"
+  },
+  {
+    "kanji":"痘",
+    "spells":"トウ",
+    "meanings":"pox; smallpox",
+    "type":"kanji"
+  },
+  {
+    "kanji":"致",
+    "spells":"チ ・ いた.す",
+    "meanings":"doth; do; send; forward; cause; exert; incur; engage",
+    "type":"kanji"
+  },
+  {
+    "kanji":"功",
+    "spells":"コウ ・ ク ・ いさお",
+    "meanings":"achievement; merits; success; honor; credit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"陛",
+    "spells":"ヘイ",
+    "meanings":"highness; steps (of throne)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"幽",
+    "spells":"ユウ ・ ヨウ ・ ふか.い ・ かす.か ・ くら.い ・ しろ.い",
+    "meanings":"seclude; confine to a room; deep; profound; secluded; faint; dark; tranquil; calm",
+    "type":"kanji"
+  },
+  {
+    "kanji":"秩",
+    "spells":"チツ",
+    "meanings":"regularity; salary; order",
+    "type":"kanji"
+  },
+  {
+    "kanji":"辱",
+    "spells":"ジョク ・ はずかし.める",
+    "meanings":"embarrass; humiliate; shame",
+    "type":"kanji"
+  },
+  {
+    "kanji":"滋",
+    "spells":"ジ",
+    "meanings":"nourishing; more & more; be luxuriant; planting; turbidity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"錠",
+    "spells":"ジョウ",
+    "meanings":"lock; fetters; shackles",
+    "type":"kanji"
+  },
+  {
+    "kanji":"姿",
+    "spells":"シ ・ すがた",
+    "meanings":"figure; form; shape",
+    "type":"kanji"
+  },
+  {
+    "kanji":"諾",
+    "spells":"ダク",
+    "meanings":"consent; assent; agreement",
+    "type":"kanji"
+  },
+  {
+    "kanji":"紳",
+    "spells":"シン",
+    "meanings":"sire; good belt; gentleman",
+    "type":"kanji"
+  },
+  {
+    "kanji":"壌",
+    "spells":"ジョウ ・ つち",
+    "meanings":"lot; earth; soil",
+    "type":"kanji"
+  },
+  {
+    "kanji":"菌",
+    "spells":"キン",
+    "meanings":"germ; fungus; bacteria",
+    "type":"kanji"
+  },
+  {
+    "kanji":"菊",
+    "spells":"キク",
+    "meanings":"chrysanthemum",
+    "type":"kanji"
+  },
+  {
+    "kanji":"既",
+    "spells":"キ ・ すで.に",
+    "meanings":"previously; already; long ago",
+    "type":"kanji"
+  },
+  {
+    "kanji":"銭",
+    "spells":"セン ・ ゼン ・ ぜに ・ すき",
+    "meanings":"coin; .01 yen; money",
+    "type":"kanji"
+  },
+  {
+    "kanji":"随",
+    "spells":"ズイ ・ まにま.に ・ したが.う",
+    "meanings":"follow; though; notwithstanding; while; during; both; all; obey; submit to; comply; at the mercy of (the waves)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"后",
+    "spells":"コウ ・ ゴ ・ きさき",
+    "meanings":"empress; queen; after; behind; back; later",
+    "type":"kanji"
+  },
+  {
+    "kanji":"勧",
+    "spells":"カン ・ ケン ・ すす.める",
+    "meanings":"persuade; recommend; advise; encourage; offer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"侍",
+    "spells":"ジ ・ シ ・ さむらい ・ はべ.る",
+    "meanings":"waiter; samurai; wait upon; serve",
+    "type":"kanji"
+  },
+  {
+    "kanji":"棺",
+    "spells":"カン",
+    "meanings":"coffin; casket",
+    "type":"kanji"
+  },
+  {
+    "kanji":"往",
+    "spells":"オウ ・ い.く ・ いにしえ ・ さき.に ・ ゆ.く",
+    "meanings":"journey; travel; chase away; let go; going; before; formerly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"堅",
+    "spells":"ケン ・ かた.い ・ -がた.い",
+    "meanings":"strict; hard; solid; tough; tight; reliable",
+    "type":"kanji"
+  },
+  {
+    "kanji":"尽",
+    "spells":"ジン ・ サン ・ つ.くす ・ -つ.くす ・ -づ.くし ・ -つ.く ・ -づ.く ・ -ず.く ・ つ.きる ・ つ.かす ・ さかづき ・ ことごと.く ・ つか ・ つき",
+    "meanings":"exhaust; use up; run out of; deplete; befriend; serve",
+    "type":"kanji"
+  },
+  {
+    "kanji":"侑",
+    "spells":"ユウ ・ ウ ・ すす.める ・ たす.ける",
+    "meanings":"urge to eat",
+    "type":"kanji"
+  },
+  {
+    "kanji":"惑",
+    "spells":"ワク ・ まど.う",
+    "meanings":"beguile; delusion; perplexity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"猪",
+    "spells":"チョ ・ い ・ いのしし",
+    "meanings":"boar",
+    "type":"kanji"
+  },
+  {
+    "kanji":"刈",
+    "spells":"ガイ ・ カイ ・ か.る",
+    "meanings":"reap; cut; clip; trim; prune",
+    "type":"kanji"
+  },
+  {
+    "kanji":"寂",
+    "spells":"ジャク ・ セキ ・ さび ・ さび.しい ・ さび.れる ・ さみ.しい",
+    "meanings":"loneliness; quietly; mellow; mature; death of a priest",
+    "type":"kanji"
+  },
+  {
+    "kanji":"沼",
+    "spells":"ショウ ・ ぬま",
+    "meanings":"marsh; lake; bog; swamp; pond",
+    "type":"kanji"
+  },
+  {
+    "kanji":"逝",
+    "spells":"セイ ・ ゆ.く ・ い.く",
+    "meanings":"departed; die",
+    "type":"kanji"
+  },
+  {
+    "kanji":"褒",
+    "spells":"ホウ ・ ほ.める",
+    "meanings":"praise; extol",
+    "type":"kanji"
+  },
+  {
+    "kanji":"囚",
+    "spells":"シュウ ・ とら.われる",
+    "meanings":"captured; criminal; arrest; catch",
+    "type":"kanji"
+  },
+  {
+    "kanji":"燦",
+    "spells":"サン ・ さん.たる ・ あき.らか ・ きらめ.く ・ きら.めく",
+    "meanings":"brilliant",
+    "type":"kanji"
+  },
+  {
+    "kanji":"芳",
+    "spells":"ホウ ・ かんば.しい",
+    "meanings":"perfume; balmy; favorable; fragrant",
+    "type":"kanji"
+  },
+  {
+    "kanji":"渥",
+    "spells":"アク ・ あつ.い ・ うるお.う",
+    "meanings":"kindness; moisten",
+    "type":"kanji"
+  },
+  {
+    "kanji":"邸",
+    "spells":"テイ ・ やしき",
+    "meanings":"residence; mansion",
+    "type":"kanji"
+  },
+  {
+    "kanji":"訂",
+    "spells":"テイ",
+    "meanings":"revise; correct; decide",
+    "type":"kanji"
+  },
+  {
+    "kanji":"飽",
+    "spells":"ホウ ・ あ.きる ・ あ.かす ・ あ.く",
+    "meanings":"sated; tired of; bored; satiate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"摩",
+    "spells":"マ ・ ま.する ・ さ.する ・ す.る",
+    "meanings":"chafe; rub; polish; grind; scrape",
+    "type":"kanji"
+  },
+  {
+    "kanji":"崇",
+    "spells":"スウ ・ あが.める",
+    "meanings":"adore; respect; revere; worship",
+    "type":"kanji"
+  },
+  {
+    "kanji":"皐",
+    "spells":"コウ ・ さつき",
+    "meanings":"swamp; shore",
+    "type":"kanji"
+  },
+  {
+    "kanji":"屈",
+    "spells":"クツ ・ かが.む ・ かが.める",
+    "meanings":"yield; bend; flinch; submit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"措",
+    "spells":"ソ ・ お.く",
+    "meanings":"set aside; give up; suspend; discontinue; lay aside; except",
+    "type":"kanji"
+  },
+  {
+    "kanji":"楠",
+    "spells":"ナン ・ ダン ・ ゼン ・ ネン ・ くす ・ くすのき",
+    "meanings":"camphor tree",
+    "type":"kanji"
+  },
+  {
+    "kanji":"茉",
+    "spells":"マツ ・ バツ ・ マ",
+    "meanings":"jasmine",
+    "type":"kanji"
+  },
+  {
+    "kanji":"禎",
+    "spells":"テイ ・ さいわ.い",
+    "meanings":"happiness; blessed; good fortune; auspicious",
+    "type":"kanji"
+  },
+  {
+    "kanji":"殖",
+    "spells":"ショク ・ ふ.える ・ ふ.やす",
+    "meanings":"augment; increase; multiply; raise",
+    "type":"kanji"
+  },
+  {
+    "kanji":"裟",
+    "spells":"サ ・ シャ",
+    "meanings":"Buddhist surplice",
+    "type":"kanji"
+  },
+  {
+    "kanji":"笙",
+    "spells":"ショウ ・ ソウ ・ ふえ",
+    "meanings":"a reed instrument",
+    "type":"kanji"
+  },
+  {
+    "kanji":"施",
+    "spells":"シ ・ セ ・ ほどこ.す",
+    "meanings":"alms; apply bandages; administer first-aid",
+    "type":"kanji"
+  },
+  {
+    "kanji":"宣",
+    "spells":"セン ・ のたま.う",
+    "meanings":"proclaim; say; announce",
+    "type":"kanji"
+  },
+  {
+    "kanji":"製",
+    "spells":"セイ",
+    "meanings":"made in...; manufacture",
+    "type":"kanji"
+  },
+  {
+    "kanji":"俵",
+    "spells":"ヒョウ ・ たわら",
+    "meanings":"bag; bale; sack; counter for bags",
+    "type":"kanji"
+  },
+  {
+    "kanji":"傍",
+    "spells":"ボウ ・ かたわ.ら ・ わき ・ おか- ・ はた ・ そば",
+    "meanings":"bystander; side; besides; while; nearby; 3rd person",
+    "type":"kanji"
+  },
+  {
+    "kanji":"昌",
+    "spells":"ショウ ・ さかん",
+    "meanings":"prosperous; bright; clear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"尾",
+    "spells":"ビ ・ お",
+    "meanings":"tail; end; counter for fish; lower slope of mountain",
+    "type":"kanji"
+  },
+  {
+    "kanji":"彬",
+    "spells":"ヒン ・ フン ・ うるわ.しい ・ あき.らか",
+    "meanings":"refined; gentle",
+    "type":"kanji"
+  },
+  {
+    "kanji":"壱",
+    "spells":"イチ ・ イツ ・ ひとつ",
+    "meanings":"I; one",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蒔",
+    "spells":"シ ・ ジ ・ う.える ・ まく",
+    "meanings":"sow (seeds)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"頌",
+    "spells":"ショウ ・ ジュ ・ ヨウ ・ かたち ・ たた.える ・ ほめ.る",
+    "meanings":"eulogy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"窯",
+    "spells":"ヨウ ・ かま",
+    "meanings":"kiln; oven; furnace",
+    "type":"kanji"
+  },
+  {
+    "kanji":"添",
+    "spells":"テン ・ そ.える ・ そ.う ・ も.える ・ も.う",
+    "meanings":"annexed; accompany; marry; suit; meet; satisfy; attach; append; garnish; imitate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"扉",
+    "spells":"ヒ ・ とびら",
+    "meanings":"front door; title page; front page",
+    "type":"kanji"
+  },
+  {
+    "kanji":"削",
+    "spells":"サク ・ けず.る ・ はつ.る ・ そ.ぐ",
+    "meanings":"plane; sharpen; whittle; pare",
+    "type":"kanji"
+  },
+  {
+    "kanji":"悼",
+    "spells":"トウ ・ いた.む",
+    "meanings":"lament; grieve over",
+    "type":"kanji"
+  },
+  {
+    "kanji":"慨",
+    "spells":"ガイ",
+    "meanings":"rue; be sad; sigh; lament",
+    "type":"kanji"
+  },
+  {
+    "kanji":"釣",
+    "spells":"チョウ ・ つ.る ・ つ.り ・ つ.り-",
+    "meanings":"angling; fish; catch; allure; ensnare",
+    "type":"kanji"
+  },
+  {
+    "kanji":"獲",
+    "spells":"カク ・ え.る",
+    "meanings":"seize; get; find; earn; acquire; can; may; able to",
+    "type":"kanji"
+  },
+  {
+    "kanji":"藩",
+    "spells":"ハン",
+    "meanings":"clan; enclosure",
+    "type":"kanji"
+  },
+  {
+    "kanji":"弐",
+    "spells":"ニ ・ ジ ・ ふた.つ ・ そえ",
+    "meanings":"II; two; second",
+    "type":"kanji"
+  },
+  {
+    "kanji":"網",
+    "spells":"モウ ・ あみ",
+    "meanings":"netting; network",
+    "type":"kanji"
+  },
+  {
+    "kanji":"緩",
+    "spells":"カン ・ ゆる.い ・ ゆる.やか ・ ゆる.む ・ ゆる.める",
+    "meanings":"slacken; loosen; relax; lessen; be moderate; ease",
+    "type":"kanji"
+  },
+  {
+    "kanji":"匡",
+    "spells":"キョウ ・ オウ ・ すく.う",
+    "meanings":"correct; save; assist",
+    "type":"kanji"
+  },
+  {
+    "kanji":"隣",
+    "spells":"リン ・ とな.る ・ となり",
+    "meanings":"neighboring",
+    "type":"kanji"
+  },
+  {
+    "kanji":"敢",
+    "spells":"カン ・ あ.えて ・ あ.えない ・ あ.えず",
+    "meanings":"daring; brave; bold; sad; tragic; pitiful",
+    "type":"kanji"
+  },
+  {
+    "kanji":"濫",
+    "spells":"ラン ・ みだ.りに ・ みだ.りがましい",
+    "meanings":"excessive; overflow; spread out",
+    "type":"kanji"
+  },
+  {
+    "kanji":"也",
+    "spells":"ヤ ・ エ ・ なり ・ か ・ また",
+    "meanings":"to be (classical)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"弧",
+    "spells":"コ",
+    "meanings":"arc; arch; bow",
+    "type":"kanji"
+  },
+  {
+    "kanji":"唆",
+    "spells":"サ ・ そそ.る ・ そそのか.す",
+    "meanings":"tempt; seduce; instigate; promote",
+    "type":"kanji"
+  },
+  {
+    "kanji":"禄",
+    "spells":"ロク ・ さいわ.い ・ ふち",
+    "meanings":"fief; allowance; pension; grant; happiness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"碁",
+    "spells":"ゴ",
+    "meanings":"Go",
+    "type":"kanji"
+  },
+  {
+    "kanji":"敦",
+    "spells":"トン ・ タイ ・ ダン ・ チョウ ・ あつ.い",
+    "meanings":"industry; kindliness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"貢",
+    "spells":"コウ ・ ク ・ みつ.ぐ",
+    "meanings":"tribute; support; finance",
+    "type":"kanji"
+  },
+  {
+    "kanji":"懸",
+    "spells":"ケン ・ ケ ・ か.ける ・ か.かる",
+    "meanings":"suspend; hang; 10%; install; depend; consult",
+    "type":"kanji"
+  },
+  {
+    "kanji":"那",
+    "spells":"ナ ・ ダ ・ なに ・ なんぞ ・ いかん",
+    "meanings":"what?",
+    "type":"kanji"
+  },
+  {
+    "kanji":"誕",
+    "spells":"タン",
+    "meanings":"nativity; be born; declension; lie; be arbitrary",
+    "type":"kanji"
+  },
+  {
+    "kanji":"猟",
+    "spells":"リョウ ・ レフ ・ かり ・ か.る",
+    "meanings":"game-hunting; shooting; game; bag",
+    "type":"kanji"
+  },
+  {
+    "kanji":"典",
+    "spells":"テン ・ デン",
+    "meanings":"code; ceremony; law; rule",
+    "type":"kanji"
+  },
+  {
+    "kanji":"莞",
+    "spells":"カン ・ い",
+    "meanings":"smiling; reed used to cover tatami",
+    "type":"kanji"
+  },
+  {
+    "kanji":"闘",
+    "spells":"トウ ・ たたか.う ・ あらそ.う",
+    "meanings":"fight; war",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嬢",
+    "spells":"ジョウ ・ むすめ",
+    "meanings":"lass; girl; Miss; daughter",
+    "type":"kanji"
+  },
+  {
+    "kanji":"毬",
+    "spells":"キュウ ・ いが ・ まり",
+    "meanings":"burr; ball",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遭",
+    "spells":"ソウ ・ あ.う ・ あ.わせる",
+    "meanings":"encounter; meet; party; association; interview; join",
+    "type":"kanji"
+  },
+  {
+    "kanji":"盆",
+    "spells":"ボン",
+    "meanings":"basin; lantern festival; tray",
+    "type":"kanji"
+  },
+  {
+    "kanji":"己",
+    "spells":"コ ・ キ ・ おのれ ・ つちのと ・ な",
+    "meanings":"self",
+    "type":"kanji"
+  },
+  {
+    "kanji":"陰",
+    "spells":"イン ・ かげ ・ かげ.る",
+    "meanings":"shade; yin; negative; sex organs; secret; shadow",
+    "type":"kanji"
+  },
+  {
+    "kanji":"猿",
+    "spells":"エン ・ さる",
+    "meanings":"monkey",
+    "type":"kanji"
+  },
+  {
+    "kanji":"之",
+    "spells":"シ ・ の ・ これ ・ おいて ・ ゆく ・ この",
+    "meanings":"of; this",
+    "type":"kanji"
+  },
+  {
+    "kanji":"煮",
+    "spells":"シャ ・ に.る ・ -に ・ に.える ・ に.やす",
+    "meanings":"boil; cook",
+    "type":"kanji"
+  },
+  {
+    "kanji":"誓",
+    "spells":"セイ ・ ちか.う",
+    "meanings":"vow; swear; pledge",
+    "type":"kanji"
+  },
+  {
+    "kanji":"汰",
+    "spells":"タ ・ タイ ・ おご.る ・ にご.る ・ よな.げる",
+    "meanings":"luxury; select",
+    "type":"kanji"
+  },
+  {
+    "kanji":"攻",
+    "spells":"コウ ・ せ.める",
+    "meanings":"aggression; attack",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蛍",
+    "spells":"ケイ ・ ほたる",
+    "meanings":"lightning-bug; firefly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"侯",
+    "spells":"コウ",
+    "meanings":"marquis; lord; daimyo",
+    "type":"kanji"
+  },
+  {
+    "kanji":"厄",
+    "spells":"ヤク",
+    "meanings":"unlucky; misfortune; bad luck; disaster",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鞠",
+    "spells":"キク ・ キュウ ・ まり",
+    "meanings":"ball",
+    "type":"kanji"
+  },
+  {
+    "kanji":"操",
+    "spells":"ソウ ・ サン ・ みさお ・ あやつ.る",
+    "meanings":"maneuver; manipulate; operate; steer; chastity; virginity; fidelity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"襲",
+    "spells":"シュウ ・ おそ.う ・ かさ.ね",
+    "meanings":"attack; advance on; succeed to; pile; heap",
+    "type":"kanji"
+  },
+  {
+    "kanji":"購",
+    "spells":"コウ",
+    "meanings":"subscription; buy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"惜",
+    "spells":"セキ ・ お.しい ・ お.しむ",
+    "meanings":"pity; be sparing of; frugal; stingy; regret",
+    "type":"kanji"
+  },
+  {
+    "kanji":"賓",
+    "spells":"ヒン",
+    "meanings":"V.I.P.; guest",
+    "type":"kanji"
+  },
+  {
+    "kanji":"痴",
+    "spells":"チ ・ し.れる ・ おろか",
+    "meanings":"stupid; foolish",
+    "type":"kanji"
+  },
+  {
+    "kanji":"従",
+    "spells":"ジュウ ・ ショウ ・ ジュ ・ したが.う ・ したが.える ・ より",
+    "meanings":"accompany; obey; submit to; comply; follow; secondary; incidental; subordinate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"萩",
+    "spells":"シュウ ・ はぎ",
+    "meanings":"bush clover",
+    "type":"kanji"
+  },
+  {
+    "kanji":"虚",
+    "spells":"キョ ・ コ ・ むな.しい ・ うつ.ろ",
+    "meanings":"void; emptiness; unpreparedness; crack; fissure; untruth",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嶺",
+    "spells":"レイ ・ リョウ",
+    "meanings":"peak; summit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"綺",
+    "spells":"キ ・ あや",
+    "meanings":"figured cloth; beautiful",
+    "type":"kanji"
+  },
+  {
+    "kanji":"毅",
+    "spells":"キ ・ ギ ・ つよ.い",
+    "meanings":"strong",
+    "type":"kanji"
+  },
+  {
+    "kanji":"升",
+    "spells":"ショウ ・ ます",
+    "meanings":"measuring box; 1.8 liter",
+    "type":"kanji"
+  },
+  {
+    "kanji":"亮",
+    "spells":"リョウ ・ あきらか",
+    "meanings":"clear; help",
+    "type":"kanji"
+  },
+  {
+    "kanji":"岬",
+    "spells":"コウ ・ みさき",
+    "meanings":"headland; cape; spit; promontory",
+    "type":"kanji"
+  },
+  {
+    "kanji":"至",
+    "spells":"シ ・ いた.る",
+    "meanings":"climax; arrive; proceed; reach; attain; result in",
+    "type":"kanji"
+  },
+  {
+    "kanji":"暫",
+    "spells":"ザン ・ しばら.く",
+    "meanings":"temporarily; a while; moment; long time",
+    "type":"kanji"
+  },
+  {
+    "kanji":"韻",
+    "spells":"イン",
+    "meanings":"rhyme; elegance; tone",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鉛",
+    "spells":"エン ・ なまり",
+    "meanings":"lead",
+    "type":"kanji"
+  },
+  {
+    "kanji":"眺",
+    "spells":"チョウ ・ なが.める",
+    "meanings":"stare; watch; look at; see; scrutinize",
+    "type":"kanji"
+  },
+  {
+    "kanji":"塀",
+    "spells":"ヘイ ・ ベイ",
+    "meanings":"fence; wall; (kokuji)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"忠",
+    "spells":"チュウ",
+    "meanings":"loyalty; fidelity; faithfulness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"於",
+    "spells":"オ ・ ヨ ・ おい.て ・ お.ける ・ ああ ・ より",
+    "meanings":"at; in; on; as for",
+    "type":"kanji"
+  },
+  {
+    "kanji":"玄",
+    "spells":"ゲン",
+    "meanings":"mysterious; occultness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"寅",
+    "spells":"イン ・ とら",
+    "meanings":"sign of the tiger; 3-5AM; third sign of Chinese zodiac",
+    "type":"kanji"
+  },
+  {
+    "kanji":"濁",
+    "spells":"ダク ・ ジョク ・ にご.る ・ にご.す",
+    "meanings":"voiced; uncleanness; wrong; nigori; impurity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"傘",
+    "spells":"サン ・ かさ",
+    "meanings":"umbrella",
+    "type":"kanji"
+  },
+  {
+    "kanji":"垣",
+    "spells":"エン ・ かき",
+    "meanings":"hedge; fence; wall",
+    "type":"kanji"
+  },
+  {
+    "kanji":"即",
+    "spells":"ソク ・ つ.く ・ つ.ける ・ すなわ.ち",
+    "meanings":"instant; namely; as is; conform; agree; adapt",
+    "type":"kanji"
+  },
+  {
+    "kanji":"頻",
+    "spells":"ヒン ・ しき.りに",
+    "meanings":"repeatedly; recur",
+    "type":"kanji"
+  },
+  {
+    "kanji":"浩",
+    "spells":"コウ ・ おおき.い ・ ひろ.い",
+    "meanings":"wide expanse; abundance; vigorous",
+    "type":"kanji"
+  },
+  {
+    "kanji":"墳",
+    "spells":"フン",
+    "meanings":"tomb; mound",
+    "type":"kanji"
+  },
+  {
+    "kanji":"敵",
+    "spells":"テキ ・ かたき ・ あだ ・ かな.う",
+    "meanings":"enemy; foe; opponent",
+    "type":"kanji"
+  },
+  {
+    "kanji":"李",
+    "spells":"リ ・ すもも",
+    "meanings":"plum",
+    "type":"kanji"
+  },
+  {
+    "kanji":"窒",
+    "spells":"チツ",
+    "meanings":"plug up; obstruct",
+    "type":"kanji"
+  },
+  {
+    "kanji":"黎",
+    "spells":"レイ ・ リ ・ くろ.い",
+    "meanings":"dark; black; many",
+    "type":"kanji"
+  },
+  {
+    "kanji":"伏",
+    "spells":"フク ・ ふ.せる ・ ふ.す",
+    "meanings":"prostrated; bend down; bow; cover; lay (pipes)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"票",
+    "spells":"ヒョウ",
+    "meanings":"ballot; label; ticket; sign",
+    "type":"kanji"
+  },
+  {
+    "kanji":"漫",
+    "spells":"マン ・ みだり.に ・ そぞ.ろ",
+    "meanings":"cartoon; involuntarily; in spite of oneself; corrupt",
+    "type":"kanji"
+  },
+  {
+    "kanji":"懐",
+    "spells":"カイ ・ エ ・ ふところ ・ なつ.かしい ・ なつ.かしむ ・ なつ.く ・ なつ.ける ・ なず.ける ・ いだ.く ・ おも.う",
+    "meanings":"pocket; feelings; heart; yearn; miss someone; become attached to; bosom; breast",
+    "type":"kanji"
+  },
+  {
+    "kanji":"奪",
+    "spells":"ダツ ・ うば.う",
+    "meanings":"rob; take by force; snatch away; dispossess; plunder; usurp",
+    "type":"kanji"
+  },
+  {
+    "kanji":"浄",
+    "spells":"ジョウ ・ セイ ・ きよ.める ・ きよ.い",
+    "meanings":"clean; purify; cleanse; exorcise; Manchu Dynasty",
+    "type":"kanji"
+  },
+  {
+    "kanji":"隊",
+    "spells":"タイ",
+    "meanings":"regiment; party; company; squad",
+    "type":"kanji"
+  },
+  {
+    "kanji":"呈",
+    "spells":"テイ",
+    "meanings":"display; offer; present; send; exhibit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"琉",
+    "spells":"リュウ ・ ル",
+    "meanings":"precious stone; gem; lapis lazuli",
+    "type":"kanji"
+  },
+  {
+    "kanji":"壁",
+    "spells":"ヘキ ・ かべ",
+    "meanings":"wall; lining (stomach); fence",
+    "type":"kanji"
+  },
+  {
+    "kanji":"眼",
+    "spells":"ガン ・ ゲン ・ まなこ ・ め",
+    "meanings":"eyeball",
+    "type":"kanji"
+  },
+  {
+    "kanji":"慶",
+    "spells":"ケイ ・ よろこ.び",
+    "meanings":"jubilation; congratulate; rejoice; be happy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"岐",
+    "spells":"キ ・ ギ",
+    "meanings":"branch off; fork in road; scene; arena; theater",
+    "type":"kanji"
+  },
+  {
+    "kanji":"炊",
+    "spells":"スイ ・ た.く ・ -だ.き",
+    "meanings":"cook; boil",
+    "type":"kanji"
+  },
+  {
+    "kanji":"卑",
+    "spells":"ヒ ・ いや.しい ・ いや.しむ ・ いや.しめる",
+    "meanings":"lowly; base; vile; vulgar",
+    "type":"kanji"
+  },
+  {
+    "kanji":"浜",
+    "spells":"ヒン ・ はま",
+    "meanings":"seacoast; beach; seashore",
+    "type":"kanji"
+  },
+  {
+    "kanji":"桂",
+    "spells":"ケイ ・ かつら",
+    "meanings":"Japanese Judas-tree; cinnamon tree",
+    "type":"kanji"
+  },
+  {
+    "kanji":"糖",
+    "spells":"トウ",
+    "meanings":"sugar",
+    "type":"kanji"
+  },
+  {
+    "kanji":"艇",
+    "spells":"テイ",
+    "meanings":"rowboat; small boat",
+    "type":"kanji"
+  },
+  {
+    "kanji":"銘",
+    "spells":"メイ",
+    "meanings":"inscription; signature (of artisan)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"啄",
+    "spells":"タク ・ ツク ・ トク ・ ついば.む ・ つつ.く",
+    "meanings":"peck; pick up",
+    "type":"kanji"
+  },
+  {
+    "kanji":"酵",
+    "spells":"コウ",
+    "meanings":"fermentation",
+    "type":"kanji"
+  },
+  {
+    "kanji":"陵",
+    "spells":"リョウ ・ みささぎ",
+    "meanings":"mausoleum; imperial tomb",
+    "type":"kanji"
+  },
+  {
+    "kanji":"顕",
+    "spells":"ケン ・ あきらか ・ あらわ.れる",
+    "meanings":"appear; existing",
+    "type":"kanji"
+  },
+  {
+    "kanji":"宏",
+    "spells":"コウ ・ ひろ.い",
+    "meanings":"wide; large",
+    "type":"kanji"
+  },
+  {
+    "kanji":"露",
+    "spells":"ロ ・ ロウ ・ つゆ",
+    "meanings":"dew; tears; expose; Russia",
+    "type":"kanji"
+  },
+  {
+    "kanji":"柳",
+    "spells":"リュウ ・ やなぎ",
+    "meanings":"willow",
+    "type":"kanji"
+  },
+  {
+    "kanji":"緊",
+    "spells":"キン ・ し.める ・ し.まる",
+    "meanings":"tense; solid; hard; reliable; tight",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鶏",
+    "spells":"ケイ ・ にわとり ・ とり",
+    "meanings":"chicken",
+    "type":"kanji"
+  },
+  {
+    "kanji":"衿",
+    "spells":"キン ・ コン ・ えり",
+    "meanings":"neck; collar; lapel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"甚",
+    "spells":"ジン ・ はなは.だ ・ はなは.だしい",
+    "meanings":"tremendously; very; great; exceedingly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"潔",
+    "spells":"ケツ ・ いさぎよ.い",
+    "meanings":"undefiled; pure; clean; righteous; gallant",
+    "type":"kanji"
+  },
+  {
+    "kanji":"器",
+    "spells":"キ ・ うつわ",
+    "meanings":"utensil; vessel; receptacle; implement; instrument; ability; container; tool; set",
+    "type":"kanji"
+  },
+  {
+    "kanji":"迭",
+    "spells":"テツ",
+    "meanings":"transfer; alternation",
+    "type":"kanji"
+  },
+  {
+    "kanji":"凸",
+    "spells":"トツ ・ でこ",
+    "meanings":"convex; beetle brow; uneven",
+    "type":"kanji"
+  },
+  {
+    "kanji":"看",
+    "spells":"カン ・ み.る",
+    "meanings":"watch over; see",
+    "type":"kanji"
+  },
+  {
+    "kanji":"虎",
+    "spells":"コ ・ とら",
+    "meanings":"tiger; drunkard",
+    "type":"kanji"
+  },
+  {
+    "kanji":"棟",
+    "spells":"トウ ・ むね ・ むな-",
+    "meanings":"ridgepole; ridge",
+    "type":"kanji"
+  },
+  {
+    "kanji":"紺",
+    "spells":"コン",
+    "meanings":"dark blue; navy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"揚",
+    "spells":"ヨウ ・ あ.げる ・ -あ.げ ・ あ.がる",
+    "meanings":"hoist; fry in deep fat",
+    "type":"kanji"
+  },
+  {
+    "kanji":"茎",
+    "spells":"ケイ ・ キョウ ・ くき",
+    "meanings":"stalk; stem",
+    "type":"kanji"
+  },
+  {
+    "kanji":"滅",
+    "spells":"メツ ・ ほろ.びる ・ ほろ.ぶ ・ ほろ.ぼす",
+    "meanings":"destroy; ruin; overthrow; perish",
+    "type":"kanji"
+  },
+  {
+    "kanji":"畝",
+    "spells":"ボウ ・ ホ ・ モ ・ ム ・ せ ・ うね",
+    "meanings":"furrow; 30 tsubo; ridge; rib",
+    "type":"kanji"
+  },
+  {
+    "kanji":"釈",
+    "spells":"シャク ・ セキ ・ とく ・ す.てる ・ ゆる.す",
+    "meanings":"explanation",
+    "type":"kanji"
+  },
+  {
+    "kanji":"孔",
+    "spells":"コウ ・ あな",
+    "meanings":"cavity; hole; slit; very; great; exceedingly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"殊",
+    "spells":"シュ ・ こと",
+    "meanings":"particularly; especially; exceptionally",
+    "type":"kanji"
+  },
+  {
+    "kanji":"瑛",
+    "spells":"エイ",
+    "meanings":"sparkle of jewelry; crystal",
+    "type":"kanji"
+  },
+  {
+    "kanji":"該",
+    "spells":"ガイ",
+    "meanings":"above-stated; the said; that specific",
+    "type":"kanji"
+  },
+  {
+    "kanji":"泣",
+    "spells":"キュウ ・ な.く",
+    "meanings":"cry; weep; moan",
+    "type":"kanji"
+  },
+  {
+    "kanji":"僧",
+    "spells":"ソウ",
+    "meanings":"Buddhist priest; monk",
+    "type":"kanji"
+  },
+  {
+    "kanji":"刀",
+    "spells":"トウ ・ かたな ・ そり",
+    "meanings":"sword; saber; knife",
+    "type":"kanji"
+  },
+  {
+    "kanji":"炉",
+    "spells":"ロ ・ いろり",
+    "meanings":"hearth; furnace; kiln; reactor",
+    "type":"kanji"
+  },
+  {
+    "kanji":"捷",
+    "spells":"ショウ ・ ソウ ・ はや.い",
+    "meanings":"victory; fast",
+    "type":"kanji"
+  },
+  {
+    "kanji":"酷",
+    "spells":"コク ・ ひど.い",
+    "meanings":"cruel; severe; atrocious; unjust",
+    "type":"kanji"
+  },
+  {
+    "kanji":"佐",
+    "spells":"サ",
+    "meanings":"assistant; help",
+    "type":"kanji"
+  },
+  {
+    "kanji":"肪",
+    "spells":"ボウ",
+    "meanings":"obese; fat",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遼",
+    "spells":"リョウ",
+    "meanings":"distant",
+    "type":"kanji"
+  },
+  {
+    "kanji":"戒",
+    "spells":"カイ ・ いまし.める",
+    "meanings":"commandment",
+    "type":"kanji"
+  },
+  {
+    "kanji":"巽",
+    "spells":"ソン ・ たつみ",
+    "meanings":"southeast",
+    "type":"kanji"
+  },
+  {
+    "kanji":"率",
+    "spells":"ソツ ・ リツ ・ シュツ ・ ひき.いる",
+    "meanings":"ratio; rate; proportion; %; coefficient; factor",
+    "type":"kanji"
+  },
+  {
+    "kanji":"侮",
+    "spells":"ブ ・ あなど.る ・ あなず.る",
+    "meanings":"scorn; despise; make light of; contempt",
+    "type":"kanji"
+  },
+  {
+    "kanji":"脱",
+    "spells":"ダツ ・ ぬ.ぐ ・ ぬ.げる",
+    "meanings":"undress; removing; escape from; get rid of; be left out; take off",
+    "type":"kanji"
+  },
+  {
+    "kanji":"矛",
+    "spells":"ム ・ ボウ ・ ほこ",
+    "meanings":"halberd; arms; festival float",
+    "type":"kanji"
+  },
+  {
+    "kanji":"瑞",
+    "spells":"ズイ ・ スイ ・ みず- ・ しるし",
+    "meanings":"congratulations",
+    "type":"kanji"
+  },
+  {
+    "kanji":"憤",
+    "spells":"フン ・ いきどお.る",
+    "meanings":"aroused; resent; be indignant; anger",
+    "type":"kanji"
+  },
+  {
+    "kanji":"繁",
+    "spells":"ハン ・ しげ.る ・ しげ.く",
+    "meanings":"luxuriant; thick; overgrown; frequency; complexity; trouble",
+    "type":"kanji"
+  },
+  {
+    "kanji":"緯",
+    "spells":"イ ・ よこいと ・ ぬき",
+    "meanings":"horizontal; woof; left & right; latitude",
+    "type":"kanji"
+  },
+  {
+    "kanji":"抽",
+    "spells":"チュウ ・ ひき-",
+    "meanings":"pluck; pull; extract; excel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"烈",
+    "spells":"レツ ・ はげ.しい",
+    "meanings":"ardent; violent; vehement; furious; severe; extreme",
+    "type":"kanji"
+  },
+  {
+    "kanji":"励",
+    "spells":"レイ ・ はげ.む ・ はげ.ます",
+    "meanings":"encourage; be diligent; inspire",
+    "type":"kanji"
+  },
+  {
+    "kanji":"曙",
+    "spells":"ショ ・ あけぼの",
+    "meanings":"dawn; daybreak",
+    "type":"kanji"
+  },
+  {
+    "kanji":"傑",
+    "spells":"ケツ ・ すぐ.れる",
+    "meanings":"greatness; excellence",
+    "type":"kanji"
+  },
+  {
+    "kanji":"匁",
+    "spells":"もんめ ・ め",
+    "meanings":"monme; 3.75 grams; (kokuji)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嵐",
+    "spells":"ラン ・ あらし",
+    "meanings":"storm; tempest",
+    "type":"kanji"
+  },
+  {
+    "kanji":"洲",
+    "spells":"シュウ ・ ス ・ しま",
+    "meanings":"continent; sandbar; island; country",
+    "type":"kanji"
+  },
+  {
+    "kanji":"爾",
+    "spells":"ジ ・ ニ ・ なんじ ・ しかり ・ その ・ のみ ・ おれ ・ しか",
+    "meanings":"you; thou; second person",
+    "type":"kanji"
+  },
+  {
+    "kanji":"逮",
+    "spells":"タイ",
+    "meanings":"apprehend; chase",
+    "type":"kanji"
+  },
+  {
+    "kanji":"幹",
+    "spells":"カン ・ みき",
+    "meanings":"tree trunk",
+    "type":"kanji"
+  },
+  {
+    "kanji":"倹",
+    "spells":"ケン ・ つま.しい ・ つづまやか",
+    "meanings":"frugal; economy; thrifty",
+    "type":"kanji"
+  },
+  {
+    "kanji":"昭",
+    "spells":"ショウ",
+    "meanings":"shining; bright",
+    "type":"kanji"
+  },
+  {
+    "kanji":"奉",
+    "spells":"ホウ ・ ブ ・ たてまつ.る ・ まつ.る ・ ほう.ずる",
+    "meanings":"observance; offer; present; dedicate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"卓",
+    "spells":"タク",
+    "meanings":"eminent; table; desk; high",
+    "type":"kanji"
+  },
+  {
+    "kanji":"迅",
+    "spells":"ジン",
+    "meanings":"swift; fast",
+    "type":"kanji"
+  },
+  {
+    "kanji":"剣",
+    "spells":"ケン ・ つるぎ",
+    "meanings":"sabre; sword; blade; clock hand",
+    "type":"kanji"
+  },
+  {
+    "kanji":"旺",
+    "spells":"オウ ・ キョウ ・ ゴウ ・ かがや.き ・ うつくし.い ・ さかん",
+    "meanings":"flourishing; successful; beautiful; vigorous",
+    "type":"kanji"
+  },
+  {
+    "kanji":"愉",
+    "spells":"ユ ・ たの.しい ・ たの.しむ",
+    "meanings":"pleasure; happy; rejoice",
+    "type":"kanji"
+  },
+  {
+    "kanji":"漬",
+    "spells":"シ ・ つ.ける ・ つ.かる ・ -づ.け ・ -づけ",
+    "meanings":"pickling; soak; moisten; steep",
+    "type":"kanji"
+  },
+  {
+    "kanji":"契",
+    "spells":"ケイ ・ ちぎ.る",
+    "meanings":"pledge; promise; vow",
+    "type":"kanji"
+  },
+  {
+    "kanji":"標",
+    "spells":"ヒョウ ・ しるべ ・ しるし",
+    "meanings":"signpost; seal; mark; stamp; imprint; symbol; emblem; trademark; evidence; souvenir; target",
+    "type":"kanji"
+  },
+  {
+    "kanji":"俸",
+    "spells":"ホウ",
+    "meanings":"stipend; salary",
+    "type":"kanji"
+  },
+  {
+    "kanji":"霜",
+    "spells":"ソウ ・ しも",
+    "meanings":"frost",
+    "type":"kanji"
+  },
+  {
+    "kanji":"祥",
+    "spells":"ショウ ・ さいわ.い ・ きざ.し ・ よ.い ・ つまび.らか",
+    "meanings":"auspicious; happiness; blessedness; good omen; good fortune",
+    "type":"kanji"
+  },
+  {
+    "kanji":"亭",
+    "spells":"テイ ・ チン",
+    "meanings":"pavilion; restaurant; mansion; arbor; cottage; vaudeville; music hall; stage name",
+    "type":"kanji"
+  },
+  {
+    "kanji":"渓",
+    "spells":"ケイ ・ たに ・ たにがわ",
+    "meanings":"mountain stream; valley",
+    "type":"kanji"
+  },
+  {
+    "kanji":"浪",
+    "spells":"ロウ",
+    "meanings":"wandering; waves; billows",
+    "type":"kanji"
+  },
+  {
+    "kanji":"茂",
+    "spells":"モ ・ しげ.る",
+    "meanings":"overgrown; grow thick; be luxuriant",
+    "type":"kanji"
+  },
+  {
+    "kanji":"錯",
+    "spells":"サク ・ シャク",
+    "meanings":"confused; mix; be in disorder",
+    "type":"kanji"
+  },
+  {
+    "kanji":"硝",
+    "spells":"ショウ",
+    "meanings":"nitrate; saltpeter",
+    "type":"kanji"
+  },
+  {
+    "kanji":"翁",
+    "spells":"オウ ・ おきな",
+    "meanings":"venerable old man",
+    "type":"kanji"
+  },
+  {
+    "kanji":"垂",
+    "spells":"スイ ・ た.れる ・ た.らす ・ た.れ ・ -た.れ ・ なんなんと.す",
+    "meanings":"droop; suspend; hang; slouch",
+    "type":"kanji"
+  },
+  {
+    "kanji":"恕",
+    "spells":"ジョ ・ ショ ・ ゆる.す",
+    "meanings":"excuse; tolerate; forgive",
+    "type":"kanji"
+  },
+  {
+    "kanji":"貫",
+    "spells":"カン ・ つらぬ.く ・ ぬ.く ・ ぬき",
+    "meanings":"pierce; 8 1/3lbs; penetrate; brace",
+    "type":"kanji"
+  },
+  {
+    "kanji":"冒",
+    "spells":"ボウ ・ おか.す",
+    "meanings":"risk; face; defy; dare; damage; assume (a name)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"皇",
+    "spells":"コウ ・ オウ",
+    "meanings":"emperor",
+    "type":"kanji"
+  },
+  {
+    "kanji":"檀",
+    "spells":"ダン ・ タン ・ まゆみ",
+    "meanings":"cedar; sandlewood; spindle tree",
+    "type":"kanji"
+  },
+  {
+    "kanji":"乙",
+    "spells":"オツ ・ イツ ・ おと- ・ きのと",
+    "meanings":"the latter; duplicate; strange; witty; fishhook radical (no. 5)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"倣",
+    "spells":"ホウ ・ なら.う",
+    "meanings":"emulate; imitate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"椰",
+    "spells":"ヤ ・ やし",
+    "meanings":"coconut tree",
+    "type":"kanji"
+  },
+  {
+    "kanji":"妊",
+    "spells":"ニン ・ ジン ・ はら.む ・ みごも.る",
+    "meanings":"pregnancy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"偲",
+    "spells":"サイ ・ シ ・ しの.ぶ",
+    "meanings":"recollect; remember",
+    "type":"kanji"
+  },
+  {
+    "kanji":"朽",
+    "spells":"キュウ ・ く.ちる",
+    "meanings":"decay; rot; remain in seclusion",
+    "type":"kanji"
+  },
+  {
+    "kanji":"司",
+    "spells":"シ ・ つかさど.る",
+    "meanings":"director; official; govt office; rule; administer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"怪",
+    "spells":"カイ ・ ケ ・ あや.しい ・ あや.しむ",
+    "meanings":"suspicious; mystery; apparition",
+    "type":"kanji"
+  },
+  {
+    "kanji":"苗",
+    "spells":"ビョウ ・ ミョウ ・ なえ ・ なわ-",
+    "meanings":"seedling; sapling; shoot",
+    "type":"kanji"
+  },
+  {
+    "kanji":"譲",
+    "spells":"ジョウ ・ ゆず.る",
+    "meanings":"defer; turnover; transfer; convey",
+    "type":"kanji"
+  },
+  {
+    "kanji":"隔",
+    "spells":"カク ・ へだ.てる ・ へだ.たる",
+    "meanings":"isolate; alternate; distance; separate; gulf",
+    "type":"kanji"
+  },
+  {
+    "kanji":"爽",
+    "spells":"ソウ ・ あき.らか ・ さわ.やか ・ たがう",
+    "meanings":"refreshing; bracing; resonant; sweet; clear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嫡",
+    "spells":"チャク ・ テキ",
+    "meanings":"legitimate wife; direct descent (non-bastard)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"煩",
+    "spells":"ハン ・ ボン ・ わずら.う ・ わずら.わす ・ うるさ.がる ・ うるさ.い",
+    "meanings":"anxiety; trouble; worry; pain; ill; annoy; nuisance; irksome",
+    "type":"kanji"
+  },
+  {
+    "kanji":"槻",
+    "spells":"キ ・ つき",
+    "meanings":"Zelkova tree",
+    "type":"kanji"
+  },
+  {
+    "kanji":"撃",
+    "spells":"ゲキ ・ う.つ",
+    "meanings":"beat; attack; defeat; conquer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"笹",
+    "spells":"ささ",
+    "meanings":"bamboo grass; (kokuji)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"訟",
+    "spells":"ショウ",
+    "meanings":"sue; accuse",
+    "type":"kanji"
+  },
+  {
+    "kanji":"旦",
+    "spells":"タン ・ ダン ・ あき.らか ・ あきら ・ ただし ・ あさ ・ あした",
+    "meanings":"daybreak; dawn; morning",
+    "type":"kanji"
+  },
+  {
+    "kanji":"笛",
+    "spells":"テキ ・ ふえ",
+    "meanings":"flute; clarinet; pipe; whistle; bagpipe; piccolo",
+    "type":"kanji"
+  },
+  {
+    "kanji":"酬",
+    "spells":"シュウ ・ シュ ・ トウ ・ むく.いる",
+    "meanings":"repay; reward; retribution",
+    "type":"kanji"
+  },
+  {
+    "kanji":"愁",
+    "spells":"シュウ ・ うれ.える ・ うれ.い",
+    "meanings":"distress; grieve; lament; be anxious",
+    "type":"kanji"
+  },
+  {
+    "kanji":"挙",
+    "spells":"キョ ・ あ.げる ・ あ.がる ・ こぞ.る",
+    "meanings":"raise; plan; project; behavior; actions",
+    "type":"kanji"
+  },
+  {
+    "kanji":"廷",
+    "spells":"テイ",
+    "meanings":"courts; imperial court; government office",
+    "type":"kanji"
+  },
+  {
+    "kanji":"微",
+    "spells":"ビ ・ かす.か",
+    "meanings":"delicate; minuteness; insignificance",
+    "type":"kanji"
+  },
+  {
+    "kanji":"尿",
+    "spells":"ニョウ",
+    "meanings":"urine",
+    "type":"kanji"
+  },
+  {
+    "kanji":"射",
+    "spells":"シャ ・ い.る ・ さ.す ・ う.つ",
+    "meanings":"shoot; shine into; onto; archery",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遥",
+    "spells":"ヨウ ・ はる.か",
+    "meanings":"far off; distant; long ago",
+    "type":"kanji"
+  },
+  {
+    "kanji":"舌",
+    "spells":"ゼツ ・ した",
+    "meanings":"tongue; reed; clapper",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遣",
+    "spells":"ケン ・ つか.う ・ -つか.い ・ -づか.い ・ つか.わす ・ や.る",
+    "meanings":"dispatch; despatch; send; give; donate; do; undertake",
+    "type":"kanji"
+  },
+  {
+    "kanji":"概",
+    "spells":"ガイ ・ おおむ.ね",
+    "meanings":"outline; condition; approximation; generally",
+    "type":"kanji"
+  },
+  {
+    "kanji":"訳",
+    "spells":"ヤク ・ わけ",
+    "meanings":"translate; reason; circumstance; case",
+    "type":"kanji"
+  },
+  {
+    "kanji":"診",
+    "spells":"シン ・ み.る",
+    "meanings":"checkup; seeing; diagnose; examine",
+    "type":"kanji"
+  },
+  {
+    "kanji":"擬",
+    "spells":"ギ ・ まが.い ・ もど.き",
+    "meanings":"mimic; aim (a gun) at; nominate; imitate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"晶",
+    "spells":"ショウ",
+    "meanings":"sparkle; clear; crystal",
+    "type":"kanji"
+  },
+  {
+    "kanji":"壊",
+    "spells":"カイ ・ エ ・ こわ.す ・ こわ.れる ・ やぶ.る",
+    "meanings":"demolition; break; destroy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"沙",
+    "spells":"サ ・ シャ ・ すな ・ よなげる",
+    "meanings":"sand",
+    "type":"kanji"
+  },
+  {
+    "kanji":"渋",
+    "spells":"ジュウ ・ シュウ ・ しぶ ・ しぶ.い ・ しぶ.る",
+    "meanings":"astringent; hesitate; reluctant; have diarrhea",
+    "type":"kanji"
+  },
+  {
+    "kanji":"雛",
+    "spells":"スウ ・ ス ・ ジュ ・ ひな ・ ひよこ",
+    "meanings":"chick; squab; duckling; doll",
+    "type":"kanji"
+  },
+  {
+    "kanji":"克",
+    "spells":"コク ・ か.つ",
+    "meanings":"overcome; kindly; skillfully",
+    "type":"kanji"
+  },
+  {
+    "kanji":"冴",
+    "spells":"ゴ ・ コ ・ さ.える ・ こお.る ・ ひ.える",
+    "meanings":"be clear; serene; cold; skilful",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鎖",
+    "spells":"サ ・ くさり ・ とざ.す",
+    "meanings":"chain; irons; connection",
+    "type":"kanji"
+  },
+  {
+    "kanji":"督",
+    "spells":"トク",
+    "meanings":"coach; command; urge; lead; supervise",
+    "type":"kanji"
+  },
+  {
+    "kanji":"楼",
+    "spells":"ロウ ・ たかどの",
+    "meanings":"watchtower; lookout; high building",
+    "type":"kanji"
+  },
+  {
+    "kanji":"畔",
+    "spells":"ハン ・ あぜ ・ くろ ・ ほとり",
+    "meanings":"paddy ridge; levee",
+    "type":"kanji"
+  },
+  {
+    "kanji":"魅",
+    "spells":"ミ",
+    "meanings":"fascination; charm; bewitch",
+    "type":"kanji"
+  },
+  {
+    "kanji":"峻",
+    "spells":"シュン ・ けわ.しい ・ たか.い",
+    "meanings":"high; steep",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蚕",
+    "spells":"サン ・ テン ・ かいこ ・ こ",
+    "meanings":"silkworm",
+    "type":"kanji"
+  },
+  {
+    "kanji":"窮",
+    "spells":"キュウ ・ キョウ ・ きわ.める ・ きわ.まる ・ きわ.まり ・ きわ.み",
+    "meanings":"hard up; destitute; suffer; perplexed; cornered",
+    "type":"kanji"
+  },
+  {
+    "kanji":"斐",
+    "spells":"ヒ ・ イ",
+    "meanings":"beautiful; patterned",
+    "type":"kanji"
+  },
+  {
+    "kanji":"請",
+    "spells":"セイ ・ シン ・ ショウ ・ こ.う ・ う.ける",
+    "meanings":"solicit; invite; ask",
+    "type":"kanji"
+  },
+  {
+    "kanji":"赴",
+    "spells":"フ ・ おもむ.く",
+    "meanings":"proceed; get; become; tend",
+    "type":"kanji"
+  },
+  {
+    "kanji":"漱",
+    "spells":"ソウ ・ シュウ ・ ス ・ くちすす.ぐ ・ くちそそ.ぐ ・ うがい ・ すす.ぐ",
+    "meanings":"gargle; rinse mouth",
+    "type":"kanji"
+  },
+  {
+    "kanji":"耶",
+    "spells":"ヤ ・ ジャ ・ か",
+    "meanings":"question mark",
+    "type":"kanji"
+  },
+  {
+    "kanji":"梅",
+    "spells":"バイ ・ うめ",
+    "meanings":"plum",
+    "type":"kanji"
+  },
+  {
+    "kanji":"眸",
+    "spells":"ボウ ・ ム ・ ひとみ",
+    "meanings":"pupil of the eye",
+    "type":"kanji"
+  },
+  {
+    "kanji":"敷",
+    "spells":"フ ・ し.く ・ -し.き",
+    "meanings":"spread; pave; sit; promulgate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"端",
+    "spells":"タン ・ はし ・ は ・ はた ・ -ばた ・ はな",
+    "meanings":"edge; origin; end; point; border; verge; cape",
+    "type":"kanji"
+  },
+  {
+    "kanji":"芽",
+    "spells":"ガ ・ め",
+    "meanings":"bud; sprout; spear; germ",
+    "type":"kanji"
+  },
+  {
+    "kanji":"卯",
+    "spells":"ボウ ・ モウ ・ う",
+    "meanings":"sign of the hare or rabbit; 5-7AM; fourth sign of Chinese zodiac; east",
+    "type":"kanji"
+  },
+  {
+    "kanji":"染",
+    "spells":"セン ・ そ.める ・ -ぞ.め ・ -ぞめ ・ そ.まる ・ し.みる ・ -じ.みる ・ し.み ・ -し.める",
+    "meanings":"dye; color; paint; stain; print",
+    "type":"kanji"
+  },
+  {
+    "kanji":"邪",
+    "spells":"ジャ ・ よこし.ま",
+    "meanings":"wicked; injustice; wrong",
+    "type":"kanji"
+  },
+  {
+    "kanji":"納",
+    "spells":"ノウ ・ ナッ ・ ナ ・ ナン ・ トウ ・ おさ.める ・ -おさ.める ・ おさ.まる",
+    "meanings":"settlement; obtain; reap; pay; supply; store",
+    "type":"kanji"
+  },
+  {
+    "kanji":"健",
+    "spells":"ケン ・ すこ.やか",
+    "meanings":"healthy; health; strength; persistence",
+    "type":"kanji"
+  },
+  {
+    "kanji":"飼",
+    "spells":"シ ・ か.う",
+    "meanings":"domesticate; raise; keep; feed",
+    "type":"kanji"
+  },
+  {
+    "kanji":"異",
+    "spells":"イ ・ こと ・ こと.なる ・ け",
+    "meanings":"uncommon; queerness; strangeness; wonderful; curious; unusual",
+    "type":"kanji"
+  },
+  {
+    "kanji":"栗",
+    "spells":"リツ ・ リ ・ くり ・ おののく",
+    "meanings":"chestnut",
+    "type":"kanji"
+  },
+  {
+    "kanji":"淳",
+    "spells":"ジュン ・ シュン ・ あつ.い",
+    "meanings":"pure",
+    "type":"kanji"
+  },
+  {
+    "kanji":"茜",
+    "spells":"セン ・ あかね",
+    "meanings":"madder; red dye; Turkey red",
+    "type":"kanji"
+  },
+  {
+    "kanji":"賀",
+    "spells":"ガ",
+    "meanings":"congratulations; joy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"逐",
+    "spells":"チク",
+    "meanings":"pursue; drive away; chase; accomplish; attain; commit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"穀",
+    "spells":"コク",
+    "meanings":"cereals; grain",
+    "type":"kanji"
+  },
+  {
+    "kanji":"独",
+    "spells":"ドク ・ トク ・ ひと.り",
+    "meanings":"single; alone; spontaneously; Germany",
+    "type":"kanji"
+  },
+  {
+    "kanji":"還",
+    "spells":"カン ・ かえ.る",
+    "meanings":"send back; return",
+    "type":"kanji"
+  },
+  {
+    "kanji":"彫",
+    "spells":"チョウ ・ ほ.る ・ -ぼ.り",
+    "meanings":"carve; engrave; chisel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"縦",
+    "spells":"ジュウ ・ たて",
+    "meanings":"vertical; length; height; self-indulgent; wayward",
+    "type":"kanji"
+  },
+  {
+    "kanji":"踏",
+    "spells":"トウ ・ ふ.む ・ ふ.まえる",
+    "meanings":"step; trample; carry through; appraise; evade payment",
+    "type":"kanji"
+  },
+  {
+    "kanji":"禍",
+    "spells":"カ ・ わざわい",
+    "meanings":"calamity; misfortune; evil; curse",
+    "type":"kanji"
+  },
+  {
+    "kanji":"舗",
+    "spells":"ホ",
+    "meanings":"shop; store",
+    "type":"kanji"
+  },
+  {
+    "kanji":"級",
+    "spells":"キュウ",
+    "meanings":"class; rank; grade",
+    "type":"kanji"
+  },
+  {
+    "kanji":"塁",
+    "spells":"ルイ ・ ライ ・ スイ ・ とりで",
+    "meanings":"bases; fort; rampart; walls; base(ball)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"盾",
+    "spells":"ジュン ・ たて",
+    "meanings":"shield; escutcheon; pretext",
+    "type":"kanji"
+  },
+  {
+    "kanji":"桑",
+    "spells":"ソウ ・ くわ",
+    "meanings":"mulberry",
+    "type":"kanji"
+  },
+  {
+    "kanji":"昂",
+    "spells":"コウ ・ ゴウ ・ あ.がる ・ たか.い ・ たか.ぶる",
+    "meanings":"rise",
+    "type":"kanji"
+  },
+  {
+    "kanji":"握",
+    "spells":"アク ・ にぎ.る",
+    "meanings":"grip; hold; mould sushi; bribe",
+    "type":"kanji"
+  },
+  {
+    "kanji":"艦",
+    "spells":"カン",
+    "meanings":"warship",
+    "type":"kanji"
+  },
+  {
+    "kanji":"殴",
+    "spells":"オウ ・ なぐ.る",
+    "meanings":"assault; hit; beat; thrash",
+    "type":"kanji"
+  },
+  {
+    "kanji":"獄",
+    "spells":"ゴク",
+    "meanings":"prison; jail",
+    "type":"kanji"
+  },
+  {
+    "kanji":"雄",
+    "spells":"ユウ ・ お- ・ おす ・ おん",
+    "meanings":"masculine; male; hero; leader; superiority; excellence",
+    "type":"kanji"
+  },
+  {
+    "kanji":"洞",
+    "spells":"ドウ ・ ほら",
+    "meanings":"den; cave; excavation",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蔦",
+    "spells":"チョウ ・ つた",
+    "meanings":"vine; ivy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"朔",
+    "spells":"サク ・ ついたち",
+    "meanings":"conjunction (astronomy); first day of month; north",
+    "type":"kanji"
+  },
+  {
+    "kanji":"斎",
+    "spells":"サイ ・ とき ・ つつし.む ・ ものいみ ・ い.む ・ いわ.う ・ いつ.く",
+    "meanings":"purification; Buddhist food; room; worship; avoid; alike",
+    "type":"kanji"
+  },
+  {
+    "kanji":"怜",
+    "spells":"レイ ・ レン ・ リョウ ・ あわ.れむ ・ さと.い",
+    "meanings":"wise",
+    "type":"kanji"
+  },
+  {
+    "kanji":"恨",
+    "spells":"コン ・ うら.む ・ うら.めしい",
+    "meanings":"regret; bear a grudge; resentment; malice; hatred",
+    "type":"kanji"
+  },
+  {
+    "kanji":"穏",
+    "spells":"オン ・ おだ.やか",
+    "meanings":"calm; quiet; moderation",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遍",
+    "spells":"ヘン ・ あまね.く",
+    "meanings":"everywhere; times; widely; generally",
+    "type":"kanji"
+  },
+  {
+    "kanji":"排",
+    "spells":"ハイ",
+    "meanings":"repudiate; exclude; expel; reject",
+    "type":"kanji"
+  },
+  {
+    "kanji":"膨",
+    "spells":"ボウ ・ ふく.らむ ・ ふく.れる",
+    "meanings":"swell; get fat; thick",
+    "type":"kanji"
+  },
+  {
+    "kanji":"賄",
+    "spells":"ワイ ・ まかな.う",
+    "meanings":"bribe; board; supply; finance",
+    "type":"kanji"
+  },
+  {
+    "kanji":"宮",
+    "spells":"キュウ ・ グウ ・ ク ・ クウ ・ みや",
+    "meanings":"Shinto shrine; constellations; palace; princess",
+    "type":"kanji"
+  },
+  {
+    "kanji":"揮",
+    "spells":"キ ・ ふる.う",
+    "meanings":"brandish; wave; wag; swing; shake",
+    "type":"kanji"
+  },
+  {
+    "kanji":"塚",
+    "spells":"チョウ ・ つか ・ -づか",
+    "meanings":"hillock; mound",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嚇",
+    "spells":"カク ・ おど.かす",
+    "meanings":"menacing; dignity; majesty; threaten",
+    "type":"kanji"
+  },
+  {
+    "kanji":"冠",
+    "spells":"カン ・ かんむり",
+    "meanings":"crown; best; peerless",
+    "type":"kanji"
+  },
+  {
+    "kanji":"駿",
+    "spells":"シュン ・ スン ・ すぐ.れる",
+    "meanings":"a good horse; speed; a fast person",
+    "type":"kanji"
+  },
+  {
+    "kanji":"婿",
+    "spells":"セイ ・ むこ",
+    "meanings":"bridegroom; son-in-law",
+    "type":"kanji"
+  },
+  {
+    "kanji":"恵",
+    "spells":"ケイ ・ エ ・ めぐ.む ・ めぐ.み",
+    "meanings":"favor; blessing; grace; kindness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"策",
+    "spells":"サク",
+    "meanings":"scheme; plan; policy; step; means",
+    "type":"kanji"
+  },
+  {
+    "kanji":"倫",
+    "spells":"リン",
+    "meanings":"ethics; companion",
+    "type":"kanji"
+  },
+  {
+    "kanji":"廃",
+    "spells":"ハイ ・ すた.れる ・ すた.る",
+    "meanings":"abolish; obsolete; cessation; discarding; abandon",
+    "type":"kanji"
+  },
+  {
+    "kanji":"槙",
+    "spells":"テン ・ シン ・ まき ・ こずえ",
+    "meanings":"twig; ornamental evergreen",
+    "type":"kanji"
+  },
+  {
+    "kanji":"閲",
+    "spells":"エツ ・ けみ.する",
+    "meanings":"review; inspection; revision",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蓉",
+    "spells":"ヨウ",
+    "meanings":"lotus",
+    "type":"kanji"
+  },
+  {
+    "kanji":"径",
+    "spells":"ケイ ・ みち ・ こみち ・ さしわたし ・ ただちに",
+    "meanings":"diameter; path; method",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遷",
+    "spells":"セン ・ うつ.る ・ うつ.す ・ みやこがえ",
+    "meanings":"transition; move; change",
+    "type":"kanji"
+  },
+  {
+    "kanji":"餓",
+    "spells":"ガ ・ う.える",
+    "meanings":"starve; hungry; thirst",
+    "type":"kanji"
+  },
+  {
+    "kanji":"昆",
+    "spells":"コン",
+    "meanings":"descendants; elder brother; insect",
+    "type":"kanji"
+  },
+  {
+    "kanji":"郁",
+    "spells":"イク",
+    "meanings":"cultural progress; perfume",
+    "type":"kanji"
+  },
+  {
+    "kanji":"峰",
+    "spells":"ホウ ・ みね ・ ね",
+    "meanings":"summit; peak",
+    "type":"kanji"
+  },
+  {
+    "kanji":"胤",
+    "spells":"イン ・ たね",
+    "meanings":"descendent; issue; offspring",
+    "type":"kanji"
+  },
+  {
+    "kanji":"藍",
+    "spells":"ラン ・ あい",
+    "meanings":"indigo",
+    "type":"kanji"
+  },
+  {
+    "kanji":"旨",
+    "spells":"シ ・ むね ・ うま.い",
+    "meanings":"delicious; relish; show a liking for; purport; will; clever; expert",
+    "type":"kanji"
+  },
+  {
+    "kanji":"慮",
+    "spells":"リョ ・ おもんぱく.る ・ おもんぱか.る",
+    "meanings":"prudence; thought; concern; consider; deliberate; fear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"燎",
+    "spells":"リョウ ・ かがりび",
+    "meanings":"burn; bonfire",
+    "type":"kanji"
+  },
+  {
+    "kanji":"聡",
+    "spells":"ソウ ・ さと.い ・ みみざと.い",
+    "meanings":"wise; fast learner",
+    "type":"kanji"
+  },
+  {
+    "kanji":"薦",
+    "spells":"セン ・ すす.める",
+    "meanings":"recommend; mat; advise; encourage; offer",
+    "type":"kanji"
+  },
+  {
+    "kanji":"保",
+    "spells":"ホ ・ ホウ ・ たも.つ",
+    "meanings":"protect; guarantee; keep; preserve; sustain; support",
+    "type":"kanji"
+  },
+  {
+    "kanji":"評",
+    "spells":"ヒョウ",
+    "meanings":"evaluate; criticism; comment",
+    "type":"kanji"
+  },
+  {
+    "kanji":"慕",
+    "spells":"ボ ・ した.う",
+    "meanings":"pining; yearn for; love dearly; adore",
+    "type":"kanji"
+  },
+  {
+    "kanji":"肢",
+    "spells":"シ",
+    "meanings":"limb; arms & legs",
+    "type":"kanji"
+  },
+  {
+    "kanji":"泡",
+    "spells":"ホウ ・ あわ",
+    "meanings":"bubbles; foam; suds; froth",
+    "type":"kanji"
+  },
+  {
+    "kanji":"稀",
+    "spells":"キ ・ ケ ・ まれ ・ まばら",
+    "meanings":"rare; phenomenal; dilute (acid)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"稔",
+    "spells":"ネン ・ ジン ・ ニン ・ みの.る ・ みのり",
+    "meanings":"harvest; ripen",
+    "type":"kanji"
+  },
+  {
+    "kanji":"興",
+    "spells":"コウ ・ キョウ ・ おこ.る ・ おこ.す",
+    "meanings":"entertain; revive; retrieve; interest; pleasure",
+    "type":"kanji"
+  },
+  {
+    "kanji":"尋",
+    "spells":"ジン ・ たず.ねる ・ ひろ",
+    "meanings":"inquire; fathom; look for",
+    "type":"kanji"
+  },
+  {
+    "kanji":"葬",
+    "spells":"ソウ ・ ほうむ.る",
+    "meanings":"interment; bury; shelve",
+    "type":"kanji"
+  },
+  {
+    "kanji":"藤",
+    "spells":"トウ ・ ドウ ・ ふじ",
+    "meanings":"wisteria",
+    "type":"kanji"
+  },
+  {
+    "kanji":"詩",
+    "spells":"シ ・ うた",
+    "meanings":"poem; poetry",
+    "type":"kanji"
+  },
+  {
+    "kanji":"栞",
+    "spells":"カン ・ しおり",
+    "meanings":"bookmark; guidebook",
+    "type":"kanji"
+  },
+  {
+    "kanji":"葵",
+    "spells":"キ ・ あおい",
+    "meanings":"hollyhock",
+    "type":"kanji"
+  },
+  {
+    "kanji":"撮",
+    "spells":"サツ ・ と.る ・ つま.む ・ -ど.り",
+    "meanings":"snapshot; take pictures",
+    "type":"kanji"
+  },
+  {
+    "kanji":"唇",
+    "spells":"シン ・ くちびる",
+    "meanings":"lips",
+    "type":"kanji"
+  },
+  {
+    "kanji":"輝",
+    "spells":"キ ・ かがや.く",
+    "meanings":"radiance; shine; sparkle; gleam; twinkle",
+    "type":"kanji"
+  },
+  {
+    "kanji":"句",
+    "spells":"ク",
+    "meanings":"phrase; clause; sentence; passage; paragraph; counter for haiku",
+    "type":"kanji"
+  },
+  {
+    "kanji":"堀",
+    "spells":"クツ ・ ほり",
+    "meanings":"ditch; moat; canal",
+    "type":"kanji"
+  },
+  {
+    "kanji":"惨",
+    "spells":"サン ・ ザン ・ みじ.め ・ いた.む ・ むご.い",
+    "meanings":"wretched; disaster; cruelty; harsh",
+    "type":"kanji"
+  },
+  {
+    "kanji":"勁",
+    "spells":"ケイ ・ つよ.い",
+    "meanings":"strong",
+    "type":"kanji"
+  },
+  {
+    "kanji":"仁",
+    "spells":"ジン ・ ニ ・ ニン",
+    "meanings":"humanity; virtue; benevolence; charity; man; kernel",
+    "type":"kanji"
+  },
+  {
+    "kanji":"黛",
+    "spells":"タイ ・ まゆずみ",
+    "meanings":"blackened eyebrows",
+    "type":"kanji"
+  },
+  {
+    "kanji":"培",
+    "spells":"バイ ・ つちか.う",
+    "meanings":"cultivate; foster",
+    "type":"kanji"
+  },
+  {
+    "kanji":"且",
+    "spells":"ショ ・ ソ ・ ショウ ・ か.つ",
+    "meanings":"moreover; also; furthermore",
+    "type":"kanji"
+  },
+  {
+    "kanji":"暦",
+    "spells":"レキ ・ こよみ ・ りゃく",
+    "meanings":"calendar; almanac",
+    "type":"kanji"
+  },
+  {
+    "kanji":"霞",
+    "spells":"カ ・ ゲ ・ かすみ ・ かす.む",
+    "meanings":"be hazy; grow dim; blurred",
+    "type":"kanji"
+  },
+  {
+    "kanji":"憲",
+    "spells":"ケン",
+    "meanings":"constitution; law",
+    "type":"kanji"
+  },
+  {
+    "kanji":"脹",
+    "spells":"チョウ ・ は.れる ・ ふく.らむ ・ ふく.れる",
+    "meanings":"dilate; distend; bulge; fill out; swell",
+    "type":"kanji"
+  },
+  {
+    "kanji":"頒",
+    "spells":"ハン ・ わか.つ",
+    "meanings":"distribute; disseminate; partition; understand",
+    "type":"kanji"
+  },
+  {
+    "kanji":"詠",
+    "spells":"エイ ・ よ.む ・ うた.う",
+    "meanings":"recitation; poem; song; composing",
+    "type":"kanji"
+  },
+  {
+    "kanji":"累",
+    "spells":"ルイ",
+    "meanings":"accumulate; involvement; trouble; tie up; continually",
+    "type":"kanji"
+  },
+  {
+    "kanji":"柊",
+    "spells":"シュ ・ シュウ ・ ひいらぎ",
+    "meanings":"holly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"謄",
+    "spells":"トウ",
+    "meanings":"mimeograph; copy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"睡",
+    "spells":"スイ",
+    "meanings":"drowsy; sleep; die",
+    "type":"kanji"
+  },
+  {
+    "kanji":"弾",
+    "spells":"ダン ・ タン ・ ひ.く ・ -ひ.き ・ はず.む ・ たま ・ はじ.く ・ はじ.ける ・ ただ.す ・ はじ.きゆみ",
+    "meanings":"bullet; twang; flip; snap",
+    "type":"kanji"
+  },
+  {
+    "kanji":"継",
+    "spells":"ケイ ・ つ.ぐ ・ まま-",
+    "meanings":"inherit; succeed; patch; graft (tree)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"罰",
+    "spells":"バツ ・ バチ ・ ハツ ・ ばっ.する",
+    "meanings":"penalty; punishment",
+    "type":"kanji"
+  },
+  {
+    "kanji":"撤",
+    "spells":"テツ",
+    "meanings":"remove; withdraw; disarm; dismantle; reject; exclude",
+    "type":"kanji"
+  },
+  {
+    "kanji":"博",
+    "spells":"ハク ・ バク",
+    "meanings":"Dr.; command; esteem; win acclaim; Ph.D.; exposition; fair",
+    "type":"kanji"
+  },
+  {
+    "kanji":"憂",
+    "spells":"ユウ ・ うれ.える ・ うれ.い ・ う.い ・ う.き",
+    "meanings":"melancholy; grieve; lament; be anxious; sad; unhappy",
+    "type":"kanji"
+  },
+  {
+    "kanji":"援",
+    "spells":"エン",
+    "meanings":"abet; help; save",
+    "type":"kanji"
+  },
+  {
+    "kanji":"啓",
+    "spells":"ケイ ・ ひら.く ・ さと.す",
+    "meanings":"disclose; open; say",
+    "type":"kanji"
+  },
+  {
+    "kanji":"拡",
+    "spells":"カク ・ コウ ・ ひろ.がる ・ ひろ.げる ・ ひろ.める",
+    "meanings":"broaden; extend; expand; enlarge",
+    "type":"kanji"
+  },
+  {
+    "kanji":"乏",
+    "spells":"ボウ ・ とぼ.しい ・ とも.しい",
+    "meanings":"destitution; scarce; limited",
+    "type":"kanji"
+  },
+  {
+    "kanji":"弘",
+    "spells":"コウ ・ グ ・ ひろ.い",
+    "meanings":"vast; broad; wide",
+    "type":"kanji"
+  },
+  {
+    "kanji":"滑",
+    "spells":"カツ ・ コツ ・ すべ.る ・ なめ.らか",
+    "meanings":"slippery; slide; slip; flunk",
+    "type":"kanji"
+  },
+  {
+    "kanji":"胎",
+    "spells":"タイ",
+    "meanings":"womb; uterus",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鐘",
+    "spells":"ショウ ・ かね",
+    "meanings":"bell; gong; chimes",
+    "type":"kanji"
+  },
+  {
+    "kanji":"距",
+    "spells":"キョ ・ へだ.たる ・ けづめ",
+    "meanings":"long-distance; spur; fetlock",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鼓",
+    "spells":"コ ・ つづみ",
+    "meanings":"drum; beat; rouse; muster",
+    "type":"kanji"
+  },
+  {
+    "kanji":"哲",
+    "spells":"テツ ・ さとい ・ あき.らか ・ し.る ・ さば.く",
+    "meanings":"philosophy; clear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"履",
+    "spells":"リ ・ は.く",
+    "meanings":"footgear; shoes; boots; put on (the feet)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"腸",
+    "spells":"チョウ ・ はらわた ・ わた",
+    "meanings":"intestines; guts; bowels; viscera",
+    "type":"kanji"
+  },
+  {
+    "kanji":"邦",
+    "spells":"ホウ ・ くに",
+    "meanings":"home country; country; Japan",
+    "type":"kanji"
+  },
+  {
+    "kanji":"縮",
+    "spells":"シュク ・ ちぢ.む ・ ちぢ.まる ・ ちぢ.める ・ ちぢ.れる ・ ちぢ.らす",
+    "meanings":"shrink; contract; shrivel; wrinkle; reduce",
+    "type":"kanji"
+  },
+  {
+    "kanji":"胞",
+    "spells":"ホウ",
+    "meanings":"placenta; sac; sheath",
+    "type":"kanji"
+  },
+  {
+    "kanji":"喚",
+    "spells":"カン ・ わめ.く",
+    "meanings":"yell; cry; scream",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鷹",
+    "spells":"ヨウ ・ オウ ・ たか",
+    "meanings":"hawk",
+    "type":"kanji"
+  },
+  {
+    "kanji":"赦",
+    "spells":"シャ",
+    "meanings":"pardon; forgiveness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"綜",
+    "spells":"ソウ ・ おさ.める ・ す.べる",
+    "meanings":"rule",
+    "type":"kanji"
+  },
+  {
+    "kanji":"株",
+    "spells":"シュ ・ かぶ",
+    "meanings":"stocks; stump; shares; stock; counter for small plants",
+    "type":"kanji"
+  },
+  {
+    "kanji":"峠",
+    "spells":"とうげ",
+    "meanings":"mountain peak; mountain pass; climax; crest; (kokuji)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"汁",
+    "spells":"ジュウ ・ しる ・ -しる ・ つゆ",
+    "meanings":"soup; juice; broth; sap; gravy; pus",
+    "type":"kanji"
+  },
+  {
+    "kanji":"振",
+    "spells":"シン ・ ふ.る ・ ぶ.る ・ ふ.り ・ -ぶ.り ・ ふ.るう",
+    "meanings":"shake; wave; wag; swing",
+    "type":"kanji"
+  },
+  {
+    "kanji":"砕",
+    "spells":"サイ ・ くだ.く ・ くだ.ける",
+    "meanings":"smash; break; crush; familiar; popular",
+    "type":"kanji"
+  },
+  {
+    "kanji":"仰",
+    "spells":"ギョウ ・ コウ ・ あお.ぐ ・ おお.せ ・ お.っしゃる ・ おっしゃ.る",
+    "meanings":"face-up; look up; depend; seek; respect; rever; drink; take",
+    "type":"kanji"
+  },
+  {
+    "kanji":"亀",
+    "spells":"キ ・ キュウ ・ キン ・ かめ",
+    "meanings":"tortoise; turtle",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蛇",
+    "spells":"ジャ ・ ダ ・ イ ・ ヤ ・ へび",
+    "meanings":"snake; serpent; hard drinker",
+    "type":"kanji"
+  },
+  {
+    "kanji":"丙",
+    "spells":"ヘイ ・ ひのえ",
+    "meanings":"third class; 3rd; 3rd calendar sign",
+    "type":"kanji"
+  },
+  {
+    "kanji":"噴",
+    "spells":"フン ・ ふ.く",
+    "meanings":"erupt; spout; emit; flush out",
+    "type":"kanji"
+  },
+  {
+    "kanji":"褐",
+    "spells":"カツ",
+    "meanings":"brown; woollen kimono",
+    "type":"kanji"
+  },
+  {
+    "kanji":"拳",
+    "spells":"ケン ・ ゲン ・ こぶし",
+    "meanings":"fist",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蕗",
+    "spells":"ロ ・ ル ・ ふき",
+    "meanings":"butterbur; bog rhubarb",
+    "type":"kanji"
+  },
+  {
+    "kanji":"尉",
+    "spells":"イ ・ ジョウ",
+    "meanings":"military officer; jailer; old man; rank",
+    "type":"kanji"
+  },
+  {
+    "kanji":"辰",
+    "spells":"シン ・ ジン ・ たつ",
+    "meanings":"sign of the dragon; 7-9AM; fifth sign of Chinese zodiac; shin dragon radical (no. 161)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"兼",
+    "spells":"ケン ・ か.ねる ・ -か.ねる",
+    "meanings":"concurrently; and",
+    "type":"kanji"
+  },
+  {
+    "kanji":"翔",
+    "spells":"ショウ ・ かけ.る ・ と.ぶ",
+    "meanings":"soar; fly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"勺",
+    "spells":"シャク",
+    "meanings":"ladle; one tenth of a go; dip",
+    "type":"kanji"
+  },
+  {
+    "kanji":"凪",
+    "spells":"なぎ ・ な.ぐ",
+    "meanings":"lull; calm; (kokuji)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"翼",
+    "spells":"ヨク ・ つばさ",
+    "meanings":"wing; plane; flank",
+    "type":"kanji"
+  },
+  {
+    "kanji":"奨",
+    "spells":"ショウ ・ ソウ ・ すす.める",
+    "meanings":"exhort; urge; encourage",
+    "type":"kanji"
+  },
+  {
+    "kanji":"楓",
+    "spells":"フウ ・ かえで",
+    "meanings":"maple",
+    "type":"kanji"
+  },
+  {
+    "kanji":"逸",
+    "spells":"イツ ・ そ.れる ・ そ.らす ・ はぐ.れる",
+    "meanings":"deviate; idleness; leisure; miss the mark; evade; elude; parry; diverge",
+    "type":"kanji"
+  },
+  {
+    "kanji":"第",
+    "spells":"ダイ ・ テイ",
+    "meanings":"No.; residence",
+    "type":"kanji"
+  },
+  {
+    "kanji":"泌",
+    "spells":"ヒツ ・ ヒ",
+    "meanings":"ooze; flow; soak in; penetrate; secrete",
+    "type":"kanji"
+  },
+  {
+    "kanji":"寛",
+    "spells":"カン ・ くつろ.ぐ ・ ひろ.い ・ ゆる.やか",
+    "meanings":"tolerant; leniency; generosity; relax; feel at home; be at ease; broadminded",
+    "type":"kanji"
+  },
+  {
+    "kanji":"崎",
+    "spells":"キ ・ さき ・ さい ・ みさき",
+    "meanings":"promontory; cape; spit",
+    "type":"kanji"
+  },
+  {
+    "kanji":"亦",
+    "spells":"エキ ・ ヤク ・ また",
+    "meanings":"also; again",
+    "type":"kanji"
+  },
+  {
+    "kanji":"狂",
+    "spells":"キョウ ・ くる.う ・ くる.おしい ・ くるお.しい",
+    "meanings":"lunatic; insane; crazy; confuse",
+    "type":"kanji"
+  },
+  {
+    "kanji":"斤",
+    "spells":"キン",
+    "meanings":"axe; 1.32 lb; catty; counter for loaves of bread; axe radical (no. 69)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"弔",
+    "spells":"チョウ ・ とむら.う ・ とぶら.う",
+    "meanings":"condolences; mourning; funeral",
+    "type":"kanji"
+  },
+  {
+    "kanji":"疫",
+    "spells":"エキ ・ ヤク",
+    "meanings":"epidemic",
+    "type":"kanji"
+  },
+  {
+    "kanji":"沖",
+    "spells":"チュウ ・ おき ・ おきつ ・ ちゅう.する ・ わく",
+    "meanings":"open sea; offing; rise high into sky",
+    "type":"kanji"
+  },
+  {
+    "kanji":"殉",
+    "spells":"ジュン",
+    "meanings":"martyrdom; follow by resigning",
+    "type":"kanji"
+  },
+  {
+    "kanji":"耀",
+    "spells":"ヨウ ・ かがや.く ・ ひかり",
+    "meanings":"shine; sparkle; gleam; twinkle",
+    "type":"kanji"
+  },
+  {
+    "kanji":"愚",
+    "spells":"グ ・ おろ.か",
+    "meanings":"foolish; folly; absurdity; stupid",
+    "type":"kanji"
+  },
+  {
+    "kanji":"嫌",
+    "spells":"ケン ・ ゲン ・ きら.う ・ きら.い ・ いや",
+    "meanings":"dislike; detest; hate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蓄",
+    "spells":"チク ・ たくわ.える",
+    "meanings":"amass; keeping a concubine; phonograph",
+    "type":"kanji"
+  },
+  {
+    "kanji":"泰",
+    "spells":"タイ",
+    "meanings":"peaceful; calm; peace; easy; Thailand",
+    "type":"kanji"
+  },
+  {
+    "kanji":"覆",
+    "spells":"フク ・ おお.う ・ くつがえ.す ・ くつがえ.る",
+    "meanings":"capsize; cover; shade; mantle; be ruined",
+    "type":"kanji"
+  },
+  {
+    "kanji":"奴",
+    "spells":"ド ・ やつ ・ やっこ",
+    "meanings":"guy; slave; manservant; fellow",
+    "type":"kanji"
+  },
+  {
+    "kanji":"据",
+    "spells":"キョ ・ す.える ・ す.わる",
+    "meanings":"set; lay a foundation; install; equip; squat down; sit down",
+    "type":"kanji"
+  },
+  {
+    "kanji":"耐",
+    "spells":"タイ ・ た.える",
+    "meanings":"-proof; enduring",
+    "type":"kanji"
+  },
+  {
+    "kanji":"颯",
+    "spells":"サツ ・ ソウ ・ さっ.と",
+    "meanings":"sudden; quick; sound of the wind",
+    "type":"kanji"
+  },
+  {
+    "kanji":"縁",
+    "spells":"エン ・ -ネン ・ ふち ・ ふちど.る ・ ゆかり ・ よすが ・ へり ・ えにし",
+    "meanings":"affinity; relation; connection; edge; border; verge; brink",
+    "type":"kanji"
+  },
+  {
+    "kanji":"坑",
+    "spells":"コウ",
+    "meanings":"pit; hole",
+    "type":"kanji"
+  },
+  {
+    "kanji":"又",
+    "spells":"ユウ ・ また ・ また- ・ また.の-",
+    "meanings":"or again; furthermore; on the other hand",
+    "type":"kanji"
+  },
+  {
+    "kanji":"凜",
+    "spells":"リン ・ きびし.い",
+    "meanings":"cold; strict; severe",
+    "type":"kanji"
+  },
+  {
+    "kanji":"滞",
+    "spells":"タイ ・ テイ ・ とどこお.る",
+    "meanings":"stagnate; be delayed; overdue; arrears",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蝶",
+    "spells":"チョウ",
+    "meanings":"butterfly",
+    "type":"kanji"
+  },
+  {
+    "kanji":"縫",
+    "spells":"ホウ ・ ぬ.う",
+    "meanings":"sew; stitch; embroider",
+    "type":"kanji"
+  },
+  {
+    "kanji":"髄",
+    "spells":"ズイ",
+    "meanings":"marrow; pith",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蛮",
+    "spells":"バン ・ えびす",
+    "meanings":"barbarian",
+    "type":"kanji"
+  },
+  {
+    "kanji":"整",
+    "spells":"セイ ・ ととの.える ・ ととの.う",
+    "meanings":"organize; arranging; tune; tone; meter; key (music)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"房",
+    "spells":"ボウ ・ ふさ",
+    "meanings":"tassel; tuft; fringe; bunch; lock (hair); segment (orange); house; room",
+    "type":"kanji"
+  },
+  {
+    "kanji":"瑠",
+    "spells":"ル ・ リュウ",
+    "meanings":"lapis lazuli",
+    "type":"kanji"
+  },
+  {
+    "kanji":"朋",
+    "spells":"ホウ ・ とも",
+    "meanings":"companion; friend",
+    "type":"kanji"
+  },
+  {
+    "kanji":"茄",
+    "spells":"カ",
+    "meanings":"eggplant",
+    "type":"kanji"
+  },
+  {
+    "kanji":"阻",
+    "spells":"ソ ・ はば.む",
+    "meanings":"thwart; separate from; prevent; obstruct; deter; impede",
+    "type":"kanji"
+  },
+  {
+    "kanji":"巧",
+    "spells":"コウ ・ たく.み ・ たく.む ・ うま.い",
+    "meanings":"adroit; skilled; ingenuity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"寡",
+    "spells":"カ",
+    "meanings":"widow; minority; few",
+    "type":"kanji"
+  },
+  {
+    "kanji":"刃",
+    "spells":"ジン ・ ニン ・ は ・ やいば ・ き.る",
+    "meanings":"blade; sword; edge",
+    "type":"kanji"
+  },
+  {
+    "kanji":"摂",
+    "spells":"セツ ・ ショウ ・ おさ.める ・ かね.る ・ と.る",
+    "meanings":"vicarious; surrogate; act in addition to",
+    "type":"kanji"
+  },
+  {
+    "kanji":"擁",
+    "spells":"ヨウ",
+    "meanings":"hug; embrace; possess; protect; lead",
+    "type":"kanji"
+  },
+  {
+    "kanji":"狩",
+    "spells":"シュ ・ か.る ・ か.り ・ -が.り",
+    "meanings":"hunt; raid; gather",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鵬",
+    "spells":"ホウ ・ おおとり",
+    "meanings":"phoenix",
+    "type":"kanji"
+  },
+  {
+    "kanji":"享",
+    "spells":"キョウ ・ コウ ・ う.ける",
+    "meanings":"receive; undergo; answer (phone); take; get; catch",
+    "type":"kanji"
+  },
+  {
+    "kanji":"伴",
+    "spells":"ハン ・ バン ・ ともな.う",
+    "meanings":"consort; accompany; bring with; companion",
+    "type":"kanji"
+  },
+  {
+    "kanji":"検",
+    "spells":"ケン ・ しら.べる",
+    "meanings":"examination; investigate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"牧",
+    "spells":"ボク ・ まき",
+    "meanings":"breed; care for; shepherd; feed; pasture",
+    "type":"kanji"
+  },
+  {
+    "kanji":"隆",
+    "spells":"リュウ",
+    "meanings":"hump; high; noble; prosperity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"免",
+    "spells":"メン ・ まぬか.れる ・ まぬが.れる",
+    "meanings":"excuse; dismissal",
+    "type":"kanji"
+  },
+  {
+    "kanji":"廊",
+    "spells":"ロウ",
+    "meanings":"corridor; hall; tower",
+    "type":"kanji"
+  },
+  {
+    "kanji":"伶",
+    "spells":"レイ ・ リョウ ・ わざおぎ",
+    "meanings":"actor",
+    "type":"kanji"
+  },
+  {
+    "kanji":"蓮",
+    "spells":"レン ・ はす ・ はちす",
+    "meanings":"lotus",
+    "type":"kanji"
+  },
+  {
+    "kanji":"妥",
+    "spells":"ダ",
+    "meanings":"gentle; peace; depravity",
+    "type":"kanji"
+  },
+  {
+    "kanji":"劾",
+    "spells":"ガイ",
+    "meanings":"censure; criminal investigation",
+    "type":"kanji"
+  },
+  {
+    "kanji":"庶",
+    "spells":"ショ",
+    "meanings":"commoner; all; bastard",
+    "type":"kanji"
+  },
+  {
+    "kanji":"渇",
+    "spells":"カツ ・ かわ.く",
+    "meanings":"thirst; dry up; parch",
+    "type":"kanji"
+  },
+  {
+    "kanji":"暉",
+    "spells":"キ ・ かが.やく",
+    "meanings":"shine; light",
+    "type":"kanji"
+  },
+  {
+    "kanji":"搭",
+    "spells":"トウ",
+    "meanings":"board; load (a vehicle); ride",
+    "type":"kanji"
+  },
+  {
+    "kanji":"杜",
+    "spells":"ト ・ トウ ・ ズ ・ もり ・ ふさ.ぐ ・ やまなし",
+    "meanings":"woods; grove",
+    "type":"kanji"
+  },
+  {
+    "kanji":"妙",
+    "spells":"ミョウ ・ ビョウ ・ たえ",
+    "meanings":"exquisite; strange; queer; mystery; miracle; excellent; delicate; charming",
+    "type":"kanji"
+  },
+  {
+    "kanji":"宴",
+    "spells":"エン ・ うたげ",
+    "meanings":"banquet; feast; party",
+    "type":"kanji"
+  },
+  {
+    "kanji":"晋",
+    "spells":"シン ・ すす.む",
+    "meanings":"advance",
+    "type":"kanji"
+  },
+  {
+    "kanji":"巴",
+    "spells":"ハ ・ ともえ ・ うずまき",
+    "meanings":"comma-design",
+    "type":"kanji"
+  },
+  {
+    "kanji":"源",
+    "spells":"ゲン ・ みなもと",
+    "meanings":"source; origin",
+    "type":"kanji"
+  },
+  {
+    "kanji":"呂",
+    "spells":"ロ ・ リョ ・ せぼね",
+    "meanings":"spine; backbone",
+    "type":"kanji"
+  },
+  {
+    "kanji":"郡",
+    "spells":"グン ・ こおり",
+    "meanings":"county; district",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鶴",
+    "spells":"カク ・ つる",
+    "meanings":"crane; stork",
+    "type":"kanji"
+  },
+  {
+    "kanji":"却",
+    "spells":"キャク ・ かえ.って ・ しりぞ.く ・ しりぞ.ける",
+    "meanings":"instead; on the contrary; rather",
+    "type":"kanji"
+  },
+  {
+    "kanji":"媒",
+    "spells":"バイ ・ なこうど",
+    "meanings":"mediator; go-between",
+    "type":"kanji"
+  },
+  {
+    "kanji":"橘",
+    "spells":"キツ ・ たちばな",
+    "meanings":"mandarin orange",
+    "type":"kanji"
+  },
+  {
+    "kanji":"郎",
+    "spells":"ロウ ・ リョウ ・ おとこ",
+    "meanings":"son; counter for sons",
+    "type":"kanji"
+  },
+  {
+    "kanji":"傷",
+    "spells":"ショウ ・ きず ・ いた.む ・ いた.める",
+    "meanings":"wound; hurt; injure; impair; pain; injury; cut; gash; scar; weak point",
+    "type":"kanji"
+  },
+  {
+    "kanji":"奎",
+    "spells":"ケイ ・ キ",
+    "meanings":"star; god of literature",
+    "type":"kanji"
+  },
+  {
+    "kanji":"拠",
+    "spells":"キョ ・ コ ・ よ.る",
+    "meanings":"foothold; based on; follow; therefore",
+    "type":"kanji"
+  },
+  {
+    "kanji":"瞭",
+    "spells":"リョウ ・ あきらか",
+    "meanings":"clear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"弁",
+    "spells":"ベン ・ ヘン ・ わきま.える ・ わ.ける ・ はなびら ・ あらそ.う",
+    "meanings":"valve; petal; braid; speech; dialect; discrimination; dispose of; distinguish",
+    "type":"kanji"
+  },
+  {
+    "kanji":"胡",
+    "spells":"ウ ・ コ ・ ゴ ・ なんぞ",
+    "meanings":"barbarian; foreign",
+    "type":"kanji"
+  },
+  {
+    "kanji":"柾",
+    "spells":"まさ ・ まさめ ・ まさき",
+    "meanings":"straight grain; spindle tree; (kokuji)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"威",
+    "spells":"イ ・ おど.す ・ おど.し ・ おど.かす",
+    "meanings":"intimidate; dignity; majesty; menace; threaten",
+    "type":"kanji"
+  },
+  {
+    "kanji":"織",
+    "spells":"ショク ・ シキ ・ お.る ・ お.り ・ おり ・ -おり ・ -お.り",
+    "meanings":"weave; fabric",
+    "type":"kanji"
+  },
+  {
+    "kanji":"黙",
+    "spells":"モク ・ ボク ・ だま.る ・ もだ.す",
+    "meanings":"silence; become silent; stop speaking; leave as is",
+    "type":"kanji"
+  },
+  {
+    "kanji":"碩",
+    "spells":"セキ ・ おお.きい",
+    "meanings":"large; great; eminent",
+    "type":"kanji"
+  },
+  {
+    "kanji":"慎",
+    "spells":"シン ・ つつし.む ・ つつし ・ つつし.み",
+    "meanings":"humility; be careful; discrete; prudent",
+    "type":"kanji"
+  },
+  {
+    "kanji":"伊",
+    "spells":"イ ・ かれ",
+    "meanings":"Italy; that one",
+    "type":"kanji"
+  },
+  {
+    "kanji":"冗",
+    "spells":"ジョウ",
+    "meanings":"superfluous; uselessness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"較",
+    "spells":"カク ・ コウ ・ くら.べる",
+    "meanings":"contrast; compare",
+    "type":"kanji"
+  },
+  {
+    "kanji":"惰",
+    "spells":"ダ",
+    "meanings":"lazy; laziness",
+    "type":"kanji"
+  },
+  {
+    "kanji":"誉",
+    "spells":"ヨ ・ ほま.れ ・ ほ.める",
+    "meanings":"reputation; praise; honor; glory",
+    "type":"kanji"
+  },
+  {
+    "kanji":"熊",
+    "spells":"ユウ ・ くま",
+    "meanings":"bear",
+    "type":"kanji"
+  },
+  {
+    "kanji":"騒",
+    "spells":"ソウ ・ さわ.ぐ ・ うれい ・ さわ.がしい",
+    "meanings":"boisterous; make noise; clamor; disturb; excite",
+    "type":"kanji"
+  },
+  {
+    "kanji":"碧",
+    "spells":"ヘキ ・ ヒャク",
+    "meanings":"blue; green",
+    "type":"kanji"
+  },
+  {
+    "kanji":"溝",
+    "spells":"コウ ・ みぞ",
+    "meanings":"gutter; ditch; sewer; drain; 10**32",
+    "type":"kanji"
+  },
+  {
+    "kanji":"賜",
+    "spells":"シ ・ たまわ.る ・ たま.う ・ たも.う",
+    "meanings":"grant; gift; boon; results",
+    "type":"kanji"
+  },
+  {
+    "kanji":"篤",
+    "spells":"トク ・ あつ.い",
+    "meanings":"fervent; kind; cordial; serious; deliberate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"豪",
+    "spells":"ゴウ ・ えら.い",
+    "meanings":"overpowering; great; powerful; excelling; Australia",
+    "type":"kanji"
+  },
+  {
+    "kanji":"憶",
+    "spells":"オク",
+    "meanings":"recollection; think; remember",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遂",
+    "spells":"スイ ・ と.げる ・ つい.に",
+    "meanings":"consummate; accomplish; attain; commit (suicide)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"諭",
+    "spells":"ユ ・ さと.す",
+    "meanings":"rebuke; admonish; charge; warn; persuade",
+    "type":"kanji"
+  },
+  {
+    "kanji":"鴻",
+    "spells":"コウ ・ ゴウ ・ おおとり ・ ひしくい ・ おおがり",
+    "meanings":"large bird; wild goose; large; great; powerful; prosperous",
+    "type":"kanji"
+  },
+  {
+    "kanji":"賃",
+    "spells":"チン",
+    "meanings":"fare; fee; hire; rent; wages; charge",
+    "type":"kanji"
+  },
+  {
+    "kanji":"肥",
+    "spells":"ヒ ・ こ.える ・ こえ ・ こ.やす ・ こ.やし ・ ふと.る",
+    "meanings":"fertilizer; get fat; fertile; manure; pamper",
+    "type":"kanji"
+  },
+  {
+    "kanji":"枢",
+    "spells":"スウ ・ シュ ・ とぼそ ・ からくり",
+    "meanings":"hinge; pivot; door",
+    "type":"kanji"
+  },
+  {
+    "kanji":"摘",
+    "spells":"テキ ・ つ.む",
+    "meanings":"pinch; pick; pluck; trim; clip; summarize",
+    "type":"kanji"
+  },
+  {
+    "kanji":"剛",
+    "spells":"ゴウ",
+    "meanings":"sturdy; strength",
+    "type":"kanji"
+  },
+  {
+    "kanji":"伯",
+    "spells":"ハク",
+    "meanings":"chief; count; earl; uncle; Brazil",
+    "type":"kanji"
+  },
+  {
+    "kanji":"飢",
+    "spells":"キ ・ う.える",
+    "meanings":"hungry; starve",
+    "type":"kanji"
+  },
+  {
+    "kanji":"訴",
+    "spells":"ソ ・ うった.える",
+    "meanings":"accusation; sue; complain of pain; appeal to",
+    "type":"kanji"
+  },
+  {
+    "kanji":"伎",
+    "spells":"ギ ・ キ ・ わざ ・ わざおぎ",
+    "meanings":"deed; skill",
+    "type":"kanji"
+  },
+  {
+    "kanji":"維",
+    "spells":"イ",
+    "meanings":"fiber; tie; rope",
+    "type":"kanji"
+  },
+  {
+    "kanji":"綸",
+    "spells":"リン ・ カン ・ いと",
+    "meanings":"thread; silk cloth",
+    "type":"kanji"
+  },
+  {
+    "kanji":"舜",
+    "spells":"シュン",
+    "meanings":"type of morning glory; rose of Sharon; althea",
+    "type":"kanji"
+  },
+  {
+    "kanji":"湧",
+    "spells":"ユウ ・ ヨウ ・ ユ ・ わ.く",
+    "meanings":"boil; ferment; seethe; uproar; breed",
+    "type":"kanji"
+  },
+  {
+    "kanji":"謝",
+    "spells":"シャ ・ あやま.る",
+    "meanings":"apologize; thank; refuse",
+    "type":"kanji"
+  },
+  {
+    "kanji":"驚",
+    "spells":"キョウ ・ おどろ.く ・ おどろ.かす",
+    "meanings":"wonder; be surprised; frightened; amazed",
+    "type":"kanji"
+  },
+  {
+    "kanji":"肺",
+    "spells":"ハイ",
+    "meanings":"lungs",
+    "type":"kanji"
+  },
+  {
+    "kanji":"盟",
+    "spells":"メイ",
+    "meanings":"alliance; oath",
+    "type":"kanji"
+  },
+  {
+    "kanji":"宥",
+    "spells":"ユウ ・ なだ.める ・ ゆる.す",
+    "meanings":"soothe; calm; pacify",
+    "type":"kanji"
+  },
+  {
+    "kanji":"堪",
+    "spells":"カン ・ タン ・ た.える ・ たま.る ・ こ.らえる ・ こた.える",
+    "meanings":"withstand; endure; support; resist",
+    "type":"kanji"
+  },
+  {
+    "kanji":"穂",
+    "spells":"スイ ・ ほ",
+    "meanings":"ear; ear (grain); head; crest (wave)",
+    "type":"kanji"
+  },
+  {
+    "kanji":"裕",
+    "spells":"ユウ",
+    "meanings":"abundant; rich; fertile",
+    "type":"kanji"
+  },
+  {
+    "kanji":"准",
+    "spells":"ジュン",
+    "meanings":"quasi-; semi-; associate",
+    "type":"kanji"
+  },
+  {
+    "kanji":"莉",
+    "spells":"リ ・ ライ ・ レイ",
+    "meanings":"jasmine",
+    "type":"kanji"
+  },
+  {
+    "kanji":"慰",
+    "spells":"イ ・ なぐさ.める ・ なぐさ.む",
+    "meanings":"consolation; amusement; seduce; cheer; make sport of; comfort; console",
+    "type":"kanji"
+  },
+  {
+    "kanji":"繕",
+    "spells":"ゼン ・ つくろ.う",
+    "meanings":"darning; repair; mend; trim; tidy up; adjust",
+    "type":"kanji"
+  },
+  {
+    "kanji":"閣",
+    "spells":"カク",
+    "meanings":"tower; tall building; palace",
+    "type":"kanji"
+  },
+  {
+    "kanji":"虹",
+    "spells":"コウ ・ にじ",
+    "meanings":"rainbow",
+    "type":"kanji"
+  },
+  {
+    "kanji":"厘",
+    "spells":"リン",
+    "meanings":"rin; 1/10sen; 1/10bu",
+    "type":"kanji"
+  },
+  {
+    "kanji":"災",
+    "spells":"サイ ・ わざわ.い",
+    "meanings":"disaster; calamity; woe; curse; evil",
+    "type":"kanji"
+  },
+  {
+    "kanji":"陶",
+    "spells":"トウ",
+    "meanings":"pottery; porcelain",
+    "type":"kanji"
+  },
+  {
+    "kanji":"及",
+    "spells":"キュウ ・ およ.ぶ ・ およ.び ・ および ・ およ.ぼす",
+    "meanings":"reach out; exert; exercise; cause",
+    "type":"kanji"
+  },
+  {
+    "kanji":"遵",
+    "spells":"ジュン",
+    "meanings":"abide by; follow; obey; learn",
+    "type":"kanji"
+  },
+  {
+    "kanji":"萌",
+    "spells":"ホウ ・ も.える ・ きざ.す ・ めばえ ・ きざ.し",
+    "meanings":"show symptoms of; sprout; bud; malt",
+    "type":"kanji"
+  }
+]
