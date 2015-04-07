@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		740FD2EE1ABB5B2600C1DD89 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2ED1ABB5B2600C1DD89 /* QuizManager.swift */; };
 		740FD2F01ABBB4CE00C1DD89 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2EF1ABBB4CE00C1DD89 /* ResultsTableViewController.swift */; };
-		740FD2F21ABBB51600C1DD89 /* ResultDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2F11ABBB51600C1DD89 /* ResultDetailTableViewController.swift */; };
 		740FD2F41ABBC32D00C1DD89 /* ProblemInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740FD2F31ABBC32D00C1DD89 /* ProblemInterfaceController.swift */; };
 		D52D60E91ABF137400E601B2 /* DataLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = D52D60E81ABF137400E601B2 /* DataLogic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D52D60EF1ABF137400E601B2 /* DataLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; };
@@ -188,7 +187,6 @@
 /* Begin PBXFileReference section */
 		740FD2ED1ABB5B2600C1DD89 /* QuizManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		740FD2EF1ABBB4CE00C1DD89 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
-		740FD2F11ABBB51600C1DD89 /* ResultDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultDetailTableViewController.swift; sourceTree = "<group>"; };
 		740FD2F31ABBC32D00C1DD89 /* ProblemInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemInterfaceController.swift; sourceTree = "<group>"; };
 		D52D60E41ABF137400E601B2 /* DataLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52D60E71ABF137400E601B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -433,7 +431,6 @@
 				D52DECD01AB7FBC800AEC629 /* ProblemViewController.swift */,
 				D52DECD61AB82FD100AEC629 /* QuizViewController.swift */,
 				740FD2EF1ABBB4CE00C1DD89 /* ResultsTableViewController.swift */,
-				740FD2F11ABBB51600C1DD89 /* ResultDetailTableViewController.swift */,
 			);
 			path = KanjiQuiz;
 			sourceTree = "<group>";
@@ -901,7 +898,6 @@
 				D5A15ECF1AB6DFF7004A4370 /* ViewController.swift in Sources */,
 				D52DECD11AB7FBC800AEC629 /* ProblemViewController.swift in Sources */,
 				D5A15ECD1AB6DFF7004A4370 /* AppDelegate.swift in Sources */,
-				740FD2F21ABBB51600C1DD89 /* ResultDetailTableViewController.swift in Sources */,
 				D52DECD71AB82FD100AEC629 /* QuizViewController.swift in Sources */,
 				740FD2F01ABBB4CE00C1DD89 /* ResultsTableViewController.swift in Sources */,
 			);
