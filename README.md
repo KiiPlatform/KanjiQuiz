@@ -6,3 +6,6 @@ Mainly coded on swift.
 
 ### Quiz on Apple Watch simulator
 ![alt appleWatch-simulator](quiz-watch.gif)
+
+### Kanji Source
+Source: © [JMDict](http://www.edrdg.org/jmdict/edict_doc.html) — property of the Electronic Dictionary Research and Development Group, used in conformance with the Group's [licence](http://www.edrdg.org/edrdg/licence.html). Support the WWWJDIC project by [donating](http://www.edrdg.org/donations.html). 
