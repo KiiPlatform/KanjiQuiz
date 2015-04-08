@@ -147,7 +147,20 @@
                             <outlet property="delegate" destination="99d-ja-CWN" id="b4V-dd-1cd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Kanji Quiz" id="qOl-TD-9eu"/>
+                    <navigationItem key="navigationItem" title="Kanji Quiz" id="qOl-TD-9eu">
+                        <barButtonItem key="rightBarButtonItem" id="SuE-iH-o3k">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wXY-pQ-Mar">
+                                <rect key="frame" x="-23" y="-15" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Source">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="34q-Xv-FoF" kind="show" id="VPJ-WE-15i"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="meaningBestScoreLabel" destination="tzB-8Q-pMv" id="sod-zL-9TX"/>
                         <outlet property="pSetLabel" destination="Bnl-gK-D2D" id="Z4T-B1-Y2E"/>
@@ -196,7 +209,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cBC-cm-egd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="820" y="1017"/>
+            <point key="canvasLocation" x="1027.5" y="1328.5"/>
         </scene>
         <!--Problem View Controller-->
         <scene sceneID="KCU-pc-EI3">
@@ -354,7 +367,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5sf-gL-GCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1271.5" y="823.5"/>
+            <point key="canvasLocation" x="1519.5" y="571.5"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="WG0-W0-c2X">
@@ -390,15 +403,30 @@
                         <viewControllerLayoutGuide type="bottom" id="gQp-xJ-uff"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bU4-62-33F">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSn-05-Xa1">
+                                <rect key="frame" x="37" y="278" width="300" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Source: © JMDict — property of the Electronic Dictionary Research and Development Group, used in conformance with the Group's licence. Support the WWWJDIC project by donating. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="vSn-05-Xa1" secondAttribute="centerX" id="3Is-7l-5v8"/>
+                            <constraint firstAttribute="centerY" secondItem="vSn-05-Xa1" secondAttribute="centerY" constant="-44.5" id="A96-Sk-CKG"/>
+                            <constraint firstItem="gQp-xJ-uff" firstAttribute="top" secondItem="vSn-05-Xa1" secondAttribute="bottom" priority="999" constant="189" id="WSS-1V-C39"/>
+                            <constraint firstItem="vSn-05-Xa1" firstAttribute="leading" secondItem="bU4-62-33F" secondAttribute="leadingMargin" priority="999" constant="21" id="yjw-5r-mqI"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PM9-k9-X0z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2312" y="749"/>
+            <point key="canvasLocation" x="280" y="1237"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
