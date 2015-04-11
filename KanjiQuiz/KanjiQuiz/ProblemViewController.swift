@@ -38,7 +38,7 @@ class ProblemViewController: UIViewController,UIDynamicAnimatorDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let parent = self.parentViewController as QuizViewController
+        let parent = self.parentViewController as! QuizViewController
         self.animator = UIDynamicAnimator()
         self.animator?.delegate = self
 
@@ -72,7 +72,7 @@ class ProblemViewController: UIViewController,UIDynamicAnimatorDelegate {
         
         disableButtons()
         sender.cover()
-        let parent = self.parentViewController as QuizViewController
+        let parent = self.parentViewController as! QuizViewController
         parent.currentQuiz.addAnswer(self.pageIndex!, isCorrect: sender.isCorrectAnswer(), answeredValue: sender.currentTitle!)
         
     }
@@ -81,7 +81,7 @@ class ProblemViewController: UIViewController,UIDynamicAnimatorDelegate {
         // Dispose of any resources that can be recreated.
     }
     override func viewWillAppear(animated: Bool) {
-        let parent = self.parentViewController as QuizViewController
+        let parent = self.parentViewController as! QuizViewController
         if (parent.currentQuiz.getAnswered(self.pageIndex!) != nil) {
             self.disableButtons()
         }

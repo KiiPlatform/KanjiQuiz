@@ -51,7 +51,7 @@ public class Quiz: Serializable {
   }
   
   public override func toDictionary() -> NSDictionary {
-    var dict = super.toDictionary() as NSMutableDictionary
+    var dict = super.toDictionary() as! NSMutableDictionary
     dict["type"] = self.type.rawValue
     dict["level"] = self.level.rawValue
     dict["series"] = NSNumber(integer: self.series)
@@ -70,25 +70,25 @@ public class Quiz: Serializable {
   }
   
   init(dictionary: NSDictionary){
-    self.type = (dictionary["type"]? as? String) == "Spelling" ? QuizType.Spelling : QuizType.Meaning
+    self.type = (dictionary["type"] as! String) == "Spelling" ? QuizType.Spelling : QuizType.Meaning
     
-    self.level = QuizLevel(rawValue: dictionary["level"]? as String!) ?? .N5
+    self.level = QuizLevel(rawValue: dictionary["level"] as! String!) ?? .N5
     
     let sNum : NSNumber = dictionary["series"] as? NSNumber ?? NSNumber(int: 1)
     self.series = sNum.integerValue
     
-    let dProblems : NSArray = dictionary["problems"]? as NSArray
+    let dProblems : NSArray = dictionary["problems"] as! NSArray
     self.problems = []
     for problem in dProblems{
-      let aProblem = Problem(dictionary: problem as NSDictionary)
+      let aProblem = Problem(dictionary: problem as! NSDictionary)
       self.problems?.append(aProblem)
     }
     
-    let dAnswers : NSArray = dictionary["answers"]? as NSArray
+    let dAnswers : NSArray = dictionary["answers"] as! NSArray
     var i = 0;
     for answer in dAnswers{
-      let isCorrect : Bool = answer["isCorrect"] as Bool
-      let answeredValue : String = answer["answeredValue"] as String
+      let isCorrect : Bool = answer["isCorrect"] as! Bool
+      let answeredValue : String = answer["answeredValue"] as! String
       
       self.answers[i] = (isCorrect,answeredValue)
       i++

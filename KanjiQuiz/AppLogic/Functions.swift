@@ -11,9 +11,9 @@ import DataLogic
 
 
 public func shuffle<C: MutableCollectionType where C.Index == Int>(var list: C) -> C {
-    let count = countElements(list)
-    for i in 0..<(count - 1) {
-        let j = Int(arc4random_uniform(UInt32(count - i))) + i
+    let mCount = count(list)
+    for i in 0..<(mCount - 1) {
+        let j = Int(arc4random_uniform(UInt32(mCount - i))) + i
         swap(&list[i], &list[j])
     }
     return list
@@ -77,7 +77,7 @@ private func kanjiData(level : String, series : UInt) ->[(String,String,String)]
     var result : [(String,String,String)] = []
     typealias myData = (String,String,String)
     for val in data{
-        let aData : myData = (val["kanji"] as String,val["spells"] as String,val["meanings"] as String)
+        let aData : myData = (val["kanji"] as! String,val["spells"] as! String,val["meanings"] as! String)
         result.append(aData)
         
     }

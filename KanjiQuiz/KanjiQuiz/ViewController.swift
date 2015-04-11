@@ -51,7 +51,7 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
     }
     
     func prepareQuiz(type : QuizType){
-      let destination = segue.destinationViewController as QuizViewController
+      let destination = segue.destinationViewController as! QuizViewController
       
       let quiz = Quiz(type: type, level: self.selectedLevel)
       quiz.series = self.selectedSeriesNum

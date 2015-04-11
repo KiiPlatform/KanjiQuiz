@@ -43,7 +43,7 @@ class ResultsTableViewController: UITableViewController, UIGestureRecognizerDele
   
   /**/
   override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("resultCell", forIndexPath: indexPath) as UITableViewCell
+    let cell = tableView.dequeueReusableCellWithIdentifier("resultCell", forIndexPath: indexPath) as! UITableViewCell
     
     let quiz = takenQuiz[indexPath.row]
     let result = quiz.countResult()

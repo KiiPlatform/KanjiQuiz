@@ -31,7 +31,7 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
         
-        var index = (viewController as ProblemViewController).pageIndex!
+        var index = (viewController as! ProblemViewController).pageIndex!
         index++
         if(index >= problems!.count){
             return nil
@@ -42,7 +42,7 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
         
-        var index = (viewController as ProblemViewController).pageIndex!
+        var index = (viewController as! ProblemViewController).pageIndex!
         if(index <= 0){
             return nil
         }
@@ -55,7 +55,7 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
         if((self.problems!.count == 0) || (index >= self.problems!.count)) {
             return nil
         }
-        let pageContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ProblemViewController") as ProblemViewController
+        let pageContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ProblemViewController") as! ProblemViewController
 
         pageContentViewController.problem = self.problems![index]
         pageContentViewController.pageIndex = index
@@ -113,7 +113,7 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
         println(segue.identifier)
     }
     func pageViewController(pageViewController: UIPageViewController, willTransitionToViewControllers pendingViewControllers: [AnyObject]) {
-        let pending = pendingViewControllers.first as ProblemViewController
+        let pending = pendingViewControllers.first as! ProblemViewController
         func animate(){
             
             let keyFrameAnimation = CAKeyframeAnimation(keyPath: "bounds")

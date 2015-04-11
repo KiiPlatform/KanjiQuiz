@@ -20,7 +20,7 @@ class InterfaceController: WKInterfaceController {
     setupKii()
     QuizData.setup()
     QuizManager.sharedInstance.loadSharedProblemSet()
-    var val = userDisplayName() as String
+    var val = userDisplayName() as! String
     
     self.displayName.setText(val)
     self.pSetLabel.setText( "JLPT \(currentProblemSet.level.rawValue) #\(currentProblemSet.series)")
