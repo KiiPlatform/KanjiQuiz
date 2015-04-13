@@ -98,7 +98,7 @@ class ResultsTableViewController: UITableViewController, UIGestureRecognizerDele
   // Pass the selected object to the new view controller.
   }
   */
-  func gestureRecognizerShouldBegin(gestureRecognizer: UIGestureRecognizer!) -> Bool {
+  func gestureRecognizerShouldBegin(gestureRecognizer: UIGestureRecognizer) -> Bool {
     
     //self.navigationController?.popViewControllerAnimated(true) is also ok
     self.navigationController?.popToRootViewControllerAnimated(true)

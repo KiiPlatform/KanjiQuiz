@@ -61,7 +61,7 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
         pageContentViewController.pageIndex = index
         
         func addSubmitButton(){
-            let submitBtn = UIBarButtonItem(title: "Submit", style: UIBarButtonItemStyle.Bordered, target: self, action: Selector("submitQuiz"))
+            let submitBtn = UIBarButtonItem(title: "Submit", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("submitQuiz"))
             self.navigationItem.rightBarButtonItem = submitBtn
         }
         addSubmitButton()
