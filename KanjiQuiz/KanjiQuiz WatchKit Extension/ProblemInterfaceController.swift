@@ -34,14 +34,14 @@ class ProblemInterfaceController: WKInterfaceController {
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        let dict = context as NSDictionary
-        index = dict["index"] as Int
+        let dict = context as! NSDictionary
+        index = dict["index"] as! Int
         self.problem = dict["problem"] as? Problem
         buttons = [buttonA,buttonB,buttonC]
         let rand = Int(arc4random_uniform(2))
         correctAnswerButton = buttons[rand]
         let variation = self.problem?.variationsAnswer
-        var quiz = getCurrentQuiz()?
+        var quiz = getCurrentQuiz()
         var correctAnswer : String!
         var wrongAnswers : (String,String)!
         
@@ -91,7 +91,7 @@ class ProblemInterfaceController: WKInterfaceController {
             button.setEnabled(false)
         }
         tappedButton.setAlpha(0.5)
-        var quiz = getCurrentQuiz()?
+        var quiz = getCurrentQuiz()
         quiz!.addAnswer(self.index, isCorrect: result, answeredValue: titleMap[tappedButton.interfaceProperty]!)
         
         return result

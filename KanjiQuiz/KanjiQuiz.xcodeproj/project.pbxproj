@@ -32,6 +32,9 @@
 		D52DECD71AB82FD100AEC629 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECD61AB82FD100AEC629 /* QuizViewController.swift */; };
 		D52DECD91AB8347C00AEC629 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECD81AB8347C00AEC629 /* Types.swift */; };
 		D52DECDF1ABC194700AEC629 /* ResultInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DECDE1ABC194700AEC629 /* ResultInterfaceController.swift */; };
+		D53586741ADB6A9100ED2D1A /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53586711ADB6A9100ED2D1A /* PickerViewController.swift */; };
+		D53586751ADB6A9100ED2D1A /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53586721ADB6A9100ED2D1A /* CustomPresentationController.swift */; };
+		D53586761ADB6A9100ED2D1A /* CustomPresentationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53586731ADB6A9100ED2D1A /* CustomPresentationAnimationController.swift */; };
 		D549011E1AC399E100D72672 /* DataLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D549011F1AC3ACFF00D72672 /* AppLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A15F171AB6E144004A4370 /* AppLogic.framework */; };
 		D54901201AC3ACFF00D72672 /* AppLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5A15F171AB6E144004A4370 /* AppLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -206,6 +209,9 @@
 		D52DECD61AB82FD100AEC629 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		D52DECD81AB8347C00AEC629 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		D52DECDE1ABC194700AEC629 /* ResultInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultInterfaceController.swift; sourceTree = "<group>"; };
+		D53586711ADB6A9100ED2D1A /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		D53586721ADB6A9100ED2D1A /* CustomPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
+		D53586731ADB6A9100ED2D1A /* CustomPresentationAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationAnimationController.swift; sourceTree = "<group>"; };
 		D5A15EC71AB6DFF7004A4370 /* KanjiQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanjiQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A15ECB1AB6DFF7004A4370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A15ECC1AB6DFF7004A4370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -421,6 +427,9 @@
 		D5A15EC91AB6DFF7004A4370 /* KanjiQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				D53586711ADB6A9100ED2D1A /* PickerViewController.swift */,
+				D53586721ADB6A9100ED2D1A /* CustomPresentationController.swift */,
+				D53586731ADB6A9100ED2D1A /* CustomPresentationAnimationController.swift */,
 				D52D61F01ABF317500E601B2 /* KanjiQuiz.entitlements */,
 				D5A15ECC1AB6DFF7004A4370 /* AppDelegate.swift */,
 				D5A15ECE1AB6DFF7004A4370 /* ViewController.swift */,
@@ -895,10 +904,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D53586751ADB6A9100ED2D1A /* CustomPresentationController.swift in Sources */,
+				D53586761ADB6A9100ED2D1A /* CustomPresentationAnimationController.swift in Sources */,
 				D5A15ECF1AB6DFF7004A4370 /* ViewController.swift in Sources */,
 				D52DECD11AB7FBC800AEC629 /* ProblemViewController.swift in Sources */,
 				D5A15ECD1AB6DFF7004A4370 /* AppDelegate.swift in Sources */,
 				D52DECD71AB82FD100AEC629 /* QuizViewController.swift in Sources */,
+				D53586741ADB6A9100ED2D1A /* PickerViewController.swift in Sources */,
 				740FD2F01ABBB4CE00C1DD89 /* ResultsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

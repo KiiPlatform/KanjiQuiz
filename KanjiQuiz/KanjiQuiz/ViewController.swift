@@ -18,6 +18,7 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
   @IBOutlet weak var meaningBestScoreLabel: UILabel!
   @IBOutlet weak var spellBestScoreLabel: UILabel!
   @IBOutlet weak var pSetLabel: UILabel!
+    
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -51,7 +52,7 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
     }
     
     func prepareQuiz(type : QuizType){
-      let destination = segue.destinationViewController as QuizViewController
+      let destination = segue.destinationViewController as! QuizViewController
       
       let quiz = Quiz(type: type, level: self.selectedLevel)
       quiz.series = self.selectedSeriesNum
@@ -61,13 +62,14 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
       setCurrentQuiz(quiz)
       
     }
-
+    
     if let segueID = segue.identifier {
       switch segueID {
       case "Meaning":
         prepareQuiz(QuizType.Meaning)
       case "Spelling":
         prepareQuiz(QuizType.Spelling)
+      
       default:
         break
       }
@@ -78,40 +80,19 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
     // create the alert
     let title = "Select Problem Set"
     let message = "Please pick level and series"
-    var alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert);
-    alert.modalInPopover = true;
-    
-    // add an action button
-    let nextAction: UIAlertAction = UIAlertAction(title: "OK", style: .Default){action->Void in
-      self.updatePsetLabel()
-    }
-    alert.addAction(nextAction)
-    
-    // now create our custom view - we are using a container view which can contain other views
-    let containerViewWidth = 250
-    let containerViewHeight = 120
-    var containerFrame = CGRectMake(10, 70, CGFloat(containerViewWidth), CGFloat(containerViewHeight));
-    var containerView: UIPickerView = UIPickerView(frame: containerFrame)
-    containerView.delegate = self;
-    containerView.dataSource = self;
+    var alert = self.storyboard?.instantiateViewControllerWithIdentifier("PickerViewController") as! PickerViewController
+    alert.view.layer.cornerRadius = 15.0
+    alert.view.layer.masksToBounds = true
     let selectedLevelIndex : Int = QuizLevel.allRawValues.indexOfObject(self.selectedLevel.rawValue) ?? 0
-    
-    containerView.selectRow(selectedLevelIndex, inComponent: 0, animated: false)
-    containerView.selectRow(self.selectedSeriesNum-1, inComponent: 1, animated: false)
-    
-    alert.view.addSubview(containerView)
-    
-    // now add some constraints to make sure that the alert resizes itself
-    var cons:NSLayoutConstraint = NSLayoutConstraint(item: alert.view, attribute: NSLayoutAttribute.Height, relatedBy: NSLayoutRelation.GreaterThanOrEqual, toItem: containerView, attribute: NSLayoutAttribute.Height, multiplier: 1.00, constant: 130)
-    
-    alert.view.addConstraint(cons)
-    
-    var cons2:NSLayoutConstraint = NSLayoutConstraint(item: alert.view, attribute: NSLayoutAttribute.Width, relatedBy: NSLayoutRelation.GreaterThanOrEqual, toItem: containerView, attribute: NSLayoutAttribute.Width, multiplier: 1.00, constant: 20)
-    
-    alert.view.addConstraint(cons2)
-    
     // present with our view controller
-    presentViewController(alert, animated: true, completion: nil)
+    self.presentViewController(alert, animated: true) { () -> Void in
+        alert.pickerView.delegate = self;
+        alert.pickerView.dataSource = self;
+        alert.pickerView.selectRow(selectedLevelIndex, inComponent: 0, animated: true)
+        alert.pickerView.reloadAllComponents()
+        alert.pickerView.selectRow(self.selectedSeriesNum-1, inComponent: 1, animated: true)
+        alert.selectButton.addTarget(self, action: Selector("dismiss"), forControlEvents: UIControlEvents.TouchUpInside)
+    }
     
   }
   
@@ -142,9 +123,13 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
       self.selectedSeriesNum = row + 1
     }
   }
-  func gestureRecognizerShouldBegin(gestureRecognizer: UIGestureRecognizer!) -> Bool {
+  func gestureRecognizerShouldBegin(gestureRecognizer: UIGestureRecognizer) -> Bool {
     
     return gestureRecognizer !== self.navigationController?.interactivePopGestureRecognizer;
   }
+     func dismiss() {
+        self.updatePsetLabel()
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
 }
 
