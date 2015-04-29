@@ -39,17 +39,21 @@
                             }
                           }];
   }else{
-    KiiUser* currentUser = [KiiUser authenticateSynchronous:@"watchuser"
-                                               withPassword:@"kii12345"
-                                                   andError:&error];
+      KiiUser* currentUser = [KiiUser registerAsPseudoUserSynchronousWithUserFields:[[KiiUserFields alloc] init]
+                                                                              error:&error];
     [keychain insert:ACCESS_TOKEN_KEY
                     :[currentUser.accessToken dataUsingEncoding:NSUTF8StringEncoding]];
     [keychain insert:@"displayName"
-                    :[currentUser.displayName dataUsingEncoding:NSUTF8StringEncoding]];
+                    :[@"Player 1" dataUsingEncoding:NSUTF8StringEncoding]];
     
   }
   
   return error==nil;
+}
+-(void) setUserDisplayName:(NSString*) displayName{
+    if ([KiiUser currentUser] && displayName && ![@"" isEqualToString:displayName]) {
+        [KiiUser currentUser].displayName = displayName;
+    }
 }
 -(NSString*) userDisplayName{
   NSString* displayName = nil;
@@ -70,7 +74,7 @@
                 correct:(int) correct{
   
   KiiUser* user = [KiiUser currentUser];
-  if (!user || !dict || !dict[@"level"]) {
+  if (!user || !dict || !dict[@"level"] || !dict[@"type"]) {
     return;
   }
   
@@ -78,6 +82,11 @@
   [quizobject setObject:@(total) forKey:@"total"];
   [quizobject setObject:@(answered) forKey:@"answered"];
   [quizobject setObject:@(correct) forKey:@"correct"];
+  [quizobject setObject:dict[@"type"] forKey:@"type"];
+
+  if (dict[@"series"]){
+    [quizobject setObject:dict[@"series"] forKey:@"series"];
+  }
   
   [quizobject saveWithBlock:^(KiiObject *object, NSError *error) {
     if (object) {
@@ -92,7 +101,9 @@
                                                       error:&jsonError];
       
       if (json) {
-        [object uploadBodyWithData:json andContentType:@"application/json" andCompletion:^(KiiObject *obj, NSError *error) {
+        [object uploadBodyWithData:json
+                    andContentType:@"application/json"
+                     andCompletion:^(KiiObject *obj, NSError *error) {
           if (error) {
             NSLog(@"Upload body failed :%@", error.description);
           }

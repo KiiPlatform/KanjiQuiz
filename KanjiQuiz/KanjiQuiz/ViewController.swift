@@ -8,7 +8,7 @@
 
 import UIKit
 import AppLogic
-
+import GameKit
 
 class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewDelegate,UIGestureRecognizerDelegate {
     lazy var problemSetData : [(level:String,series:Int)] = QuizManager.quizCatalog
@@ -22,7 +22,7 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //self.navigationController?.rem
+        authenticateLocalPlayer(showAuthenticationDialogWhenReasonable, authenticatedPlayer,disableGameCenter)
         
     }
     override func viewDidAppear(animated: Bool) {
@@ -131,5 +131,17 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
         self.updatePsetLabel()
         self.dismissViewControllerAnimated(true, completion: nil)
     }
+    
+    func showAuthenticationDialogWhenReasonable(vc:UIViewController) -> Void{
+        self.presentViewController(vc, animated: true, completion: nil)
+        print("")
+    }
+    func authenticatedPlayer(local :GKLocalPlayer) -> Void{
+        print("")
+    }
+    func disableGameCenter(){
+        print("")
+    }
+
 }
 
