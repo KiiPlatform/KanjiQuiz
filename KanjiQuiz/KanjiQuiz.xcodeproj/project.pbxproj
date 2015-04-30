@@ -771,6 +771,7 @@
 					};
 					D5A15EFB1AB6E0C4004A4370 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = N5QLD3RVE2;
 					};
 					D5A15F161AB6E144004A4370 = {
 						CreatedOnToolsVersion = 6.2;
@@ -1281,6 +1282,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1288,6 +1291,7 @@
 				IBSC_MODULE = KanjiQuiz_WatchKit_Extension;
 				INFOPLIST_FILE = "KanjiQuiz WatchKit App/Info.plist";
 				PRODUCT_NAME = "KanjiQuiz WatchKit App";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -1298,9 +1302,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				IBSC_MODULE = KanjiQuiz_WatchKit_Extension;
 				INFOPLIST_FILE = "KanjiQuiz WatchKit App/Info.plist";
 				PRODUCT_NAME = "KanjiQuiz WatchKit App";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
