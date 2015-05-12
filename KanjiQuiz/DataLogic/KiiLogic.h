@@ -11,6 +11,7 @@
 +(void) setup;
 +(instancetype) shared;
 -(BOOL) login;
+-(void) loginWithGameKitId:(NSString*) playerId andDisplayName:(NSString*) displayName;
 -(NSString*) userDisplayName;
 -(void) saveQuizToCloud:(NSDictionary*) dict
            totalProblem:(int) total

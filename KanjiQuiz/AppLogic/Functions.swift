@@ -113,6 +113,9 @@ public func setupKii(){
     KiiLogic.setup()
 }
 
+public func gameKitLogin(player : GKPlayer){
+    KiiLogic.shared().loginWithGameKitId(player.playerID, andDisplayName: player.displayName)
+}
 public func userDisplayName() ->NSString{
     return KiiLogic.shared().userDisplayName()
 }

@@ -134,13 +134,13 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
     
     func showAuthenticationDialogWhenReasonable(vc:UIViewController) -> Void{
         self.presentViewController(vc, animated: true, completion: nil)
-        print("")
     }
     func authenticatedPlayer(local :GKLocalPlayer) -> Void{
-        print("")
+        gameKitLogin(local)
+        print("\(local.playerID)")
     }
     func disableGameCenter(){
-        print("")
+        print("disabled")
     }
 
 }

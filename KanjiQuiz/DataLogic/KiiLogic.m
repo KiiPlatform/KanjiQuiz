@@ -50,6 +50,65 @@
   
   return error==nil;
 }
+-(void) loginWithGameKitId:(NSString*) playerId andDisplayName:(NSString*) displayName{
+    
+    NSString* username = [@"user" stringByAppendingString:[playerId stringByReplacingOccurrencesOfString:@":" withString:@"_"]];
+    NSString* password = [@"password" stringByAppendingString:playerId];
+    
+    [KiiUser findUserByUsername:username
+                      withBlock:^(KiiUser *user, NSError *error) {
+                          
+        if (user) {
+            [KiiUser logOut];
+            
+            [KiiUser authenticate:username
+                     withPassword:password
+                         andBlock:^(KiiUser *loggeduser, NSError *error) {
+                             if (!error) {
+                                 Keychain * keychain =[[Keychain alloc] initWithService:SERVICE_NAME withGroup:nil];
+                                 [keychain update:ACCESS_TOKEN_KEY
+                                                 :[loggeduser.accessToken dataUsingEncoding:NSUTF8StringEncoding]];
+                                 if (displayName) {
+                                     loggeduser.displayName = displayName;
+                                     [loggeduser saveWithBlock:^(KiiUser *user, NSError *error) {
+                                         
+                                     }];
+                                     [keychain update:@"displayName"
+                                                     :[displayName dataUsingEncoding:NSUTF8StringEncoding]];
+                                     
+                                 }
+
+                             }
+                
+            }];
+        }else if([KiiUser currentUser] && [KiiUser currentUser].isPseudoUser){
+            KiiIdentityDataBuilder *builder = [[KiiIdentityDataBuilder alloc] init];
+            builder.userName = username;
+            KiiUserFields* userFields = [[KiiUserFields alloc] init];
+            
+            [[KiiUser currentUser] putIdentityData:[builder build]
+                                        userFields:userFields
+                                          password:password
+                                             block:^(KiiUser *loggeduser, NSError *error) {
+                                                 if (!error) {
+                                                     Keychain * keychain =[[Keychain alloc] initWithService:SERVICE_NAME withGroup:nil];
+                                                     
+                                                     if (displayName) {
+                                                         loggeduser.displayName = displayName;
+                                                         [loggeduser saveWithBlock:^(KiiUser *user, NSError *error) {
+                                                             
+                                                         }];
+                                                         [keychain update:@"displayName"
+                                                                         :[displayName dataUsingEncoding:NSUTF8StringEncoding]];
+                                                         
+                                                     }
+                                                 }
+                
+            }];
+        }
+    }];
+    
+}
 -(void) setUserDisplayName:(NSString*) displayName{
     if ([KiiUser currentUser] && displayName && ![@"" isEqualToString:displayName]) {
         [KiiUser currentUser].displayName = displayName;
