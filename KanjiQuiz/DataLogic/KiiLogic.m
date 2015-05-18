@@ -39,17 +39,80 @@
                             }
                           }];
   }else{
-    KiiUser* currentUser = [KiiUser authenticateSynchronous:@"watchuser"
-                                               withPassword:@"kii12345"
-                                                   andError:&error];
+      KiiUser* currentUser = [KiiUser registerAsPseudoUserSynchronousWithUserFields:[[KiiUserFields alloc] init]
+                                                                              error:&error];
     [keychain insert:ACCESS_TOKEN_KEY
                     :[currentUser.accessToken dataUsingEncoding:NSUTF8StringEncoding]];
     [keychain insert:@"displayName"
-                    :[currentUser.displayName dataUsingEncoding:NSUTF8StringEncoding]];
+                    :[@"Player 1" dataUsingEncoding:NSUTF8StringEncoding]];
     
   }
   
   return error==nil;
+}
+-(void) loginWithGameKitId:(NSString*) playerId andDisplayName:(NSString*) displayName{
+    
+    NSString* username = [@"user" stringByAppendingString:[playerId stringByReplacingOccurrencesOfString:@":" withString:@"_"]];
+    NSString* password = [@"password" stringByAppendingString:playerId];
+    
+    [KiiUser findUserByUsername:username
+                      withBlock:^(KiiUser *user, NSError *error) {
+                          
+        if (user) {
+            [KiiUser logOut];
+            
+            [KiiUser authenticate:username
+                     withPassword:password
+                         andBlock:^(KiiUser *loggeduser, NSError *error) {
+                             if (!error) {
+                                 Keychain * keychain =[[Keychain alloc] initWithService:SERVICE_NAME withGroup:nil];
+                                 [keychain update:ACCESS_TOKEN_KEY
+                                                 :[loggeduser.accessToken dataUsingEncoding:NSUTF8StringEncoding]];
+                                 if (displayName) {
+                                     loggeduser.displayName = displayName;
+                                     [loggeduser saveWithBlock:^(KiiUser *user, NSError *error) {
+                                         
+                                     }];
+                                     [keychain update:@"displayName"
+                                                     :[displayName dataUsingEncoding:NSUTF8StringEncoding]];
+                                     
+                                 }
+
+                             }
+                
+            }];
+        }else if([KiiUser currentUser] && [KiiUser currentUser].isPseudoUser){
+            KiiIdentityDataBuilder *builder = [[KiiIdentityDataBuilder alloc] init];
+            builder.userName = username;
+            KiiUserFields* userFields = [[KiiUserFields alloc] init];
+            
+            [[KiiUser currentUser] putIdentityData:[builder build]
+                                        userFields:userFields
+                                          password:password
+                                             block:^(KiiUser *loggeduser, NSError *error) {
+                                                 if (!error) {
+                                                     Keychain * keychain =[[Keychain alloc] initWithService:SERVICE_NAME withGroup:nil];
+                                                     
+                                                     if (displayName) {
+                                                         loggeduser.displayName = displayName;
+                                                         [loggeduser saveWithBlock:^(KiiUser *user, NSError *error) {
+                                                             
+                                                         }];
+                                                         [keychain update:@"displayName"
+                                                                         :[displayName dataUsingEncoding:NSUTF8StringEncoding]];
+                                                         
+                                                     }
+                                                 }
+                
+            }];
+        }
+    }];
+    
+}
+-(void) setUserDisplayName:(NSString*) displayName{
+    if ([KiiUser currentUser] && displayName && ![@"" isEqualToString:displayName]) {
+        [KiiUser currentUser].displayName = displayName;
+    }
 }
 -(NSString*) userDisplayName{
   NSString* displayName = nil;
@@ -70,7 +133,7 @@
                 correct:(int) correct{
   
   KiiUser* user = [KiiUser currentUser];
-  if (!user || !dict || !dict[@"level"]) {
+  if (!user || !dict || !dict[@"level"] || !dict[@"type"]) {
     return;
   }
   
@@ -78,6 +141,11 @@
   [quizobject setObject:@(total) forKey:@"total"];
   [quizobject setObject:@(answered) forKey:@"answered"];
   [quizobject setObject:@(correct) forKey:@"correct"];
+  [quizobject setObject:dict[@"type"] forKey:@"type"];
+
+  if (dict[@"series"]){
+    [quizobject setObject:dict[@"series"] forKey:@"series"];
+  }
   
   [quizobject saveWithBlock:^(KiiObject *object, NSError *error) {
     if (object) {
@@ -92,7 +160,9 @@
                                                       error:&jsonError];
       
       if (json) {
-        [object uploadBodyWithData:json andContentType:@"application/json" andCompletion:^(KiiObject *obj, NSError *error) {
+        [object uploadBodyWithData:json
+                    andContentType:@"application/json"
+                     andCompletion:^(KiiObject *obj, NSError *error) {
           if (error) {
             NSLog(@"Upload body failed :%@", error.description);
           }

@@ -8,7 +8,7 @@
 
 import UIKit
 import DataLogic
-
+import GameKit
 
 public func shuffle<C: MutableCollectionType where C.Index == Int>(var list: C) -> C {
     let mCount = count(list)
@@ -113,6 +113,9 @@ public func setupKii(){
     KiiLogic.setup()
 }
 
+public func gameKitLogin(player : GKPlayer){
+    KiiLogic.shared().loginWithGameKitId(player.playerID, andDisplayName: player.displayName)
+}
 public func userDisplayName() ->NSString{
     return KiiLogic.shared().userDisplayName()
 }
@@ -131,6 +134,22 @@ public var currentProblemSet : (level: QuizLevel, series : Int)
     QuizManager.sharedInstance.selectedSeries = setCurrentProblemSet.series
     QuizManager.sharedInstance.updateSharedProblemSet()
   }
+}
+
+public func authenticateLocalPlayer(showAuthenticationDialogWhenReasonable :(UIViewController) -> Void ,authenticatedPlayer : (GKLocalPlayer) -> Void, disableGameCenter :() -> Void){
+    let localPlayer = GKLocalPlayer.localPlayer()
+    localPlayer.authenticateHandler = {
+        (viewController,error) -> Void in
+        if(viewController != nil){
+            showAuthenticationDialogWhenReasonable(viewController)
+        }else if (localPlayer.authenticated){
+            authenticatedPlayer(localPlayer)
+        }
+        else{
+            disableGameCenter()
+        }
+    }
+    
 }
 
 
