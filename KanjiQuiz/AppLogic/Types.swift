@@ -31,16 +31,16 @@ public enum QuizLevel : String{
 public class Serializable : NSObject{
     
     public func toDictionary() -> NSDictionary {
-        var aClass : AnyClass? = self.dynamicType
+        let aClass : AnyClass? = self.dynamicType
         var propertiesCount : CUnsignedInt = 0
         let propertiesInAClass : UnsafeMutablePointer<objc_property_t> = class_copyPropertyList(aClass, &propertiesCount)
-        var propertiesDictionary : NSMutableDictionary = NSMutableDictionary()
+        let propertiesDictionary : NSMutableDictionary = NSMutableDictionary()
         
         for var i = 0; i < Int(propertiesCount); i++ {
-            var property = propertiesInAClass[i]
-            var propName = NSString(CString: property_getName(property), encoding: NSUTF8StringEncoding)!
+            let property = propertiesInAClass[i]
+            let propName = NSString(CString: property_getName(property), encoding: NSUTF8StringEncoding)!
             var propType = property_getAttributes(property)
-            var propValue : AnyObject! = self.valueForKey(propName as String);
+            let propValue : AnyObject! = self.valueForKey(propName as String);
             
             if propValue is Serializable {
                 propertiesDictionary.setValue((propValue as! Serializable).toDictionary(), forKey: propName as String)
@@ -51,7 +51,7 @@ public class Serializable : NSObject{
                 }
                 propertiesDictionary.setValue(subArray, forKey: propName as String)
             } else if propValue is NSData {
-                propertiesDictionary.setValue((propValue as! NSData).base64EncodedStringWithOptions(nil), forKey: propName as String)
+                propertiesDictionary.setValue((propValue as! NSData).base64EncodedStringWithOptions([]), forKey: propName as String)
             } else if propValue is Bool {
                 propertiesDictionary.setValue((propValue as! Bool).boolValue, forKey: propName as String)
             } else {
@@ -69,7 +69,11 @@ public class Serializable : NSObject{
         var dictionary = self.toDictionary()
         //println(dictionary)
         var err: NSError?
-        return NSJSONSerialization.dataWithJSONObject(dictionary, options:NSJSONWritingOptions(0), error: &err)
+        do {
+            return try NSJSONSerialization.dataWithJSONObject(dictionary, options:NSJSONWritingOptions(rawValue: 0))
+        } catch _ {
+            return nil
+        }
     }
     
     public func toJsonString() -> NSString! {

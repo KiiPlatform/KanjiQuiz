@@ -20,7 +20,7 @@ class InterfaceController: WKInterfaceController {
     setupKii()
     QuizData.setup()
     QuizManager.sharedInstance.loadSharedProblemSet()
-    var val = userDisplayName() as! String
+    let val = userDisplayName() as String
     
     self.displayName.setText(val)
     self.pSetLabel.setText( "JLPT \(currentProblemSet.level.rawValue) #\(currentProblemSet.series)")
@@ -29,9 +29,9 @@ class InterfaceController: WKInterfaceController {
   }
   func startQuiz(quiz: Quiz){
     var contexts = Array<AnyObject>()
-    var pages = Array<AnyObject>()
+    var pages = Array<String>()
     
-    for (index,value) in enumerate(quiz.problems!) {
+    for (index,value) in (quiz.problems!).enumerate() {
       let cont = ["index":index,"problem":value]
       contexts.append(cont)
       pages.append("ProblemInterface")
@@ -39,6 +39,7 @@ class InterfaceController: WKInterfaceController {
     
     pages.append("ResultInterface")
     
+    //self.presentControllerWithNames(pages, contexts: contexts)
     self.presentControllerWithNames(pages, contexts: contexts)
   }
   @IBAction func startSpellingQuiz() {
@@ -68,7 +69,7 @@ class InterfaceController: WKInterfaceController {
   
   
   override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
-    println(segueIdentifier)
+    print(segueIdentifier)
     return nil
   }
 }

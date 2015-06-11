@@ -22,11 +22,11 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        authenticateLocalPlayer(showAuthenticationDialogWhenReasonable, authenticatedPlayer,disableGameCenter)
+        authenticateLocalPlayer(showAuthenticationDialogWhenReasonable, authenticatedPlayer: authenticatedPlayer,disableGameCenter: disableGameCenter)
         
     }
     override func viewDidAppear(animated: Bool) {
-        self.navigationController?.interactivePopGestureRecognizer.delegate = self
+        self.navigationController?.interactivePopGestureRecognizer!.delegate = self
         self.updatePsetLabel()
     }
     func updatePsetLabel(){
@@ -103,7 +103,7 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
         if(component == 0){
             return problemSetData.count
         }else{
-            var idx = pickerView.selectedRowInComponent(0)
+            let idx = pickerView.selectedRowInComponent(0)
             return problemSetData[idx].series
         }
     }
@@ -137,10 +137,10 @@ class ViewController: UITableViewController,UIPickerViewDataSource,UIPickerViewD
     }
     func authenticatedPlayer(local :GKLocalPlayer) -> Void{
         gameKitLogin(local)
-        print("\(local.playerID)")
+        print("\(local.playerID)", appendNewline: false)
     }
     func disableGameCenter(){
-        print("disabled")
+        print("disabled", appendNewline: false)
     }
 
 }

@@ -80,7 +80,7 @@ class ProblemInterfaceController: WKInterfaceController {
     }
 
     func checkAnswer(tappedButton : WKInterfaceButton) -> Bool{
-        println("title : \(tappedButton.getText())")
+        print("title : \(tappedButton.getText())")
         let result = tappedButton === correctAnswerButton
         for button in buttons {
             if button === correctAnswerButton {
@@ -98,13 +98,13 @@ class ProblemInterfaceController: WKInterfaceController {
     }
     
     @IBAction func answerA() {
-        checkAnswer(buttonA) ? println("Correct") : println("wrong")
+        checkAnswer(buttonA) ? print("Correct") : print("wrong")
     }
     @IBAction func answerB() {
-        checkAnswer(buttonB) ? println("Correct") : println("wrong")
+        checkAnswer(buttonB) ? print("Correct") : print("wrong")
     }
     @IBAction func answerC() {
-        checkAnswer(buttonC) ? println("Correct") : println("wrong")
+        checkAnswer(buttonC) ? print("Correct") : print("wrong")
     }
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
@@ -123,7 +123,7 @@ class ProblemInterfaceController: WKInterfaceController {
     }
 
     override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
-        println(segueIdentifier)
+        print(segueIdentifier)
         return nil
     }
 }

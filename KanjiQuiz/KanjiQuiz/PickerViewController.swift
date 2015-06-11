@@ -24,7 +24,7 @@ class PickerViewController: UIViewController, UIViewControllerTransitioningDeleg
     @IBOutlet weak var pickerView : UIPickerView!
     // ---- UIViewControllerTransitioningDelegate methods
     
-    func presentationControllerForPresentedViewController(presented: UIViewController, presentingViewController presenting: UIViewController!, sourceViewController source: UIViewController) -> UIPresentationController? {
+    func presentationControllerForPresentedViewController(presented: UIViewController, presentingViewController presenting: UIViewController, sourceViewController source: UIViewController) -> UIPresentationController? {
         
         if presented == self {
             return CustomPresentationController(presentedViewController: presented, presentingViewController: presenting)

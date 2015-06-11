@@ -40,8 +40,6 @@
 		D54901201AC3ACFF00D72672 /* AppLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5A15F171AB6E144004A4370 /* AppLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D54901231AC3AD0000D72672 /* DataLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; };
 		D54901241AC3AD0000D72672 /* DataLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D58D8A801AE4F739006C7BBB /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58D8A7F1AE4F739006C7BBB /* GameKit.framework */; };
-		D58D8A811AE50420006C7BBB /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58D8A7F1AE4F739006C7BBB /* GameKit.framework */; };
 		D5A15ECD1AB6DFF7004A4370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A15ECC1AB6DFF7004A4370 /* AppDelegate.swift */; };
 		D5A15ECF1AB6DFF7004A4370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A15ECE1AB6DFF7004A4370 /* ViewController.swift */; };
 		D5A15ED21AB6DFF8004A4370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A15ED01AB6DFF8004A4370 /* Main.storyboard */; };
@@ -83,6 +81,7 @@
 		D5C5ED7E1AC853FD0008EA48 /* kanji.realm in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED7D1AC853FD0008EA48 /* kanji.realm */; };
 		D5C5ED7F1AC862B30008EA48 /* kanji.realm in Resources */ = {isa = PBXBuildFile; fileRef = D5C5ED7D1AC853FD0008EA48 /* kanji.realm */; };
 		D5CD62191ACCDAC400AE0CA7 /* DataLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52D60E41ABF137400E601B2 /* DataLogic.framework */; };
+		D5D7F2781B297E2D007EED77 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D7F2771B297E2D007EED77 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,7 +213,6 @@
 		D53586711ADB6A9100ED2D1A /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		D53586721ADB6A9100ED2D1A /* CustomPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
 		D53586731ADB6A9100ED2D1A /* CustomPresentationAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationAnimationController.swift; sourceTree = "<group>"; };
-		D58D8A7F1AE4F739006C7BBB /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		D5A15EC71AB6DFF7004A4370 /* KanjiQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanjiQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A15ECB1AB6DFF7004A4370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A15ECC1AB6DFF7004A4370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -260,6 +258,7 @@
 		D5C5ED741AC842D30008EA48 /* N4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N4.json; sourceTree = "<group>"; };
 		D5C5ED751AC842D30008EA48 /* N5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N5.json; sourceTree = "<group>"; };
 		D5C5ED7D1AC853FD0008EA48 /* kanji.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = kanji.realm; sourceTree = "<group>"; };
+		D5D7F2771B297E2D007EED77 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,7 +293,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58D8A801AE4F739006C7BBB /* GameKit.framework in Frameworks */,
+				D5D7F2781B297E2D007EED77 /* GameKit.framework in Frameworks */,
 				D5A15F2E1AB6E144004A4370 /* AppLogic.framework in Frameworks */,
 				D5CD62191ACCDAC400AE0CA7 /* DataLogic.framework in Frameworks */,
 			);
@@ -320,7 +319,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58D8A811AE50420006C7BBB /* GameKit.framework in Frameworks */,
 				D52D61EF1ABF25C200E601B2 /* DataLogic.framework in Frameworks */,
 				D5A778A41ABF0D8E003814F8 /* Accounts.framework in Frameworks */,
 				D5A778A51ABF0D8E003814F8 /* CoreImage.framework in Frameworks */,
@@ -392,7 +390,7 @@
 		D5A15EBE1AB6DFF7004A4370 = {
 			isa = PBXGroup;
 			children = (
-				D58D8A7F1AE4F739006C7BBB /* GameKit.framework */,
+				D5D7F2771B297E2D007EED77 /* GameKit.framework */,
 				D5C5ED6A1AC6FE600008EA48 /* libstdc++.dylib */,
 				D5C5ED641AC6F6ED0008EA48 /* Realm.framework */,
 				D5A778AB1ABF0DDC003814F8 /* KiiSDK.framework */,
@@ -743,6 +741,7 @@
 		D5A15EBF1AB6DFF7004A4370 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Kii;
 				TargetAttributes = {

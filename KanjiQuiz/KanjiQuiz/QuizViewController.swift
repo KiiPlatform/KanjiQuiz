@@ -72,7 +72,7 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
         return pageContentViewController
     }
     func submitQuiz() {
-        println(self.currentQuiz.countResult())
+        print(self.currentQuiz.countResult())
         let result = self.currentQuiz.countResult()
         let message = "Total Problems : \(result.totalProblem) \n Answered : \(result.answered) \n Correct Answer : \(result.correctAnswer) \n";
         
@@ -110,9 +110,9 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        println(segue.identifier)
+        print(segue.identifier)
     }
-    func pageViewController(pageViewController: UIPageViewController, willTransitionToViewControllers pendingViewControllers: [AnyObject]) {
+    func pageViewController(pageViewController: UIPageViewController, willTransitionToViewControllers pendingViewControllers: [UIViewController]) {
         let pending = pendingViewControllers.first as! ProblemViewController
         func animate(){
             
@@ -135,7 +135,7 @@ class QuizViewController: UIPageViewController,UIPageViewControllerDataSource,UI
         super.viewDidAppear(animated)
         
         //let alertAction = UIAlertAction(
-        self.navigationController!.interactivePopGestureRecognizer.delegate = self
+        self.navigationController!.interactivePopGestureRecognizer!.delegate = self
     }
     
     
