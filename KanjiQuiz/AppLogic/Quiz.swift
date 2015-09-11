@@ -51,14 +51,14 @@ public class Quiz: Serializable {
   }
   
   public override func toDictionary() -> NSDictionary {
-    var dict = super.toDictionary() as! NSMutableDictionary
+    let dict = super.toDictionary() as! NSMutableDictionary
     dict["type"] = self.type.rawValue
     dict["level"] = self.level.rawValue
     dict["series"] = NSNumber(integer: self.series)
     
-    var mAnswers = NSMutableArray()
+    let mAnswers = NSMutableArray()
     
-    for (key,value) in Array(answers).sorted({$0.0 < $1.0}) {
+    for (key,value) in Array(answers).sort({$0.0 < $1.0}) {
       mAnswers.addObject(["isCorrect":value.isCorrect,"answeredValue":value.answeredValue])
     }
     dict["answers"] = mAnswers
@@ -86,9 +86,11 @@ public class Quiz: Serializable {
     
     let dAnswers : NSArray = dictionary["answers"] as! NSArray
     var i = 0;
-    for answer in dAnswers{
-      let isCorrect : Bool = answer["isCorrect"] as! Bool
-      let answeredValue : String = answer["answeredValue"] as! String
+    for answer  in dAnswers{
+        let aObj : NSDictionary = answer as! NSDictionary
+
+      let isCorrect : Bool = aObj["isCorrect"] as! Bool
+      let answeredValue : String = aObj["answeredValue"] as! String
       
       self.answers[i] = (isCorrect,answeredValue)
       i++

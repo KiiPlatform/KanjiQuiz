@@ -29,9 +29,9 @@ class InterfaceController: WKInterfaceController {
   }
   func startQuiz(quiz: Quiz){
     var contexts = Array<AnyObject>()
-    var pages = Array<AnyObject>()
+    var pages = Array<String>()
     
-    for (index,value) in enumerate(quiz.problems!) {
+    for (index,value) in (quiz.problems!).enumerate() {
       let cont = ["index":index,"problem":value]
       contexts.append(cont)
       pages.append("ProblemInterface")
@@ -68,7 +68,7 @@ class InterfaceController: WKInterfaceController {
   
   
   override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
-    println(segueIdentifier)
+    print(segueIdentifier)
     return nil
   }
 }

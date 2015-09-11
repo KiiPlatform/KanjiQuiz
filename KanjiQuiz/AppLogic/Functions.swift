@@ -11,10 +11,13 @@ import DataLogic
 import GameKit
 
 public func shuffle<C: MutableCollectionType where C.Index == Int>(var list: C) -> C {
-    let mCount = count(list)
+    let mCount = list.count
     for i in 0..<(mCount - 1) {
         let j = Int(arc4random_uniform(UInt32(mCount - i))) + i
-        swap(&list[i], &list[j])
+        if i != j {
+            swap(&list[i], &list[j])
+        }
+
     }
     return list
 }
@@ -52,13 +55,13 @@ public func pickData(rawString :String, field :KanjiField) -> String {
 }
 func removeObject<T : Equatable>(object: T, inout fromArray array: [T])
 {
-    var index = find(array, object)
+    let index = array.indexOf(object)
     array.removeAtIndex(index!)
 }
 func pickWrongData(data: [(String,String,String)]) -> (wrongSpells: (String,String),wrongMeanings :(String,String)){
     let shuffleData = shuffle(data)
-    let wrongSpells = (pickData(shuffleData[0].1, .Spellings),pickData(shuffleData[1].1, .Spellings))
-    let wrongMeanings = (pickData(shuffleData[0].2, .Meanings),pickData(shuffleData[1].2, .Meanings))
+    let wrongSpells = (pickData(shuffleData[0].1, field: .Spellings),pickData(shuffleData[1].1, field: .Spellings))
+    let wrongMeanings = (pickData(shuffleData[0].2, field: .Meanings),pickData(shuffleData[1].2, field: .Meanings))
     return (wrongSpells,wrongMeanings)
 }
 private let dummyKanjiData = [QuizLevel.N5:[
@@ -76,8 +79,10 @@ private func kanjiData(level : String, series : UInt) ->[(String,String,String)]
     let data : NSArray = QuizData.kanjiCardsForLevel(level ?? "N5", andSeries: series ) ?? []
     var result : [(String,String,String)] = []
     typealias myData = (String,String,String)
-    for val in data{
-        let aData : myData = (val["kanji"] as! String,val["spells"] as! String,val["meanings"] as! String)
+    for obj in data{
+        let val = obj as! Dictionary<String,String>
+
+        let aData = (val["kanji"]!,val["spells"]!,val["meanings"]!)
         result.append(aData)
         
     }
@@ -85,14 +90,14 @@ private func kanjiData(level : String, series : UInt) ->[(String,String,String)]
 }
 
 public func generateProblems(quiz : Quiz) -> [Problem]{
-    let data = kanjiData(quiz.level.rawValue,UInt(quiz.series))
+    let data = kanjiData(quiz.level.rawValue,series: UInt(quiz.series))
     var problems : [Problem] = []
     let shuffleData : Array = shuffle(data)
     
-    for (index,value) in enumerate(shuffleData){
+    for (index,value) in shuffleData.enumerate(){
         let kanji = value.0
-        let meaning = pickData(value.2, .Meanings)
-        let spell = pickData(value.1, .Spellings)
+        let meaning = pickData(value.2, field: .Meanings)
+        let spell = pickData(value.1, field:.Spellings)
         var wrongs = shuffleData
         wrongs.removeAtIndex(index)
         let wrongData = pickWrongData(wrongs)
@@ -141,7 +146,7 @@ public func authenticateLocalPlayer(showAuthenticationDialogWhenReasonable :(UIV
     localPlayer.authenticateHandler = {
         (viewController,error) -> Void in
         if(viewController != nil){
-            showAuthenticationDialogWhenReasonable(viewController)
+            showAuthenticationDialogWhenReasonable(viewController!)
         }else if (localPlayer.authenticated){
             authenticatedPlayer(localPlayer)
         }

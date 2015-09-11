@@ -14,7 +14,7 @@ class ResultsTableViewController: UITableViewController, UIGestureRecognizerDele
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.navigationController?.interactivePopGestureRecognizer.delegate = self
+    self.navigationController?.interactivePopGestureRecognizer!.delegate = self
     // Uncomment the following line to preserve selection between presentations
     // self.clearsSelectionOnViewWillAppear = false
     
@@ -43,7 +43,7 @@ class ResultsTableViewController: UITableViewController, UIGestureRecognizerDele
   
   /**/
   override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("resultCell", forIndexPath: indexPath) as! UITableViewCell
+    let cell = tableView.dequeueReusableCellWithIdentifier("resultCell", forIndexPath: indexPath) 
     
     let quiz = takenQuiz[indexPath.row]
     let result = quiz.countResult()

@@ -46,6 +46,7 @@
 -(BOOL) insert:(NSString *)key : (NSData *)data
 {
     NSMutableDictionary * dict =[self prepareDict:key];
+
     [dict setObject:data forKey:(__bridge id)kSecValueData];
     
     OSStatus status = SecItemAdd((__bridge CFDictionaryRef)dict, NULL);

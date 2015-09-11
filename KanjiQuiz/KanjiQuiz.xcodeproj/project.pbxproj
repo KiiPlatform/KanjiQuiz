@@ -193,6 +193,8 @@
 		740FD2ED1ABB5B2600C1DD89 /* QuizManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		740FD2EF1ABBB4CE00C1DD89 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 		740FD2F31ABBC32D00C1DD89 /* ProblemInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemInterfaceController.swift; sourceTree = "<group>"; };
+		D517BC741BA2B16900CAC512 /* KanjiQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KanjiQuiz.entitlements; sourceTree = "<group>"; };
+		D517BC751BA2B1A800CAC512 /* KanjiQuiz WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "KanjiQuiz WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		D52D60E41ABF137400E601B2 /* DataLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52D60E71ABF137400E601B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D52D60E81ABF137400E601B2 /* DataLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataLogic.h; sourceTree = "<group>"; };
@@ -203,8 +205,6 @@
 		D52D61711ABF197C00E601B2 /* KiiLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KiiLogic.m; sourceTree = "<group>"; };
 		D52D61EB1ABF23A200E601B2 /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
 		D52D61EC1ABF23A200E601B2 /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
-		D52D61F01ABF317500E601B2 /* KanjiQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KanjiQuiz.entitlements; sourceTree = "<group>"; };
-		D52D61F11ABF9F8400E601B2 /* KanjiQuiz WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "KanjiQuiz WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		D52DECD01AB7FBC800AEC629 /* ProblemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemViewController.swift; sourceTree = "<group>"; };
 		D52DECD21AB8039A00AEC629 /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
 		D52DECD41AB811EF00AEC629 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -433,10 +433,10 @@
 		D5A15EC91AB6DFF7004A4370 /* KanjiQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				D517BC741BA2B16900CAC512 /* KanjiQuiz.entitlements */,
 				D53586711ADB6A9100ED2D1A /* PickerViewController.swift */,
 				D53586721ADB6A9100ED2D1A /* CustomPresentationController.swift */,
 				D53586731ADB6A9100ED2D1A /* CustomPresentationAnimationController.swift */,
-				D52D61F01ABF317500E601B2 /* KanjiQuiz.entitlements */,
 				D5A15ECC1AB6DFF7004A4370 /* AppDelegate.swift */,
 				D5A15ECE1AB6DFF7004A4370 /* ViewController.swift */,
 				D5A15ED01AB6DFF8004A4370 /* Main.storyboard */,
@@ -478,7 +478,7 @@
 		D5A15EF11AB6E0C4004A4370 /* KanjiQuiz WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				D52D61F11ABF9F8400E601B2 /* KanjiQuiz WatchKit Extension.entitlements */,
+				D517BC751BA2B1A800CAC512 /* KanjiQuiz WatchKit Extension.entitlements */,
 				D5A15EF41AB6E0C4004A4370 /* InterfaceController.swift */,
 				D5A15EF61AB6E0C4004A4370 /* GlanceController.swift */,
 				D5A15EF81AB6E0C4004A4370 /* Images.xcassets */,
@@ -743,6 +743,7 @@
 		D5A15EBF1AB6DFF7004A4370 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Kii;
 				TargetAttributes = {
@@ -1161,7 +1162,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1198,7 +1199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

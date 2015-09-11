@@ -29,13 +29,14 @@ public class Problem: Serializable {
         self.spell = String(dictionary["spell"] as! NSString)
         self.meaning = String(dictionary["meaning"] as! NSString)
         let varAns = dictionary["variationAnswers"] as! NSArray
-        let wrongSpells : NSArray = varAns[0]["spells"] as! NSArray
-        let wrongMeanings : NSArray = varAns[1]["meanings"] as! NSArray
+
+        let wrongSpells : NSArray = (varAns[0] as! NSDictionary)["spells"] as! NSArray
+        let wrongMeanings : NSArray = (varAns[1] as! NSDictionary)["meanings"] as! NSArray
         self.variationsAnswer = ((wrongSpells[0] as! String,wrongSpells[1] as! String),(wrongMeanings[0] as! String,wrongMeanings[1] as! String))
         
     }
     public override func toDictionary() -> NSDictionary {
-        var dict = super.toDictionary() as! NSMutableDictionary
+        let dict = super.toDictionary() as! NSMutableDictionary
         dict["variationAnswers"] = [
             ["spells":[variationsAnswer!.spells.0,variationsAnswer!.spells.1]],
             ["meanings":[variationsAnswer!.meanings.0,variationsAnswer!.meanings.1]]

@@ -30,8 +30,8 @@ class AppLogicTests: XCTestCase {
         let data = ("後",spells :"ゴ ・ コウ ・ のち ・ うし.ろ ・ うしろ ・ あと ・ おく.れる",meanings: "behind; back; later")
         let spells : [String] = data.spells.componentsSeparatedByString(" ・ ")
         let meanings : [String] = data.meanings.componentsSeparatedByString("; ")
-        let result1 = pickData(data.meanings,KanjiField.Meanings)
-        let result2 = pickData(data.spells,KanjiField.Spellings)
+        let result1 = pickData(data.meanings,field: KanjiField.Meanings)
+        let result2 = pickData(data.spells,field: KanjiField.Spellings)
         
         XCTAssertTrue(meanings.contains(result1), "")
         XCTAssertTrue(spells.contains(result2), "")
@@ -43,7 +43,7 @@ class AppLogicTests: XCTestCase {
 
         quiz.setup()
         
-        println(quiz.toDictionary())
+        print(quiz.toDictionary())
     }
     
     func testPerformanceExample() {

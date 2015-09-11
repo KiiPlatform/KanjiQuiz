@@ -32,19 +32,25 @@
   if(accessToken){
     [KiiUser authenticateWithToken:[NSString stringWithUTF8String:accessToken.bytes]
                           andBlock:^(KiiUser *currentUser, NSError *error) {
-                            if (currentUser) {
+                            if (currentUser && currentUser.displayName) {
                               
                               [keychain update:@"displayName"
                                               :[currentUser.displayName dataUsingEncoding:NSUTF8StringEncoding]];
                             }
                           }];
   }else{
+      [Kii setLogLevel:3];
       KiiUser* currentUser = [KiiUser registerAsPseudoUserSynchronousWithUserFields:[[KiiUserFields alloc] init]
+
                                                                               error:&error];
-    [keychain insert:ACCESS_TOKEN_KEY
-                    :[currentUser.accessToken dataUsingEncoding:NSUTF8StringEncoding]];
-    [keychain insert:@"displayName"
-                    :[@"Player 1" dataUsingEncoding:NSUTF8StringEncoding]];
+      if (currentUser) {
+          [keychain insert:ACCESS_TOKEN_KEY
+                          :[currentUser.accessToken dataUsingEncoding:NSUTF8StringEncoding]];
+          [keychain insert:@"displayName"
+                          :[@"Player 1" dataUsingEncoding:NSUTF8StringEncoding]];
+
+      }
+
     
   }
   
@@ -125,7 +131,7 @@
       displayName=[NSString stringWithUTF8String:data.bytes];
     }
   }
-  return displayName;
+    return displayName ? displayName : @"User 1";
 }
 -(void) saveQuizToCloud:(NSDictionary*) dict
            totalProblem:(int) total

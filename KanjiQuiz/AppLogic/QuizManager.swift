@@ -25,8 +25,8 @@ public class QuizManager: NSObject {
       let data : NSArray = QuizData.quizCatalog() ?? []
       var result : CatalogList = []
       
-      for val in data{
-        let series : NSNumber = val[1] as! NSNumber
+      for obj in data{
+        let val = obj as! NSArray
         
         let aData : Catalog = (val[0] as! String,val[1] as! Int)
         result.append(aData)
@@ -35,7 +35,19 @@ public class QuizManager: NSObject {
       return result
     }
     struct Static {
-      static let instance : CatalogList = generateCatalog()
+        static let instance : CatalogList = {
+            let data : NSArray = QuizData.quizCatalog() ?? []
+            var result : CatalogList = []
+
+            for obj in data{
+                let val = obj as! NSArray
+
+                let aData : Catalog = (val[0] as! String,val[1] as! Int)
+                result.append(aData)
+                
+            }
+            return result
+            }()
     }
     return Static.instance
   }
@@ -48,7 +60,7 @@ public class QuizManager: NSObject {
   }
   public func loadTakenQuiz(){
     let defaults = NSUserDefaults(suiteName: "group.kanjiquiz")
-    var takenQuizes : NSArray = defaults!.objectForKey("takenQuizes") as? NSArray ?? NSArray()
+    let takenQuizes : NSArray = defaults!.objectForKey("takenQuizes") as? NSArray ?? NSArray()
     for tQuiz in takenQuizes {
       let aQuiz = Quiz(dictionary: tQuiz as! NSDictionary)
       self.takenQuiz.append(aQuiz)
@@ -57,7 +69,7 @@ public class QuizManager: NSObject {
   }
   public func submitQuiz(quiz: Quiz){
     self.takenQuiz.insert(quiz, atIndex: 0)
-    var tQuiz = NSMutableArray()
+    let tQuiz = NSMutableArray()
     let quizDict = quiz.toDictionary()
     tQuiz.addObject(quizDict)
     //save to cloud
@@ -68,12 +80,12 @@ public class QuizManager: NSObject {
     
     let defaults = NSUserDefaults(suiteName: "group.kanjiquiz")
     if defaults?.objectForKey("takenQuizes") != nil {
-      var takenQuizes : NSArray = defaults?.objectForKey("takenQuizes") as! NSArray
+      let takenQuizes : NSArray = defaults?.objectForKey("takenQuizes") as! NSArray
       tQuiz.addObjectsFromArray(takenQuizes as [AnyObject])
     }
     let dict : NSDictionary? = defaults?.objectForKey("quizScores") as? NSDictionary ?? NSDictionary()
 
-    var quizScores : NSMutableDictionary =  (dict?.mutableCopy() as! NSMutableDictionary) ?? [quiz.description:NSNumber(float: score)]
+    let quizScores : NSMutableDictionary =  (dict?.mutableCopy() as! NSMutableDictionary) ?? [quiz.description:NSNumber(float: score)]
     if (quizScores[quiz.description] as? NSNumber)?.floatValue < score  {
       quizScores[quiz.description] = NSNumber(float: score)
     
@@ -85,8 +97,8 @@ public class QuizManager: NSObject {
   }
   public func bestScoreForProblemSet(problemSet : String!) -> Float{
     let defaults = NSUserDefaults(suiteName: "group.kanjiquiz")
-    
-    let aNum = defaults?.objectForKey("quizScores")?[problemSet]
+
+    let aNum = defaults?.dictionaryForKey("quizScores")?[problemSet]
     let quizScore  = ( aNum as? NSNumber) ?? NSNumber(float: 0.0)
     
     return quizScore.floatValue
